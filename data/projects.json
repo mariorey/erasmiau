@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Hosting Projects",
+    "description": "Projects that occur in Puente Genil, Córdoba. Groups of up to 36 young people pass through the Andalusian town and enjoy the intercultural experience.",
+    "image": "/images/projects/project-1.jpg",
+    "imageAlt": "Hosting Projects",
+    "linkHref": "/proyectos-de-acogida-1/"
+  },
+  {
+    "id": 2,
+    "title": "Sending Projects",
+    "description": "Projects that occur throughout the international terrain that cover the countries associated with the Erasmus+ program. These projects involve the international mobility of a group of Spanish participants who represent Erasmiau and their country, Spain.",
+    "image": "/images/projects/project-2.jpg",
+    "imageAlt": "Sending Projects",
+    "linkHref": "/sending-projects/"
+  },
+  {
+    "id": 3,
+    "title": "Interrail",
+    "description": "Within the \"Inclusion for DiscoverEU\" action, participants aged 18 and over can enjoy the Interrail experience in collaboration with the Erasmiau association. A new program that since its recent implementation we have executed as beneficiaries from our association.",
+    "image": "/images/projects/project-3.jpg",
+    "imageAlt": "Interrail",
+    "linkHref": "/interrail/"
+  },
+  {
+    "id": 4,
+    "title": "Solidarity Projects (ESC)",
+    "description": "Solidarity Local Projects that developed our youngsters inside the concept of volunteering in a local way and with the magical touch of solidarity.",
+    "image": "/images/projects/project-4.jpg",
+    "imageAlt": "Solidarity Projects (ESC)",
+    "linkHref": "/solidarity-projects/"
+  },
+  {
+    "id": 5,
+    "title": "KA2: Cooperation partnerships in youth",
+    "description": "International Cooperation to achieve the best from the best in YOUTH :D",
+    "image": "/images/projects/project-5.png",
+    "imageAlt": "KA2: Cooperation partnerships in youth",
+    "linkHref": "/ka2-cooperation-partnerships/"
+  },
+  {
+    "id": 6,
+    "title": "Local projects",
+    "description": "What we do in our community :D",
+    "image": "/images/projects/project-6.jpg",
+    "imageAlt": "Local projects",
+    "linkHref": "/local-projects/"
+  }
+]

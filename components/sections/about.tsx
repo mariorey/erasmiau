@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function About() {
     const thumbnails = [
-        { src: "/images/home/about-1.jpg", alt: "Erasmiau project photo 1" },
-        { src: "/images/home/about-2.jpg", alt: "Erasmiau project photo 2" },
-        { src: "/images/home/about-3.jpg", alt: "Erasmiau project photo 3" },
+        { src: "/images/home/about-1.jpg", alt: "Erasmiau projects photo 1" },
+        { src: "/images/home/about-2.jpg", alt: "Erasmiau projects photo 2" },
+        { src: "/images/home/about-3.jpg", alt: "Erasmiau projects photo 3" },
     ];
 
     return (
