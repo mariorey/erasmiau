@@ -21,8 +21,8 @@ import type { PageContent } from "@/types/content"
 //   dyst-18.jpeg  – Day 8 photo
 //   dyst-19.jpeg … dyst-34.jpeg – Gallery (4×4 = 16 photos)
 
-const BASE = "/images/projects/hosting"
-const p = (n: number) => `${BASE}/dyst-${n}.jpeg`
+const BASE = "/images/projects/hosting/dyst"
+const p = (n: number) => `${BASE}/${n}.jpeg`
 
 const content: PageContent = {
   title: "Developing Youth Skills through Theatre",
