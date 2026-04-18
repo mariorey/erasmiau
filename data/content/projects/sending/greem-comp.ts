@@ -1,112 +1,167 @@
-// Example 2: Testimonials-based page (sending project)
+// Sending project: Green Comp for Youth Workers (TC) — Kozani, Greece
 import type { PageContent } from "@/types/content"
 
+const B = "/images/projects/sending/greem-comp"
+
+// Explicit map: number → full path with real extension
+// (Placeholders — drop the real files into public/images/projects/sending/greem-comp/
+//  and adjust the extensions if they differ.)
+const p: Record<number, string> = {
+  // Participant portraits
+  1: `${B}/leyre.jpg`,
+  2: `${B}/lourdes.jpg`,
+  3: `${B}/miriam.jpg`,
+  // Gallery
+  4:  `${B}/1.jpg`,
+  5:  `${B}/2.jpg`,
+  6:  `${B}/3.jpg`,
+  7:  `${B}/4.jpg`,
+  8:  `${B}/5.jpg`,
+  9:  `${B}/6.jpg`,
+  10:  `${B}/7.jpg`,
+  11:  `${B}/8.jpg`,
+}
+
 const content: PageContent = {
-  title: "Green Comp for Youth Workers (TC)",
-  subtitle: "14-21 September 2023 · Kozani, Greece",
+  title: "GREEN COMP FOR YOUTH WORKERS",
+  subtitle: "Training Course in Kozani, Greece (14-21 September 2023)",
   heroImage: "/images/projects/sending/sending-1-cover.jpg",
   sections: [
-    // 1. Intro
-    {
-      layout: "single",
-      background: "white",
-      paddingY: "lg",
-      maxWidth: "md",
-      blocks: [
-        { type: "heading", level: 2, text: "Green Comp for Youth Workers" },
-        {
-          type: "paragraph",
-          text: "Three members of Erasmiau — Leyre, Lourdes and Miriam — traveled to Kozani, Greece, for this Training Course focused on developing green competences among youth workers across Europe.",
-        },
-        {
-          type: "paragraph",
-          text: "Over 8 days, 35 youth workers from 12 countries worked together to build practical skills for incorporating environmental education into their work with young people.",
-        },
-      ],
-    },
-
-    // 2. Two column: image + what we learned
+    // ── Experience 1: Leyre (text left, photo right) ─────────────────────────
     {
       layout: "columns",
       distribution: "50/50",
       verticalAlign: "center",
-      background: "light",
+      background: "white",
+      paddingY: "lg",
+      maxWidth: "lg",
+      columns: [
+        [
+          { type: "heading", level: 1, text: "My experience" },
+          { type: "heading", level: 3, text: "Leyre Muñoz" },
+        ],
+        [
+          {
+            type: "image",
+            src: p[1],
+            alt: "Leyre Muñoz",
+            aspectRatio: "1/1",
+            rounded: "full",
+          },
+        ],
+      ],
+    },
+    {
+      layout: "single",
+      background: "white",
+      paddingY: "sm",
+      maxWidth: "lg",
+      blocks: [
+        {
+          type: "paragraph",
+          italic: true,
+          size: "lg",
+          text: "It has been a short experience but I have learned a lot. Now I know how to use many mindfullnes tools that will be useful in my daily life and also all those about sustainability that I can apply in my future workshops. I had a great time with the participants, I had a lot of fun, and I made friends with people I hope to see in the future. We did a lot of team work and one of the ones I liked the most was reusing a bottle to create a wallet. I think many of the things we learnt like active listening or mindfullnes communication are very important.",
+        },
+      ],
+    },
+
+    // ── Experience 2: Lourdes (photo left, text right) ───────────────────────
+    {
+      layout: "columns",
+      distribution: "50/50",
+      verticalAlign: "center",
+      background: "white",
       paddingY: "lg",
       maxWidth: "lg",
       columns: [
         [
           {
             type: "image",
-            src: "/images/projects/sending/sending-1-cover.jpg",
-            alt: "Participants at Green Comp TC in Greece",
-            aspectRatio: "4/3",
-            rounded: true,
+            src: p[2],
+            alt: "Lourdes Galisteo",
+            aspectRatio: "1/1",
+            rounded: "full",
           },
         ],
         [
-          { type: "heading", level: 3, text: "What did we learn?" },
+          { type: "heading", level: 1, text: "My experience" },
+          { type: "heading", level: 3, text: "Lourdes Galisteo" },
+        ],
+      ],
+    },
+    {
+      layout: "single",
+      background: "white",
+      paddingY: "sm",
+      maxWidth: "lg",
+      blocks: [
+        {
+          type: "paragraph",
+          italic: true,
+          size: "lg",
+          text: "The experience was very intense and educational. Importance was given to issues such as sustainability, environment, take care of the nature, mindfulness… The participans were very friendly and energetic. The activities were very well organized and professional. Thanks to this experience I am more aware of what the planet currently needs. In addition, I will be able to hold workshops to raise people's awareness about the issue.",
+        },
+      ],
+    },
+
+    // ── Experience 3: Miriam (text left, photo right) ────────────────────────
+    {
+      layout: "columns",
+      distribution: "50/50",
+      verticalAlign: "center",
+      background: "white",
+      paddingY: "lg",
+      maxWidth: "lg",
+      columns: [
+        [
+          { type: "heading", level: 1, text: "My experience" },
+          { type: "heading", level: 3, text: "Miriam Bascón" },
+        ],
+        [
           {
-            type: "list",
-            style: "numbered",
-            items: [
-              "How to design non-formal education activities around sustainability",
-              "The GreenComp framework and its 12 competences",
-              "Practical tools for environmental youth work",
-              "How to facilitate eco-themed workshops for young people",
-              "Cross-cultural approaches to environmental education",
-            ],
+            type: "image",
+            src: p[3],
+            alt: "Miriam Bascón",
+            aspectRatio: "1/1",
+            rounded: "full",
           },
         ],
       ],
     },
-
-    // 3. Testimonials
     {
-      layout: "testimonials",
+      layout: "single",
       background: "white",
-      paddingY: "lg",
-      maxWidth: "xl",
-      title: "What our participants say",
-      testimonials: [
+      paddingY: "sm",
+      maxWidth: "lg",
+      blocks: [
         {
-          type: "testimonial",
-          name: "Leyre",
-          role: "Youth worker",
-          country: "Spain",
-          text: "This training completely changed how I approach environmental topics with young people. The tools we learned are immediately applicable and the connections I made with other youth workers across Europe were invaluable.",
-        },
-        {
-          type: "testimonial",
-          name: "Lourdes",
-          role: "Youth worker",
-          country: "Spain",
-          text: "Kozani is a beautiful place and the organising team created such a welcoming atmosphere. I came back full of ideas and energy to implement sustainability projects with our youth group.",
-        },
-        {
-          type: "testimonial",
-          name: "Miriam",
-          role: "Youth worker",
-          country: "Spain",
-          text: "I was surprised by how practical and hands-on the workshops were. We didn't just talk about green topics — we actually practised creating activities, facilitating discussions, and measuring impact. Highly recommended.",
+          type: "paragraph",
+          italic: true,
+          size: "lg",
+          text: "The experience in Greece was very rewarding. The participants of the training courses learned a lot about mainfullness and greencomp. Sustainability and recycling was one of the most important factors of the project, since we must all contribute to the environment. The organization provided us with numerous resources and activities to increase our training on the subject. The people on this project were incredible, some friends who came back to Spain.",
         },
       ],
     },
 
-    // 4. Gallery
+    // ── Photo Album ───────────────────────────────────────────────────────────
     {
       layout: "gallery",
       background: "light",
       paddingY: "lg",
       maxWidth: "xl",
-      title: "Moments from Greece",
+      title: "Galería",
+      subtitle: "Some of the photos of the project in Greece!",
       columns: 3,
       images: [
-        { src: "/images/projects/sending/sending-1-cover.jpg", alt: "Workshop" },
-        { src: "/images/projects/sending/sending-2-cover.jpg", alt: "Team activities" },
-        { src: "/images/projects/sending/sending-3-cover.jpg", alt: "Group work" },
-        { src: "/images/projects/sending/sending-4-cover.jpg", alt: "Presentations" },
-        { src: "/images/projects/sending/sending-1-cover.jpg", alt: "Evening activities" },
-        { src: "/images/projects/sending/sending-2-cover.jpg", alt: "Final celebration" },
+        { src: p[4], alt: "Greece — moment 1" },
+        { src: p[5], alt: "Greece — moment 2" },
+        { src: p[6], alt: "Greece — moment 3" },
+        { src: p[7], alt: "Greece — moment 4" },
+        { src: p[8], alt: "Greece — moment 5" },
+        { src: p[9], alt: "Greece — moment 6" },
+        { src: p[10], alt: "Greece — moment 7" },
+        { src: p[11], alt: "Greece — moment 8" },
       ],
     },
   ],

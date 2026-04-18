@@ -11,9 +11,9 @@ const colMap: Record<number, string> = {
 export function GalleryLayout({ title, subtitle, images, columns = 3 }: GallerySection) {
   return (
     <div className="flex flex-col gap-6">
-      {title && (
+      {(title || subtitle) && (
         <div>
-          <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+          {title && <h2 className="text-3xl font-bold text-gray-800">{title}</h2>}
           {subtitle && <p className="text-gray-500 mt-1">{subtitle}</p>}
         </div>
       )}

@@ -9,6 +9,9 @@ export interface HeadingBlock {
 export interface ParagraphBlock {
   type: "paragraph"
   text: string
+  italic?: boolean
+  size?: "sm" | "base" | "lg" | "xl"
+  align?: "left" | "center" | "right" | "justify"
 }
 
 export interface ImageBlock {

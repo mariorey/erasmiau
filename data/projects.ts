@@ -153,7 +153,7 @@ export const projects: Project[] = [
     },
     {
         category: "sending",
-        slug: "digital-tools",
+        slug: "break-the-silence",
         title: 'BREAK THE SILENCE (YE)',
         dates: "10-17 November 2024",
         location: "Ponte de Lima - Portugal",
