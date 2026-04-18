@@ -12,7 +12,7 @@ export default function HeroSmallTitle({
     return (
         <section className="relative h-52 w-full overflow-hidden">
             <div
-                className="absolute inset-0 bg-contain bg-center bg-fixed"
+                className="absolute inset-0 bg-contain bg-center md:bg-fixed"
                 style={{ backgroundImage: `url('${image}')` }}
             />
 

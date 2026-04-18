@@ -6,7 +6,7 @@ export default function HeroSmall() {
         <section className="relative h-80 w-full overflow-hidden">
             {/* Imagen de fondo fija (parallax effect al scroll) */}
             <div
-                className="absolute inset-0 bg-cover bg-center bg-fixed"
+                className="absolute inset-0 bg-cover bg-center md:bg-fixed"
                 style={{ backgroundImage: "url('/images/home/hero-small-bg.jpg')" }}
             />
 
