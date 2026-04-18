@@ -5,7 +5,7 @@
     "description": "Projects that occur in Puente Genil, Córdoba. Groups of up to 36 young people pass through the Andalusian town and enjoy the intercultural experience.",
     "image": "/images/projects/project-1.jpg",
     "imageAlt": "Hosting Projects",
-    "linkHref": "/proyectos-de-acogida-1/"
+    "linkHref": "/projects/hosting"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Projects that occur throughout the international terrain that cover the countries associated with the Erasmus+ program. These projects involve the international mobility of a group of Spanish participants who represent Erasmiau and their country, Spain.",
     "image": "/images/projects/project-2.jpg",
     "imageAlt": "Sending Projects",
-    "linkHref": "/sending-projects/"
+    "linkHref": "/projects/sending"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "Within the \"Inclusion for DiscoverEU\" action, participants aged 18 and over can enjoy the Interrail experience in collaboration with the Erasmiau association. A new program that since its recent implementation we have executed as beneficiaries from our association.",
     "image": "/images/projects/project-3.jpg",
     "imageAlt": "Interrail",
-    "linkHref": "/interrail/"
+    "linkHref": "projects/interrail/"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "Solidarity Local Projects that developed our youngsters inside the concept of volunteering in a local way and with the magical touch of solidarity.",
     "image": "/images/projects/project-4.jpg",
     "imageAlt": "Solidarity Projects (ESC)",
-    "linkHref": "/solidarity-projects/"
+    "linkHref": "projects/solidarity-projects/"
   },
   {
     "id": 5,

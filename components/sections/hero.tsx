@@ -40,7 +40,7 @@ export default function Hero() {
 
                 {/* CTA Button */}
                 <Link
-                    href="/projects/page"
+                    href="https://www.instagram.com/erasmiau"
                     className="bg-[#E8003A] hover:bg-[#c40031] text-white text-sm font-bold tracking-widest uppercase px-8 py-3 rounded-full transition-colors duration-200"
                 >
                     Hola Caracola :)
