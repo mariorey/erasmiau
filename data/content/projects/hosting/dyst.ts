@@ -194,7 +194,10 @@ After dinner, we discovered Puente Genil accompanied by some mysterious characte
       ],
     },
 
-    // ── 4. Photo Album (11 photos) ────────────────────────────────────────────
+    // ── 4. Photo Album ────────────────────────────────────────────────────────
+    // NOTE: 22, 23, 26, 27, 29 were uploaded as duplicates of 21, 21, 20, 21, 24.
+    // Only unique images shown. Re-upload the correct photos with those numbers
+    // and uncomment the corresponding lines to restore the full gallery.
     {
       layout: "gallery",
       background: "light",
@@ -202,19 +205,19 @@ After dinner, we discovered Puente Genil accompanied by some mysterious characte
       maxWidth: "xl",
       title: "Photo Album",
       subtitle: "Some photos of the project!",
-      columns: 4,
+      columns: 3,
       images: [
         { src: p[19], alt: "Photo 1" },
         { src: p[20], alt: "Photo 2" },
         { src: p[21], alt: "Photo 3" },
-        { src: p[22], alt: "Photo 4" },
-        { src: p[23], alt: "Photo 5" },
-        { src: p[24], alt: "Photo 6" },
-        { src: p[25], alt: "Photo 7" },
-        { src: p[26], alt: "Photo 8" },
-        { src: p[27], alt: "Photo 9" },
-        { src: p[28], alt: "Photo 10" },
-        { src: p[29], alt: "Photo 11" },
+        // p[22] = duplicate of 21 — replace file then uncomment
+        // p[23] = duplicate of 21 — replace file then uncomment
+        { src: p[24], alt: "Photo 4" },
+        { src: p[25], alt: "Photo 5" },
+        // p[26] = duplicate of 20 — replace file then uncomment
+        // p[27] = duplicate of 21 — replace file then uncomment
+        { src: p[28], alt: "Photo 6" },
+        // p[29] = duplicate of 24 — replace file then uncomment
       ],
     },
   ],
