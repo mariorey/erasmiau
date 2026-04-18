@@ -15,11 +15,12 @@ const p: Record<number, string> = {
   8:  `${B}/8.png`,   // Portugal
   9:  `${B}/9.png`,   // Romania
   10: `${B}/10.png`,  // Spain
-  // Daily report photos (15 is missing — Day 5 has no photo)
+  // Daily report photos
   11: `${B}/11.jpg`,  // Day 1
   12: `${B}/12.jpg`,  // Day 2
   13: `${B}/13.jpg`,  // Day 3
   14: `${B}/14.jpg`,  // Day 4
+  15: `${B}/15.jpg`,  // Day 5
   16: `${B}/16.jpg`,  // Day 6
   17: `${B}/17.jpg`,  // Day 7
   18: `${B}/18.jpg`,  // Day 8
@@ -35,6 +36,7 @@ const p: Record<number, string> = {
   27: `${B}/27.jpg`,
   28: `${B}/28.jpg`,
   29: `${B}/29.jpg`,
+  30: `${B}/30.jpg`,
 }
 
 const content: PageContent = {
@@ -154,7 +156,7 @@ After dinner, we discovered Puente Genil accompanied by some mysterious characte
           titleStyle: "header",
           day: 5,
           title: "Interactions between actors",
-          // No photo uploaded for Day 5
+          images: [{ src: p[15], alt: "Day 5 – Interactions between actors" }],
           text: `☀️ Morning vibe: Our morning kicked off with energizers, setting a vibrant tone for the day. In the spirit of teamwork, we all cleaned our space, creating an environment that reflects our collective commitment to cleanliness and positivity. The morning session centered around theatrical exploration, delving into the intricacies of expressing emotions on stage. The morning became a journey of self-discovery, highlighting how emotions play a crucial role in our interactions and performances. Laughter echoed through the room as we embraced the joy of theatrical expression.
 
 🌆 Afternoon Reflections: The afternoon brought a thought-provoking activity called "Abigail," where we delved into reflection and the perception of storytelling. Engaging in meaningful conversations, we shared insights and deepened our understanding of different perspectives. The day concluded with an informative discussion on the reimbursement process, followed by the kickoff of the playful "Kiss Killer" game, a thrilling adventure that will keep us entertained till the training course finishes!`,
@@ -194,10 +196,7 @@ After dinner, we discovered Puente Genil accompanied by some mysterious characte
       ],
     },
 
-    // ── 4. Photo Album ────────────────────────────────────────────────────────
-    // NOTE: 22, 23, 26, 27, 29 were uploaded as duplicates of 21, 21, 20, 21, 24.
-    // Only unique images shown. Re-upload the correct photos with those numbers
-    // and uncomment the corresponding lines to restore the full gallery.
+    // ── 4. Photo Album (11 photos) ────────────────────────────────────────────
     {
       layout: "gallery",
       background: "light",
@@ -205,19 +204,20 @@ After dinner, we discovered Puente Genil accompanied by some mysterious characte
       maxWidth: "xl",
       title: "Photo Album",
       subtitle: "Some photos of the project!",
-      columns: 3,
+      columns: 4,
       images: [
         { src: p[19], alt: "Photo 1" },
         { src: p[20], alt: "Photo 2" },
         { src: p[21], alt: "Photo 3" },
-        // p[22] = duplicate of 21 — replace file then uncomment
-        // p[23] = duplicate of 21 — replace file then uncomment
-        { src: p[24], alt: "Photo 4" },
-        { src: p[25], alt: "Photo 5" },
-        // p[26] = duplicate of 20 — replace file then uncomment
-        // p[27] = duplicate of 21 — replace file then uncomment
-        { src: p[28], alt: "Photo 6" },
-        // p[29] = duplicate of 24 — replace file then uncomment
+        { src: p[22], alt: "Photo 4" },
+        { src: p[23], alt: "Photo 5" },
+        { src: p[24], alt: "Photo 6" },
+        { src: p[25], alt: "Photo 7" },
+        { src: p[26], alt: "Photo 8" },
+        { src: p[27], alt: "Photo 9" },
+        { src: p[28], alt: "Photo 10" },
+        { src: p[29], alt: "Photo 11" },
+        { src: p[30], alt: "Photo 12" },
       ],
     },
   ],
