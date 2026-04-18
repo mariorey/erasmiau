@@ -5,6 +5,7 @@ import { MultiColumnLayout } from "./layouts/MultiColumnLayout"
 import { TestimonialsLayout } from "./layouts/TestimonialsLayout"
 import { GalleryLayout } from "./layouts/GalleryLayout"
 import { RepeaterLayout } from "./layouts/RepeaterLayout"
+import { AutoGridLayout } from "./layouts/AutoGridLayout"
 
 const bgCls: Record<string, string> = {
   white: "bg-white",
@@ -44,6 +45,7 @@ function renderLayout(section: Section) {
     case "testimonials": return <TestimonialsLayout {...section} />
     case "gallery":      return <GalleryLayout {...section} />
     case "repeater":     return <RepeaterLayout {...section} />
+    case "autoGrid":     return <AutoGridLayout {...section} />
   }
 }
 

@@ -10,6 +10,7 @@ import { GalleryBlock } from "./blocks/GalleryBlock"
 import { DayReportBlock } from "./blocks/DayReportBlock"
 import { OutcomeBlock } from "./blocks/OutcomeBlock"
 import { SpacerBlock } from "./blocks/SpacerBlock"
+import { PartnerCard } from "./blocks/PartnerCard"
 
 export function BlockRenderer({ block }: { block: Block }) {
   switch (block.type) {
@@ -24,5 +25,6 @@ export function BlockRenderer({ block }: { block: Block }) {
     case "dayReport":  return <DayReportBlock {...block} />
     case "outcome":    return <OutcomeBlock {...block} />
     case "spacer":     return <SpacerBlock {...block} />
+    case "partner":    return <PartnerCard {...block} />
   }
 }

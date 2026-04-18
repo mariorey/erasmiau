@@ -59,8 +59,19 @@ export interface DayReportBlock {
   type: "dayReport"
   day: string | number
   title?: string
+  // Use \n\n between paragraphs for multi-paragraph days
   text: string
   images?: Array<{ src: string; alt?: string }>
+  // "header": photo first, then red "Day X: Title" heading, then text paragraphs
+  // "badge" (default): red badge label, then title, then text, then images below
+  titleStyle?: "badge" | "header"
+}
+
+export interface PartnerBlock {
+  type: "partner"
+  country: string
+  flag: string
+  organizations: string[]
 }
 
 export interface OutcomeBlock {
@@ -87,6 +98,7 @@ export type Block =
   | DayReportBlock
   | OutcomeBlock
   | SpacerBlock
+  | PartnerBlock
 
 // =========== SECTIONS ===========
 
@@ -136,6 +148,18 @@ export interface RepeaterSection extends SectionBase {
   items: Array<DayReportBlock | OutcomeBlock>
 }
 
+// Flat list of blocks placed automatically into an N-column CSS grid.
+// Unlike MultiColumnSection, you don't assign blocks to specific columns —
+// the grid places them left-to-right, top-to-bottom.
+export interface AutoGridSection extends SectionBase {
+  layout: "autoGrid"
+  count: 2 | 3 | 4 | 6
+  items: Block[]
+  title?: string
+  subtitle?: string
+  titleColor?: "default" | "brand"
+}
+
 export type Section =
   | SingleColumnSection
   | TwoColumnSection
@@ -143,6 +167,7 @@ export type Section =
   | TestimonialsSection
   | GallerySection
   | RepeaterSection
+  | AutoGridSection
 
 // =========== PAGE ===========
 
