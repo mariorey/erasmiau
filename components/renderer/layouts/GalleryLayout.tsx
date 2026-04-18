@@ -8,11 +8,14 @@ const colMap: Record<number, string> = {
   5: "grid-cols-2 md:grid-cols-3 lg:grid-cols-5",
 }
 
-export function GalleryLayout({ title, images, columns = 3 }: GallerySection) {
+export function GalleryLayout({ title, subtitle, images, columns = 3 }: GallerySection) {
   return (
     <div className="flex flex-col gap-6">
       {title && (
-        <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+        <div>
+          <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+          {subtitle && <p className="text-gray-500 mt-1">{subtitle}</p>}
+        </div>
       )}
       <div className={`grid ${colMap[columns]} gap-3`}>
         {images.map((img, i) => (

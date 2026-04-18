@@ -138,6 +138,7 @@ export interface TestimonialsSection extends SectionBase {
 export interface GallerySection extends SectionBase {
   layout: "gallery"
   title?: string
+  subtitle?: string
   images: Array<{ src: string; alt?: string }>
   columns?: 2 | 3 | 4 | 5
 }
