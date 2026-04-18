@@ -153,7 +153,7 @@ export interface RepeaterSection extends SectionBase {
 // the grid places them left-to-right, top-to-bottom.
 export interface AutoGridSection extends SectionBase {
   layout: "autoGrid"
-  count: 2 | 3 | 4 | 6
+  count: 2 | 3 | 4 | 5 | 6
   items: Block[]
   title?: string
   subtitle?: string

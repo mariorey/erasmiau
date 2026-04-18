@@ -25,12 +25,17 @@ export default async function ProjectPage({
 
   const content = getPageContent(category, slug)
 
+  // When rich content exists, prefer its title/subtitle/image for the hero
+  const heroTitle = (content?.title ?? project.title).toUpperCase()
+  const heroSubtitle = content?.subtitle ?? `${project.dates} · ${project.location}`
+  const heroImage = content?.heroImage ?? project.image
+
   return (
     <div>
       <HeroSmallTitle
-        image={project.image}
-        title={project.title.toUpperCase()}
-        subtitle={`${project.dates} · ${project.location}`}
+        image={heroImage}
+        title={heroTitle}
+        subtitle={heroSubtitle}
       />
 
       {content ? (
