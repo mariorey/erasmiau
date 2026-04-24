@@ -1,0 +1,12 @@
+fragment ProjectParts on Project {
+  __typename
+  title
+  subtitle
+  category
+  slug
+  dates
+  location
+  description
+  coverImage
+  heroImage
+}
