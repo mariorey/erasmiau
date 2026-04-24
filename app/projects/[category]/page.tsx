@@ -1,11 +1,8 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import {
-    getCategoryBySlug,
-    getProjectsByCategory,
-    categories,
-} from "@/data/projects";
+import { getCategoryBySlug, categories } from "@/data/projects"
+import { getProjectsByCategory } from "@/lib/getProjects";
 import HeroSmallTitle from "@/components/sections/hero-small-title";
 
 export function generateStaticParams() {

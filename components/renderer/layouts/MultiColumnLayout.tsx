@@ -17,7 +17,7 @@ export function MultiColumnLayout({ count, columns, gap = "md" }: MultiColumnSec
     <div className={`grid grid-cols-1 ${countCls[count]} ${gapCls[gap]}`}>
       {columns.map((col, i) => (
         <div key={i} className="flex flex-col gap-6">
-          {col.map((block, j) => (
+          {col.blocks.map((block, j) => (
             <BlockRenderer key={j} block={block} />
           ))}
         </div>

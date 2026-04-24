@@ -1,0 +1,125 @@
+{
+  "title": "Digital Tools and Media literacy",
+  "subtitle": "APV in Cyprus (16-19 February 2024)",
+  "category": "sending",
+  "slug": "digital-tools-apv",
+  "dates": "16-19 February 2024",
+  "location": "Paralimni, Cyprus",
+  "description": "Follow the adventure of Juanje!",
+  "coverImage": "/images/projects/sending/sending-3-cover.jpg",
+  "heroImage": "/images/projects/sending/digital-tools-apv/1.jpg",
+  "sections": [
+    {
+      "_template": "columns",
+      "layout": "columns",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "50/50",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "APV",
+          "_template": "heading"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Digital Tools and Media literacy",
+          "_template": "heading"
+        }
+      ],
+      "right": [
+        {
+          "type": "image",
+          "src": "/images/projects/sending/digital-tools-apv/apv-cover.jpg",
+          "alt": "Digital Tools and Media literacy APV — Cyprus",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ]
+    },
+    {
+      "_template": "single",
+      "layout": "single",
+      "background": "white",
+      "paddingY": "sm",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "size": "lg",
+          "text": "From February 16th to 19th, a crucial preparatory visit took place in Paralimni, Cyprus, setting the stage for an upcoming training course titled \"Digital Tools and Media Literacy.\" Representatives from each participating country converged to discuss and deliberate various aspects of the forthcoming training, scheduled to be held from April 5th to 13th.",
+          "_template": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "size": "lg",
+          "text": "The preparatory visit served as a platform for fruitful discussions on essential elements of the training course. Among the topics deliberated were the planned activities, their scheduling, proposals for disseminating the project, and the sharing of best practices related to utilizing digital resources in youth work. Each participating association contributed individual insights and ideas to enrich the program.",
+          "_template": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "size": "lg",
+          "text": "The discussions were characterized by a spirit of collaboration and innovation, with participants sharing experiences and offering diverse perspectives on how to effectively integrate digital tools and media literacy into youth development initiatives. The exchange of ideas not only enhanced the quality of the upcoming training but also fostered a sense of camaraderie among the participating organizations.",
+          "_template": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "size": "lg",
+          "text": "One of the highlights of the preparatory visit was the emphasis on exploring innovative approaches to engage youth in meaningful learning experiences through digital media. Participants exchanged insights into emerging trends and effective strategies for leveraging digital platforms to address the needs and interests of young people in diverse cultural contexts.",
+          "_template": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "size": "lg",
+          "text": "As the preparatory visit drew to a close, participants expressed their appreciation to the host organization, NECI Cyprus, for their warm hospitality and excellent arrangements throughout the event. The professionalism and dedication of the NECI team contributed significantly to the success of the preparatory visit, setting a positive tone for the upcoming training course.",
+          "_template": "paragraph"
+        }
+      ]
+    },
+    {
+      "_template": "gallery",
+      "layout": "gallery",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "Some photos of the APV in Cyprus!",
+      "images": [
+        {
+          "src": "/images/projects/sending/digital-tools-apv/1.jpg",
+          "alt": "Cyprus APV — moment 1"
+        },
+        {
+          "src": "/images/projects/sending/digital-tools-apv/2.jpg",
+          "alt": "Cyprus APV — moment 2"
+        },
+        {
+          "src": "/images/projects/sending/digital-tools-apv/3.jpg",
+          "alt": "Cyprus APV — moment 3"
+        },
+        {
+          "src": "/images/projects/sending/digital-tools-apv/4.jpg",
+          "alt": "Cyprus APV — moment 4"
+        },
+        {
+          "src": "/images/projects/sending/digital-tools-apv/5.jpg",
+          "alt": "Cyprus APV — moment 5"
+        },
+        {
+          "src": "/images/projects/sending/digital-tools-apv/6.jpg",
+          "alt": "Cyprus APV — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/digital-tools-apv/7.jpg",
+          "alt": "Cyprus APV — moment 7"
+        }
+      ],
+      "columns": 3
+    }
+  ]
+}

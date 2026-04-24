@@ -1,0 +1,212 @@
+{
+  "title": "LOCAL LEADERS FOR GREEN CHANGE",
+  "subtitle": "Youth Exchange in Bulgaria (07-16 September 2023)",
+  "category": "sending",
+  "slug": "green-change",
+  "dates": "07-16 September 2023",
+  "location": "Varvara, Bulgaria",
+  "description": "Follow the adventure of Ismael, Pili, Sara, Belinda & Fernando",
+  "coverImage": "/images/projects/sending/sending-2-cover.jpg",
+  "heroImage": "/images/projects/sending/sending-2-cover.jpg",
+  "sections": [
+    {
+      "_template": "columns",
+      "layout": "columns",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "50/50",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "My experience",
+          "_template": "heading"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ismael Román",
+          "_template": "heading"
+        }
+      ],
+      "right": [
+        {
+          "type": "image",
+          "src": "/images/projects/sending/green-change/ismael.jpg",
+          "alt": "Ismael Román",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ]
+    },
+    {
+      "_template": "single",
+      "layout": "single",
+      "background": "white",
+      "paddingY": "sm",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "italic": true,
+          "size": "lg",
+          "text": "This experience has been very significant because I have been able to share and learn together with 30 beautiful people the importance and, above all, the urgent need to demand a change in the model of the current system. A model made up of people who are strongly united through values; values that allow us to revalue Nature as a masterpiece, which helps us and allows us to channel the coexistence between different cultures in favour of placing the natural environment and the life it shelters in a central role. This project has been a great opportunity to rediscover, re-empower and revalue myself as an environmental activist and biologist. This project has been a vitamin cocktail to remind me that if we are united we are stronger and it is easier to achieve our goals. This project has built a couple of stepping stones on the path of hope in the construction of a more empathetic, more understanding and more civic society, which dialogues in the face of adversity to find common ground, which relies on commonality to progress and which admires differences as the fruit of the beauty of diversity. Hope, Sustainability and Gratitude are three words that define the flavour of my memories; whether it is the methodology used, the content or the practices acquired, I am sure that if we are re-educated in values, it is possible to create a world where everything adds up and nothing subtracts. Together we can continue to grow. We are all the leaders of our own experience, let us not forget the significant role we come to play, just like a tiny drop of water; that is what we are: An engine of Life and Change.",
+          "_template": "paragraph"
+        }
+      ]
+    },
+    {
+      "_template": "columns",
+      "layout": "columns",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "50/50",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "type": "image",
+          "src": "/images/projects/sending/green-change/pilar.jpg",
+          "alt": "Pilar Pérez",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "My experience",
+          "_template": "heading"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Pilar Pérez",
+          "_template": "heading"
+        }
+      ]
+    },
+    {
+      "_template": "single",
+      "layout": "single",
+      "background": "white",
+      "paddingY": "sm",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "italic": true,
+          "size": "lg",
+          "text": "It has been a wonderful experience to be able to participate in the Local Leaders for Green Change youth exchange. For 10 days, 30 young people from different parts of Europe have shared everything; laughter, tears, connection, knowledge, learning, values and emotions, as well as hundreds of unrepeatable moments. With solar showers, ecological toilets, vegetarian food and a slow lifestyle we have embraced a mentality focused on sustainability and living meaningfully and consciously, in line with the values of respect for nature that we shared. Many thanks to Сдружение Ре-Акт Re-Act association for carrying out this incredible task of talking to us about how to achieve personal goals, get closer to our values, detect our needs and how to focus them to achieve change through leadership styles, non-violent communication and how to carry out awareness and dissemination campaigns. Throughout the project I felt full of life, connected and glowing, and I return full of inspiration and desire to be part of the change towards a more sustainable future. How we approached the issue of the environmental problem was magnificent, suitable for all levels, and raising awareness from wherever you started. I leave here the link to the Climate Fresk game with which we can understand the interrelationships that occur between all the factors that affect global change. A great tool. https://fresqueduclimat.org/memo/en-GB/game/grid/ Again, thank you very much Darina, Nedelina, Luben, Robert and Kaloyan for all your efforts.",
+          "_template": "paragraph"
+        }
+      ]
+    },
+    {
+      "_template": "columns",
+      "layout": "columns",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "50/50",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "The rest of the Spanish team",
+          "_template": "heading"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Sara, Belinda & Fernando",
+          "_template": "heading"
+        }
+      ],
+      "right": [
+        {
+          "type": "image",
+          "src": "/images/projects/sending/green-change/rest.jpg",
+          "alt": "Sara, Belinda and Fernando",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ]
+    },
+    {
+      "_template": "single",
+      "layout": "single",
+      "background": "white",
+      "paddingY": "sm",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "italic": true,
+          "size": "lg",
+          "text": "Here we have the rest of the participants that complete the Spanish team. Sara, Belinda and Fernando. We can see how they enjoyed the experience in Bulgaria through this wonderful video:",
+          "_template": "paragraph"
+        }
+      ]
+    },
+    {
+      "_template": "gallery",
+      "layout": "gallery",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "Some photos of the project in Bulgaria!",
+      "images": [
+        {
+          "src": "/images/projects/sending/green-change/1.jpg",
+          "alt": "Bulgaria — moment 1"
+        },
+        {
+          "src": "/images/projects/sending/green-change/2.jpg",
+          "alt": "Bulgaria — moment 2"
+        },
+        {
+          "src": "/images/projects/sending/green-change/3.jpg",
+          "alt": "Bulgaria — moment 3"
+        },
+        {
+          "src": "/images/projects/sending/green-change/4.jpg",
+          "alt": "Bulgaria — moment 4"
+        },
+        {
+          "src": "/images/projects/sending/green-change/5.jpg",
+          "alt": "Bulgaria — moment 5"
+        },
+        {
+          "src": "/images/projects/sending/green-change/6.jpg",
+          "alt": "Bulgaria — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/green-change/7.jpg",
+          "alt": "Bulgaria — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/green-change/8.jpg",
+          "alt": "Bulgaria — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/green-change/9.jpg",
+          "alt": "Bulgaria — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/green-change/10.jpg",
+          "alt": "Bulgaria — moment 6"
+        }
+      ],
+      "columns": 3
+    }
+  ]
+}

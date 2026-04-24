@@ -165,27 +165,670 @@ export type CollectionDocumentsArgs = {
 
 export type DocumentNode = Project | Folder;
 
+export type ProjectSectionsSingleBlocksHeading = {
+  __typename?: 'ProjectSectionsSingleBlocksHeading';
+  level?: Maybe<Scalars['String']['output']>;
+  text: Scalars['String']['output'];
+};
+
+export type ProjectSectionsSingleBlocksParagraph = {
+  __typename?: 'ProjectSectionsSingleBlocksParagraph';
+  text: Scalars['String']['output'];
+  italic?: Maybe<Scalars['Boolean']['output']>;
+  size?: Maybe<Scalars['String']['output']>;
+  align?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksImage = {
+  __typename?: 'ProjectSectionsSingleBlocksImage';
+  src: Scalars['String']['output'];
+  alt?: Maybe<Scalars['String']['output']>;
+  caption?: Maybe<Scalars['String']['output']>;
+  aspectRatio?: Maybe<Scalars['String']['output']>;
+  rounded?: Maybe<Scalars['String']['output']>;
+  priority?: Maybe<Scalars['Boolean']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksImageGroupImages = {
+  __typename?: 'ProjectSectionsSingleBlocksImageGroupImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksImageGroup = {
+  __typename?: 'ProjectSectionsSingleBlocksImageGroup';
+  images?: Maybe<Array<Maybe<ProjectSectionsSingleBlocksImageGroupImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksVideo = {
+  __typename?: 'ProjectSectionsSingleBlocksVideo';
+  platform?: Maybe<Scalars['String']['output']>;
+  id: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+};
+
+export type ProjectSectionsSingleBlocksList = {
+  __typename?: 'ProjectSectionsSingleBlocksList';
+  style?: Maybe<Scalars['String']['output']>;
+  items?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsSingleBlocksTestimonial = {
+  __typename?: 'ProjectSectionsSingleBlocksTestimonial';
+  name: Scalars['String']['output'];
+  role?: Maybe<Scalars['String']['output']>;
+  country: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  avatar?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksGalleryImages = {
+  __typename?: 'ProjectSectionsSingleBlocksGalleryImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksGallery = {
+  __typename?: 'ProjectSectionsSingleBlocksGallery';
+  images?: Maybe<Array<Maybe<ProjectSectionsSingleBlocksGalleryImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksDayReportImages = {
+  __typename?: 'ProjectSectionsSingleBlocksDayReportImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksDayReport = {
+  __typename?: 'ProjectSectionsSingleBlocksDayReport';
+  day: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  images?: Maybe<Array<Maybe<ProjectSectionsSingleBlocksDayReportImages>>>;
+  titleStyle?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocksPartner = {
+  __typename?: 'ProjectSectionsSingleBlocksPartner';
+  country: Scalars['String']['output'];
+  flag: Scalars['String']['output'];
+  organizations?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsSingleBlocksOutcome = {
+  __typename?: 'ProjectSectionsSingleBlocksOutcome';
+  number: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  description: Scalars['String']['output'];
+};
+
+export type ProjectSectionsSingleBlocksSpacer = {
+  __typename?: 'ProjectSectionsSingleBlocksSpacer';
+  size?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsSingleBlocks = ProjectSectionsSingleBlocksHeading | ProjectSectionsSingleBlocksParagraph | ProjectSectionsSingleBlocksImage | ProjectSectionsSingleBlocksImageGroup | ProjectSectionsSingleBlocksVideo | ProjectSectionsSingleBlocksList | ProjectSectionsSingleBlocksTestimonial | ProjectSectionsSingleBlocksGallery | ProjectSectionsSingleBlocksDayReport | ProjectSectionsSingleBlocksPartner | ProjectSectionsSingleBlocksOutcome | ProjectSectionsSingleBlocksSpacer;
+
+export type ProjectSectionsSingle = {
+  __typename?: 'ProjectSectionsSingle';
+  background?: Maybe<Scalars['String']['output']>;
+  paddingY?: Maybe<Scalars['String']['output']>;
+  maxWidth?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
+  blocks?: Maybe<Array<Maybe<ProjectSectionsSingleBlocks>>>;
+};
+
+export type ProjectSectionsColumnsLeftHeading = {
+  __typename?: 'ProjectSectionsColumnsLeftHeading';
+  level?: Maybe<Scalars['String']['output']>;
+  text: Scalars['String']['output'];
+};
+
+export type ProjectSectionsColumnsLeftParagraph = {
+  __typename?: 'ProjectSectionsColumnsLeftParagraph';
+  text: Scalars['String']['output'];
+  italic?: Maybe<Scalars['Boolean']['output']>;
+  size?: Maybe<Scalars['String']['output']>;
+  align?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftImage = {
+  __typename?: 'ProjectSectionsColumnsLeftImage';
+  src: Scalars['String']['output'];
+  alt?: Maybe<Scalars['String']['output']>;
+  caption?: Maybe<Scalars['String']['output']>;
+  aspectRatio?: Maybe<Scalars['String']['output']>;
+  rounded?: Maybe<Scalars['String']['output']>;
+  priority?: Maybe<Scalars['Boolean']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftImageGroupImages = {
+  __typename?: 'ProjectSectionsColumnsLeftImageGroupImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftImageGroup = {
+  __typename?: 'ProjectSectionsColumnsLeftImageGroup';
+  images?: Maybe<Array<Maybe<ProjectSectionsColumnsLeftImageGroupImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftVideo = {
+  __typename?: 'ProjectSectionsColumnsLeftVideo';
+  platform?: Maybe<Scalars['String']['output']>;
+  id: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+};
+
+export type ProjectSectionsColumnsLeftList = {
+  __typename?: 'ProjectSectionsColumnsLeftList';
+  style?: Maybe<Scalars['String']['output']>;
+  items?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsColumnsLeftTestimonial = {
+  __typename?: 'ProjectSectionsColumnsLeftTestimonial';
+  name: Scalars['String']['output'];
+  role?: Maybe<Scalars['String']['output']>;
+  country: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  avatar?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftGalleryImages = {
+  __typename?: 'ProjectSectionsColumnsLeftGalleryImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftGallery = {
+  __typename?: 'ProjectSectionsColumnsLeftGallery';
+  images?: Maybe<Array<Maybe<ProjectSectionsColumnsLeftGalleryImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftDayReportImages = {
+  __typename?: 'ProjectSectionsColumnsLeftDayReportImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftDayReport = {
+  __typename?: 'ProjectSectionsColumnsLeftDayReport';
+  day: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  images?: Maybe<Array<Maybe<ProjectSectionsColumnsLeftDayReportImages>>>;
+  titleStyle?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeftPartner = {
+  __typename?: 'ProjectSectionsColumnsLeftPartner';
+  country: Scalars['String']['output'];
+  flag: Scalars['String']['output'];
+  organizations?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsColumnsLeftOutcome = {
+  __typename?: 'ProjectSectionsColumnsLeftOutcome';
+  number: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  description: Scalars['String']['output'];
+};
+
+export type ProjectSectionsColumnsLeftSpacer = {
+  __typename?: 'ProjectSectionsColumnsLeftSpacer';
+  size?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsLeft = ProjectSectionsColumnsLeftHeading | ProjectSectionsColumnsLeftParagraph | ProjectSectionsColumnsLeftImage | ProjectSectionsColumnsLeftImageGroup | ProjectSectionsColumnsLeftVideo | ProjectSectionsColumnsLeftList | ProjectSectionsColumnsLeftTestimonial | ProjectSectionsColumnsLeftGallery | ProjectSectionsColumnsLeftDayReport | ProjectSectionsColumnsLeftPartner | ProjectSectionsColumnsLeftOutcome | ProjectSectionsColumnsLeftSpacer;
+
+export type ProjectSectionsColumnsRightHeading = {
+  __typename?: 'ProjectSectionsColumnsRightHeading';
+  level?: Maybe<Scalars['String']['output']>;
+  text: Scalars['String']['output'];
+};
+
+export type ProjectSectionsColumnsRightParagraph = {
+  __typename?: 'ProjectSectionsColumnsRightParagraph';
+  text: Scalars['String']['output'];
+  italic?: Maybe<Scalars['Boolean']['output']>;
+  size?: Maybe<Scalars['String']['output']>;
+  align?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightImage = {
+  __typename?: 'ProjectSectionsColumnsRightImage';
+  src: Scalars['String']['output'];
+  alt?: Maybe<Scalars['String']['output']>;
+  caption?: Maybe<Scalars['String']['output']>;
+  aspectRatio?: Maybe<Scalars['String']['output']>;
+  rounded?: Maybe<Scalars['String']['output']>;
+  priority?: Maybe<Scalars['Boolean']['output']>;
+};
+
+export type ProjectSectionsColumnsRightImageGroupImages = {
+  __typename?: 'ProjectSectionsColumnsRightImageGroupImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightImageGroup = {
+  __typename?: 'ProjectSectionsColumnsRightImageGroup';
+  images?: Maybe<Array<Maybe<ProjectSectionsColumnsRightImageGroupImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightVideo = {
+  __typename?: 'ProjectSectionsColumnsRightVideo';
+  platform?: Maybe<Scalars['String']['output']>;
+  id: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+};
+
+export type ProjectSectionsColumnsRightList = {
+  __typename?: 'ProjectSectionsColumnsRightList';
+  style?: Maybe<Scalars['String']['output']>;
+  items?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsColumnsRightTestimonial = {
+  __typename?: 'ProjectSectionsColumnsRightTestimonial';
+  name: Scalars['String']['output'];
+  role?: Maybe<Scalars['String']['output']>;
+  country: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  avatar?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightGalleryImages = {
+  __typename?: 'ProjectSectionsColumnsRightGalleryImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightGallery = {
+  __typename?: 'ProjectSectionsColumnsRightGallery';
+  images?: Maybe<Array<Maybe<ProjectSectionsColumnsRightGalleryImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightDayReportImages = {
+  __typename?: 'ProjectSectionsColumnsRightDayReportImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightDayReport = {
+  __typename?: 'ProjectSectionsColumnsRightDayReport';
+  day: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  images?: Maybe<Array<Maybe<ProjectSectionsColumnsRightDayReportImages>>>;
+  titleStyle?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRightPartner = {
+  __typename?: 'ProjectSectionsColumnsRightPartner';
+  country: Scalars['String']['output'];
+  flag: Scalars['String']['output'];
+  organizations?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsColumnsRightOutcome = {
+  __typename?: 'ProjectSectionsColumnsRightOutcome';
+  number: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  description: Scalars['String']['output'];
+};
+
+export type ProjectSectionsColumnsRightSpacer = {
+  __typename?: 'ProjectSectionsColumnsRightSpacer';
+  size?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsColumnsRight = ProjectSectionsColumnsRightHeading | ProjectSectionsColumnsRightParagraph | ProjectSectionsColumnsRightImage | ProjectSectionsColumnsRightImageGroup | ProjectSectionsColumnsRightVideo | ProjectSectionsColumnsRightList | ProjectSectionsColumnsRightTestimonial | ProjectSectionsColumnsRightGallery | ProjectSectionsColumnsRightDayReport | ProjectSectionsColumnsRightPartner | ProjectSectionsColumnsRightOutcome | ProjectSectionsColumnsRightSpacer;
+
+export type ProjectSectionsColumns = {
+  __typename?: 'ProjectSectionsColumns';
+  background?: Maybe<Scalars['String']['output']>;
+  paddingY?: Maybe<Scalars['String']['output']>;
+  maxWidth?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
+  distribution?: Maybe<Scalars['String']['output']>;
+  verticalAlign?: Maybe<Scalars['String']['output']>;
+  gap?: Maybe<Scalars['String']['output']>;
+  left?: Maybe<Array<Maybe<ProjectSectionsColumnsLeft>>>;
+  right?: Maybe<Array<Maybe<ProjectSectionsColumnsRight>>>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksHeading = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksHeading';
+  level?: Maybe<Scalars['String']['output']>;
+  text: Scalars['String']['output'];
+};
+
+export type ProjectSectionsGridGridColumnsBlocksParagraph = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksParagraph';
+  text: Scalars['String']['output'];
+  italic?: Maybe<Scalars['Boolean']['output']>;
+  size?: Maybe<Scalars['String']['output']>;
+  align?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImage = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksImage';
+  src: Scalars['String']['output'];
+  alt?: Maybe<Scalars['String']['output']>;
+  caption?: Maybe<Scalars['String']['output']>;
+  aspectRatio?: Maybe<Scalars['String']['output']>;
+  rounded?: Maybe<Scalars['String']['output']>;
+  priority?: Maybe<Scalars['Boolean']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageGroupImages = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksImageGroupImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageGroup = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksImageGroup';
+  images?: Maybe<Array<Maybe<ProjectSectionsGridGridColumnsBlocksImageGroupImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksVideo = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksVideo';
+  platform?: Maybe<Scalars['String']['output']>;
+  id: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+};
+
+export type ProjectSectionsGridGridColumnsBlocksList = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksList';
+  style?: Maybe<Scalars['String']['output']>;
+  items?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksTestimonial = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksTestimonial';
+  name: Scalars['String']['output'];
+  role?: Maybe<Scalars['String']['output']>;
+  country: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  avatar?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksGalleryImages = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksGalleryImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksGallery = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksGallery';
+  images?: Maybe<Array<Maybe<ProjectSectionsGridGridColumnsBlocksGalleryImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksDayReportImages = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksDayReportImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksDayReport = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksDayReport';
+  day: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  images?: Maybe<Array<Maybe<ProjectSectionsGridGridColumnsBlocksDayReportImages>>>;
+  titleStyle?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksPartner = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksPartner';
+  country: Scalars['String']['output'];
+  flag: Scalars['String']['output'];
+  organizations?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksOutcome = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksOutcome';
+  number: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  description: Scalars['String']['output'];
+};
+
+export type ProjectSectionsGridGridColumnsBlocksSpacer = {
+  __typename?: 'ProjectSectionsGridGridColumnsBlocksSpacer';
+  size?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocks = ProjectSectionsGridGridColumnsBlocksHeading | ProjectSectionsGridGridColumnsBlocksParagraph | ProjectSectionsGridGridColumnsBlocksImage | ProjectSectionsGridGridColumnsBlocksImageGroup | ProjectSectionsGridGridColumnsBlocksVideo | ProjectSectionsGridGridColumnsBlocksList | ProjectSectionsGridGridColumnsBlocksTestimonial | ProjectSectionsGridGridColumnsBlocksGallery | ProjectSectionsGridGridColumnsBlocksDayReport | ProjectSectionsGridGridColumnsBlocksPartner | ProjectSectionsGridGridColumnsBlocksOutcome | ProjectSectionsGridGridColumnsBlocksSpacer;
+
+export type ProjectSectionsGridGridColumns = {
+  __typename?: 'ProjectSectionsGridGridColumns';
+  blocks?: Maybe<Array<Maybe<ProjectSectionsGridGridColumnsBlocks>>>;
+};
+
+export type ProjectSectionsGrid = {
+  __typename?: 'ProjectSectionsGrid';
+  background?: Maybe<Scalars['String']['output']>;
+  paddingY?: Maybe<Scalars['String']['output']>;
+  maxWidth?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
+  count?: Maybe<Scalars['String']['output']>;
+  gap?: Maybe<Scalars['String']['output']>;
+  gridColumns?: Maybe<Array<Maybe<ProjectSectionsGridGridColumns>>>;
+};
+
+export type ProjectSectionsTestimonialsTestimonialsTestimonial = {
+  __typename?: 'ProjectSectionsTestimonialsTestimonialsTestimonial';
+  name: Scalars['String']['output'];
+  role?: Maybe<Scalars['String']['output']>;
+  country: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  avatar?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsTestimonialsTestimonials = ProjectSectionsTestimonialsTestimonialsTestimonial;
+
+export type ProjectSectionsTestimonials = {
+  __typename?: 'ProjectSectionsTestimonials';
+  background?: Maybe<Scalars['String']['output']>;
+  paddingY?: Maybe<Scalars['String']['output']>;
+  maxWidth?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
+  title?: Maybe<Scalars['String']['output']>;
+  testimonials?: Maybe<Array<Maybe<ProjectSectionsTestimonialsTestimonials>>>;
+};
+
+export type ProjectSectionsGalleryImages = {
+  __typename?: 'ProjectSectionsGalleryImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsGallery = {
+  __typename?: 'ProjectSectionsGallery';
+  background?: Maybe<Scalars['String']['output']>;
+  paddingY?: Maybe<Scalars['String']['output']>;
+  maxWidth?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
+  title?: Maybe<Scalars['String']['output']>;
+  subtitle?: Maybe<Scalars['String']['output']>;
+  images?: Maybe<Array<Maybe<ProjectSectionsGalleryImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsRepeaterItemsDayReportImages = {
+  __typename?: 'ProjectSectionsRepeaterItemsDayReportImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsRepeaterItemsDayReport = {
+  __typename?: 'ProjectSectionsRepeaterItemsDayReport';
+  day: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  images?: Maybe<Array<Maybe<ProjectSectionsRepeaterItemsDayReportImages>>>;
+  titleStyle?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsRepeaterItemsOutcome = {
+  __typename?: 'ProjectSectionsRepeaterItemsOutcome';
+  number: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  description: Scalars['String']['output'];
+};
+
+export type ProjectSectionsRepeaterItems = ProjectSectionsRepeaterItemsDayReport | ProjectSectionsRepeaterItemsOutcome;
+
+export type ProjectSectionsRepeater = {
+  __typename?: 'ProjectSectionsRepeater';
+  background?: Maybe<Scalars['String']['output']>;
+  paddingY?: Maybe<Scalars['String']['output']>;
+  maxWidth?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
+  title?: Maybe<Scalars['String']['output']>;
+  items?: Maybe<Array<Maybe<ProjectSectionsRepeaterItems>>>;
+};
+
+export type ProjectSectionsAutoGridItemsHeading = {
+  __typename?: 'ProjectSectionsAutoGridItemsHeading';
+  level?: Maybe<Scalars['String']['output']>;
+  text: Scalars['String']['output'];
+};
+
+export type ProjectSectionsAutoGridItemsParagraph = {
+  __typename?: 'ProjectSectionsAutoGridItemsParagraph';
+  text: Scalars['String']['output'];
+  italic?: Maybe<Scalars['Boolean']['output']>;
+  size?: Maybe<Scalars['String']['output']>;
+  align?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsImage = {
+  __typename?: 'ProjectSectionsAutoGridItemsImage';
+  src: Scalars['String']['output'];
+  alt?: Maybe<Scalars['String']['output']>;
+  caption?: Maybe<Scalars['String']['output']>;
+  aspectRatio?: Maybe<Scalars['String']['output']>;
+  rounded?: Maybe<Scalars['String']['output']>;
+  priority?: Maybe<Scalars['Boolean']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsImageGroupImages = {
+  __typename?: 'ProjectSectionsAutoGridItemsImageGroupImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsImageGroup = {
+  __typename?: 'ProjectSectionsAutoGridItemsImageGroup';
+  images?: Maybe<Array<Maybe<ProjectSectionsAutoGridItemsImageGroupImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsVideo = {
+  __typename?: 'ProjectSectionsAutoGridItemsVideo';
+  platform?: Maybe<Scalars['String']['output']>;
+  id: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+};
+
+export type ProjectSectionsAutoGridItemsList = {
+  __typename?: 'ProjectSectionsAutoGridItemsList';
+  style?: Maybe<Scalars['String']['output']>;
+  items?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsAutoGridItemsTestimonial = {
+  __typename?: 'ProjectSectionsAutoGridItemsTestimonial';
+  name: Scalars['String']['output'];
+  role?: Maybe<Scalars['String']['output']>;
+  country: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  avatar?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsGalleryImages = {
+  __typename?: 'ProjectSectionsAutoGridItemsGalleryImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsGallery = {
+  __typename?: 'ProjectSectionsAutoGridItemsGallery';
+  images?: Maybe<Array<Maybe<ProjectSectionsAutoGridItemsGalleryImages>>>;
+  columns?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsDayReportImages = {
+  __typename?: 'ProjectSectionsAutoGridItemsDayReportImages';
+  src?: Maybe<Scalars['String']['output']>;
+  alt?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsDayReport = {
+  __typename?: 'ProjectSectionsAutoGridItemsDayReport';
+  day: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  text: Scalars['String']['output'];
+  images?: Maybe<Array<Maybe<ProjectSectionsAutoGridItemsDayReportImages>>>;
+  titleStyle?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItemsPartner = {
+  __typename?: 'ProjectSectionsAutoGridItemsPartner';
+  country: Scalars['String']['output'];
+  flag: Scalars['String']['output'];
+  organizations?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+};
+
+export type ProjectSectionsAutoGridItemsOutcome = {
+  __typename?: 'ProjectSectionsAutoGridItemsOutcome';
+  number: Scalars['String']['output'];
+  title: Scalars['String']['output'];
+  description: Scalars['String']['output'];
+};
+
+export type ProjectSectionsAutoGridItemsSpacer = {
+  __typename?: 'ProjectSectionsAutoGridItemsSpacer';
+  size?: Maybe<Scalars['String']['output']>;
+};
+
+export type ProjectSectionsAutoGridItems = ProjectSectionsAutoGridItemsHeading | ProjectSectionsAutoGridItemsParagraph | ProjectSectionsAutoGridItemsImage | ProjectSectionsAutoGridItemsImageGroup | ProjectSectionsAutoGridItemsVideo | ProjectSectionsAutoGridItemsList | ProjectSectionsAutoGridItemsTestimonial | ProjectSectionsAutoGridItemsGallery | ProjectSectionsAutoGridItemsDayReport | ProjectSectionsAutoGridItemsPartner | ProjectSectionsAutoGridItemsOutcome | ProjectSectionsAutoGridItemsSpacer;
+
+export type ProjectSectionsAutoGrid = {
+  __typename?: 'ProjectSectionsAutoGrid';
+  background?: Maybe<Scalars['String']['output']>;
+  paddingY?: Maybe<Scalars['String']['output']>;
+  maxWidth?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
+  count?: Maybe<Scalars['String']['output']>;
+  title?: Maybe<Scalars['String']['output']>;
+  subtitle?: Maybe<Scalars['String']['output']>;
+  titleColor?: Maybe<Scalars['String']['output']>;
+  items?: Maybe<Array<Maybe<ProjectSectionsAutoGridItems>>>;
+};
+
+export type ProjectSections = ProjectSectionsSingle | ProjectSectionsColumns | ProjectSectionsGrid | ProjectSectionsTestimonials | ProjectSectionsGallery | ProjectSectionsRepeater | ProjectSectionsAutoGrid;
+
 export type Project = Node & Document & {
   __typename?: 'Project';
-  title: Scalars['String']['output'];
-  subtitle?: Maybe<Scalars['String']['output']>;
-  category: Scalars['String']['output'];
-  slug: Scalars['String']['output'];
-  dates?: Maybe<Scalars['String']['output']>;
-  location?: Maybe<Scalars['String']['output']>;
-  description?: Maybe<Scalars['String']['output']>;
-  coverImage?: Maybe<Scalars['String']['output']>;
   heroImage?: Maybe<Scalars['String']['output']>;
+  subtitle?: Maybe<Scalars['String']['output']>;
+  sections?: Maybe<Array<Maybe<ProjectSections>>>;
   id: Scalars['ID']['output'];
   _sys: SystemInfo;
   _values: Scalars['JSON']['output'];
-};
-
-export type StringFilter = {
-  startsWith?: InputMaybe<Scalars['String']['input']>;
-  eq?: InputMaybe<Scalars['String']['input']>;
-  exists?: InputMaybe<Scalars['Boolean']['input']>;
-  in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
 };
 
 export type ImageFilter = {
@@ -195,16 +838,668 @@ export type ImageFilter = {
   in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
 };
 
-export type ProjectFilter = {
+export type StringFilter = {
+  startsWith?: InputMaybe<Scalars['String']['input']>;
+  eq?: InputMaybe<Scalars['String']['input']>;
+  exists?: InputMaybe<Scalars['Boolean']['input']>;
+  in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsSingleBlocksHeadingFilter = {
+  level?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+};
+
+export type BooleanFilter = {
+  eq?: InputMaybe<Scalars['Boolean']['input']>;
+  exists?: InputMaybe<Scalars['Boolean']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksParagraphFilter = {
+  text?: InputMaybe<StringFilter>;
+  italic?: InputMaybe<BooleanFilter>;
+  size?: InputMaybe<StringFilter>;
+  align?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksImageFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+  caption?: InputMaybe<StringFilter>;
+  aspectRatio?: InputMaybe<StringFilter>;
+  rounded?: InputMaybe<StringFilter>;
+  priority?: InputMaybe<BooleanFilter>;
+};
+
+export type ProjectSectionsSingleBlocksImageGroupImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksImageGroupFilter = {
+  images?: InputMaybe<ProjectSectionsSingleBlocksImageGroupImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksVideoFilter = {
+  platform?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksListFilter = {
+  style?: InputMaybe<StringFilter>;
+  items?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksTestimonialFilter = {
+  name?: InputMaybe<StringFilter>;
+  role?: InputMaybe<StringFilter>;
+  country?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  avatar?: InputMaybe<ImageFilter>;
+};
+
+export type ProjectSectionsSingleBlocksGalleryImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksGalleryFilter = {
+  images?: InputMaybe<ProjectSectionsSingleBlocksGalleryImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksDayReportImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksDayReportFilter = {
+  day?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  images?: InputMaybe<ProjectSectionsSingleBlocksDayReportImagesFilter>;
+  titleStyle?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksPartnerFilter = {
+  country?: InputMaybe<StringFilter>;
+  flag?: InputMaybe<ImageFilter>;
+  organizations?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksOutcomeFilter = {
+  number?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  description?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksSpacerFilter = {
+  size?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsSingleBlocksFilter = {
+  heading?: InputMaybe<ProjectSectionsSingleBlocksHeadingFilter>;
+  paragraph?: InputMaybe<ProjectSectionsSingleBlocksParagraphFilter>;
+  image?: InputMaybe<ProjectSectionsSingleBlocksImageFilter>;
+  imageGroup?: InputMaybe<ProjectSectionsSingleBlocksImageGroupFilter>;
+  video?: InputMaybe<ProjectSectionsSingleBlocksVideoFilter>;
+  list?: InputMaybe<ProjectSectionsSingleBlocksListFilter>;
+  testimonial?: InputMaybe<ProjectSectionsSingleBlocksTestimonialFilter>;
+  gallery?: InputMaybe<ProjectSectionsSingleBlocksGalleryFilter>;
+  dayReport?: InputMaybe<ProjectSectionsSingleBlocksDayReportFilter>;
+  partner?: InputMaybe<ProjectSectionsSingleBlocksPartnerFilter>;
+  outcome?: InputMaybe<ProjectSectionsSingleBlocksOutcomeFilter>;
+  spacer?: InputMaybe<ProjectSectionsSingleBlocksSpacerFilter>;
+};
+
+export type ProjectSectionsSingleFilter = {
+  background?: InputMaybe<StringFilter>;
+  paddingY?: InputMaybe<StringFilter>;
+  maxWidth?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  blocks?: InputMaybe<ProjectSectionsSingleBlocksFilter>;
+};
+
+export type ProjectSectionsColumnsLeftHeadingFilter = {
+  level?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftParagraphFilter = {
+  text?: InputMaybe<StringFilter>;
+  italic?: InputMaybe<BooleanFilter>;
+  size?: InputMaybe<StringFilter>;
+  align?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftImageFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+  caption?: InputMaybe<StringFilter>;
+  aspectRatio?: InputMaybe<StringFilter>;
+  rounded?: InputMaybe<StringFilter>;
+  priority?: InputMaybe<BooleanFilter>;
+};
+
+export type ProjectSectionsColumnsLeftImageGroupImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftImageGroupFilter = {
+  images?: InputMaybe<ProjectSectionsColumnsLeftImageGroupImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftVideoFilter = {
+  platform?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftListFilter = {
+  style?: InputMaybe<StringFilter>;
+  items?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftTestimonialFilter = {
+  name?: InputMaybe<StringFilter>;
+  role?: InputMaybe<StringFilter>;
+  country?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  avatar?: InputMaybe<ImageFilter>;
+};
+
+export type ProjectSectionsColumnsLeftGalleryImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftGalleryFilter = {
+  images?: InputMaybe<ProjectSectionsColumnsLeftGalleryImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftDayReportImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftDayReportFilter = {
+  day?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  images?: InputMaybe<ProjectSectionsColumnsLeftDayReportImagesFilter>;
+  titleStyle?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftPartnerFilter = {
+  country?: InputMaybe<StringFilter>;
+  flag?: InputMaybe<ImageFilter>;
+  organizations?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftOutcomeFilter = {
+  number?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  description?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftSpacerFilter = {
+  size?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsLeftFilter = {
+  heading?: InputMaybe<ProjectSectionsColumnsLeftHeadingFilter>;
+  paragraph?: InputMaybe<ProjectSectionsColumnsLeftParagraphFilter>;
+  image?: InputMaybe<ProjectSectionsColumnsLeftImageFilter>;
+  imageGroup?: InputMaybe<ProjectSectionsColumnsLeftImageGroupFilter>;
+  video?: InputMaybe<ProjectSectionsColumnsLeftVideoFilter>;
+  list?: InputMaybe<ProjectSectionsColumnsLeftListFilter>;
+  testimonial?: InputMaybe<ProjectSectionsColumnsLeftTestimonialFilter>;
+  gallery?: InputMaybe<ProjectSectionsColumnsLeftGalleryFilter>;
+  dayReport?: InputMaybe<ProjectSectionsColumnsLeftDayReportFilter>;
+  partner?: InputMaybe<ProjectSectionsColumnsLeftPartnerFilter>;
+  outcome?: InputMaybe<ProjectSectionsColumnsLeftOutcomeFilter>;
+  spacer?: InputMaybe<ProjectSectionsColumnsLeftSpacerFilter>;
+};
+
+export type ProjectSectionsColumnsRightHeadingFilter = {
+  level?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightParagraphFilter = {
+  text?: InputMaybe<StringFilter>;
+  italic?: InputMaybe<BooleanFilter>;
+  size?: InputMaybe<StringFilter>;
+  align?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightImageFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+  caption?: InputMaybe<StringFilter>;
+  aspectRatio?: InputMaybe<StringFilter>;
+  rounded?: InputMaybe<StringFilter>;
+  priority?: InputMaybe<BooleanFilter>;
+};
+
+export type ProjectSectionsColumnsRightImageGroupImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightImageGroupFilter = {
+  images?: InputMaybe<ProjectSectionsColumnsRightImageGroupImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightVideoFilter = {
+  platform?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightListFilter = {
+  style?: InputMaybe<StringFilter>;
+  items?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightTestimonialFilter = {
+  name?: InputMaybe<StringFilter>;
+  role?: InputMaybe<StringFilter>;
+  country?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  avatar?: InputMaybe<ImageFilter>;
+};
+
+export type ProjectSectionsColumnsRightGalleryImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightGalleryFilter = {
+  images?: InputMaybe<ProjectSectionsColumnsRightGalleryImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightDayReportImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightDayReportFilter = {
+  day?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  images?: InputMaybe<ProjectSectionsColumnsRightDayReportImagesFilter>;
+  titleStyle?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightPartnerFilter = {
+  country?: InputMaybe<StringFilter>;
+  flag?: InputMaybe<ImageFilter>;
+  organizations?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightOutcomeFilter = {
+  number?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  description?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightSpacerFilter = {
+  size?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsColumnsRightFilter = {
+  heading?: InputMaybe<ProjectSectionsColumnsRightHeadingFilter>;
+  paragraph?: InputMaybe<ProjectSectionsColumnsRightParagraphFilter>;
+  image?: InputMaybe<ProjectSectionsColumnsRightImageFilter>;
+  imageGroup?: InputMaybe<ProjectSectionsColumnsRightImageGroupFilter>;
+  video?: InputMaybe<ProjectSectionsColumnsRightVideoFilter>;
+  list?: InputMaybe<ProjectSectionsColumnsRightListFilter>;
+  testimonial?: InputMaybe<ProjectSectionsColumnsRightTestimonialFilter>;
+  gallery?: InputMaybe<ProjectSectionsColumnsRightGalleryFilter>;
+  dayReport?: InputMaybe<ProjectSectionsColumnsRightDayReportFilter>;
+  partner?: InputMaybe<ProjectSectionsColumnsRightPartnerFilter>;
+  outcome?: InputMaybe<ProjectSectionsColumnsRightOutcomeFilter>;
+  spacer?: InputMaybe<ProjectSectionsColumnsRightSpacerFilter>;
+};
+
+export type ProjectSectionsColumnsFilter = {
+  background?: InputMaybe<StringFilter>;
+  paddingY?: InputMaybe<StringFilter>;
+  maxWidth?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  distribution?: InputMaybe<StringFilter>;
+  verticalAlign?: InputMaybe<StringFilter>;
+  gap?: InputMaybe<StringFilter>;
+  left?: InputMaybe<ProjectSectionsColumnsLeftFilter>;
+  right?: InputMaybe<ProjectSectionsColumnsRightFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksHeadingFilter = {
+  level?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksParagraphFilter = {
+  text?: InputMaybe<StringFilter>;
+  italic?: InputMaybe<BooleanFilter>;
+  size?: InputMaybe<StringFilter>;
+  align?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+  caption?: InputMaybe<StringFilter>;
+  aspectRatio?: InputMaybe<StringFilter>;
+  rounded?: InputMaybe<StringFilter>;
+  priority?: InputMaybe<BooleanFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageGroupImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageGroupFilter = {
+  images?: InputMaybe<ProjectSectionsGridGridColumnsBlocksImageGroupImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksVideoFilter = {
+  platform?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksListFilter = {
+  style?: InputMaybe<StringFilter>;
+  items?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksTestimonialFilter = {
+  name?: InputMaybe<StringFilter>;
+  role?: InputMaybe<StringFilter>;
+  country?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  avatar?: InputMaybe<ImageFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksGalleryImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksGalleryFilter = {
+  images?: InputMaybe<ProjectSectionsGridGridColumnsBlocksGalleryImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksDayReportImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksDayReportFilter = {
+  day?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  images?: InputMaybe<ProjectSectionsGridGridColumnsBlocksDayReportImagesFilter>;
+  titleStyle?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksPartnerFilter = {
+  country?: InputMaybe<StringFilter>;
+  flag?: InputMaybe<ImageFilter>;
+  organizations?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksOutcomeFilter = {
+  number?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  description?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksSpacerFilter = {
+  size?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksFilter = {
+  heading?: InputMaybe<ProjectSectionsGridGridColumnsBlocksHeadingFilter>;
+  paragraph?: InputMaybe<ProjectSectionsGridGridColumnsBlocksParagraphFilter>;
+  image?: InputMaybe<ProjectSectionsGridGridColumnsBlocksImageFilter>;
+  imageGroup?: InputMaybe<ProjectSectionsGridGridColumnsBlocksImageGroupFilter>;
+  video?: InputMaybe<ProjectSectionsGridGridColumnsBlocksVideoFilter>;
+  list?: InputMaybe<ProjectSectionsGridGridColumnsBlocksListFilter>;
+  testimonial?: InputMaybe<ProjectSectionsGridGridColumnsBlocksTestimonialFilter>;
+  gallery?: InputMaybe<ProjectSectionsGridGridColumnsBlocksGalleryFilter>;
+  dayReport?: InputMaybe<ProjectSectionsGridGridColumnsBlocksDayReportFilter>;
+  partner?: InputMaybe<ProjectSectionsGridGridColumnsBlocksPartnerFilter>;
+  outcome?: InputMaybe<ProjectSectionsGridGridColumnsBlocksOutcomeFilter>;
+  spacer?: InputMaybe<ProjectSectionsGridGridColumnsBlocksSpacerFilter>;
+};
+
+export type ProjectSectionsGridGridColumnsFilter = {
+  blocks?: InputMaybe<ProjectSectionsGridGridColumnsBlocksFilter>;
+};
+
+export type ProjectSectionsGridFilter = {
+  background?: InputMaybe<StringFilter>;
+  paddingY?: InputMaybe<StringFilter>;
+  maxWidth?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  count?: InputMaybe<StringFilter>;
+  gap?: InputMaybe<StringFilter>;
+  gridColumns?: InputMaybe<ProjectSectionsGridGridColumnsFilter>;
+};
+
+export type ProjectSectionsTestimonialsTestimonialsTestimonialFilter = {
+  name?: InputMaybe<StringFilter>;
+  role?: InputMaybe<StringFilter>;
+  country?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  avatar?: InputMaybe<ImageFilter>;
+};
+
+export type ProjectSectionsTestimonialsTestimonialsFilter = {
+  testimonial?: InputMaybe<ProjectSectionsTestimonialsTestimonialsTestimonialFilter>;
+};
+
+export type ProjectSectionsTestimonialsFilter = {
+  background?: InputMaybe<StringFilter>;
+  paddingY?: InputMaybe<StringFilter>;
+  maxWidth?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  testimonials?: InputMaybe<ProjectSectionsTestimonialsTestimonialsFilter>;
+};
+
+export type ProjectSectionsGalleryImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsGalleryFilter = {
+  background?: InputMaybe<StringFilter>;
+  paddingY?: InputMaybe<StringFilter>;
+  maxWidth?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
   title?: InputMaybe<StringFilter>;
   subtitle?: InputMaybe<StringFilter>;
-  category?: InputMaybe<StringFilter>;
-  slug?: InputMaybe<StringFilter>;
-  dates?: InputMaybe<StringFilter>;
-  location?: InputMaybe<StringFilter>;
+  images?: InputMaybe<ProjectSectionsGalleryImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsRepeaterItemsDayReportImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsRepeaterItemsDayReportFilter = {
+  day?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  images?: InputMaybe<ProjectSectionsRepeaterItemsDayReportImagesFilter>;
+  titleStyle?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsRepeaterItemsOutcomeFilter = {
+  number?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
   description?: InputMaybe<StringFilter>;
-  coverImage?: InputMaybe<ImageFilter>;
+};
+
+export type ProjectSectionsRepeaterItemsFilter = {
+  dayReport?: InputMaybe<ProjectSectionsRepeaterItemsDayReportFilter>;
+  outcome?: InputMaybe<ProjectSectionsRepeaterItemsOutcomeFilter>;
+};
+
+export type ProjectSectionsRepeaterFilter = {
+  background?: InputMaybe<StringFilter>;
+  paddingY?: InputMaybe<StringFilter>;
+  maxWidth?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  items?: InputMaybe<ProjectSectionsRepeaterItemsFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsHeadingFilter = {
+  level?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsParagraphFilter = {
+  text?: InputMaybe<StringFilter>;
+  italic?: InputMaybe<BooleanFilter>;
+  size?: InputMaybe<StringFilter>;
+  align?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsImageFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+  caption?: InputMaybe<StringFilter>;
+  aspectRatio?: InputMaybe<StringFilter>;
+  rounded?: InputMaybe<StringFilter>;
+  priority?: InputMaybe<BooleanFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsImageGroupImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsImageGroupFilter = {
+  images?: InputMaybe<ProjectSectionsAutoGridItemsImageGroupImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsVideoFilter = {
+  platform?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsListFilter = {
+  style?: InputMaybe<StringFilter>;
+  items?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsTestimonialFilter = {
+  name?: InputMaybe<StringFilter>;
+  role?: InputMaybe<StringFilter>;
+  country?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  avatar?: InputMaybe<ImageFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsGalleryImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsGalleryFilter = {
+  images?: InputMaybe<ProjectSectionsAutoGridItemsGalleryImagesFilter>;
+  columns?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsDayReportImagesFilter = {
+  src?: InputMaybe<ImageFilter>;
+  alt?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsDayReportFilter = {
+  day?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  text?: InputMaybe<StringFilter>;
+  images?: InputMaybe<ProjectSectionsAutoGridItemsDayReportImagesFilter>;
+  titleStyle?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsPartnerFilter = {
+  country?: InputMaybe<StringFilter>;
+  flag?: InputMaybe<ImageFilter>;
+  organizations?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsOutcomeFilter = {
+  number?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  description?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsSpacerFilter = {
+  size?: InputMaybe<StringFilter>;
+};
+
+export type ProjectSectionsAutoGridItemsFilter = {
+  heading?: InputMaybe<ProjectSectionsAutoGridItemsHeadingFilter>;
+  paragraph?: InputMaybe<ProjectSectionsAutoGridItemsParagraphFilter>;
+  image?: InputMaybe<ProjectSectionsAutoGridItemsImageFilter>;
+  imageGroup?: InputMaybe<ProjectSectionsAutoGridItemsImageGroupFilter>;
+  video?: InputMaybe<ProjectSectionsAutoGridItemsVideoFilter>;
+  list?: InputMaybe<ProjectSectionsAutoGridItemsListFilter>;
+  testimonial?: InputMaybe<ProjectSectionsAutoGridItemsTestimonialFilter>;
+  gallery?: InputMaybe<ProjectSectionsAutoGridItemsGalleryFilter>;
+  dayReport?: InputMaybe<ProjectSectionsAutoGridItemsDayReportFilter>;
+  partner?: InputMaybe<ProjectSectionsAutoGridItemsPartnerFilter>;
+  outcome?: InputMaybe<ProjectSectionsAutoGridItemsOutcomeFilter>;
+  spacer?: InputMaybe<ProjectSectionsAutoGridItemsSpacerFilter>;
+};
+
+export type ProjectSectionsAutoGridFilter = {
+  background?: InputMaybe<StringFilter>;
+  paddingY?: InputMaybe<StringFilter>;
+  maxWidth?: InputMaybe<StringFilter>;
+  id?: InputMaybe<StringFilter>;
+  count?: InputMaybe<StringFilter>;
+  title?: InputMaybe<StringFilter>;
+  subtitle?: InputMaybe<StringFilter>;
+  titleColor?: InputMaybe<StringFilter>;
+  items?: InputMaybe<ProjectSectionsAutoGridItemsFilter>;
+};
+
+export type ProjectSectionsFilter = {
+  single?: InputMaybe<ProjectSectionsSingleFilter>;
+  columns?: InputMaybe<ProjectSectionsColumnsFilter>;
+  grid?: InputMaybe<ProjectSectionsGridFilter>;
+  testimonials?: InputMaybe<ProjectSectionsTestimonialsFilter>;
+  gallery?: InputMaybe<ProjectSectionsGalleryFilter>;
+  repeater?: InputMaybe<ProjectSectionsRepeaterFilter>;
+  autoGrid?: InputMaybe<ProjectSectionsAutoGridFilter>;
+};
+
+export type ProjectFilter = {
   heroImage?: InputMaybe<ImageFilter>;
+  subtitle?: InputMaybe<StringFilter>;
+  sections?: InputMaybe<ProjectSectionsFilter>;
 };
 
 export type ProjectConnectionEdges = {
@@ -285,26 +1580,666 @@ export type DocumentMutation = {
   project?: InputMaybe<ProjectMutation>;
 };
 
-export type ProjectMutation = {
-  title?: InputMaybe<Scalars['String']['input']>;
-  subtitle?: InputMaybe<Scalars['String']['input']>;
-  category?: InputMaybe<Scalars['String']['input']>;
-  slug?: InputMaybe<Scalars['String']['input']>;
-  dates?: InputMaybe<Scalars['String']['input']>;
-  location?: InputMaybe<Scalars['String']['input']>;
-  description?: InputMaybe<Scalars['String']['input']>;
-  coverImage?: InputMaybe<Scalars['String']['input']>;
-  heroImage?: InputMaybe<Scalars['String']['input']>;
+export type ProjectSectionsSingleBlocksHeadingMutation = {
+  level?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
 };
 
-export type ProjectPartsFragment = { __typename: 'Project', title: string, subtitle?: string | null, category: string, slug: string, dates?: string | null, location?: string | null, description?: string | null, coverImage?: string | null, heroImage?: string | null };
+export type ProjectSectionsSingleBlocksParagraphMutation = {
+  text?: InputMaybe<Scalars['String']['input']>;
+  italic?: InputMaybe<Scalars['Boolean']['input']>;
+  size?: InputMaybe<Scalars['String']['input']>;
+  align?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksImageMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+  caption?: InputMaybe<Scalars['String']['input']>;
+  aspectRatio?: InputMaybe<Scalars['String']['input']>;
+  rounded?: InputMaybe<Scalars['String']['input']>;
+  priority?: InputMaybe<Scalars['Boolean']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksImageGroupImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksImageGroupMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsSingleBlocksImageGroupImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksVideoMutation = {
+  platform?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksListMutation = {
+  style?: InputMaybe<Scalars['String']['input']>;
+  items?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsSingleBlocksTestimonialMutation = {
+  name?: InputMaybe<Scalars['String']['input']>;
+  role?: InputMaybe<Scalars['String']['input']>;
+  country?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  avatar?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksGalleryImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksGalleryMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsSingleBlocksGalleryImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksDayReportImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksDayReportMutation = {
+  day?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsSingleBlocksDayReportImagesMutation>>>;
+  titleStyle?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksPartnerMutation = {
+  country?: InputMaybe<Scalars['String']['input']>;
+  flag?: InputMaybe<Scalars['String']['input']>;
+  organizations?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsSingleBlocksOutcomeMutation = {
+  number?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  description?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksSpacerMutation = {
+  size?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsSingleBlocksMutation = {
+  heading?: InputMaybe<ProjectSectionsSingleBlocksHeadingMutation>;
+  paragraph?: InputMaybe<ProjectSectionsSingleBlocksParagraphMutation>;
+  image?: InputMaybe<ProjectSectionsSingleBlocksImageMutation>;
+  imageGroup?: InputMaybe<ProjectSectionsSingleBlocksImageGroupMutation>;
+  video?: InputMaybe<ProjectSectionsSingleBlocksVideoMutation>;
+  list?: InputMaybe<ProjectSectionsSingleBlocksListMutation>;
+  testimonial?: InputMaybe<ProjectSectionsSingleBlocksTestimonialMutation>;
+  gallery?: InputMaybe<ProjectSectionsSingleBlocksGalleryMutation>;
+  dayReport?: InputMaybe<ProjectSectionsSingleBlocksDayReportMutation>;
+  partner?: InputMaybe<ProjectSectionsSingleBlocksPartnerMutation>;
+  outcome?: InputMaybe<ProjectSectionsSingleBlocksOutcomeMutation>;
+  spacer?: InputMaybe<ProjectSectionsSingleBlocksSpacerMutation>;
+};
+
+export type ProjectSectionsSingleMutation = {
+  background?: InputMaybe<Scalars['String']['input']>;
+  paddingY?: InputMaybe<Scalars['String']['input']>;
+  maxWidth?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  blocks?: InputMaybe<Array<InputMaybe<ProjectSectionsSingleBlocksMutation>>>;
+};
+
+export type ProjectSectionsColumnsLeftHeadingMutation = {
+  level?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftParagraphMutation = {
+  text?: InputMaybe<Scalars['String']['input']>;
+  italic?: InputMaybe<Scalars['Boolean']['input']>;
+  size?: InputMaybe<Scalars['String']['input']>;
+  align?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftImageMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+  caption?: InputMaybe<Scalars['String']['input']>;
+  aspectRatio?: InputMaybe<Scalars['String']['input']>;
+  rounded?: InputMaybe<Scalars['String']['input']>;
+  priority?: InputMaybe<Scalars['Boolean']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftImageGroupImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftImageGroupMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsLeftImageGroupImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftVideoMutation = {
+  platform?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftListMutation = {
+  style?: InputMaybe<Scalars['String']['input']>;
+  items?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsColumnsLeftTestimonialMutation = {
+  name?: InputMaybe<Scalars['String']['input']>;
+  role?: InputMaybe<Scalars['String']['input']>;
+  country?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  avatar?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftGalleryImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftGalleryMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsLeftGalleryImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftDayReportImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftDayReportMutation = {
+  day?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsLeftDayReportImagesMutation>>>;
+  titleStyle?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftPartnerMutation = {
+  country?: InputMaybe<Scalars['String']['input']>;
+  flag?: InputMaybe<Scalars['String']['input']>;
+  organizations?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsColumnsLeftOutcomeMutation = {
+  number?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  description?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftSpacerMutation = {
+  size?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsLeftMutation = {
+  heading?: InputMaybe<ProjectSectionsColumnsLeftHeadingMutation>;
+  paragraph?: InputMaybe<ProjectSectionsColumnsLeftParagraphMutation>;
+  image?: InputMaybe<ProjectSectionsColumnsLeftImageMutation>;
+  imageGroup?: InputMaybe<ProjectSectionsColumnsLeftImageGroupMutation>;
+  video?: InputMaybe<ProjectSectionsColumnsLeftVideoMutation>;
+  list?: InputMaybe<ProjectSectionsColumnsLeftListMutation>;
+  testimonial?: InputMaybe<ProjectSectionsColumnsLeftTestimonialMutation>;
+  gallery?: InputMaybe<ProjectSectionsColumnsLeftGalleryMutation>;
+  dayReport?: InputMaybe<ProjectSectionsColumnsLeftDayReportMutation>;
+  partner?: InputMaybe<ProjectSectionsColumnsLeftPartnerMutation>;
+  outcome?: InputMaybe<ProjectSectionsColumnsLeftOutcomeMutation>;
+  spacer?: InputMaybe<ProjectSectionsColumnsLeftSpacerMutation>;
+};
+
+export type ProjectSectionsColumnsRightHeadingMutation = {
+  level?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightParagraphMutation = {
+  text?: InputMaybe<Scalars['String']['input']>;
+  italic?: InputMaybe<Scalars['Boolean']['input']>;
+  size?: InputMaybe<Scalars['String']['input']>;
+  align?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightImageMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+  caption?: InputMaybe<Scalars['String']['input']>;
+  aspectRatio?: InputMaybe<Scalars['String']['input']>;
+  rounded?: InputMaybe<Scalars['String']['input']>;
+  priority?: InputMaybe<Scalars['Boolean']['input']>;
+};
+
+export type ProjectSectionsColumnsRightImageGroupImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightImageGroupMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsRightImageGroupImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightVideoMutation = {
+  platform?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightListMutation = {
+  style?: InputMaybe<Scalars['String']['input']>;
+  items?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsColumnsRightTestimonialMutation = {
+  name?: InputMaybe<Scalars['String']['input']>;
+  role?: InputMaybe<Scalars['String']['input']>;
+  country?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  avatar?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightGalleryImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightGalleryMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsRightGalleryImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightDayReportImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightDayReportMutation = {
+  day?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsRightDayReportImagesMutation>>>;
+  titleStyle?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightPartnerMutation = {
+  country?: InputMaybe<Scalars['String']['input']>;
+  flag?: InputMaybe<Scalars['String']['input']>;
+  organizations?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsColumnsRightOutcomeMutation = {
+  number?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  description?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightSpacerMutation = {
+  size?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsColumnsRightMutation = {
+  heading?: InputMaybe<ProjectSectionsColumnsRightHeadingMutation>;
+  paragraph?: InputMaybe<ProjectSectionsColumnsRightParagraphMutation>;
+  image?: InputMaybe<ProjectSectionsColumnsRightImageMutation>;
+  imageGroup?: InputMaybe<ProjectSectionsColumnsRightImageGroupMutation>;
+  video?: InputMaybe<ProjectSectionsColumnsRightVideoMutation>;
+  list?: InputMaybe<ProjectSectionsColumnsRightListMutation>;
+  testimonial?: InputMaybe<ProjectSectionsColumnsRightTestimonialMutation>;
+  gallery?: InputMaybe<ProjectSectionsColumnsRightGalleryMutation>;
+  dayReport?: InputMaybe<ProjectSectionsColumnsRightDayReportMutation>;
+  partner?: InputMaybe<ProjectSectionsColumnsRightPartnerMutation>;
+  outcome?: InputMaybe<ProjectSectionsColumnsRightOutcomeMutation>;
+  spacer?: InputMaybe<ProjectSectionsColumnsRightSpacerMutation>;
+};
+
+export type ProjectSectionsColumnsMutation = {
+  background?: InputMaybe<Scalars['String']['input']>;
+  paddingY?: InputMaybe<Scalars['String']['input']>;
+  maxWidth?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  distribution?: InputMaybe<Scalars['String']['input']>;
+  verticalAlign?: InputMaybe<Scalars['String']['input']>;
+  gap?: InputMaybe<Scalars['String']['input']>;
+  left?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsLeftMutation>>>;
+  right?: InputMaybe<Array<InputMaybe<ProjectSectionsColumnsRightMutation>>>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksHeadingMutation = {
+  level?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksParagraphMutation = {
+  text?: InputMaybe<Scalars['String']['input']>;
+  italic?: InputMaybe<Scalars['Boolean']['input']>;
+  size?: InputMaybe<Scalars['String']['input']>;
+  align?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+  caption?: InputMaybe<Scalars['String']['input']>;
+  aspectRatio?: InputMaybe<Scalars['String']['input']>;
+  rounded?: InputMaybe<Scalars['String']['input']>;
+  priority?: InputMaybe<Scalars['Boolean']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageGroupImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksImageGroupMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsGridGridColumnsBlocksImageGroupImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksVideoMutation = {
+  platform?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksListMutation = {
+  style?: InputMaybe<Scalars['String']['input']>;
+  items?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksTestimonialMutation = {
+  name?: InputMaybe<Scalars['String']['input']>;
+  role?: InputMaybe<Scalars['String']['input']>;
+  country?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  avatar?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksGalleryImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksGalleryMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsGridGridColumnsBlocksGalleryImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksDayReportImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksDayReportMutation = {
+  day?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsGridGridColumnsBlocksDayReportImagesMutation>>>;
+  titleStyle?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksPartnerMutation = {
+  country?: InputMaybe<Scalars['String']['input']>;
+  flag?: InputMaybe<Scalars['String']['input']>;
+  organizations?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksOutcomeMutation = {
+  number?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  description?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksSpacerMutation = {
+  size?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGridGridColumnsBlocksMutation = {
+  heading?: InputMaybe<ProjectSectionsGridGridColumnsBlocksHeadingMutation>;
+  paragraph?: InputMaybe<ProjectSectionsGridGridColumnsBlocksParagraphMutation>;
+  image?: InputMaybe<ProjectSectionsGridGridColumnsBlocksImageMutation>;
+  imageGroup?: InputMaybe<ProjectSectionsGridGridColumnsBlocksImageGroupMutation>;
+  video?: InputMaybe<ProjectSectionsGridGridColumnsBlocksVideoMutation>;
+  list?: InputMaybe<ProjectSectionsGridGridColumnsBlocksListMutation>;
+  testimonial?: InputMaybe<ProjectSectionsGridGridColumnsBlocksTestimonialMutation>;
+  gallery?: InputMaybe<ProjectSectionsGridGridColumnsBlocksGalleryMutation>;
+  dayReport?: InputMaybe<ProjectSectionsGridGridColumnsBlocksDayReportMutation>;
+  partner?: InputMaybe<ProjectSectionsGridGridColumnsBlocksPartnerMutation>;
+  outcome?: InputMaybe<ProjectSectionsGridGridColumnsBlocksOutcomeMutation>;
+  spacer?: InputMaybe<ProjectSectionsGridGridColumnsBlocksSpacerMutation>;
+};
+
+export type ProjectSectionsGridGridColumnsMutation = {
+  blocks?: InputMaybe<Array<InputMaybe<ProjectSectionsGridGridColumnsBlocksMutation>>>;
+};
+
+export type ProjectSectionsGridMutation = {
+  background?: InputMaybe<Scalars['String']['input']>;
+  paddingY?: InputMaybe<Scalars['String']['input']>;
+  maxWidth?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  count?: InputMaybe<Scalars['String']['input']>;
+  gap?: InputMaybe<Scalars['String']['input']>;
+  gridColumns?: InputMaybe<Array<InputMaybe<ProjectSectionsGridGridColumnsMutation>>>;
+};
+
+export type ProjectSectionsTestimonialsTestimonialsTestimonialMutation = {
+  name?: InputMaybe<Scalars['String']['input']>;
+  role?: InputMaybe<Scalars['String']['input']>;
+  country?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  avatar?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsTestimonialsTestimonialsMutation = {
+  testimonial?: InputMaybe<ProjectSectionsTestimonialsTestimonialsTestimonialMutation>;
+};
+
+export type ProjectSectionsTestimonialsMutation = {
+  background?: InputMaybe<Scalars['String']['input']>;
+  paddingY?: InputMaybe<Scalars['String']['input']>;
+  maxWidth?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  testimonials?: InputMaybe<Array<InputMaybe<ProjectSectionsTestimonialsTestimonialsMutation>>>;
+};
+
+export type ProjectSectionsGalleryImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsGalleryMutation = {
+  background?: InputMaybe<Scalars['String']['input']>;
+  paddingY?: InputMaybe<Scalars['String']['input']>;
+  maxWidth?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  subtitle?: InputMaybe<Scalars['String']['input']>;
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsGalleryImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsRepeaterItemsDayReportImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsRepeaterItemsDayReportMutation = {
+  day?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsRepeaterItemsDayReportImagesMutation>>>;
+  titleStyle?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsRepeaterItemsOutcomeMutation = {
+  number?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  description?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsRepeaterItemsMutation = {
+  dayReport?: InputMaybe<ProjectSectionsRepeaterItemsDayReportMutation>;
+  outcome?: InputMaybe<ProjectSectionsRepeaterItemsOutcomeMutation>;
+};
+
+export type ProjectSectionsRepeaterMutation = {
+  background?: InputMaybe<Scalars['String']['input']>;
+  paddingY?: InputMaybe<Scalars['String']['input']>;
+  maxWidth?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  items?: InputMaybe<Array<InputMaybe<ProjectSectionsRepeaterItemsMutation>>>;
+};
+
+export type ProjectSectionsAutoGridItemsHeadingMutation = {
+  level?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsParagraphMutation = {
+  text?: InputMaybe<Scalars['String']['input']>;
+  italic?: InputMaybe<Scalars['Boolean']['input']>;
+  size?: InputMaybe<Scalars['String']['input']>;
+  align?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsImageMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+  caption?: InputMaybe<Scalars['String']['input']>;
+  aspectRatio?: InputMaybe<Scalars['String']['input']>;
+  rounded?: InputMaybe<Scalars['String']['input']>;
+  priority?: InputMaybe<Scalars['Boolean']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsImageGroupImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsImageGroupMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsAutoGridItemsImageGroupImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsVideoMutation = {
+  platform?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsListMutation = {
+  style?: InputMaybe<Scalars['String']['input']>;
+  items?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsAutoGridItemsTestimonialMutation = {
+  name?: InputMaybe<Scalars['String']['input']>;
+  role?: InputMaybe<Scalars['String']['input']>;
+  country?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  avatar?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsGalleryImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsGalleryMutation = {
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsAutoGridItemsGalleryImagesMutation>>>;
+  columns?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsDayReportImagesMutation = {
+  src?: InputMaybe<Scalars['String']['input']>;
+  alt?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsDayReportMutation = {
+  day?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  images?: InputMaybe<Array<InputMaybe<ProjectSectionsAutoGridItemsDayReportImagesMutation>>>;
+  titleStyle?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsPartnerMutation = {
+  country?: InputMaybe<Scalars['String']['input']>;
+  flag?: InputMaybe<Scalars['String']['input']>;
+  organizations?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type ProjectSectionsAutoGridItemsOutcomeMutation = {
+  number?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  description?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsSpacerMutation = {
+  size?: InputMaybe<Scalars['String']['input']>;
+};
+
+export type ProjectSectionsAutoGridItemsMutation = {
+  heading?: InputMaybe<ProjectSectionsAutoGridItemsHeadingMutation>;
+  paragraph?: InputMaybe<ProjectSectionsAutoGridItemsParagraphMutation>;
+  image?: InputMaybe<ProjectSectionsAutoGridItemsImageMutation>;
+  imageGroup?: InputMaybe<ProjectSectionsAutoGridItemsImageGroupMutation>;
+  video?: InputMaybe<ProjectSectionsAutoGridItemsVideoMutation>;
+  list?: InputMaybe<ProjectSectionsAutoGridItemsListMutation>;
+  testimonial?: InputMaybe<ProjectSectionsAutoGridItemsTestimonialMutation>;
+  gallery?: InputMaybe<ProjectSectionsAutoGridItemsGalleryMutation>;
+  dayReport?: InputMaybe<ProjectSectionsAutoGridItemsDayReportMutation>;
+  partner?: InputMaybe<ProjectSectionsAutoGridItemsPartnerMutation>;
+  outcome?: InputMaybe<ProjectSectionsAutoGridItemsOutcomeMutation>;
+  spacer?: InputMaybe<ProjectSectionsAutoGridItemsSpacerMutation>;
+};
+
+export type ProjectSectionsAutoGridMutation = {
+  background?: InputMaybe<Scalars['String']['input']>;
+  paddingY?: InputMaybe<Scalars['String']['input']>;
+  maxWidth?: InputMaybe<Scalars['String']['input']>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  count?: InputMaybe<Scalars['String']['input']>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  subtitle?: InputMaybe<Scalars['String']['input']>;
+  titleColor?: InputMaybe<Scalars['String']['input']>;
+  items?: InputMaybe<Array<InputMaybe<ProjectSectionsAutoGridItemsMutation>>>;
+};
+
+export type ProjectSectionsMutation = {
+  single?: InputMaybe<ProjectSectionsSingleMutation>;
+  columns?: InputMaybe<ProjectSectionsColumnsMutation>;
+  grid?: InputMaybe<ProjectSectionsGridMutation>;
+  testimonials?: InputMaybe<ProjectSectionsTestimonialsMutation>;
+  gallery?: InputMaybe<ProjectSectionsGalleryMutation>;
+  repeater?: InputMaybe<ProjectSectionsRepeaterMutation>;
+  autoGrid?: InputMaybe<ProjectSectionsAutoGridMutation>;
+};
+
+export type ProjectMutation = {
+  heroImage?: InputMaybe<Scalars['String']['input']>;
+  subtitle?: InputMaybe<Scalars['String']['input']>;
+  sections?: InputMaybe<Array<InputMaybe<ProjectSectionsMutation>>>;
+};
+
+export type ProjectPartsFragment = { __typename: 'Project', heroImage?: string | null, subtitle?: string | null, sections?: Array<{ __typename: 'ProjectSectionsSingle', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, blocks?: Array<{ __typename: 'ProjectSectionsSingleBlocksHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsSingleBlocksParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsSingleBlocksImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsSingleBlocksImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsSingleBlocksList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsSingleBlocksTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsSingleBlocksGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsSingleBlocksOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsSingleBlocksSpacer', size?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumns', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, distribution?: string | null, verticalAlign?: string | null, gap?: string | null, left?: Array<{ __typename: 'ProjectSectionsColumnsLeftHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsColumnsLeftParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsColumnsLeftImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsColumnsLeftImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsColumnsLeftList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsLeftTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsColumnsLeftGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsLeftOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsColumnsLeftSpacer', size?: string | null } | null> | null, right?: Array<{ __typename: 'ProjectSectionsColumnsRightHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsColumnsRightParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsColumnsRightImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsColumnsRightImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsColumnsRightList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsRightTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsColumnsRightGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsRightOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsColumnsRightSpacer', size?: string | null } | null> | null } | { __typename: 'ProjectSectionsGrid', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, count?: string | null, gap?: string | null, gridColumns?: Array<{ __typename: 'ProjectSectionsGridGridColumns', blocks?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksSpacer', size?: string | null } | null> | null } | null> | null } | { __typename: 'ProjectSectionsTestimonials', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, testimonials?: Array<{ __typename: 'ProjectSectionsTestimonialsTestimonialsTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | null> | null } | { __typename: 'ProjectSectionsGallery', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, subtitle?: string | null, columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsRepeater', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, items?: Array<{ __typename: 'ProjectSectionsRepeaterItemsDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsRepeaterItemsDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsRepeaterItemsOutcome', number: string, title: string, description: string } | null> | null } | { __typename: 'ProjectSectionsAutoGrid', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, count?: string | null, title?: string | null, subtitle?: string | null, titleColor?: string | null, items?: Array<{ __typename: 'ProjectSectionsAutoGridItemsHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsAutoGridItemsParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsAutoGridItemsImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsAutoGridItemsImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsAutoGridItemsList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsAutoGridItemsGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsAutoGridItemsSpacer', size?: string | null } | null> | null } | null> | null };
 
 export type ProjectQueryVariables = Exact<{
   relativePath: Scalars['String']['input'];
 }>;
 
 
-export type ProjectQuery = { __typename?: 'Query', project: { __typename: 'Project', id: string, title: string, subtitle?: string | null, category: string, slug: string, dates?: string | null, location?: string | null, description?: string | null, coverImage?: string | null, heroImage?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } };
+export type ProjectQuery = { __typename?: 'Query', project: { __typename: 'Project', id: string, heroImage?: string | null, subtitle?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, sections?: Array<{ __typename: 'ProjectSectionsSingle', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, blocks?: Array<{ __typename: 'ProjectSectionsSingleBlocksHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsSingleBlocksParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsSingleBlocksImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsSingleBlocksImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsSingleBlocksList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsSingleBlocksTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsSingleBlocksGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsSingleBlocksOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsSingleBlocksSpacer', size?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumns', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, distribution?: string | null, verticalAlign?: string | null, gap?: string | null, left?: Array<{ __typename: 'ProjectSectionsColumnsLeftHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsColumnsLeftParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsColumnsLeftImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsColumnsLeftImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsColumnsLeftList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsLeftTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsColumnsLeftGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsLeftOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsColumnsLeftSpacer', size?: string | null } | null> | null, right?: Array<{ __typename: 'ProjectSectionsColumnsRightHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsColumnsRightParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsColumnsRightImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsColumnsRightImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsColumnsRightList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsRightTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsColumnsRightGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsRightOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsColumnsRightSpacer', size?: string | null } | null> | null } | { __typename: 'ProjectSectionsGrid', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, count?: string | null, gap?: string | null, gridColumns?: Array<{ __typename: 'ProjectSectionsGridGridColumns', blocks?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksSpacer', size?: string | null } | null> | null } | null> | null } | { __typename: 'ProjectSectionsTestimonials', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, testimonials?: Array<{ __typename: 'ProjectSectionsTestimonialsTestimonialsTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | null> | null } | { __typename: 'ProjectSectionsGallery', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, subtitle?: string | null, columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsRepeater', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, items?: Array<{ __typename: 'ProjectSectionsRepeaterItemsDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsRepeaterItemsDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsRepeaterItemsOutcome', number: string, title: string, description: string } | null> | null } | { __typename: 'ProjectSectionsAutoGrid', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, count?: string | null, title?: string | null, subtitle?: string | null, titleColor?: string | null, items?: Array<{ __typename: 'ProjectSectionsAutoGridItemsHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsAutoGridItemsParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsAutoGridItemsImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsAutoGridItemsImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsAutoGridItemsList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsAutoGridItemsGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsAutoGridItemsSpacer', size?: string | null } | null> | null } | null> | null } };
 
 export type ProjectConnectionQueryVariables = Exact<{
   before?: InputMaybe<Scalars['String']['input']>;
@@ -316,20 +2251,494 @@ export type ProjectConnectionQueryVariables = Exact<{
 }>;
 
 
-export type ProjectConnectionQuery = { __typename?: 'Query', projectConnection: { __typename?: 'ProjectConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ProjectConnectionEdges', cursor: string, node?: { __typename: 'Project', id: string, title: string, subtitle?: string | null, category: string, slug: string, dates?: string | null, location?: string | null, description?: string | null, coverImage?: string | null, heroImage?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string } } | null } | null> | null } };
+export type ProjectConnectionQuery = { __typename?: 'Query', projectConnection: { __typename?: 'ProjectConnection', totalCount: number, pageInfo: { __typename?: 'PageInfo', hasPreviousPage: boolean, hasNextPage: boolean, startCursor: string, endCursor: string }, edges?: Array<{ __typename?: 'ProjectConnectionEdges', cursor: string, node?: { __typename: 'Project', id: string, heroImage?: string | null, subtitle?: string | null, _sys: { __typename?: 'SystemInfo', filename: string, basename: string, hasReferences?: boolean | null, breadcrumbs: Array<string>, path: string, relativePath: string, extension: string }, sections?: Array<{ __typename: 'ProjectSectionsSingle', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, blocks?: Array<{ __typename: 'ProjectSectionsSingleBlocksHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsSingleBlocksParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsSingleBlocksImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsSingleBlocksImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsSingleBlocksList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsSingleBlocksTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsSingleBlocksGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsSingleBlocksDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsSingleBlocksPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsSingleBlocksOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsSingleBlocksSpacer', size?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumns', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, distribution?: string | null, verticalAlign?: string | null, gap?: string | null, left?: Array<{ __typename: 'ProjectSectionsColumnsLeftHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsColumnsLeftParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsColumnsLeftImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsColumnsLeftImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsColumnsLeftList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsLeftTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsColumnsLeftGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsLeftDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsLeftPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsLeftOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsColumnsLeftSpacer', size?: string | null } | null> | null, right?: Array<{ __typename: 'ProjectSectionsColumnsRightHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsColumnsRightParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsColumnsRightImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsColumnsRightImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsColumnsRightList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsRightTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsColumnsRightGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsColumnsRightDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsColumnsRightPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsColumnsRightOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsColumnsRightSpacer', size?: string | null } | null> | null } | { __typename: 'ProjectSectionsGrid', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, count?: string | null, gap?: string | null, gridColumns?: Array<{ __typename: 'ProjectSectionsGridGridColumns', blocks?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsGridGridColumnsBlocksDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsGridGridColumnsBlocksOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsGridGridColumnsBlocksSpacer', size?: string | null } | null> | null } | null> | null } | { __typename: 'ProjectSectionsTestimonials', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, testimonials?: Array<{ __typename: 'ProjectSectionsTestimonialsTestimonialsTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | null> | null } | { __typename: 'ProjectSectionsGallery', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, subtitle?: string | null, columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsRepeater', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, title?: string | null, items?: Array<{ __typename: 'ProjectSectionsRepeaterItemsDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsRepeaterItemsDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsRepeaterItemsOutcome', number: string, title: string, description: string } | null> | null } | { __typename: 'ProjectSectionsAutoGrid', background?: string | null, paddingY?: string | null, maxWidth?: string | null, id?: string | null, count?: string | null, title?: string | null, subtitle?: string | null, titleColor?: string | null, items?: Array<{ __typename: 'ProjectSectionsAutoGridItemsHeading', level?: string | null, text: string } | { __typename: 'ProjectSectionsAutoGridItemsParagraph', text: string, italic?: boolean | null, size?: string | null, align?: string | null } | { __typename: 'ProjectSectionsAutoGridItemsImage', src: string, alt?: string | null, caption?: string | null, aspectRatio?: string | null, rounded?: string | null, priority?: boolean | null } | { __typename: 'ProjectSectionsAutoGridItemsImageGroup', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsImageGroupImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsVideo', platform?: string | null, id: string, title: string } | { __typename: 'ProjectSectionsAutoGridItemsList', style?: string | null, items?: Array<string | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsTestimonial', name: string, role?: string | null, country: string, text: string, avatar?: string | null } | { __typename: 'ProjectSectionsAutoGridItemsGallery', columns?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsGalleryImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsDayReport', day: string, title: string, text: string, titleStyle?: string | null, images?: Array<{ __typename: 'ProjectSectionsAutoGridItemsDayReportImages', src?: string | null, alt?: string | null } | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsPartner', country: string, flag: string, organizations?: Array<string | null> | null } | { __typename: 'ProjectSectionsAutoGridItemsOutcome', number: string, title: string, description: string } | { __typename: 'ProjectSectionsAutoGridItemsSpacer', size?: string | null } | null> | null } | null> | null } | null } | null> | null } };
 
 export const ProjectPartsFragmentDoc = gql`
     fragment ProjectParts on Project {
   __typename
-  title
-  subtitle
-  category
-  slug
-  dates
-  location
-  description
-  coverImage
   heroImage
+  subtitle
+  sections {
+    __typename
+    ... on ProjectSectionsSingle {
+      background
+      paddingY
+      maxWidth
+      id
+      blocks {
+        __typename
+        ... on ProjectSectionsSingleBlocksHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsSingleBlocksParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsSingleBlocksImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsSingleBlocksImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsSingleBlocksVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsSingleBlocksList {
+          style
+          items
+        }
+        ... on ProjectSectionsSingleBlocksTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsSingleBlocksGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsSingleBlocksDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsSingleBlocksPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsSingleBlocksOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsSingleBlocksSpacer {
+          size
+        }
+      }
+    }
+    ... on ProjectSectionsColumns {
+      background
+      paddingY
+      maxWidth
+      id
+      distribution
+      verticalAlign
+      gap
+      left {
+        __typename
+        ... on ProjectSectionsColumnsLeftHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsColumnsLeftParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsColumnsLeftImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsColumnsLeftImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsLeftVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsColumnsLeftList {
+          style
+          items
+        }
+        ... on ProjectSectionsColumnsLeftTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsColumnsLeftGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsLeftDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsColumnsLeftPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsColumnsLeftOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsColumnsLeftSpacer {
+          size
+        }
+      }
+      right {
+        __typename
+        ... on ProjectSectionsColumnsRightHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsColumnsRightParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsColumnsRightImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsColumnsRightImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsRightVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsColumnsRightList {
+          style
+          items
+        }
+        ... on ProjectSectionsColumnsRightTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsColumnsRightGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsRightDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsColumnsRightPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsColumnsRightOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsColumnsRightSpacer {
+          size
+        }
+      }
+    }
+    ... on ProjectSectionsGrid {
+      background
+      paddingY
+      maxWidth
+      id
+      count
+      gap
+      gridColumns {
+        __typename
+        blocks {
+          __typename
+          ... on ProjectSectionsGridGridColumnsBlocksHeading {
+            level
+            text
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksParagraph {
+            text
+            italic
+            size
+            align
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksImage {
+            src
+            alt
+            caption
+            aspectRatio
+            rounded
+            priority
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksImageGroup {
+            images {
+              __typename
+              src
+              alt
+            }
+            columns
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksVideo {
+            platform
+            id
+            title
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksList {
+            style
+            items
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksTestimonial {
+            name
+            role
+            country
+            text
+            avatar
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksGallery {
+            images {
+              __typename
+              src
+              alt
+            }
+            columns
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksDayReport {
+            day
+            title
+            text
+            images {
+              __typename
+              src
+              alt
+            }
+            titleStyle
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksPartner {
+            country
+            flag
+            organizations
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksOutcome {
+            number
+            title
+            description
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksSpacer {
+            size
+          }
+        }
+      }
+    }
+    ... on ProjectSectionsTestimonials {
+      background
+      paddingY
+      maxWidth
+      id
+      title
+      testimonials {
+        __typename
+        ... on ProjectSectionsTestimonialsTestimonialsTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+      }
+    }
+    ... on ProjectSectionsGallery {
+      background
+      paddingY
+      maxWidth
+      id
+      title
+      subtitle
+      images {
+        __typename
+        src
+        alt
+      }
+      columns
+    }
+    ... on ProjectSectionsRepeater {
+      background
+      paddingY
+      maxWidth
+      id
+      title
+      items {
+        __typename
+        ... on ProjectSectionsRepeaterItemsDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsRepeaterItemsOutcome {
+          number
+          title
+          description
+        }
+      }
+    }
+    ... on ProjectSectionsAutoGrid {
+      background
+      paddingY
+      maxWidth
+      id
+      count
+      title
+      subtitle
+      titleColor
+      items {
+        __typename
+        ... on ProjectSectionsAutoGridItemsHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsAutoGridItemsParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsAutoGridItemsImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsAutoGridItemsImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsAutoGridItemsVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsAutoGridItemsList {
+          style
+          items
+        }
+        ... on ProjectSectionsAutoGridItemsTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsAutoGridItemsGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsAutoGridItemsDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsAutoGridItemsPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsAutoGridItemsOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsAutoGridItemsSpacer {
+          size
+        }
+      }
+    }
+  }
 }
     `;
 export const ProjectDocument = gql`

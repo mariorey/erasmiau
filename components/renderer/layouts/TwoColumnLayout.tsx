@@ -24,7 +24,8 @@ const gapCls: Record<string, string> = {
 }
 
 export function TwoColumnLayout({
-  columns,
+  left,
+  right,
   distribution = "50/50",
   verticalAlign = "top",
   gap = "md",
@@ -33,7 +34,7 @@ export function TwoColumnLayout({
     <div
       className={`grid grid-cols-1 ${distributionCls[distribution]} ${alignCls[verticalAlign]} ${gapCls[gap]}`}
     >
-      {columns.map((col, i) => (
+      {[left, right].map((col, i) => (
         <div key={i} className="flex flex-col gap-6">
           {col.map((block, j) => (
             <BlockRenderer key={j} block={block} />

@@ -1,12 +1,486 @@
 fragment ProjectParts on Project {
   __typename
-  title
-  subtitle
-  category
-  slug
-  dates
-  location
-  description
-  coverImage
   heroImage
+  subtitle
+  sections {
+    __typename
+    ... on ProjectSectionsSingle {
+      background
+      paddingY
+      maxWidth
+      id
+      blocks {
+        __typename
+        ... on ProjectSectionsSingleBlocksHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsSingleBlocksParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsSingleBlocksImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsSingleBlocksImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsSingleBlocksVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsSingleBlocksList {
+          style
+          items
+        }
+        ... on ProjectSectionsSingleBlocksTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsSingleBlocksGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsSingleBlocksDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsSingleBlocksPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsSingleBlocksOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsSingleBlocksSpacer {
+          size
+        }
+      }
+    }
+    ... on ProjectSectionsColumns {
+      background
+      paddingY
+      maxWidth
+      id
+      distribution
+      verticalAlign
+      gap
+      left {
+        __typename
+        ... on ProjectSectionsColumnsLeftHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsColumnsLeftParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsColumnsLeftImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsColumnsLeftImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsLeftVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsColumnsLeftList {
+          style
+          items
+        }
+        ... on ProjectSectionsColumnsLeftTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsColumnsLeftGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsLeftDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsColumnsLeftPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsColumnsLeftOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsColumnsLeftSpacer {
+          size
+        }
+      }
+      right {
+        __typename
+        ... on ProjectSectionsColumnsRightHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsColumnsRightParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsColumnsRightImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsColumnsRightImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsRightVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsColumnsRightList {
+          style
+          items
+        }
+        ... on ProjectSectionsColumnsRightTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsColumnsRightGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsColumnsRightDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsColumnsRightPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsColumnsRightOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsColumnsRightSpacer {
+          size
+        }
+      }
+    }
+    ... on ProjectSectionsGrid {
+      background
+      paddingY
+      maxWidth
+      id
+      count
+      gap
+      gridColumns {
+        __typename
+        blocks {
+          __typename
+          ... on ProjectSectionsGridGridColumnsBlocksHeading {
+            level
+            text
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksParagraph {
+            text
+            italic
+            size
+            align
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksImage {
+            src
+            alt
+            caption
+            aspectRatio
+            rounded
+            priority
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksImageGroup {
+            images {
+              __typename
+              src
+              alt
+            }
+            columns
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksVideo {
+            platform
+            id
+            title
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksList {
+            style
+            items
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksTestimonial {
+            name
+            role
+            country
+            text
+            avatar
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksGallery {
+            images {
+              __typename
+              src
+              alt
+            }
+            columns
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksDayReport {
+            day
+            title
+            text
+            images {
+              __typename
+              src
+              alt
+            }
+            titleStyle
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksPartner {
+            country
+            flag
+            organizations
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksOutcome {
+            number
+            title
+            description
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksSpacer {
+            size
+          }
+        }
+      }
+    }
+    ... on ProjectSectionsTestimonials {
+      background
+      paddingY
+      maxWidth
+      id
+      title
+      testimonials {
+        __typename
+        ... on ProjectSectionsTestimonialsTestimonialsTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+      }
+    }
+    ... on ProjectSectionsGallery {
+      background
+      paddingY
+      maxWidth
+      id
+      title
+      subtitle
+      images {
+        __typename
+        src
+        alt
+      }
+      columns
+    }
+    ... on ProjectSectionsRepeater {
+      background
+      paddingY
+      maxWidth
+      id
+      title
+      items {
+        __typename
+        ... on ProjectSectionsRepeaterItemsDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsRepeaterItemsOutcome {
+          number
+          title
+          description
+        }
+      }
+    }
+    ... on ProjectSectionsAutoGrid {
+      background
+      paddingY
+      maxWidth
+      id
+      count
+      title
+      subtitle
+      titleColor
+      items {
+        __typename
+        ... on ProjectSectionsAutoGridItemsHeading {
+          level
+          text
+        }
+        ... on ProjectSectionsAutoGridItemsParagraph {
+          text
+          italic
+          size
+          align
+        }
+        ... on ProjectSectionsAutoGridItemsImage {
+          src
+          alt
+          caption
+          aspectRatio
+          rounded
+          priority
+        }
+        ... on ProjectSectionsAutoGridItemsImageGroup {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsAutoGridItemsVideo {
+          platform
+          id
+          title
+        }
+        ... on ProjectSectionsAutoGridItemsList {
+          style
+          items
+        }
+        ... on ProjectSectionsAutoGridItemsTestimonial {
+          name
+          role
+          country
+          text
+          avatar
+        }
+        ... on ProjectSectionsAutoGridItemsGallery {
+          images {
+            __typename
+            src
+            alt
+          }
+          columns
+        }
+        ... on ProjectSectionsAutoGridItemsDayReport {
+          day
+          title
+          text
+          images {
+            __typename
+            src
+            alt
+          }
+          titleStyle
+        }
+        ... on ProjectSectionsAutoGridItemsPartner {
+          country
+          flag
+          organizations
+        }
+        ... on ProjectSectionsAutoGridItemsOutcome {
+          number
+          title
+          description
+        }
+        ... on ProjectSectionsAutoGridItemsSpacer {
+          size
+        }
+      }
+    }
+  }
 }

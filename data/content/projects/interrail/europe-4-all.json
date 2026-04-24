@@ -1,0 +1,291 @@
+{
+  "title": "Europe 4 ALL (Inclusion for DiscoverEU)",
+  "subtitle": "DiscoverEU · Alejandro, Diego, Marivi, Olivia & Patri",
+  "category": "interrail",
+  "slug": "europe-4-all",
+  "dates": "",
+  "location": "",
+  "description": "Follow the adventure of Alejandro, Diego, Marivi, Olivia & Patri",
+  "coverImage": "/images/projects/interrail/interrail-1-cover.jpg",
+  "heroImage": "/images/projects/interrail/interrail-1-cover.jpg",
+  "sections": [
+    {
+      "_template": "single",
+      "layout": "single",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "md",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text": "Europe 4 ALL",
+          "_template": "heading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Five young people from Puente Genil set off on a 3-week Interrail adventure across Europe with a special mission: to prove that young people with fewer opportunities can experience Europe too.",
+          "_template": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alejandro, Diego, Marivi, Olivia, and Patri traveled through 7 countries, visited 15 cities, and documented every moment to inspire other young people from their community.",
+          "_template": "paragraph"
+        }
+      ]
+    },
+    {
+      "_template": "columns",
+      "layout": "columns",
+      "background": "white",
+      "paddingY": "md",
+      "maxWidth": "xl",
+      "distribution": "60/40",
+      "verticalAlign": "top",
+      "left": [
+        {
+          "type": "image",
+          "src": "/images/projects/interrail/interrail-1-cover.jpg",
+          "alt": "The group at their first stop",
+          "aspectRatio": "4/3",
+          "rounded": "true",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "The Route",
+          "_template": "heading"
+        },
+        {
+          "type": "list",
+          "style": "bullet",
+          "items": [
+            "Madrid → Paris (TGV)",
+            "Paris → Amsterdam",
+            "Amsterdam → Berlin",
+            "Berlin → Prague",
+            "Prague → Vienna",
+            "Vienna → Budapest",
+            "Budapest → Barcelona → Home"
+          ],
+          "_template": "list"
+        },
+        {
+          "type": "spacer",
+          "size": "sm",
+          "_template": "spacer"
+        },
+        {
+          "type": "imageGroup",
+          "columns": 3,
+          "images": [
+            {
+              "src": "/images/projects/interrail/interrail-2-cover.jpg",
+              "alt": "Paris"
+            },
+            {
+              "src": "/images/projects/interrail/interrail-1-cover.jpg",
+              "alt": "Amsterdam"
+            },
+            {
+              "src": "/images/projects/interrail/interrail-2-cover.jpg",
+              "alt": "Berlin"
+            }
+          ],
+          "_template": "imageGroup"
+        }
+      ]
+    },
+    {
+      "_template": "grid",
+      "layout": "grid",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "count": 4,
+      "gridColumns": [
+        {
+          "blocks": [
+            {
+              "type": "image",
+              "src": "/images/projects/interrail/interrail-1-cover.jpg",
+              "alt": "Paris",
+              "aspectRatio": "3/4",
+              "rounded": "true",
+              "_template": "image"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Paris",
+              "_template": "heading"
+            },
+            {
+              "type": "paragraph",
+              "text": "3 days in the City of Light. Louvre, Eiffel Tower, and a traditional dinner with a local host family who spoke no Spanish — but shared everything.",
+              "_template": "paragraph"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "image",
+              "src": "/images/projects/interrail/interrail-2-cover.jpg",
+              "alt": "Amsterdam",
+              "aspectRatio": "3/4",
+              "rounded": "true",
+              "_template": "image"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "type": "heading",
+              "level": 3,
+              "text": "Amsterdam",
+              "_template": "heading"
+            },
+            {
+              "type": "paragraph",
+              "text": "2 days cycling through the canals. The group met a local youth organisation and spent an afternoon volunteering in a community garden.",
+              "_template": "paragraph"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_template": "single",
+      "layout": "single",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "md",
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Watch our story",
+          "_template": "heading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alejandro and Diego documented the entire trip. Here is the short film they created to share with their community back in Puente Genil:",
+          "_template": "paragraph"
+        },
+        {
+          "type": "video",
+          "platform": "youtube",
+          "id": "dQw4w9WgXcQ",
+          "title": "Europe 4 ALL — Interrail Documentary",
+          "_template": "video"
+        }
+      ]
+    },
+    {
+      "_template": "gallery",
+      "layout": "gallery",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "3 weeks · 7 countries · 15 cities",
+      "images": [
+        {
+          "src": "/images/projects/interrail/interrail-1-cover.jpg",
+          "alt": "Paris"
+        },
+        {
+          "src": "/images/projects/interrail/interrail-2-cover.jpg",
+          "alt": "Amsterdam"
+        },
+        {
+          "src": "/images/projects/interrail/interrail-1-cover.jpg",
+          "alt": "Berlin"
+        },
+        {
+          "src": "/images/projects/interrail/interrail-2-cover.jpg",
+          "alt": "Prague"
+        },
+        {
+          "src": "/images/projects/interrail/interrail-1-cover.jpg",
+          "alt": "Vienna"
+        },
+        {
+          "src": "/images/projects/interrail/interrail-2-cover.jpg",
+          "alt": "Budapest"
+        },
+        {
+          "src": "/images/projects/interrail/interrail-1-cover.jpg",
+          "alt": "Barcelona"
+        },
+        {
+          "src": "/images/projects/interrail/interrail-2-cover.jpg",
+          "alt": "Group photo"
+        }
+      ],
+      "columns": 4
+    },
+    {
+      "_template": "columns",
+      "layout": "columns",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "50/50",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text": "Why this project matters",
+          "_template": "heading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many young people from smaller towns like Puente Genil never get the chance to experience Europe first-hand. The DiscoverEU Inclusion strand exists precisely to change that.",
+          "_template": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "text": "For Alejandro, who has a visual impairment, this was his first international trip. \"I always thought Europe was for other people,\" he said. \"Now I know it's for me too.\"",
+          "_template": "paragraph"
+        },
+        {
+          "type": "paragraph",
+          "text": "Since returning, the group has given presentations at 3 local schools, inspiring over 200 students to apply for their own DiscoverEU passes.",
+          "_template": "paragraph"
+        }
+      ],
+      "right": [
+        {
+          "type": "image",
+          "src": "/images/projects/interrail/interrail-2-cover.jpg",
+          "alt": "Group returning home",
+          "aspectRatio": "4/3",
+          "rounded": "true",
+          "_template": "image"
+        },
+        {
+          "type": "spacer",
+          "size": "sm",
+          "_template": "spacer"
+        },
+        {
+          "type": "testimonial",
+          "name": "Alejandro",
+          "country": "Spain",
+          "text": "I always thought Europe was for other people. Now I know it's for me too.",
+          "_template": "testimonial"
+        }
+      ]
+    }
+  ]
+}

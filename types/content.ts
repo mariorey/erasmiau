@@ -122,14 +122,15 @@ export interface TwoColumnSection extends SectionBase {
   distribution?: "50/50" | "60/40" | "70/30" | "40/60" | "30/70"
   verticalAlign?: "top" | "center" | "bottom"
   gap?: "sm" | "md" | "lg"
-  columns: [Block[], Block[]]
+  left: Block[]
+  right: Block[]
 }
 
 export interface MultiColumnSection extends SectionBase {
   layout: "grid"
   count: 3 | 4
   gap?: "sm" | "md" | "lg"
-  columns: Block[][]
+  columns: { blocks: Block[] }[]
 }
 
 export interface TestimonialsSection extends SectionBase {
