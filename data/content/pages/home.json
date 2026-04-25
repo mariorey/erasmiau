@@ -1,0 +1,38 @@
+{
+  "title": "Home Page",
+  "hero": {
+    "headline": "Erasmiau Youth\nAssociation",
+    "subheading": "Are you ready for the adventure?",
+    "backgroundImage": "/images/hero-bg.jpg",
+    "buttonText": "Hola Caracola :)",
+    "buttonLink": "https://www.instagram.com/erasmiau"
+  },
+  "about": {
+    "title": "Erasmiau Youth Association",
+    "subtitle": "About us",
+    "text1": "Introducing the Erasmiau Youth Association – where European adventures and youth empowerment collide! Founded with the sole mission of driving dynamic European projects for young people, we're all about transforming ideas into impactful actions under the vibrant Erasmus+ program.",
+    "text2": "Calling all dreamers, doers, and change-makers aged 18 to 30! At Erasmiau, we ignite your passion for making a difference, fostering both personal growth and professional prowess through an array of thrilling projects. Dive into diverse fields like education, culture, the environment, entrepreneurship, and social inclusion. Join us and be part of a movement that not only shapes your future but also transforms society. Let's make Europe our playground!",
+    "caption": "Project \"The Rhythm of the Life\" Youth Exchange located inside the framework of Erasmus+ KA1",
+    "mainImage": "/images/home/about-main.jpg",
+    "thumbnails": [
+      {
+        "src": "/images/home/about-1.jpg",
+        "alt": "Erasmiau projects photo 1"
+      },
+      {
+        "src": "/images/home/about-2.jpg",
+        "alt": "Erasmiau projects photo 2"
+      },
+      {
+        "src": "/images/home/about-3.jpg",
+        "alt": "Erasmiau projects photo 3"
+      }
+    ]
+  },
+  "instagram": {
+    "title": "Do you want to participate?",
+    "subtitle": "Follow us on instagram",
+    "handle": "@erasmiau",
+    "link": "https://www.instagram.com/erasmiau"
+  }
+}

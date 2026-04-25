@@ -1,20 +1,17 @@
-import Hero from "@/components/sections/hero";
-import About from "@/components/sections/about";
-import HeroSmall from "@/components/sections/hero-small";
+// app/page.tsx
+import client from "@/tina/__generated__/client";
+import HomeView from "./home-view"; // Importamos el componente de cliente
 
-export default function Home() {
-  return (
-    <main>
-      <Hero />
-        <About />
-        <div className="bg-[#e1003a] h-48 flex flex-col gap-4 items-center justify-center">
-          <span className="text-white text-3xl">Do you want to participate?</span>
-          <span className="text-white text-md">Follow us on instagram</span>
-        </div>
-      <div className="bg-[#e4eaef] h-48 flex items-center justify-center">
-          <a href="https://www.instagram.com/erasmiau"><span className="text-[#ca0033] text-5xl">@erasmiau</span></a>
-      </div>
-        <HeroSmall />
-    </main>
-  );
+export default async function Page() {
+    // 1. Pedimos los datos a Tina desde el servidor
+    const res = await client.queries.page({ relativePath: "home.json" });
+
+    // 2. Se los pasamos al componente de cliente
+    return (
+        <HomeView
+            data={res.data}
+            query={res.query}
+            variables={res.variables}
+        />
+    );
 }

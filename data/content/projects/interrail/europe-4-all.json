@@ -1,241 +1,15 @@
 {
-  "title": "Europe 4 ALL (Inclusion for DiscoverEU)",
-  "subtitle": "DiscoverEU · Alejandro, Diego, Marivi, Olivia & Patri",
   "category": "interrail",
   "slug": "europe-4-all",
-  "dates": "",
-  "location": "",
-  "description": "Follow the adventure of Alejandro, Diego, Marivi, Olivia & Patri",
+  "title": "EUROPE 4 ALL",
+  "dates": "30 August - 14 September 2023",
+  "location": "Spain, France & Italy",
+  "description": "Follow the adventure of Alejandro, Diego, Marivi, Olivia & Patri across 16 destinations!",
   "coverImage": "/images/projects/interrail/interrail-1-cover.jpg",
   "heroImage": "/images/projects/interrail/interrail-1-cover.jpg",
+  "subtitle": "Inclusion for DiscoverEU — Interrail Trip Spain · France · Italy",
   "sections": [
     {
-      "_template": "single",
-      "layout": "single",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "md",
-      "blocks": [
-        {
-          "type": "heading",
-          "level": "1",
-          "text": "Europe 4 ALL",
-          "_template": "heading"
-        },
-        {
-          "type": "paragraph",
-          "text": "Five young people from Puente Genil set off on a 3-week Interrail adventure across Europe with a special mission: to prove that young people with fewer opportunities can experience Europe too.",
-          "_template": "paragraph"
-        },
-        {
-          "type": "paragraph",
-          "text": "Alejandro, Diego, Marivi, Olivia, and Patri traveled through 7 countries, visited 15 cities, and documented every moment to inspire other young people from their community.",
-          "_template": "paragraph"
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "layout": "columns",
-      "background": "white",
-      "paddingY": "md",
-      "maxWidth": "xl",
-      "distribution": "60/40",
-      "verticalAlign": "top",
-      "left": [
-        {
-          "type": "image",
-          "src": "/images/projects/interrail/interrail-1-cover.jpg",
-          "alt": "The group at their first stop",
-          "aspectRatio": "4/3",
-          "rounded": "true",
-          "_template": "image"
-        }
-      ],
-      "right": [
-        {
-          "type": "heading",
-          "level": "3",
-          "text": "The Route",
-          "_template": "heading"
-        },
-        {
-          "type": "list",
-          "style": "bullet",
-          "items": [
-            "Madrid → Paris (TGV)",
-            "Paris → Amsterdam",
-            "Amsterdam → Berlin",
-            "Berlin → Prague",
-            "Prague → Vienna",
-            "Vienna → Budapest",
-            "Budapest → Barcelona → Home"
-          ],
-          "_template": "list"
-        },
-        {
-          "type": "spacer",
-          "size": "sm",
-          "_template": "spacer"
-        },
-        {
-          "type": "imageGroup",
-          "columns": "3",
-          "images": [
-            {
-              "src": "/images/projects/interrail/interrail-2-cover.jpg",
-              "alt": "Paris"
-            },
-            {
-              "src": "/images/projects/interrail/interrail-1-cover.jpg",
-              "alt": "Amsterdam"
-            },
-            {
-              "src": "/images/projects/interrail/interrail-2-cover.jpg",
-              "alt": "Berlin"
-            }
-          ],
-          "_template": "imageGroup"
-        }
-      ]
-    },
-    {
-      "_template": "grid",
-      "layout": "grid",
-      "background": "light",
-      "paddingY": "lg",
-      "maxWidth": "xl",
-      "count": "4",
-      "gridColumns": [
-        {
-          "blocks": [
-            {
-              "type": "image",
-              "src": "/images/projects/interrail/interrail-1-cover.jpg",
-              "alt": "Paris",
-              "aspectRatio": "3/4",
-              "rounded": "true",
-              "_template": "image"
-            }
-          ]
-        },
-        {
-          "blocks": [
-            {
-              "type": "heading",
-              "level": "3",
-              "text": "Paris",
-              "_template": "heading"
-            },
-            {
-              "type": "paragraph",
-              "text": "3 days in the City of Light. Louvre, Eiffel Tower, and a traditional dinner with a local host family who spoke no Spanish — but shared everything.",
-              "_template": "paragraph"
-            }
-          ]
-        },
-        {
-          "blocks": [
-            {
-              "type": "image",
-              "src": "/images/projects/interrail/interrail-2-cover.jpg",
-              "alt": "Amsterdam",
-              "aspectRatio": "3/4",
-              "rounded": "true",
-              "_template": "image"
-            }
-          ]
-        },
-        {
-          "blocks": [
-            {
-              "type": "heading",
-              "level": "3",
-              "text": "Amsterdam",
-              "_template": "heading"
-            },
-            {
-              "type": "paragraph",
-              "text": "2 days cycling through the canals. The group met a local youth organisation and spent an afternoon volunteering in a community garden.",
-              "_template": "paragraph"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "layout": "single",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "md",
-      "blocks": [
-        {
-          "type": "heading",
-          "level": "2",
-          "text": "Watch our story",
-          "_template": "heading"
-        },
-        {
-          "type": "paragraph",
-          "text": "Alejandro and Diego documented the entire trip. Here is the short film they created to share with their community back in Puente Genil:",
-          "_template": "paragraph"
-        },
-        {
-          "type": "video",
-          "platform": "youtube",
-          "id": "dQw4w9WgXcQ",
-          "title": "Europe 4 ALL — Interrail Documentary",
-          "_template": "video"
-        }
-      ]
-    },
-    {
-      "_template": "gallery",
-      "layout": "gallery",
-      "background": "light",
-      "paddingY": "lg",
-      "maxWidth": "xl",
-      "title": "3 weeks · 7 countries · 15 cities",
-      "images": [
-        {
-          "src": "/images/projects/interrail/interrail-1-cover.jpg",
-          "alt": "Paris"
-        },
-        {
-          "src": "/images/projects/interrail/interrail-2-cover.jpg",
-          "alt": "Amsterdam"
-        },
-        {
-          "src": "/images/projects/interrail/interrail-1-cover.jpg",
-          "alt": "Berlin"
-        },
-        {
-          "src": "/images/projects/interrail/interrail-2-cover.jpg",
-          "alt": "Prague"
-        },
-        {
-          "src": "/images/projects/interrail/interrail-1-cover.jpg",
-          "alt": "Vienna"
-        },
-        {
-          "src": "/images/projects/interrail/interrail-2-cover.jpg",
-          "alt": "Budapest"
-        },
-        {
-          "src": "/images/projects/interrail/interrail-1-cover.jpg",
-          "alt": "Barcelona"
-        },
-        {
-          "src": "/images/projects/interrail/interrail-2-cover.jpg",
-          "alt": "Group photo"
-        }
-      ],
-      "columns": "4"
-    },
-    {
-      "_template": "columns",
-      "layout": "columns",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "lg",
@@ -243,49 +17,208 @@
       "verticalAlign": "center",
       "left": [
         {
-          "type": "heading",
-          "level": "2",
-          "text": "Why this project matters",
-          "_template": "heading"
-        },
-        {
-          "type": "paragraph",
-          "text": "Many young people from smaller towns like Puente Genil never get the chance to experience Europe first-hand. The DiscoverEU Inclusion strand exists precisely to change that.",
+          "text": "7 jóvenes de Puente Genil recorrieron España, Francia e Italia durante 16 días gracias al programa DiscoverEU Inclusión de Erasmus+. Un viaje en Interrail diseñado para demostrar que Europa es para todo el mundo, coordinado por Betina Santos y Juanje Rey.",
+          "italic": false,
+          "size": "lg",
           "_template": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For Alejandro, who has a visual impairment, this was his first international trip. \"I always thought Europe was for other people,\" he said. \"Now I know it's for me too.\"",
+          "text": "Florencia, Italia",
           "_template": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Since returning, the group has given presentations at 3 local schools, inspiring over 200 students to apply for their own DiscoverEU passes.",
+          "text": "Inclusion for DiscoverEU es una acción que se enmarca dentro del programa Erasmus+, constituyéndose como un ejemplo más de las oportunidades ofertadas por la Unión Europea en concepto de movilidad internacional para jóvenes. \n\nEsta acción del programa Erasmus+, en sus dos rondas de solicitud, ha sido concedida a una quincena de asociaciones juveniles de todo el panorama nacional. En concreto, brinda la oportunidad de aprender sobre el lugar donde viven, el patrimonio histórico y las similitudes entre personas que conforman una comunidad con una identidad común, Europa. ",
           "_template": "paragraph"
         }
       ],
       "right": [
         {
-          "type": "image",
-          "src": "/images/projects/interrail/interrail-2-cover.jpg",
-          "alt": "Group returning home",
-          "aspectRatio": "4/3",
-          "rounded": "true",
+          "src": "/images/projects/interrail/europe-4-all/cover.jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "distribution": "50/50",
+      "left": [
+        {
+          "level": "2",
+          "text": "Una experiencia nueva",
+          "_template": "heading"
+        },
+        {
+          "text": "Desde Erasmiau, asociación juvenil con sede en Puente Genil, Betina Santos y Juanje Rey, coordinadores de la asociación, decidieron apostar por esta idea y ofrecer así a jóvenes de la localidad la oportunidad de explorar diferentes métodos de aprendizaje. Una vez aprobado el proyecto, desde Erasmiau se pusieron manos a la obra. En las reuniones previas al viaje, el principal desafío fue transmitir al participante la idea de que su mochila sería su hogar, donde debía organizar de manera eficiente el espacio para poder llevar sus pertenencias durante 15 días. Esto suponía todo un reto para unos jóvenes sin experiencia previa, pero que lograron cumplir a la perfección con el soporte de sus monitores. Llegó el 30 de agosto y los siete se subieron al primer tren dirección Madrid. \n\n\n \n\nLa hoja de ruta a seguir durante el trayecto, desarrollada en colaboración y consenso con los participantes, ha permitido disfrutar de un total de 16 destinos, entre los que se incluyen; Madrid, Barcelona, Narbona, Montpellier, Marsella, Niza, Montecarlo, Ventimiglia, Génova. Rapallo, La Spezia, Florencia, Siena, Roma, Palermo y San Vito lo Capo para concluir el viaje. \n\n\n \n\nEntre los aspectos más destacables de la vivencia, destaca el aprendizaje, la autonomía e independencia, así como la adquisición de habilidades para adaptarse a entornos desconocidos. Aspectos que quedan reflejados en algunos de los testimonios compartidos por algunos de los participantes. \n\n",
+          "_template": "paragraph"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/projects/interrail/europe-4-all/image (5).jpg",
           "_template": "image"
         },
         {
-          "type": "spacer",
-          "size": "sm",
-          "_template": "spacer"
+          "src": "/images/projects/interrail/europe-4-all/image (6).jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "left": [
+        {
+          "level": "2",
+          "text": "Video-resumen del viaje:",
+          "_template": "heading"
         },
         {
-          "type": "testimonial",
-          "name": "Alejandro",
-          "country": "Spain",
-          "text": "I always thought Europe was for other people. Now I know it's for me too.",
-          "_template": "testimonial"
+          "links": [
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x281.png",
+              "href": "https://www.instagram.com/p/CwmZ-e8tivT/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x282.png",
+              "href": "https://www.instagram.com/p/CwzSIe1tkqy/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x281 (1).png",
+              "href": "https://www.instagram.com/p/Cxu1LnQLAkB/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x281 (2).png",
+              "href": "https://www.instagram.com/p/Cwp-3U3LuUe/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x282 (1).png",
+              "href": "https://www.instagram.com/p/CxS2egktLEk/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x281 (3).png",
+              "href": "https://www.instagram.com/p/Cyekcr_Ih_S/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image.png",
+              "href": "https://www.instagram.com/p/CwuPJWLNVym/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x281 (4).png",
+              "href": "https://www.instagram.com/p/CxiTxcgtNhY/"
+            },
+            {
+              "src": "/images/projects/interrail/europe-4-all/video-capturas/image-375x282 (2).png",
+              "href": "https://www.instagram.com/p/CyeyPMkKzXn/"
+            }
+          ],
+          "_template": "linkGrid"
         }
-      ]
+      ],
+      "right": [
+        {
+          "text": "La Asociación Juvenil Erasmiau quiere dar a conocer este proyecto como muestra evidente de la trascendencia que un simple viaje puede tener en la vida de unos jóvenes que comienzan su trayectoria como parte de un mundo más amplio. Unos jóvenes que precisan de una guía que sirva de ejemplo y les ayude a entender un poco mejor el mundo en el que viven, así como a desenvolverse dentro del mismo. Este proyecto ha dado forma a la idea de aprender a través de los hechos, las experiencias y circunstancias externas, otorgándoles a cada uno de los participantes la valentía suficiente para enfrentarse a una nueva realidad, a conocer otras culturas, idiomas y personas. \n\n \n\nFinalmente, el viaje concluye con la vuelta a casa el día 14 de septiembre. Entre achuchones de bienvenida por parte de los familiares, los cinco jóvenes se despidieron de sus monitores con un abrazo que transmitía un sincero agradecimiento y el deseo de repetir una experiencia similar. ",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "level": "2",
+          "text": "Experiencia de los Participantes",
+          "_template": "heading"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Alejandro Rivas",
+          "image": "/images/projects/interrail/europe-4-all/image-768x768 (1).jpg",
+          "text": "Como no empezar este escrito diciendo que esta ha sido una de las experiencias de mi vida, y una de las que llevaré conmigo durante el resto de mis días. Aunque cuando desde Erasmiau me contactaron, anunciándome que había sido seleccionado para poder participar en esta experiencia, todo no iba a ser bonito. Dentro de mi sentía un pequeño temor, un miedo por salir de lo común y de lo ordinario. Aún así me aventuré a emprender esta aventura, y sinceramente ha sido una de las mejores decisiones de mi vida.\n\nSe viven tantas cosas, y tan maravillosas, que cada vez que me pongo a recordar me vienen a la mente nuevas y nuevas memorias. Cuando pensabas que ya no te quedaban cosas por contarle a tus cercanos siempre te viene un momento más. Y aunque no fuera un día en una gran ciudad, uno de mis momentos favoritos fue el último, en el que Betina y Juanje nos hicieron un \"acto\" de despedida y, mezclando humor con seriedad, consiguieron llegarnos a todos al corazón y lograron que nos conociéramos algo más profundamente entre todos.\n\nAdemás de las experiencias vividas, también sería importante mencionar todo el aprendizaje adquirido por cada uno de los participantes durante el viaje. Tanto conocimiento histórico y cultural, como conocimiento sobre actividades y momentos cotidianos que de seguro nos han hecho personas más maduras e independientes. Cabe mencionar que la gente y los vínculos que creas en este periodo de tiempo son tan fuertes, que estoy seguro que seguirán ahí para siempre.\n\nEstaré eternamente agradecido al equipo de Erasmiau por darme esta oportunidad, y también agradecer más personalmente a cada uno de los participantes de este viaje, porque de cada uno he podido aprender muchas cosas y, lo más importante, he conseguido una \"familia\" que recordaré para siempre. Por último, animaría a todo el mundo a participar en este tipo de actividades. Debemos dejar atrás nuestros miedos y aventurarnos a todo lo posible, porque solo vivimos una vez y, al fin y al cabo, todo lo que nos llevamos con el paso de los años son los recuerdos y las experiencias.",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Diego Rey",
+          "image": "/images/projects/interrail/europe-4-all/image (7).jpg",
+          "text": "Este Interrail, además de ser una oportunidad ocio-didáctica también nos concienció a los participantes sobre la relevancia de la Unión Europea en nuestra cultura y el sentimiento de ciudadanía. Nosotros éramos los protagonistas y sujetos activos en nuestro aprendizaje escogiendo así entre los diferentes roles que nuestros monitores nos ofertaban para así poder explorar, analizar y descubrir sobre las distintas curiosidades y culturas de las distintas ciudades de una forma amena y eficaz como base de la educación no formal.\n\nA diferencia de un viaje en solitario, en este Interrail hemos aprendido a convivir y a adaptarnos en grupo. Siendo así una experiencia fomentadora de la tolerancia y asertividad, además de socializar y practicar la escucha activa.",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Marivi Campos",
+          "image": "/images/projects/interrail/europe-4-all/image-768x768 (2).jpg",
+          "text": "10 días después, aún tengo resaca de felicidad por la intensidad de la experiencia que hemos vivido. La última noche, Betina y Juanje nos preguntaron que habíamos aprendido durante el viaje, y que nos llevábamos de él, como si en simples palabras pudiéramos resumir los 15 días que gracias a ellos hemos podido vivir, pero traté de decir unas palabras igual que estoy haciendo en este momento.\n\nA lo largo del viaje, he creado una relación única y especial con cada uno de los \"participantes\", los cuales se iban convirtiendo en hermanos conforme iban pasando los días. Dejando a un lado el encanto de cada rincón que hemos visitado, lo cual es algo obvio, me quedo con ellos, con la familia que hemos podido formar, en la que me he sentido muy especial.\n\nGracias a JuanSI, papá, de él me llevo su paciencia infinita y su amor incondicional hacia toda persona de su alrededor, aunque tal vez él no lo sepa, es un referente para mí. Gracias a BetiNO, mamá, de ella me llevo su pasión y su ilusión por cada cosa que hace, dando siempre la mejor versión de sí misma y siempre mirando por nuestra seguridad, de no ser por ella tal vez habríamos amortizado un poco más el seguro. Ojalá algún día poder irradiar la seguridad que ella transmite.\n\nGracias por vuestra dedicación en este proyecto en el que tantísimo os habéis volcado, por cuidar cada detalle buscando siempre darnos lo mejor. De mis hermanos adoptivos me llevo la diversión asegurada en cualquier momento, aunque sea en una estación de tren sentados en el suelo.\n\nYa no me despierto con patadas de Olivia ni con Patri sonámbula, pero espero que el destino nos junte de nuevo a los 7, para seguir alargando la lista interminable de NPC que han hecho nuestro viaje mucho más entretenido. Este viaje me ha enseñado a apreciar un poquito más los momentos que te regala la vida, pero no tanto como a los batidos de chocolate y a la tostada de jamón. Siempre en mi corazón esta pequeña familia adoptiva 🫶",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Olivia Osuna",
+          "image": "/images/projects/interrail/europe-4-all/image-768x768 (3).jpg",
+          "text": "El interrail organizado por la asociación Erasmiau que he tenido la gran suerte de poder vivir ha sido uno de los viajes y experiencias más grandes y enriquecedoras que he tenido nunca. Estoy y estaré profundamente agradecida a Juanje y Betina, no solo por elegirme sino también por haber organizado el proyecto, habernos enseñado infinidades de cosas, tanto culturales como vitales, para el día a día: nos han enseñado a ser desenvueltos fuera de nuestra zona de confort, y a sentirnos importantes.\n\nCada uno de nosotros hemos sido una pata de la mesa, que si uno faltase todo se caería. Nos han hecho sentir como en casa, como una familia, y estaré siempre muy feliz, porque eso es lo que nos ha aportado esta experiencia, felicidad en su máximo esplendor. Nos sentíamos los más afortunados y felices de poder conocer mundo y sobre todo con gente tan fácil de querer, y que por supuesto, hemos terminado queriendo muchísimo.\n\nCada uno de los días fue único e increíble. Lo que más destacaría en este viaje son los detalles: cada detalle estuvo pensado al 100%, la organización que han tenido nuestros dos monitores ha sido increíble, nadie lo podría haber hecho mejor. Recuerdo la última noche, que todos acabamos llorando de la emoción, riéndonos, abrazándonos, y sobre todo queriéndonos, porque como ya he dicho y vuelvo a repetir, éramos una familia.\n\nPara finalizar, de corazón, recomendaría a todo el mundo a que participasen en este tipo de actividades, porque van a recordarlo con una sonrisa el resto de sus vidas. Todas las anécdotas, personas y lugares conocidos, risas, etc., nunca se van a perder. Y en eso es en lo que hay que invertir la vida, en este tipo de experiencias, porque al final la vida son los recuerdos a lo largo de los años y todo lo aprendido en estos, porque el tiempo pasa muy rápido pero los recuerdos perduran por siempre jamás. Muchísimas gracias de corazón.",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Patricia González",
+          "image": "/images/projects/interrail/europe-4-all/image-768x768 (4).jpg",
+          "text": "Si tuviera que resumir este viaje en una palabra sería mochila. No solo por el hecho de que el proyecto se basara entre otras en ser capaz de convertir tu mochila en tu «casita», sino por esa otra mochila imaginaria que nos hemos traído con nosotros a casa y que no tiene tanto peso, más bien nos lo ha quitado. Para mí esa mochila imaginaria ha significado mucho y no dudo en que seguirá siendo así. Cada uno de nosotros hemos llenado esa mochilita a los demás con nuevas ideas, experiencias, risas y sobre todo mucho aprendizaje.\n\nHemos sabido complementarnos y dar nuestra mejor cara, nuestro mejor yo, y creo que ha sido algo clave para que haya sido posible. Nunca había visto a 7 personas durante 15 días compenetrarse tan bien y seguir teniendo ganas de compartir más ratos juntos incluso cuando el cansancio nos pedía a gritos que descansáramos un rato.\n\nEn mi mochila destaca y me llevo conmigo tantísimas cosas: la positividad y sonrisa de Diego ante cualquier acontecimiento que nos iba ocurriendo; el libro de sabiduría que considero a Betina, sin el cual esas piedras no tendrían sentido ni tampoco hubiéramos podido viajar al pasado para entender el presente; la calma de Juanje apagando las que él llama «hogueritas», dándonos seguridad cuando a veces se nos olvida que la necesitamos; el caos necesario de Olivia para recordar que la vida es un equilibrio y que dejarse llevar es necesario; las ganas de probar platos nuevos de Marivi en cada almuerzo y en cada cena, donde además de sabores nuevos vimos cómo compartir anécdotas y chistes malos nos uniría tanto; y a Alejandro, siempre con algo nuevo que contar o inventarse que daba lugar a risas e infinitos buenos momentos.\n\nIncontables son los personajes, cosas aprendidas y anécdotas que nos llevamos en la mochilita, pero aún más todas las personas detrás de esto que han hecho posible tanto la elaboración y posterior puesta en marcha del viaje. No me imagino rechazando esto por miedos o la inmovilidad de cambiar que a veces nuestros temores a lo desconocido nos llegan a causar. Por ello animo a todos a pensarlo una vez más y darle una oportunidad a proyectos como este que finalmente te dan la oportunidad a ti de conocer y conocerte un poco más.",
+          "_template": "participant"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "16 días · España, Francia & Italia",
+      "images": [
+        {
+          "src": "/images/projects/interrail/europe-4-all/1.jpg",
+          "alt": "Europe 4 ALL — momento 1"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/2.jpg",
+          "alt": "Europe 4 ALL — momento 2"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/3.jpg",
+          "alt": "Europe 4 ALL — momento 3"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/4.jpg",
+          "alt": "Europe 4 ALL — momento 4"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/5.jpg",
+          "alt": "Europe 4 ALL — momento 5"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/6.jpg",
+          "alt": "Europe 4 ALL — momento 6"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/7.jpg",
+          "alt": "Europe 4 ALL — momento 7"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/8.jpg",
+          "alt": "Europe 4 ALL — momento 8"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/9.jpg",
+          "alt": "Europe 4 ALL — momento 9"
+        },
+        {
+          "src": "/images/projects/interrail/europe-4-all/10.jpg",
+          "alt": "Europe 4 ALL — momento 10"
+        }
+      ],
+      "columns": "3",
+      "_template": "gallery"
     }
   ]
 }

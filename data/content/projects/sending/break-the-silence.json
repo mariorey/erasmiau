@@ -10,280 +10,52 @@
   "heroImage": "/images/projects/sending/sending-10-cover.jpg",
   "sections": [
     {
-      "_template": "columns",
+      "_template": "single",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "lg",
-      "distribution": "70/30",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
-        },
-        {
-          "_template": "heading",
-          "text": "Emilio Onorato",
-          "level": "3"
-        }
-      ],
-      "right": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/break-the-silence/emilio.jpg",
-          "alt": "Emilio Onorato",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "background": "white",
-      "paddingY": "sm",
-      "maxWidth": "lg",
       "blocks": [
         {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "I was participant on the YE breaking the silence in Ponte the Lima (Portugal) I can say that I feel very gratefull to have participated on such an incredible event. I met amazing people who I will remember for rest of my life. In addition I learnt so many useful concepts regarding to the topic of domestic abuse that I was not that aware, now I can say that I will take part in a future."
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Emilio Onorato",
+          "image": "/images/projects/sending/break-the-silence/emilio.jpg",
+          "text": "I was participant on the YE breaking the silence in Ponte the Lima (Portugal) I can say that I feel very gratefull to have participated on such an incredible event. I met amazing people who I will remember for rest of my life. In addition I learnt so many useful concepts regarding to the topic of domestic abuse that I was not that aware, now I can say that I will take part in a future.\n\nIn conclusión it was such an interesting experience that I want to repeat as soon as possible!"
         },
         {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "In conclusión it was such an interesting experience that I want to repeat as soon as possible!"
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "distribution": "30/70",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/break-the-silence/emma.jpg",
-          "alt": "Emma Reino",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ],
-      "right": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Emma Reino",
+          "image": "/images/projects/sending/break-the-silence/emma.jpg",
+          "text": "I attended an erasmus program from the 11th to the 17th of September in Ponte de Lima, Portugal, held by erasmus+.\n\nDuring this exchange, which theme was Breaking the Silence, we got into the topic of domestic violence and engaged in a variety of activities regarding the matter, such as understanding the different types of abuse, finding actual solutions to this issue, and in general becoming more aware of it.\n\nThroughout this time, I got to know people from all around Europe, and mostly, I had the opportunity to create new connections with them and understand their different points of view on all sorts of topics.\n\nRegarding the location, we stayed in this beautiful village where we got to explore its forests and lakes, where we later would spend a lot of our free time. All the food was really good and it was also local and typical.\n\nTo summarize all this up, this experience has made me grow in many fields, being the main one the knowledge i've acquired regarding domestic violence, and all the others we as a community have shared with each other to get to know us and our culture better. I will forever be grateful to erasmus+ for letting me participate in this, and I will have in mind everything I have learned to carry with me in my life and most importantly I'll also carry with me all the new connections and people who have given me so much."
         },
         {
-          "_template": "heading",
-          "text": "Emma Reino",
-          "level": "3"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "background": "white",
-      "paddingY": "sm",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "I attended an erasmus program from the 11th to the 17th of September in Ponte de Lima, Portugal, held by erasmus+."
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Marco Bermúdez Lara",
+          "image": "/images/projects/sending/break-the-silence/marco.jpg",
+          "text": "From November 10th to 17th, I had the opportunity to participate in the *Breaking the Silence* project, an Erasmus+ initiative focused on raising awareness about different types of domestic violence and promoting strategies to prevent them. During seven intense and enriching days, I shared this experience with young people from various European countries in the beautiful city of Ponte de Lima, Portugal.\n\nThe project activities included interactive workshops, group dynamics, and open discussions that helped us understand the roots of domestic violence, identify its multiple forms (physical, emotional, economic, among others), and reflect on how we can contribute to eradicating it in our communities. We also had creative sessions where we used artistic tools such as theater, writing, and campaign design to express our ideas and spread messages of change.\n\nBeyond the educational moments, I thoroughly enjoyed the welcoming atmosphere of Ponte de Lima, its natural landscapes, and its rich culture. We had time to explore the old town, cross its iconic Roman bridge, and taste the delicious local cuisine. Interacting with participants from different cultures was another highlight that made this experience unique; I learned a lot from their perspectives and forged friendships that I hope will last a lifetime.\n\nIn summary, *Breaking the Silence* was a transformative experience on both a personal and social level. I take away practical tools, new friends, and the motivation to continue working for a fairer and violence-free society. An unforgettable journey that left a deep mark on me!"
         },
         {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "During this exchange, which theme was Breaking the Silence, we got into the topic of domestic violence and engaged in a variety of activities regarding the matter, such as understanding the different types of abuse, finding actual solutions to this issue, and in general becoming more aware of it."
-        },
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "Throughout this time, I got to know people from all around Europe, and mostly, I had the opportunity to create new connections with them and understand their different points of view on all sorts of topics."
-        },
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "Regarding the location, we stayed in this beautiful village where we got to explore its forests and lakes, where we later would spend a lot of our free time. All the food was really good and it was also local and typical."
-        },
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "To summarize all this up, this experience has made me grow in many fields, being the main one the knowledge i've acquired regarding domestic violence, and all the others we as a community have shared with each other to get to know us and our culture better. I will forever be grateful to erasmus+ for letting me participate in this, and I will have in mind everything I have learned to carry with me in my life and most importantly I'll also carry with me all the new connections and people who have given me so much."
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "distribution": "70/30",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
-        },
-        {
-          "_template": "heading",
-          "text": "Marco Bermúdez Lara",
-          "level": "3"
-        }
-      ],
-      "right": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/break-the-silence/marco.jpg",
-          "alt": "Marco Bermúdez Lara",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "background": "white",
-      "paddingY": "sm",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "From November 10th to 17th, I had the opportunity to participate in the *Breaking the Silence* project, an Erasmus+ initiative focused on raising awareness about different types of domestic violence and promoting strategies to prevent them. During seven intense and enriching days, I shared this experience with young people from various European countries in the beautiful city of Ponte de Lima, Portugal."
-        },
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "The project activities included interactive workshops, group dynamics, and open discussions that helped us understand the roots of domestic violence, identify its multiple forms (physical, emotional, economic, among others), and reflect on how we can contribute to eradicating it in our communities. We also had creative sessions where we used artistic tools such as theater, writing, and campaign design to express our ideas and spread messages of change."
-        },
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "Beyond the educational moments, I thoroughly enjoyed the welcoming atmosphere of Ponte de Lima, its natural landscapes, and its rich culture. We had time to explore the old town, cross its iconic Roman bridge, and taste the delicious local cuisine. Interacting with participants from different cultures was another highlight that made this experience unique; I learned a lot from their perspectives and forged friendships that I hope will last a lifetime."
-        },
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
-          "text": "In summary, *Breaking the Silence* was a transformative experience on both a personal and social level. I take away practical tools, new friends, and the motivation to continue working for a fairer and violence-free society. An unforgettable journey that left a deep mark on me!"
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "distribution": "30/70",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/break-the-silence/maria.jpg",
-          "alt": "Maria Berral",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ],
-      "right": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
-        },
-        {
-          "_template": "heading",
-          "text": "Maria Berral",
-          "level": "3"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "background": "white",
-      "paddingY": "sm",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Maria Berral",
+          "image": "/images/projects/sending/break-the-silence/maria.jpg",
           "text": "One more time, I'm going to talk about my experience in an erasmus exchange. This time I had the opportunity to participate in the 'Breaking the silence' project that has taken place in Ponte de Lima, a small city in Portugal. In this project people from Greece, Hungary, Poland, Portugal, Croatia and Spain has share information and opinion about the different types of violence. With different activities as discussions, plays or projects by groups we've learn how to prevent violence, how to identify a victim and an abuser. Apart of this, we've had time to discover a small town that is beautiful, it's surronded by nature. We also had a free day that we enjoyed visiting another portuguese city, Viana do Castelo. As always, I recomend to life this type of experience once in life, at least, because you'll know different cultures, you'll learn about a topic and you'll make important links just in a few days. But it's incredible how in just a week people from different countries can create strong relationships. You won't forget it!"
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "distribution": "70/30",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
         },
         {
-          "_template": "heading",
-          "text": "Narai",
-          "level": "3"
-        }
-      ],
-      "right": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/break-the-silence/narai.jpg",
-          "alt": "Narai",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "distribution": "30/70",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/break-the-silence/angel.jpg",
-          "alt": "Ángel",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ],
-      "right": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Narai",
+          "image": "/images/projects/sending/break-the-silence/narai.jpg",
+          "text": ""
         },
         {
-          "_template": "heading",
-          "text": "Ángel",
-          "level": "3"
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Ángel",
+          "image": "/images/projects/sending/break-the-silence/angel.jpg",
+          "text": ""
         }
       ]
     },
@@ -296,46 +68,16 @@
       "title": "Photo Album",
       "subtitle": "Some photos of the project in Portugal!",
       "images": [
-        {
-          "src": "/images/projects/sending/break-the-silence/1.jpg",
-          "alt": "Portugal — moment 1"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/2.jpg",
-          "alt": "Portugal — moment 2"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/3.jpg",
-          "alt": "Portugal — moment 3"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/4.jpg",
-          "alt": "Portugal — moment 4"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/5.jpg",
-          "alt": "Portugal — moment 5"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/6.jpg",
-          "alt": "Portugal — moment 6"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/7.jpg",
-          "alt": "Portugal — moment 7"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/8.jpg",
-          "alt": "Portugal — moment 8"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/9.jpg",
-          "alt": "Portugal — moment 9"
-        },
-        {
-          "src": "/images/projects/sending/break-the-silence/10.jpg",
-          "alt": "Portugal — moment 10"
-        }
+        { "src": "/images/projects/sending/break-the-silence/1.jpg", "alt": "Portugal — moment 1" },
+        { "src": "/images/projects/sending/break-the-silence/2.jpg", "alt": "Portugal — moment 2" },
+        { "src": "/images/projects/sending/break-the-silence/3.jpg", "alt": "Portugal — moment 3" },
+        { "src": "/images/projects/sending/break-the-silence/4.jpg", "alt": "Portugal — moment 4" },
+        { "src": "/images/projects/sending/break-the-silence/5.jpg", "alt": "Portugal — moment 5" },
+        { "src": "/images/projects/sending/break-the-silence/6.jpg", "alt": "Portugal — moment 6" },
+        { "src": "/images/projects/sending/break-the-silence/7.jpg", "alt": "Portugal — moment 7" },
+        { "src": "/images/projects/sending/break-the-silence/8.jpg", "alt": "Portugal — moment 8" },
+        { "src": "/images/projects/sending/break-the-silence/9.jpg", "alt": "Portugal — moment 9" },
+        { "src": "/images/projects/sending/break-the-silence/10.jpg", "alt": "Portugal — moment 10" }
       ],
       "columns": "3"
     }

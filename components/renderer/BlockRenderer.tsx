@@ -14,6 +14,9 @@ import { DayReportBlock } from "./blocks/DayReportBlock"
 import { OutcomeBlock } from "./blocks/OutcomeBlock"
 import { SpacerBlock } from "./blocks/SpacerBlock"
 import { PartnerCard } from "./blocks/PartnerCard"
+import { ParticipantBlock } from "./blocks/ParticipantBlock"
+import { PhotoFeatureBlock } from "./blocks/PhotoFeatureBlock"
+import { LinkGridBlock } from "./blocks/LinkGridBlock"
 
 export type TinaFieldFor = (field: string) => string | undefined
 
@@ -34,6 +37,9 @@ export function BlockRenderer({ block, tinaRaw }: { block: Block; tinaRaw?: any 
     case "dayReport":  return <DayReportBlock {...block} tf={tf} />
     case "outcome":    return <OutcomeBlock {...block} tf={tf} />
     case "spacer":     return <SpacerBlock {...block} tf={tf} />
-    case "partner":    return <PartnerCard {...block} tf={tf} />
+    case "partner":     return <PartnerCard {...block} tf={tf} />
+    case "participant":   return <ParticipantBlock {...block} tf={tf} />
+    case "photoFeature": return <PhotoFeatureBlock {...block} tf={tf} />
+    case "linkGrid":     return <LinkGridBlock {...block} tf={tf} />
   }
 }

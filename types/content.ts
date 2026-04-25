@@ -4,6 +4,7 @@ export interface HeadingBlock {
   type: "heading"
   level?: 1 | 2 | 3 | 4
   text: string
+  color?: "default" | "brand"
 }
 
 export interface ParagraphBlock {
@@ -89,6 +90,26 @@ export interface SpacerBlock {
   size?: "sm" | "md" | "lg"
 }
 
+export interface ParticipantBlock {
+  type: "participant"
+  experienceTitle?: string
+  name: string
+  image?: string
+  text: string
+}
+
+export interface PhotoFeatureBlock {
+  type: "photoFeature"
+  mainImage: { src: string; alt?: string }
+  thumbs?: Array<{ src: string; alt?: string }>
+}
+
+export interface LinkGridBlock {
+  type: "linkGrid"
+  links: Array<{ src: string; alt?: string; href: string }>
+  columns?: 2 | 3 | 4
+}
+
 export type Block =
   | HeadingBlock
   | ParagraphBlock
@@ -102,6 +123,9 @@ export type Block =
   | OutcomeBlock
   | SpacerBlock
   | PartnerBlock
+  | ParticipantBlock
+  | PhotoFeatureBlock
+  | LinkGridBlock
 
 // =========== SECTIONS ===========
 

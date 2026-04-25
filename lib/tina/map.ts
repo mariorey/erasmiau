@@ -14,6 +14,9 @@ import type {
   PartnerBlock,
   OutcomeBlock,
   SpacerBlock,
+  ParticipantBlock,
+  PhotoFeatureBlock,
+  LinkGridBlock,
 } from "@/types/content"
 
 // Raw JSON shape coming from TinaCMS (or migration-generated files).
@@ -35,7 +38,7 @@ const SECTION_TYPENAME: Record<string, string> = {
 // Block __typename ends with the block name (e.g. "...BlocksImageGroup", "...ItemsDayReport").
 // Most specific suffixes first to avoid false matches.
 const BLOCK_SUFFIXES = [
-  "ImageGroup", "DayReport", "Testimonial", "Paragraph",
+  "ImageGroup", "DayReport", "Testimonial", "Participant", "PhotoFeature", "LinkGrid", "Paragraph",
   "Heading", "Gallery", "Partner", "Outcome", "Spacer", "Image", "Video", "List",
 ]
 
@@ -86,6 +89,7 @@ export function mapBlock(raw: Raw): Block {
         type: "heading",
         level: (int(raw.level) ?? 2) as 1 | 2 | 3 | 4,
         text: raw.text ?? "",
+        color: raw.color ?? undefined,
       } satisfies HeadingBlock
 
     case "paragraph":
@@ -178,6 +182,33 @@ export function mapBlock(raw: Raw): Block {
         type: "spacer",
         size: raw.size ?? undefined,
       } satisfies SpacerBlock
+
+    case "participant":
+      return {
+        type: "participant",
+        experienceTitle: raw.experienceTitle ?? undefined,
+        name: raw.name ?? "",
+        image: raw.image ?? undefined,
+        text: raw.text ?? "",
+      } satisfies ParticipantBlock
+
+    case "photoFeature":
+      return {
+        type: "photoFeature",
+        mainImage: { src: raw.mainImage?.src ?? "", alt: raw.mainImage?.alt ?? undefined },
+        thumbs: raw.thumbs ? mapImageList(raw.thumbs) : undefined,
+      } satisfies PhotoFeatureBlock
+
+    case "linkGrid":
+      return {
+        type: "linkGrid",
+        links: (raw.links ?? []).map((item: Raw) => ({
+          src: item.src ?? "",
+          alt: item.alt ?? undefined,
+          href: item.href ?? "#",
+        })),
+        columns: int(raw.columns) as 2 | 3 | 4 | undefined,
+      } satisfies LinkGridBlock
 
     default:
       // Unknown block — return a spacer as safe fallback

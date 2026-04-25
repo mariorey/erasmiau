@@ -27,6 +27,15 @@ var blockTemplates = [
         label: "Text",
         isTitle: true,
         required: true
+      },
+      {
+        type: "string",
+        name: "color",
+        label: "Color",
+        options: [
+          { value: "default", label: "Default (gray)" },
+          { value: "brand", label: "Brand (red)" }
+        ]
       }
     ]
   },
@@ -425,6 +434,104 @@ var blockTemplates = [
         ]
       }
     ]
+  },
+  {
+    name: "participant",
+    label: "Participant",
+    ui: {
+      itemProps: (item) => ({
+        label: item.name ? String(item.name) : "Participant"
+      })
+    },
+    fields: [
+      {
+        type: "string",
+        name: "experienceTitle",
+        label: "Section Label"
+      },
+      {
+        type: "string",
+        name: "name",
+        label: "Name",
+        required: true,
+        isTitle: true
+      },
+      {
+        type: "image",
+        name: "image",
+        label: "Photo"
+      },
+      {
+        type: "string",
+        name: "text",
+        label: "Testimonial",
+        required: true,
+        ui: {
+          component: "textarea",
+          description: "Use blank line between paragraphs"
+        }
+      }
+    ]
+  },
+  {
+    name: "photoFeature",
+    label: "Photo Feature (1 large + 3 small)",
+    ui: {
+      itemProps: () => ({ label: "Photo Feature" })
+    },
+    fields: [
+      {
+        type: "object",
+        name: "mainImage",
+        label: "Main Image",
+        fields: [
+          { type: "image", name: "src", label: "Source" },
+          { type: "string", name: "alt", label: "Alt text" }
+        ]
+      },
+      {
+        type: "object",
+        name: "thumbs",
+        label: "Thumbnails (up to 3)",
+        list: true,
+        fields: [
+          { type: "image", name: "src", label: "Source" },
+          { type: "string", name: "alt", label: "Alt text" }
+        ]
+      }
+    ]
+  },
+  {
+    name: "linkGrid",
+    label: "Link Grid (photos with URLs)",
+    ui: {
+      itemProps: (item) => ({
+        label: `Link Grid (${Array.isArray(item.items) ? item.items.length : 0} items)`
+      })
+    },
+    fields: [
+      {
+        type: "string",
+        name: "columns",
+        label: "Columns",
+        options: [
+          { value: "2", label: "2" },
+          { value: "3", label: "3" },
+          { value: "4", label: "4" }
+        ]
+      },
+      {
+        type: "object",
+        name: "links",
+        label: "Items",
+        list: true,
+        fields: [
+          { type: "image", name: "src", label: "Photo" },
+          { type: "string", name: "alt", label: "Alt text" },
+          { type: "string", name: "href", label: "Link URL", required: true }
+        ]
+      }
+    ]
   }
 ];
 var sectionBaseFields = [
@@ -769,6 +876,38 @@ var config_default = defineConfig({
         },
         fields: [
           {
+            type: "string",
+            name: "title",
+            label: "Title",
+            isTitle: true,
+            required: true
+          },
+          {
+            type: "string",
+            name: "dates",
+            label: "Dates",
+            description: "e.g. 5-13 April 2024"
+          },
+          {
+            type: "string",
+            name: "location",
+            label: "Location",
+            description: "e.g. Paralimni, Cyprus"
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            description: "Short summary shown on the listing page",
+            ui: { component: "textarea" }
+          },
+          {
+            type: "image",
+            name: "coverImage",
+            label: "Cover image",
+            description: "Thumbnail shown on the listing page"
+          },
+          {
             type: "image",
             name: "heroImage",
             label: "Hero image",
@@ -786,6 +925,82 @@ var config_default = defineConfig({
             label: "Page content",
             list: true,
             templates: sectionTemplates
+          }
+        ]
+      },
+      // ... dentro de schema: { collections: [ ... ] }
+      {
+        name: "page",
+        label: "Pages",
+        path: "data/content/pages",
+        // Donde se guardará el JSON de la Home
+        format: "json",
+        ui: {
+          router: ({ document }) => {
+            if (document._sys.filename === "home") return `/`;
+            return void 0;
+          }
+        },
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "T\xEDtulo de la P\xE1gina",
+            isTitle: true,
+            required: true
+          },
+          {
+            type: "object",
+            name: "hero",
+            label: "Hero Section",
+            fields: [
+              {
+                type: "string",
+                name: "headline",
+                label: "Titular",
+                ui: {
+                  component: "textarea"
+                  // Esto permite saltos de línea reales
+                }
+              },
+              { type: "string", name: "subheading", label: "Subt\xEDtulo" },
+              { type: "image", name: "backgroundImage", label: "Imagen de Fondo" },
+              { type: "string", name: "buttonText", label: "Texto del Bot\xF3n" }
+            ]
+          },
+          {
+            type: "object",
+            name: "about",
+            label: "About Section",
+            fields: [
+              { type: "string", name: "title", label: "T\xEDtulo Rojo" },
+              { type: "string", name: "subtitle", label: "Subt\xEDtulo" },
+              { type: "string", name: "text1", label: "P\xE1rrafo 1", ui: { component: "textarea" } },
+              { type: "string", name: "text2", label: "P\xE1rrafo 2", ui: { component: "textarea" } },
+              { type: "string", name: "caption", label: "Pie de p\xE1gina (Italic)", ui: { component: "textarea" } },
+              { type: "image", name: "mainImage", label: "Imagen Principal" },
+              {
+                type: "object",
+                name: "thumbnails",
+                label: "Miniaturas",
+                list: true,
+                fields: [
+                  { type: "image", name: "src", label: "Imagen" },
+                  { type: "string", name: "alt", label: "Alt Text" }
+                ]
+              }
+            ]
+          },
+          {
+            type: "object",
+            name: "instagram",
+            label: "Instagram Section",
+            fields: [
+              { type: "string", name: "title", label: "T\xEDtulo Principal" },
+              { type: "string", name: "subtitle", label: "Subt\xEDtulo" },
+              { type: "string", name: "handle", label: "Usuario (@...)" },
+              { type: "string", name: "link", label: "Enlace Instagram" }
+            ]
           }
         ]
       }

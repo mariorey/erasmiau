@@ -1,5 +1,10 @@
 fragment ProjectParts on Project {
   __typename
+  title
+  dates
+  location
+  description
+  coverImage
   heroImage
   subtitle
   sections {
@@ -14,6 +19,7 @@ fragment ProjectParts on Project {
         ... on ProjectSectionsSingleBlocksHeading {
           level
           text
+          color
         }
         ... on ProjectSectionsSingleBlocksParagraph {
           text
@@ -85,6 +91,33 @@ fragment ProjectParts on Project {
         ... on ProjectSectionsSingleBlocksSpacer {
           size
         }
+        ... on ProjectSectionsSingleBlocksParticipant {
+          experienceTitle
+          name
+          image
+          text
+        }
+        ... on ProjectSectionsSingleBlocksPhotoFeature {
+          mainImage {
+            __typename
+            src
+            alt
+          }
+          thumbs {
+            __typename
+            src
+            alt
+          }
+        }
+        ... on ProjectSectionsSingleBlocksLinkGrid {
+          columns
+          links {
+            __typename
+            src
+            alt
+            href
+          }
+        }
       }
     }
     ... on ProjectSectionsColumns {
@@ -100,6 +133,7 @@ fragment ProjectParts on Project {
         ... on ProjectSectionsColumnsLeftHeading {
           level
           text
+          color
         }
         ... on ProjectSectionsColumnsLeftParagraph {
           text
@@ -171,12 +205,40 @@ fragment ProjectParts on Project {
         ... on ProjectSectionsColumnsLeftSpacer {
           size
         }
+        ... on ProjectSectionsColumnsLeftParticipant {
+          experienceTitle
+          name
+          image
+          text
+        }
+        ... on ProjectSectionsColumnsLeftPhotoFeature {
+          mainImage {
+            __typename
+            src
+            alt
+          }
+          thumbs {
+            __typename
+            src
+            alt
+          }
+        }
+        ... on ProjectSectionsColumnsLeftLinkGrid {
+          columns
+          links {
+            __typename
+            src
+            alt
+            href
+          }
+        }
       }
       right {
         __typename
         ... on ProjectSectionsColumnsRightHeading {
           level
           text
+          color
         }
         ... on ProjectSectionsColumnsRightParagraph {
           text
@@ -248,6 +310,33 @@ fragment ProjectParts on Project {
         ... on ProjectSectionsColumnsRightSpacer {
           size
         }
+        ... on ProjectSectionsColumnsRightParticipant {
+          experienceTitle
+          name
+          image
+          text
+        }
+        ... on ProjectSectionsColumnsRightPhotoFeature {
+          mainImage {
+            __typename
+            src
+            alt
+          }
+          thumbs {
+            __typename
+            src
+            alt
+          }
+        }
+        ... on ProjectSectionsColumnsRightLinkGrid {
+          columns
+          links {
+            __typename
+            src
+            alt
+            href
+          }
+        }
       }
     }
     ... on ProjectSectionsGrid {
@@ -264,6 +353,7 @@ fragment ProjectParts on Project {
           ... on ProjectSectionsGridGridColumnsBlocksHeading {
             level
             text
+            color
           }
           ... on ProjectSectionsGridGridColumnsBlocksParagraph {
             text
@@ -334,6 +424,33 @@ fragment ProjectParts on Project {
           }
           ... on ProjectSectionsGridGridColumnsBlocksSpacer {
             size
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksParticipant {
+            experienceTitle
+            name
+            image
+            text
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksPhotoFeature {
+            mainImage {
+              __typename
+              src
+              alt
+            }
+            thumbs {
+              __typename
+              src
+              alt
+            }
+          }
+          ... on ProjectSectionsGridGridColumnsBlocksLinkGrid {
+            columns
+            links {
+              __typename
+              src
+              alt
+              href
+            }
           }
         }
       }
@@ -409,6 +526,7 @@ fragment ProjectParts on Project {
         ... on ProjectSectionsAutoGridItemsHeading {
           level
           text
+          color
         }
         ... on ProjectSectionsAutoGridItemsParagraph {
           text
@@ -480,7 +598,67 @@ fragment ProjectParts on Project {
         ... on ProjectSectionsAutoGridItemsSpacer {
           size
         }
+        ... on ProjectSectionsAutoGridItemsParticipant {
+          experienceTitle
+          name
+          image
+          text
+        }
+        ... on ProjectSectionsAutoGridItemsPhotoFeature {
+          mainImage {
+            __typename
+            src
+            alt
+          }
+          thumbs {
+            __typename
+            src
+            alt
+          }
+        }
+        ... on ProjectSectionsAutoGridItemsLinkGrid {
+          columns
+          links {
+            __typename
+            src
+            alt
+            href
+          }
+        }
       }
     }
+  }
+}
+
+fragment PageParts on Page {
+  __typename
+  title
+  hero {
+    __typename
+    headline
+    subheading
+    backgroundImage
+    buttonText
+  }
+  about {
+    __typename
+    title
+    subtitle
+    text1
+    text2
+    caption
+    mainImage
+    thumbnails {
+      __typename
+      src
+      alt
+    }
+  }
+  instagram {
+    __typename
+    title
+    subtitle
+    handle
+    link
   }
 }

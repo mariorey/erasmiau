@@ -56,10 +56,13 @@ type Query {
   document(collection: String, relativePath: String): DocumentNode!
   project(relativePath: String): Project!
   projectConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: ProjectFilter): ProjectConnection!
+  page(relativePath: String): Page!
+  pageConnection(before: String, after: String, first: Float, last: Float, sort: String, filter: PageFilter): PageConnection!
 }
 
 input DocumentFilter {
   project: ProjectFilter
+  page: PageFilter
 }
 
 type DocumentConnectionEdges {
@@ -85,11 +88,12 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float, sort: String, filter: DocumentFilter, folder: String): DocumentConnection!
 }
 
-union DocumentNode = Project | Folder
+union DocumentNode = Project | Page | Folder
 
 type ProjectSectionsSingleBlocksHeading {
   level: String
   text: String!
+  color: String
 }
 
 type ProjectSectionsSingleBlocksParagraph {
@@ -176,7 +180,40 @@ type ProjectSectionsSingleBlocksSpacer {
   size: String
 }
 
-union ProjectSectionsSingleBlocks = ProjectSectionsSingleBlocksHeading | ProjectSectionsSingleBlocksParagraph | ProjectSectionsSingleBlocksImage | ProjectSectionsSingleBlocksImageGroup | ProjectSectionsSingleBlocksVideo | ProjectSectionsSingleBlocksList | ProjectSectionsSingleBlocksTestimonial | ProjectSectionsSingleBlocksGallery | ProjectSectionsSingleBlocksDayReport | ProjectSectionsSingleBlocksPartner | ProjectSectionsSingleBlocksOutcome | ProjectSectionsSingleBlocksSpacer
+type ProjectSectionsSingleBlocksParticipant {
+  experienceTitle: String
+  name: String!
+  image: String
+  text: String!
+}
+
+type ProjectSectionsSingleBlocksPhotoFeatureMainImage {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsSingleBlocksPhotoFeatureThumbs {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsSingleBlocksPhotoFeature {
+  mainImage: ProjectSectionsSingleBlocksPhotoFeatureMainImage
+  thumbs: [ProjectSectionsSingleBlocksPhotoFeatureThumbs]
+}
+
+type ProjectSectionsSingleBlocksLinkGridLinks {
+  src: String
+  alt: String
+  href: String!
+}
+
+type ProjectSectionsSingleBlocksLinkGrid {
+  columns: String
+  links: [ProjectSectionsSingleBlocksLinkGridLinks]
+}
+
+union ProjectSectionsSingleBlocks = ProjectSectionsSingleBlocksHeading | ProjectSectionsSingleBlocksParagraph | ProjectSectionsSingleBlocksImage | ProjectSectionsSingleBlocksImageGroup | ProjectSectionsSingleBlocksVideo | ProjectSectionsSingleBlocksList | ProjectSectionsSingleBlocksTestimonial | ProjectSectionsSingleBlocksGallery | ProjectSectionsSingleBlocksDayReport | ProjectSectionsSingleBlocksPartner | ProjectSectionsSingleBlocksOutcome | ProjectSectionsSingleBlocksSpacer | ProjectSectionsSingleBlocksParticipant | ProjectSectionsSingleBlocksPhotoFeature | ProjectSectionsSingleBlocksLinkGrid
 
 type ProjectSectionsSingle {
   background: String
@@ -189,6 +226,7 @@ type ProjectSectionsSingle {
 type ProjectSectionsColumnsLeftHeading {
   level: String
   text: String!
+  color: String
 }
 
 type ProjectSectionsColumnsLeftParagraph {
@@ -275,11 +313,45 @@ type ProjectSectionsColumnsLeftSpacer {
   size: String
 }
 
-union ProjectSectionsColumnsLeft = ProjectSectionsColumnsLeftHeading | ProjectSectionsColumnsLeftParagraph | ProjectSectionsColumnsLeftImage | ProjectSectionsColumnsLeftImageGroup | ProjectSectionsColumnsLeftVideo | ProjectSectionsColumnsLeftList | ProjectSectionsColumnsLeftTestimonial | ProjectSectionsColumnsLeftGallery | ProjectSectionsColumnsLeftDayReport | ProjectSectionsColumnsLeftPartner | ProjectSectionsColumnsLeftOutcome | ProjectSectionsColumnsLeftSpacer
+type ProjectSectionsColumnsLeftParticipant {
+  experienceTitle: String
+  name: String!
+  image: String
+  text: String!
+}
+
+type ProjectSectionsColumnsLeftPhotoFeatureMainImage {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsColumnsLeftPhotoFeatureThumbs {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsColumnsLeftPhotoFeature {
+  mainImage: ProjectSectionsColumnsLeftPhotoFeatureMainImage
+  thumbs: [ProjectSectionsColumnsLeftPhotoFeatureThumbs]
+}
+
+type ProjectSectionsColumnsLeftLinkGridLinks {
+  src: String
+  alt: String
+  href: String!
+}
+
+type ProjectSectionsColumnsLeftLinkGrid {
+  columns: String
+  links: [ProjectSectionsColumnsLeftLinkGridLinks]
+}
+
+union ProjectSectionsColumnsLeft = ProjectSectionsColumnsLeftHeading | ProjectSectionsColumnsLeftParagraph | ProjectSectionsColumnsLeftImage | ProjectSectionsColumnsLeftImageGroup | ProjectSectionsColumnsLeftVideo | ProjectSectionsColumnsLeftList | ProjectSectionsColumnsLeftTestimonial | ProjectSectionsColumnsLeftGallery | ProjectSectionsColumnsLeftDayReport | ProjectSectionsColumnsLeftPartner | ProjectSectionsColumnsLeftOutcome | ProjectSectionsColumnsLeftSpacer | ProjectSectionsColumnsLeftParticipant | ProjectSectionsColumnsLeftPhotoFeature | ProjectSectionsColumnsLeftLinkGrid
 
 type ProjectSectionsColumnsRightHeading {
   level: String
   text: String!
+  color: String
 }
 
 type ProjectSectionsColumnsRightParagraph {
@@ -366,7 +438,40 @@ type ProjectSectionsColumnsRightSpacer {
   size: String
 }
 
-union ProjectSectionsColumnsRight = ProjectSectionsColumnsRightHeading | ProjectSectionsColumnsRightParagraph | ProjectSectionsColumnsRightImage | ProjectSectionsColumnsRightImageGroup | ProjectSectionsColumnsRightVideo | ProjectSectionsColumnsRightList | ProjectSectionsColumnsRightTestimonial | ProjectSectionsColumnsRightGallery | ProjectSectionsColumnsRightDayReport | ProjectSectionsColumnsRightPartner | ProjectSectionsColumnsRightOutcome | ProjectSectionsColumnsRightSpacer
+type ProjectSectionsColumnsRightParticipant {
+  experienceTitle: String
+  name: String!
+  image: String
+  text: String!
+}
+
+type ProjectSectionsColumnsRightPhotoFeatureMainImage {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsColumnsRightPhotoFeatureThumbs {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsColumnsRightPhotoFeature {
+  mainImage: ProjectSectionsColumnsRightPhotoFeatureMainImage
+  thumbs: [ProjectSectionsColumnsRightPhotoFeatureThumbs]
+}
+
+type ProjectSectionsColumnsRightLinkGridLinks {
+  src: String
+  alt: String
+  href: String!
+}
+
+type ProjectSectionsColumnsRightLinkGrid {
+  columns: String
+  links: [ProjectSectionsColumnsRightLinkGridLinks]
+}
+
+union ProjectSectionsColumnsRight = ProjectSectionsColumnsRightHeading | ProjectSectionsColumnsRightParagraph | ProjectSectionsColumnsRightImage | ProjectSectionsColumnsRightImageGroup | ProjectSectionsColumnsRightVideo | ProjectSectionsColumnsRightList | ProjectSectionsColumnsRightTestimonial | ProjectSectionsColumnsRightGallery | ProjectSectionsColumnsRightDayReport | ProjectSectionsColumnsRightPartner | ProjectSectionsColumnsRightOutcome | ProjectSectionsColumnsRightSpacer | ProjectSectionsColumnsRightParticipant | ProjectSectionsColumnsRightPhotoFeature | ProjectSectionsColumnsRightLinkGrid
 
 type ProjectSectionsColumns {
   background: String
@@ -383,6 +488,7 @@ type ProjectSectionsColumns {
 type ProjectSectionsGridGridColumnsBlocksHeading {
   level: String
   text: String!
+  color: String
 }
 
 type ProjectSectionsGridGridColumnsBlocksParagraph {
@@ -469,7 +575,40 @@ type ProjectSectionsGridGridColumnsBlocksSpacer {
   size: String
 }
 
-union ProjectSectionsGridGridColumnsBlocks = ProjectSectionsGridGridColumnsBlocksHeading | ProjectSectionsGridGridColumnsBlocksParagraph | ProjectSectionsGridGridColumnsBlocksImage | ProjectSectionsGridGridColumnsBlocksImageGroup | ProjectSectionsGridGridColumnsBlocksVideo | ProjectSectionsGridGridColumnsBlocksList | ProjectSectionsGridGridColumnsBlocksTestimonial | ProjectSectionsGridGridColumnsBlocksGallery | ProjectSectionsGridGridColumnsBlocksDayReport | ProjectSectionsGridGridColumnsBlocksPartner | ProjectSectionsGridGridColumnsBlocksOutcome | ProjectSectionsGridGridColumnsBlocksSpacer
+type ProjectSectionsGridGridColumnsBlocksParticipant {
+  experienceTitle: String
+  name: String!
+  image: String
+  text: String!
+}
+
+type ProjectSectionsGridGridColumnsBlocksPhotoFeatureMainImage {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsGridGridColumnsBlocksPhotoFeatureThumbs {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsGridGridColumnsBlocksPhotoFeature {
+  mainImage: ProjectSectionsGridGridColumnsBlocksPhotoFeatureMainImage
+  thumbs: [ProjectSectionsGridGridColumnsBlocksPhotoFeatureThumbs]
+}
+
+type ProjectSectionsGridGridColumnsBlocksLinkGridLinks {
+  src: String
+  alt: String
+  href: String!
+}
+
+type ProjectSectionsGridGridColumnsBlocksLinkGrid {
+  columns: String
+  links: [ProjectSectionsGridGridColumnsBlocksLinkGridLinks]
+}
+
+union ProjectSectionsGridGridColumnsBlocks = ProjectSectionsGridGridColumnsBlocksHeading | ProjectSectionsGridGridColumnsBlocksParagraph | ProjectSectionsGridGridColumnsBlocksImage | ProjectSectionsGridGridColumnsBlocksImageGroup | ProjectSectionsGridGridColumnsBlocksVideo | ProjectSectionsGridGridColumnsBlocksList | ProjectSectionsGridGridColumnsBlocksTestimonial | ProjectSectionsGridGridColumnsBlocksGallery | ProjectSectionsGridGridColumnsBlocksDayReport | ProjectSectionsGridGridColumnsBlocksPartner | ProjectSectionsGridGridColumnsBlocksOutcome | ProjectSectionsGridGridColumnsBlocksSpacer | ProjectSectionsGridGridColumnsBlocksParticipant | ProjectSectionsGridGridColumnsBlocksPhotoFeature | ProjectSectionsGridGridColumnsBlocksLinkGrid
 
 type ProjectSectionsGridGridColumns {
   blocks: [ProjectSectionsGridGridColumnsBlocks]
@@ -553,6 +692,7 @@ type ProjectSectionsRepeater {
 type ProjectSectionsAutoGridItemsHeading {
   level: String
   text: String!
+  color: String
 }
 
 type ProjectSectionsAutoGridItemsParagraph {
@@ -639,7 +779,40 @@ type ProjectSectionsAutoGridItemsSpacer {
   size: String
 }
 
-union ProjectSectionsAutoGridItems = ProjectSectionsAutoGridItemsHeading | ProjectSectionsAutoGridItemsParagraph | ProjectSectionsAutoGridItemsImage | ProjectSectionsAutoGridItemsImageGroup | ProjectSectionsAutoGridItemsVideo | ProjectSectionsAutoGridItemsList | ProjectSectionsAutoGridItemsTestimonial | ProjectSectionsAutoGridItemsGallery | ProjectSectionsAutoGridItemsDayReport | ProjectSectionsAutoGridItemsPartner | ProjectSectionsAutoGridItemsOutcome | ProjectSectionsAutoGridItemsSpacer
+type ProjectSectionsAutoGridItemsParticipant {
+  experienceTitle: String
+  name: String!
+  image: String
+  text: String!
+}
+
+type ProjectSectionsAutoGridItemsPhotoFeatureMainImage {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsAutoGridItemsPhotoFeatureThumbs {
+  src: String
+  alt: String
+}
+
+type ProjectSectionsAutoGridItemsPhotoFeature {
+  mainImage: ProjectSectionsAutoGridItemsPhotoFeatureMainImage
+  thumbs: [ProjectSectionsAutoGridItemsPhotoFeatureThumbs]
+}
+
+type ProjectSectionsAutoGridItemsLinkGridLinks {
+  src: String
+  alt: String
+  href: String!
+}
+
+type ProjectSectionsAutoGridItemsLinkGrid {
+  columns: String
+  links: [ProjectSectionsAutoGridItemsLinkGridLinks]
+}
+
+union ProjectSectionsAutoGridItems = ProjectSectionsAutoGridItemsHeading | ProjectSectionsAutoGridItemsParagraph | ProjectSectionsAutoGridItemsImage | ProjectSectionsAutoGridItemsImageGroup | ProjectSectionsAutoGridItemsVideo | ProjectSectionsAutoGridItemsList | ProjectSectionsAutoGridItemsTestimonial | ProjectSectionsAutoGridItemsGallery | ProjectSectionsAutoGridItemsDayReport | ProjectSectionsAutoGridItemsPartner | ProjectSectionsAutoGridItemsOutcome | ProjectSectionsAutoGridItemsSpacer | ProjectSectionsAutoGridItemsParticipant | ProjectSectionsAutoGridItemsPhotoFeature | ProjectSectionsAutoGridItemsLinkGrid
 
 type ProjectSectionsAutoGrid {
   background: String
@@ -656,19 +829,17 @@ type ProjectSectionsAutoGrid {
 union ProjectSections = ProjectSectionsSingle | ProjectSectionsColumns | ProjectSectionsGrid | ProjectSectionsTestimonials | ProjectSectionsGallery | ProjectSectionsRepeater | ProjectSectionsAutoGrid
 
 type Project implements Node & Document {
+  title: String!
+  dates: String
+  location: String
+  description: String
+  coverImage: String
   heroImage: String
   subtitle: String
   sections: [ProjectSections]
   id: ID!
   _sys: SystemInfo!
   _values: JSON!
-}
-
-input ImageFilter {
-  startsWith: String
-  eq: String
-  exists: Boolean
-  in: [String]
 }
 
 input StringFilter {
@@ -678,9 +849,17 @@ input StringFilter {
   in: [String]
 }
 
+input ImageFilter {
+  startsWith: String
+  eq: String
+  exists: Boolean
+  in: [String]
+}
+
 input ProjectSectionsSingleBlocksHeadingFilter {
   level: StringFilter
   text: StringFilter
+  color: StringFilter
 }
 
 input BooleanFilter {
@@ -772,6 +951,39 @@ input ProjectSectionsSingleBlocksSpacerFilter {
   size: StringFilter
 }
 
+input ProjectSectionsSingleBlocksParticipantFilter {
+  experienceTitle: StringFilter
+  name: StringFilter
+  image: ImageFilter
+  text: StringFilter
+}
+
+input ProjectSectionsSingleBlocksPhotoFeatureMainImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsSingleBlocksPhotoFeatureThumbsFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsSingleBlocksPhotoFeatureFilter {
+  mainImage: ProjectSectionsSingleBlocksPhotoFeatureMainImageFilter
+  thumbs: ProjectSectionsSingleBlocksPhotoFeatureThumbsFilter
+}
+
+input ProjectSectionsSingleBlocksLinkGridLinksFilter {
+  src: ImageFilter
+  alt: StringFilter
+  href: StringFilter
+}
+
+input ProjectSectionsSingleBlocksLinkGridFilter {
+  columns: StringFilter
+  links: ProjectSectionsSingleBlocksLinkGridLinksFilter
+}
+
 input ProjectSectionsSingleBlocksFilter {
   heading: ProjectSectionsSingleBlocksHeadingFilter
   paragraph: ProjectSectionsSingleBlocksParagraphFilter
@@ -785,6 +997,9 @@ input ProjectSectionsSingleBlocksFilter {
   partner: ProjectSectionsSingleBlocksPartnerFilter
   outcome: ProjectSectionsSingleBlocksOutcomeFilter
   spacer: ProjectSectionsSingleBlocksSpacerFilter
+  participant: ProjectSectionsSingleBlocksParticipantFilter
+  photoFeature: ProjectSectionsSingleBlocksPhotoFeatureFilter
+  linkGrid: ProjectSectionsSingleBlocksLinkGridFilter
 }
 
 input ProjectSectionsSingleFilter {
@@ -798,6 +1013,7 @@ input ProjectSectionsSingleFilter {
 input ProjectSectionsColumnsLeftHeadingFilter {
   level: StringFilter
   text: StringFilter
+  color: StringFilter
 }
 
 input ProjectSectionsColumnsLeftParagraphFilter {
@@ -884,6 +1100,39 @@ input ProjectSectionsColumnsLeftSpacerFilter {
   size: StringFilter
 }
 
+input ProjectSectionsColumnsLeftParticipantFilter {
+  experienceTitle: StringFilter
+  name: StringFilter
+  image: ImageFilter
+  text: StringFilter
+}
+
+input ProjectSectionsColumnsLeftPhotoFeatureMainImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsColumnsLeftPhotoFeatureThumbsFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsColumnsLeftPhotoFeatureFilter {
+  mainImage: ProjectSectionsColumnsLeftPhotoFeatureMainImageFilter
+  thumbs: ProjectSectionsColumnsLeftPhotoFeatureThumbsFilter
+}
+
+input ProjectSectionsColumnsLeftLinkGridLinksFilter {
+  src: ImageFilter
+  alt: StringFilter
+  href: StringFilter
+}
+
+input ProjectSectionsColumnsLeftLinkGridFilter {
+  columns: StringFilter
+  links: ProjectSectionsColumnsLeftLinkGridLinksFilter
+}
+
 input ProjectSectionsColumnsLeftFilter {
   heading: ProjectSectionsColumnsLeftHeadingFilter
   paragraph: ProjectSectionsColumnsLeftParagraphFilter
@@ -897,11 +1146,15 @@ input ProjectSectionsColumnsLeftFilter {
   partner: ProjectSectionsColumnsLeftPartnerFilter
   outcome: ProjectSectionsColumnsLeftOutcomeFilter
   spacer: ProjectSectionsColumnsLeftSpacerFilter
+  participant: ProjectSectionsColumnsLeftParticipantFilter
+  photoFeature: ProjectSectionsColumnsLeftPhotoFeatureFilter
+  linkGrid: ProjectSectionsColumnsLeftLinkGridFilter
 }
 
 input ProjectSectionsColumnsRightHeadingFilter {
   level: StringFilter
   text: StringFilter
+  color: StringFilter
 }
 
 input ProjectSectionsColumnsRightParagraphFilter {
@@ -988,6 +1241,39 @@ input ProjectSectionsColumnsRightSpacerFilter {
   size: StringFilter
 }
 
+input ProjectSectionsColumnsRightParticipantFilter {
+  experienceTitle: StringFilter
+  name: StringFilter
+  image: ImageFilter
+  text: StringFilter
+}
+
+input ProjectSectionsColumnsRightPhotoFeatureMainImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsColumnsRightPhotoFeatureThumbsFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsColumnsRightPhotoFeatureFilter {
+  mainImage: ProjectSectionsColumnsRightPhotoFeatureMainImageFilter
+  thumbs: ProjectSectionsColumnsRightPhotoFeatureThumbsFilter
+}
+
+input ProjectSectionsColumnsRightLinkGridLinksFilter {
+  src: ImageFilter
+  alt: StringFilter
+  href: StringFilter
+}
+
+input ProjectSectionsColumnsRightLinkGridFilter {
+  columns: StringFilter
+  links: ProjectSectionsColumnsRightLinkGridLinksFilter
+}
+
 input ProjectSectionsColumnsRightFilter {
   heading: ProjectSectionsColumnsRightHeadingFilter
   paragraph: ProjectSectionsColumnsRightParagraphFilter
@@ -1001,6 +1287,9 @@ input ProjectSectionsColumnsRightFilter {
   partner: ProjectSectionsColumnsRightPartnerFilter
   outcome: ProjectSectionsColumnsRightOutcomeFilter
   spacer: ProjectSectionsColumnsRightSpacerFilter
+  participant: ProjectSectionsColumnsRightParticipantFilter
+  photoFeature: ProjectSectionsColumnsRightPhotoFeatureFilter
+  linkGrid: ProjectSectionsColumnsRightLinkGridFilter
 }
 
 input ProjectSectionsColumnsFilter {
@@ -1018,6 +1307,7 @@ input ProjectSectionsColumnsFilter {
 input ProjectSectionsGridGridColumnsBlocksHeadingFilter {
   level: StringFilter
   text: StringFilter
+  color: StringFilter
 }
 
 input ProjectSectionsGridGridColumnsBlocksParagraphFilter {
@@ -1104,6 +1394,39 @@ input ProjectSectionsGridGridColumnsBlocksSpacerFilter {
   size: StringFilter
 }
 
+input ProjectSectionsGridGridColumnsBlocksParticipantFilter {
+  experienceTitle: StringFilter
+  name: StringFilter
+  image: ImageFilter
+  text: StringFilter
+}
+
+input ProjectSectionsGridGridColumnsBlocksPhotoFeatureMainImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsGridGridColumnsBlocksPhotoFeatureThumbsFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsGridGridColumnsBlocksPhotoFeatureFilter {
+  mainImage: ProjectSectionsGridGridColumnsBlocksPhotoFeatureMainImageFilter
+  thumbs: ProjectSectionsGridGridColumnsBlocksPhotoFeatureThumbsFilter
+}
+
+input ProjectSectionsGridGridColumnsBlocksLinkGridLinksFilter {
+  src: ImageFilter
+  alt: StringFilter
+  href: StringFilter
+}
+
+input ProjectSectionsGridGridColumnsBlocksLinkGridFilter {
+  columns: StringFilter
+  links: ProjectSectionsGridGridColumnsBlocksLinkGridLinksFilter
+}
+
 input ProjectSectionsGridGridColumnsBlocksFilter {
   heading: ProjectSectionsGridGridColumnsBlocksHeadingFilter
   paragraph: ProjectSectionsGridGridColumnsBlocksParagraphFilter
@@ -1117,6 +1440,9 @@ input ProjectSectionsGridGridColumnsBlocksFilter {
   partner: ProjectSectionsGridGridColumnsBlocksPartnerFilter
   outcome: ProjectSectionsGridGridColumnsBlocksOutcomeFilter
   spacer: ProjectSectionsGridGridColumnsBlocksSpacerFilter
+  participant: ProjectSectionsGridGridColumnsBlocksParticipantFilter
+  photoFeature: ProjectSectionsGridGridColumnsBlocksPhotoFeatureFilter
+  linkGrid: ProjectSectionsGridGridColumnsBlocksLinkGridFilter
 }
 
 input ProjectSectionsGridGridColumnsFilter {
@@ -1206,6 +1532,7 @@ input ProjectSectionsRepeaterFilter {
 input ProjectSectionsAutoGridItemsHeadingFilter {
   level: StringFilter
   text: StringFilter
+  color: StringFilter
 }
 
 input ProjectSectionsAutoGridItemsParagraphFilter {
@@ -1292,6 +1619,39 @@ input ProjectSectionsAutoGridItemsSpacerFilter {
   size: StringFilter
 }
 
+input ProjectSectionsAutoGridItemsParticipantFilter {
+  experienceTitle: StringFilter
+  name: StringFilter
+  image: ImageFilter
+  text: StringFilter
+}
+
+input ProjectSectionsAutoGridItemsPhotoFeatureMainImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsAutoGridItemsPhotoFeatureThumbsFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input ProjectSectionsAutoGridItemsPhotoFeatureFilter {
+  mainImage: ProjectSectionsAutoGridItemsPhotoFeatureMainImageFilter
+  thumbs: ProjectSectionsAutoGridItemsPhotoFeatureThumbsFilter
+}
+
+input ProjectSectionsAutoGridItemsLinkGridLinksFilter {
+  src: ImageFilter
+  alt: StringFilter
+  href: StringFilter
+}
+
+input ProjectSectionsAutoGridItemsLinkGridFilter {
+  columns: StringFilter
+  links: ProjectSectionsAutoGridItemsLinkGridLinksFilter
+}
+
 input ProjectSectionsAutoGridItemsFilter {
   heading: ProjectSectionsAutoGridItemsHeadingFilter
   paragraph: ProjectSectionsAutoGridItemsParagraphFilter
@@ -1305,6 +1665,9 @@ input ProjectSectionsAutoGridItemsFilter {
   partner: ProjectSectionsAutoGridItemsPartnerFilter
   outcome: ProjectSectionsAutoGridItemsOutcomeFilter
   spacer: ProjectSectionsAutoGridItemsSpacerFilter
+  participant: ProjectSectionsAutoGridItemsParticipantFilter
+  photoFeature: ProjectSectionsAutoGridItemsPhotoFeatureFilter
+  linkGrid: ProjectSectionsAutoGridItemsLinkGridFilter
 }
 
 input ProjectSectionsAutoGridFilter {
@@ -1330,6 +1693,11 @@ input ProjectSectionsFilter {
 }
 
 input ProjectFilter {
+  title: StringFilter
+  dates: StringFilter
+  location: StringFilter
+  description: StringFilter
+  coverImage: ImageFilter
   heroImage: ImageFilter
   subtitle: StringFilter
   sections: ProjectSectionsFilter
@@ -1346,6 +1714,92 @@ type ProjectConnection implements Connection {
   edges: [ProjectConnectionEdges]
 }
 
+type PageHero {
+  headline: String
+  subheading: String
+  backgroundImage: String
+  buttonText: String
+}
+
+type PageAboutThumbnails {
+  src: String
+  alt: String
+}
+
+type PageAbout {
+  title: String
+  subtitle: String
+  text1: String
+  text2: String
+  caption: String
+  mainImage: String
+  thumbnails: [PageAboutThumbnails]
+}
+
+type PageInstagram {
+  title: String
+  subtitle: String
+  handle: String
+  link: String
+}
+
+type Page implements Node & Document {
+  title: String!
+  hero: PageHero
+  about: PageAbout
+  instagram: PageInstagram
+  id: ID!
+  _sys: SystemInfo!
+  _values: JSON!
+}
+
+input PageHeroFilter {
+  headline: StringFilter
+  subheading: StringFilter
+  backgroundImage: ImageFilter
+  buttonText: StringFilter
+}
+
+input PageAboutThumbnailsFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PageAboutFilter {
+  title: StringFilter
+  subtitle: StringFilter
+  text1: StringFilter
+  text2: StringFilter
+  caption: StringFilter
+  mainImage: ImageFilter
+  thumbnails: PageAboutThumbnailsFilter
+}
+
+input PageInstagramFilter {
+  title: StringFilter
+  subtitle: StringFilter
+  handle: StringFilter
+  link: StringFilter
+}
+
+input PageFilter {
+  title: StringFilter
+  hero: PageHeroFilter
+  about: PageAboutFilter
+  instagram: PageInstagramFilter
+}
+
+type PageConnectionEdges {
+  cursor: String!
+  node: Page
+}
+
+type PageConnection implements Connection {
+  pageInfo: PageInfo!
+  totalCount: Float!
+  edges: [PageConnectionEdges]
+}
+
 type Mutation {
   addPendingDocument(collection: String!, relativePath: String!, template: String): DocumentNode!
   updateDocument(collection: String, relativePath: String!, params: DocumentUpdateMutation!): DocumentNode!
@@ -1354,20 +1808,25 @@ type Mutation {
   createFolder(collection: String, relativePath: String!): DocumentNode!
   updateProject(relativePath: String!, params: ProjectMutation!): Project!
   createProject(relativePath: String!, params: ProjectMutation!): Project!
+  updatePage(relativePath: String!, params: PageMutation!): Page!
+  createPage(relativePath: String!, params: PageMutation!): Page!
 }
 
 input DocumentUpdateMutation {
   project: ProjectMutation
+  page: PageMutation
   relativePath: String
 }
 
 input DocumentMutation {
   project: ProjectMutation
+  page: PageMutation
 }
 
 input ProjectSectionsSingleBlocksHeadingMutation {
   level: String
   text: String
+  color: String
 }
 
 input ProjectSectionsSingleBlocksParagraphMutation {
@@ -1454,6 +1913,39 @@ input ProjectSectionsSingleBlocksSpacerMutation {
   size: String
 }
 
+input ProjectSectionsSingleBlocksParticipantMutation {
+  experienceTitle: String
+  name: String
+  image: String
+  text: String
+}
+
+input ProjectSectionsSingleBlocksPhotoFeatureMainImageMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsSingleBlocksPhotoFeatureThumbsMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsSingleBlocksPhotoFeatureMutation {
+  mainImage: ProjectSectionsSingleBlocksPhotoFeatureMainImageMutation
+  thumbs: [ProjectSectionsSingleBlocksPhotoFeatureThumbsMutation]
+}
+
+input ProjectSectionsSingleBlocksLinkGridLinksMutation {
+  src: String
+  alt: String
+  href: String
+}
+
+input ProjectSectionsSingleBlocksLinkGridMutation {
+  columns: String
+  links: [ProjectSectionsSingleBlocksLinkGridLinksMutation]
+}
+
 input ProjectSectionsSingleBlocksMutation {
   heading: ProjectSectionsSingleBlocksHeadingMutation
   paragraph: ProjectSectionsSingleBlocksParagraphMutation
@@ -1467,6 +1959,9 @@ input ProjectSectionsSingleBlocksMutation {
   partner: ProjectSectionsSingleBlocksPartnerMutation
   outcome: ProjectSectionsSingleBlocksOutcomeMutation
   spacer: ProjectSectionsSingleBlocksSpacerMutation
+  participant: ProjectSectionsSingleBlocksParticipantMutation
+  photoFeature: ProjectSectionsSingleBlocksPhotoFeatureMutation
+  linkGrid: ProjectSectionsSingleBlocksLinkGridMutation
 }
 
 input ProjectSectionsSingleMutation {
@@ -1480,6 +1975,7 @@ input ProjectSectionsSingleMutation {
 input ProjectSectionsColumnsLeftHeadingMutation {
   level: String
   text: String
+  color: String
 }
 
 input ProjectSectionsColumnsLeftParagraphMutation {
@@ -1566,6 +2062,39 @@ input ProjectSectionsColumnsLeftSpacerMutation {
   size: String
 }
 
+input ProjectSectionsColumnsLeftParticipantMutation {
+  experienceTitle: String
+  name: String
+  image: String
+  text: String
+}
+
+input ProjectSectionsColumnsLeftPhotoFeatureMainImageMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsColumnsLeftPhotoFeatureThumbsMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsColumnsLeftPhotoFeatureMutation {
+  mainImage: ProjectSectionsColumnsLeftPhotoFeatureMainImageMutation
+  thumbs: [ProjectSectionsColumnsLeftPhotoFeatureThumbsMutation]
+}
+
+input ProjectSectionsColumnsLeftLinkGridLinksMutation {
+  src: String
+  alt: String
+  href: String
+}
+
+input ProjectSectionsColumnsLeftLinkGridMutation {
+  columns: String
+  links: [ProjectSectionsColumnsLeftLinkGridLinksMutation]
+}
+
 input ProjectSectionsColumnsLeftMutation {
   heading: ProjectSectionsColumnsLeftHeadingMutation
   paragraph: ProjectSectionsColumnsLeftParagraphMutation
@@ -1579,11 +2108,15 @@ input ProjectSectionsColumnsLeftMutation {
   partner: ProjectSectionsColumnsLeftPartnerMutation
   outcome: ProjectSectionsColumnsLeftOutcomeMutation
   spacer: ProjectSectionsColumnsLeftSpacerMutation
+  participant: ProjectSectionsColumnsLeftParticipantMutation
+  photoFeature: ProjectSectionsColumnsLeftPhotoFeatureMutation
+  linkGrid: ProjectSectionsColumnsLeftLinkGridMutation
 }
 
 input ProjectSectionsColumnsRightHeadingMutation {
   level: String
   text: String
+  color: String
 }
 
 input ProjectSectionsColumnsRightParagraphMutation {
@@ -1670,6 +2203,39 @@ input ProjectSectionsColumnsRightSpacerMutation {
   size: String
 }
 
+input ProjectSectionsColumnsRightParticipantMutation {
+  experienceTitle: String
+  name: String
+  image: String
+  text: String
+}
+
+input ProjectSectionsColumnsRightPhotoFeatureMainImageMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsColumnsRightPhotoFeatureThumbsMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsColumnsRightPhotoFeatureMutation {
+  mainImage: ProjectSectionsColumnsRightPhotoFeatureMainImageMutation
+  thumbs: [ProjectSectionsColumnsRightPhotoFeatureThumbsMutation]
+}
+
+input ProjectSectionsColumnsRightLinkGridLinksMutation {
+  src: String
+  alt: String
+  href: String
+}
+
+input ProjectSectionsColumnsRightLinkGridMutation {
+  columns: String
+  links: [ProjectSectionsColumnsRightLinkGridLinksMutation]
+}
+
 input ProjectSectionsColumnsRightMutation {
   heading: ProjectSectionsColumnsRightHeadingMutation
   paragraph: ProjectSectionsColumnsRightParagraphMutation
@@ -1683,6 +2249,9 @@ input ProjectSectionsColumnsRightMutation {
   partner: ProjectSectionsColumnsRightPartnerMutation
   outcome: ProjectSectionsColumnsRightOutcomeMutation
   spacer: ProjectSectionsColumnsRightSpacerMutation
+  participant: ProjectSectionsColumnsRightParticipantMutation
+  photoFeature: ProjectSectionsColumnsRightPhotoFeatureMutation
+  linkGrid: ProjectSectionsColumnsRightLinkGridMutation
 }
 
 input ProjectSectionsColumnsMutation {
@@ -1700,6 +2269,7 @@ input ProjectSectionsColumnsMutation {
 input ProjectSectionsGridGridColumnsBlocksHeadingMutation {
   level: String
   text: String
+  color: String
 }
 
 input ProjectSectionsGridGridColumnsBlocksParagraphMutation {
@@ -1786,6 +2356,39 @@ input ProjectSectionsGridGridColumnsBlocksSpacerMutation {
   size: String
 }
 
+input ProjectSectionsGridGridColumnsBlocksParticipantMutation {
+  experienceTitle: String
+  name: String
+  image: String
+  text: String
+}
+
+input ProjectSectionsGridGridColumnsBlocksPhotoFeatureMainImageMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsGridGridColumnsBlocksPhotoFeatureThumbsMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsGridGridColumnsBlocksPhotoFeatureMutation {
+  mainImage: ProjectSectionsGridGridColumnsBlocksPhotoFeatureMainImageMutation
+  thumbs: [ProjectSectionsGridGridColumnsBlocksPhotoFeatureThumbsMutation]
+}
+
+input ProjectSectionsGridGridColumnsBlocksLinkGridLinksMutation {
+  src: String
+  alt: String
+  href: String
+}
+
+input ProjectSectionsGridGridColumnsBlocksLinkGridMutation {
+  columns: String
+  links: [ProjectSectionsGridGridColumnsBlocksLinkGridLinksMutation]
+}
+
 input ProjectSectionsGridGridColumnsBlocksMutation {
   heading: ProjectSectionsGridGridColumnsBlocksHeadingMutation
   paragraph: ProjectSectionsGridGridColumnsBlocksParagraphMutation
@@ -1799,6 +2402,9 @@ input ProjectSectionsGridGridColumnsBlocksMutation {
   partner: ProjectSectionsGridGridColumnsBlocksPartnerMutation
   outcome: ProjectSectionsGridGridColumnsBlocksOutcomeMutation
   spacer: ProjectSectionsGridGridColumnsBlocksSpacerMutation
+  participant: ProjectSectionsGridGridColumnsBlocksParticipantMutation
+  photoFeature: ProjectSectionsGridGridColumnsBlocksPhotoFeatureMutation
+  linkGrid: ProjectSectionsGridGridColumnsBlocksLinkGridMutation
 }
 
 input ProjectSectionsGridGridColumnsMutation {
@@ -1888,6 +2494,7 @@ input ProjectSectionsRepeaterMutation {
 input ProjectSectionsAutoGridItemsHeadingMutation {
   level: String
   text: String
+  color: String
 }
 
 input ProjectSectionsAutoGridItemsParagraphMutation {
@@ -1974,6 +2581,39 @@ input ProjectSectionsAutoGridItemsSpacerMutation {
   size: String
 }
 
+input ProjectSectionsAutoGridItemsParticipantMutation {
+  experienceTitle: String
+  name: String
+  image: String
+  text: String
+}
+
+input ProjectSectionsAutoGridItemsPhotoFeatureMainImageMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsAutoGridItemsPhotoFeatureThumbsMutation {
+  src: String
+  alt: String
+}
+
+input ProjectSectionsAutoGridItemsPhotoFeatureMutation {
+  mainImage: ProjectSectionsAutoGridItemsPhotoFeatureMainImageMutation
+  thumbs: [ProjectSectionsAutoGridItemsPhotoFeatureThumbsMutation]
+}
+
+input ProjectSectionsAutoGridItemsLinkGridLinksMutation {
+  src: String
+  alt: String
+  href: String
+}
+
+input ProjectSectionsAutoGridItemsLinkGridMutation {
+  columns: String
+  links: [ProjectSectionsAutoGridItemsLinkGridLinksMutation]
+}
+
 input ProjectSectionsAutoGridItemsMutation {
   heading: ProjectSectionsAutoGridItemsHeadingMutation
   paragraph: ProjectSectionsAutoGridItemsParagraphMutation
@@ -1987,6 +2627,9 @@ input ProjectSectionsAutoGridItemsMutation {
   partner: ProjectSectionsAutoGridItemsPartnerMutation
   outcome: ProjectSectionsAutoGridItemsOutcomeMutation
   spacer: ProjectSectionsAutoGridItemsSpacerMutation
+  participant: ProjectSectionsAutoGridItemsParticipantMutation
+  photoFeature: ProjectSectionsAutoGridItemsPhotoFeatureMutation
+  linkGrid: ProjectSectionsAutoGridItemsLinkGridMutation
 }
 
 input ProjectSectionsAutoGridMutation {
@@ -2012,9 +2655,50 @@ input ProjectSectionsMutation {
 }
 
 input ProjectMutation {
+  title: String
+  dates: String
+  location: String
+  description: String
+  coverImage: String
   heroImage: String
   subtitle: String
   sections: [ProjectSectionsMutation]
+}
+
+input PageHeroMutation {
+  headline: String
+  subheading: String
+  backgroundImage: String
+  buttonText: String
+}
+
+input PageAboutThumbnailsMutation {
+  src: String
+  alt: String
+}
+
+input PageAboutMutation {
+  title: String
+  subtitle: String
+  text1: String
+  text2: String
+  caption: String
+  mainImage: String
+  thumbnails: [PageAboutThumbnailsMutation]
+}
+
+input PageInstagramMutation {
+  title: String
+  subtitle: String
+  handle: String
+  link: String
+}
+
+input PageMutation {
+  title: String
+  hero: PageHeroMutation
+  about: PageAboutMutation
+  instagram: PageInstagramMutation
 }
 
 schema {

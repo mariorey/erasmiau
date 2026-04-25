@@ -10,130 +10,30 @@
   "heroImage": "/images/projects/sending/sending-1-cover.jpg",
   "sections": [
     {
-      "_template": "columns",
+      "_template": "single",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "lg",
-      "distribution": "70/30",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
-        },
-        {
-          "_template": "heading",
-          "text": "Leyre Muñoz",
-          "level": "3"
-        }
-      ],
-      "right": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/greem-comp/leyre.jpg",
-          "alt": "Leyre Muñoz",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "background": "white",
-      "paddingY": "sm",
-      "maxWidth": "lg",
       "blocks": [
         {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Leyre Muñoz",
+          "image": "/images/projects/sending/greem-comp/leyre.jpg",
           "text": "It has been a short experience but I have learned a lot. Now I know how to use many mindfullnes tools that will be useful in my daily life and also all those about sustainability that I can apply in my future workshops. I had a great time with the participants, I had a lot of fun, and I made friends with people I hope to see in the future. We did a lot of team work and one of the ones I liked the most was reusing a bottle to create a wallet. I think many of the things we learnt like active listening or mindfullnes communication are very important."
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "distribution": "30/70",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/greem-comp/lourdes.jpg",
-          "alt": "Lourdes Galisteo",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ],
-      "right": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
         },
         {
-          "_template": "heading",
-          "text": "Lourdes Galisteo",
-          "level": "3"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "background": "white",
-      "paddingY": "sm",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Lourdes Galisteo",
+          "image": "/images/projects/sending/greem-comp/lourdes.jpg",
           "text": "The experience was very intense and educational. Importance was given to issues such as sustainability, environment, take care of the nature, mindfulness… The participans were very friendly and energetic. The activities were very well organized and professional. Thanks to this experience I am more aware of what the planet currently needs. In addition, I will be able to hold workshops to raise people's awareness about the issue."
-        }
-      ]
-    },
-    {
-      "_template": "columns",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "distribution": "70/30",
-      "verticalAlign": "center",
-      "left": [
-        {
-          "_template": "heading",
-          "text": "My experience",
-          "level": "1"
         },
         {
-          "_template": "heading",
-          "text": "Miriam Bascón",
-          "level": "3"
-        }
-      ],
-      "right": [
-        {
-          "_template": "image",
-          "src": "/images/projects/sending/greem-comp/miriam.jpg",
-          "alt": "Miriam Bascón",
-          "aspectRatio": "1/1",
-          "rounded": "full"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "background": "white",
-      "paddingY": "sm",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "_template": "paragraph",
-          "italic": true,
-          "size": "lg",
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Miriam Bascón",
+          "image": "/images/projects/sending/greem-comp/miriam.jpg",
           "text": "The experience in Greece was very rewarding. The participants of the training courses learned a lot about mainfullness and greencomp. Sustainability and recycling was one of the most important factors of the project, since we must all contribute to the environment. The organization provided us with numerous resources and activities to increase our training on the subject. The people on this project were incredible, some friends who came back to Spain."
         }
       ]
@@ -147,38 +47,14 @@
       "title": "Galería",
       "subtitle": "Some of the photos of the project in Greece!",
       "images": [
-        {
-          "src": "/images/projects/sending/greem-comp/1.jpg",
-          "alt": "Greece — moment 1"
-        },
-        {
-          "src": "/images/projects/sending/greem-comp/2.jpg",
-          "alt": "Greece — moment 2"
-        },
-        {
-          "src": "/images/projects/sending/greem-comp/3.jpg",
-          "alt": "Greece — moment 3"
-        },
-        {
-          "src": "/images/projects/sending/greem-comp/4.jpg",
-          "alt": "Greece — moment 4"
-        },
-        {
-          "src": "/images/projects/sending/greem-comp/5.jpg",
-          "alt": "Greece — moment 5"
-        },
-        {
-          "src": "/images/projects/sending/greem-comp/6.jpg",
-          "alt": "Greece — moment 6"
-        },
-        {
-          "src": "/images/projects/sending/greem-comp/7.jpg",
-          "alt": "Greece — moment 7"
-        },
-        {
-          "src": "/images/projects/sending/greem-comp/8.jpg",
-          "alt": "Greece — moment 8"
-        }
+        { "src": "/images/projects/sending/greem-comp/1.jpg", "alt": "Greece — moment 1" },
+        { "src": "/images/projects/sending/greem-comp/2.jpg", "alt": "Greece — moment 2" },
+        { "src": "/images/projects/sending/greem-comp/3.jpg", "alt": "Greece — moment 3" },
+        { "src": "/images/projects/sending/greem-comp/4.jpg", "alt": "Greece — moment 4" },
+        { "src": "/images/projects/sending/greem-comp/5.jpg", "alt": "Greece — moment 5" },
+        { "src": "/images/projects/sending/greem-comp/6.jpg", "alt": "Greece — moment 6" },
+        { "src": "/images/projects/sending/greem-comp/7.jpg", "alt": "Greece — moment 7" },
+        { "src": "/images/projects/sending/greem-comp/8.jpg", "alt": "Greece — moment 8" }
       ],
       "columns": "3"
     }
