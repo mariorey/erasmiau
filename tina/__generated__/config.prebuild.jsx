@@ -846,8 +846,8 @@ var sectionTemplates = [
 ];
 var config_default = defineConfig({
   branch: process.env.GITHUB_BRANCH || "main",
-  clientId: "c8fa186c-7308-4b5d-a717-0557aa09399d",
-  token: null,
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID || null,
+  token: process.env.TINA_TOKEN || null,
   build: {
     outputFolder: "admin",
     publicFolder: "public"
