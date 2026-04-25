@@ -1,5 +1,6 @@
 import Image from "next/image"
-import type { GalleryBlock as GalleryBlockType } from "@/types/content"
+import type { GalleryBlock as T } from "@/types/content"
+import type { TinaFieldFor } from "../BlockRenderer"
 
 const colMap: Record<number, string> = {
   2: "grid-cols-2",
@@ -8,18 +9,12 @@ const colMap: Record<number, string> = {
   5: "grid-cols-2 md:grid-cols-3 lg:grid-cols-5",
 }
 
-export function GalleryBlock({ images, columns = 3 }: GalleryBlockType) {
+export function GalleryBlock({ images, columns = 3, tf }: T & { tf?: TinaFieldFor }) {
   return (
-    <div className={`grid ${colMap[columns]} gap-3`}>
+    <div className={`grid ${colMap[columns]} gap-3`} data-tina-field={tf?.("images")}>
       {images.map((img, i) => (
         <div key={i} className="aspect-square relative overflow-hidden rounded-xl">
-          <Image
-            src={img.src}
-            alt={img.alt ?? ""}
-            fill
-            sizes="(max-width: 768px) 50vw, 25vw"
-            className="object-cover"
-          />
+          <Image src={img.src} alt={img.alt ?? ""} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover" />
         </div>
       ))}
     </div>

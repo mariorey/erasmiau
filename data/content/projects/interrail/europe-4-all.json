@@ -18,7 +18,7 @@
       "blocks": [
         {
           "type": "heading",
-          "level": 1,
+          "level": "1",
           "text": "Europe 4 ALL",
           "_template": "heading"
         },
@@ -55,7 +55,7 @@
       "right": [
         {
           "type": "heading",
-          "level": 3,
+          "level": "3",
           "text": "The Route",
           "_template": "heading"
         },
@@ -80,7 +80,7 @@
         },
         {
           "type": "imageGroup",
-          "columns": 3,
+          "columns": "3",
           "images": [
             {
               "src": "/images/projects/interrail/interrail-2-cover.jpg",
@@ -105,7 +105,7 @@
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
-      "count": 4,
+      "count": "4",
       "gridColumns": [
         {
           "blocks": [
@@ -123,7 +123,7 @@
           "blocks": [
             {
               "type": "heading",
-              "level": 3,
+              "level": "3",
               "text": "Paris",
               "_template": "heading"
             },
@@ -150,7 +150,7 @@
           "blocks": [
             {
               "type": "heading",
-              "level": 3,
+              "level": "3",
               "text": "Amsterdam",
               "_template": "heading"
             },
@@ -172,7 +172,7 @@
       "blocks": [
         {
           "type": "heading",
-          "level": 2,
+          "level": "2",
           "text": "Watch our story",
           "_template": "heading"
         },
@@ -231,7 +231,7 @@
           "alt": "Group photo"
         }
       ],
-      "columns": 4
+      "columns": "4"
     },
     {
       "_template": "columns",
@@ -244,7 +244,7 @@
       "left": [
         {
           "type": "heading",
-          "level": 2,
+          "level": "2",
           "text": "Why this project matters",
           "_template": "heading"
         },

@@ -1,3 +1,6 @@
+"use client"
+
+import { tinaField } from "tinacms/dist/react"
 import type { Section, SectionBase } from "@/types/content"
 import { SingleColumnLayout } from "./layouts/SingleColumnLayout"
 import { TwoColumnLayout } from "./layouts/TwoColumnLayout"
@@ -37,23 +40,27 @@ function innerCls(s: SectionBase) {
   return `${maxWCls[s.maxWidth ?? "lg"]} mx-auto`
 }
 
-function renderLayout(section: Section) {
+function renderLayout(section: Section, tinaRaw?: any) {
   switch (section.layout) {
-    case "single":       return <SingleColumnLayout {...section} />
-    case "columns":      return <TwoColumnLayout {...section} />
-    case "grid":         return <MultiColumnLayout {...section} />
-    case "testimonials": return <TestimonialsLayout {...section} />
-    case "gallery":      return <GalleryLayout {...section} />
-    case "repeater":     return <RepeaterLayout {...section} />
-    case "autoGrid":     return <AutoGridLayout {...section} />
+    case "single":       return <SingleColumnLayout {...section} tinaRaw={tinaRaw} />
+    case "columns":      return <TwoColumnLayout {...section} tinaRaw={tinaRaw} />
+    case "grid":         return <MultiColumnLayout {...section} tinaRaw={tinaRaw} />
+    case "testimonials": return <TestimonialsLayout {...section} tinaRaw={tinaRaw} />
+    case "gallery":      return <GalleryLayout {...section} tinaRaw={tinaRaw} />
+    case "repeater":     return <RepeaterLayout {...section} tinaRaw={tinaRaw} />
+    case "autoGrid":     return <AutoGridLayout {...section} tinaRaw={tinaRaw} />
   }
 }
 
-export function SectionRenderer({ section }: { section: Section }) {
+export function SectionRenderer({ section, tinaRaw }: { section: Section; tinaRaw?: any }) {
   return (
-    <section id={section.id} className={wrapperCls(section)}>
+    <section
+      id={section.id}
+      className={wrapperCls(section)}
+      data-tina-field={tinaRaw ? tinaField(tinaRaw, "background") : undefined}
+    >
       <div className={innerCls(section)}>
-        {renderLayout(section)}
+        {renderLayout(section, tinaRaw)}
       </div>
     </section>
   )

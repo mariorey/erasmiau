@@ -1,4 +1,5 @@
-import type { ParagraphBlock as ParagraphBlockType } from "@/types/content"
+import type { ParagraphBlock as T } from "@/types/content"
+import type { TinaFieldFor } from "../BlockRenderer"
 
 const sizeMap: Record<string, string> = {
   sm: "text-sm",
@@ -14,10 +15,12 @@ const alignMap: Record<string, string> = {
   justify: "text-justify",
 }
 
-export function ParagraphBlock({ text, italic, size = "base", align = "left" }: ParagraphBlockType) {
-  const italicCls = italic ? "italic" : ""
+export function ParagraphBlock({ text, italic, size = "base", align = "left", tf }: T & { tf?: TinaFieldFor }) {
   return (
-    <p className={`text-gray-600 ${sizeMap[size]} ${alignMap[align]} ${italicCls} leading-relaxed`}>
+    <p
+      className={`text-gray-600 ${sizeMap[size]} ${alignMap[align]} ${italic ? "italic" : ""} leading-relaxed`}
+      data-tina-field={tf?.("text")}
+    >
       {text}
     </p>
   )

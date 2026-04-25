@@ -12,13 +12,17 @@ const gapCls: Record<string, string> = {
   lg: "gap-12",
 }
 
-export function MultiColumnLayout({ count, columns, gap = "md" }: MultiColumnSection) {
+interface Props extends MultiColumnSection {
+  tinaRaw?: any
+}
+
+export function MultiColumnLayout({ count, columns, gap = "md", tinaRaw }: Props) {
   return (
     <div className={`grid grid-cols-1 ${countCls[count]} ${gapCls[gap]}`}>
       {columns.map((col, i) => (
         <div key={i} className="flex flex-col gap-6">
           {col.blocks.map((block, j) => (
-            <BlockRenderer key={j} block={block} />
+            <BlockRenderer key={j} block={block} tinaRaw={tinaRaw?.gridColumns?.[i]?.blocks?.[j]} />
           ))}
         </div>
       ))}

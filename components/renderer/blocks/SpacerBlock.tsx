@@ -1,4 +1,5 @@
-import type { SpacerBlock as SpacerBlockType } from "@/types/content"
+import type { SpacerBlock as T } from "@/types/content"
+import type { TinaFieldFor } from "../BlockRenderer"
 
 const sizeMap: Record<string, string> = {
   sm: "h-4",
@@ -6,6 +7,6 @@ const sizeMap: Record<string, string> = {
   lg: "h-16",
 }
 
-export function SpacerBlock({ size = "md" }: SpacerBlockType) {
-  return <div className={sizeMap[size]} aria-hidden="true" />
+export function SpacerBlock({ size = "md", tf }: T & { tf?: TinaFieldFor }) {
+  return <div className={sizeMap[size]} aria-hidden="true" data-tina-field={tf?.("size")} />
 }

@@ -11,82 +11,62 @@
   "sections": [
     {
       "_template": "columns",
-      "layout": "columns",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "lg",
-      "distribution": "50/50",
+      "distribution": "70/30",
       "verticalAlign": "center",
       "left": [
         {
-          "type": "heading",
-          "level": 1,
-          "text": "YE",
-          "_template": "heading"
+          "_template": "heading",
+          "text": "My experience",
+          "level": "1"
         },
         {
-          "type": "heading",
-          "level": 3,
-          "text": "Crime Prevention in Youth",
-          "_template": "heading"
+          "_template": "heading",
+          "text": "YE",
+          "level": "3"
         }
       ],
       "right": [
         {
-          "type": "image",
+          "_template": "image",
           "src": "/images/projects/sending/crime-prevention/ye-cover.jpg",
-          "alt": "Crime Prevention in Youth YE — Cyprus",
+          "alt": "YE",
           "aspectRatio": "1/1",
-          "rounded": "full",
-          "_template": "image"
+          "rounded": "full"
         }
       ]
     },
     {
       "_template": "single",
-      "layout": "single",
       "background": "white",
       "paddingY": "sm",
       "maxWidth": "lg",
       "blocks": [
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "The experience we had in this project about Crime Prevention was far more fascinating and enjoyable than we ever imagined. Through the lens of youth work, we returned home with our energy restored and our minds enriched with valuable knowledge. Our journey was filled with numerous resources and insightful activities, expertly guided by our facilitators, Kyriakos, Inga, and Natasa. Their constant support, along with their exemplary teamwork and genuine collaboration, left a lasting impression on all of us. They showed us how friendship and open communication can elevate the spirit of a project.",
-          "_template": "paragraph"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "layout": "single",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "What we did?",
-          "_template": "heading"
+          "text": "The experience we had in this project about Crime Prevention was far more fascinating and enjoyable than we ever imagined. Through the lens of youth work, we returned home with our energy restored and our minds enriched with valuable knowledge. Our journey was filled with numerous resources and insightful activities, expertly guided by our facilitators, Kyriakos, Inga, and Natasa. Their constant support, along with their exemplary teamwork and genuine collaboration, left a lasting impression on all of us. They showed us how friendship and open communication can elevate the spirit of a project."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "In the project, we engaged in a variety of interactive and educational activities focused on crime prevention. We participated in workshops and discussions that explored the different aspects of crime in our home countries, examining both the causes and the potential solutions. With the guidance of our facilitators, we developed a deeper understanding of how crime impacts our communities and learned practical strategies to address these challenges through youth work.",
-          "_template": "paragraph"
+          "text": "In the project, we engaged in a variety of interactive and educational activities focused on crime prevention. We participated in workshops and discussions that explored the different aspects of crime in our home countries, examining both the causes and the potential solutions. With the guidance of our facilitators, we developed a deeper understanding of how crime impacts our communities and learned practical strategies to address these challenges through youth work."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "We also worked in diverse teams to create collaborative projects, sharing our unique cultural perspectives and experiences. These activities helped us foster teamwork, communication, and problem-solving skills. Additionally, we took part in creative sessions that included role-playing, simulations, and group challenges that highlighted the importance of unity and collaboration in addressing complex issues.",
-          "_template": "paragraph"
+          "text": "We also worked in diverse teams to create collaborative projects, sharing our unique cultural perspectives and experiences. These activities helped us foster teamwork, communication, and problem-solving skills. Additionally, we took part in creative sessions that included role-playing, simulations, and group challenges that highlighted the importance of unity and collaboration in addressing complex issues."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "Overall, we built connections across cultures, gained new resources for crime prevention, and experienced the power of working together to make a positive difference in society.",
-          "_template": "paragraph"
+          "text": "Overall, we built connections across cultures, gained new resources for crime prevention, and experienced the power of working together to make a positive difference in society."
         }
       ]
     },
@@ -96,7 +76,7 @@
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
-      "count": 3,
+      "count": "3",
       "title": "Our Participants: Esperanza, Pili, Juanjo, Mario & Juanje",
       "items": [
         {
@@ -155,7 +135,7 @@
       "blocks": [
         {
           "type": "heading",
-          "level": 2,
+          "level": "2",
           "text": "Local Event for Dissemination",
           "_template": "heading"
         },
@@ -173,7 +153,7 @@
         },
         {
           "type": "imageGroup",
-          "columns": 3,
+          "columns": "3",
           "images": [
             {
               "src": "/images/projects/sending/crime-prevention/dissemination-1.jpg",
@@ -234,7 +214,7 @@
           "alt": "Cyprus YE — moment 8"
         }
       ],
-      "columns": 3
+      "columns": "3"
     }
   ]
 }

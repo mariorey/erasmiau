@@ -11,139 +11,104 @@
   "sections": [
     {
       "_template": "columns",
-      "layout": "columns",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "lg",
-      "distribution": "50/50",
+      "distribution": "70/30",
       "verticalAlign": "center",
       "left": [
         {
-          "type": "heading",
-          "level": 1,
-          "text": "TC",
-          "_template": "heading"
+          "_template": "heading",
+          "text": "My experience",
+          "level": "1"
         },
         {
-          "type": "heading",
-          "level": 3,
-          "text": "Digital Tools and Media literacy",
-          "_template": "heading"
+          "_template": "heading",
+          "text": "TC",
+          "level": "3"
         }
       ],
       "right": [
         {
-          "type": "image",
+          "_template": "image",
           "src": "/images/projects/sending/digital-tools-tc/tc-cover.jpg",
-          "alt": "Digital Tools and Media literacy TC — Cyprus",
+          "alt": "TC",
           "aspectRatio": "1/1",
-          "rounded": "full",
-          "_template": "image"
+          "rounded": "full"
         }
       ]
     },
     {
       "_template": "single",
-      "layout": "single",
       "background": "white",
       "paddingY": "sm",
       "maxWidth": "lg",
       "blocks": [
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "In the picturesque landscapes of Cyprus, an enlightening journey unfolded over the course of a training program tailored for 24 youth workers hailing from diverse corners of the globe. Set against the backdrop of digital tools and media literacy, this project encapsulated a transformative experience. Follow the Adventures of our group of Youth Workers: Natalia, Manuel & Juanje.",
-          "_template": "paragraph"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "layout": "single",
-      "background": "white",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "What we did?",
-          "_template": "heading"
+          "text": "In the picturesque landscapes of Cyprus, an enlightening journey unfolded over the course of a training program tailored for 24 youth workers hailing from diverse corners of the globe. Set against the backdrop of digital tools and media literacy, this project encapsulated a transformative experience. Follow the Adventures of our group of Youth Workers: Natalia, Manuel & Juanje."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "The first part of the project was dedicated to different dynamics and group building exercises that allow us to break the ice, know each other and start guessing the names of the participants. It was interesting to meet different people with such stories.",
-          "_template": "paragraph"
+          "text": "The first part of the project was dedicated to different dynamics and group building exercises that allow us to break the ice, know each other and start guessing the names of the participants. It was interesting to meet different people with such stories."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "The middle part of the project was dedicated to develope the topic through different workshops. The workshops were developed about different youth leaders and representators of the associations involved. Also we received to experts in AI and WordPress that bring us some professional outcomes.",
-          "_template": "paragraph"
+          "text": "The middle part of the project was dedicated to develope the topic through different workshops. The workshops were developed about different youth leaders and representators of the associations involved. Also we received to experts in AI and WordPress that bring us some professional outcomes."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "The last part was dedicated to generate some projects results and develope a workshop in a local educative centre that help us connect with the locals and start the see you later aligater process.",
-          "_template": "paragraph"
-        }
-      ]
-    },
-    {
-      "_template": "single",
-      "layout": "single",
-      "background": "light",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "blocks": [
-        {
-          "type": "heading",
-          "level": 2,
-          "text": "Day by Day :D",
-          "_template": "heading"
+          "text": "The last part was dedicated to generate some projects results and develope a workshop in a local educative centre that help us connect with the locals and start the see you later aligater process."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "Saturday the 6th was the first day, our first activity together this day was designed to get to know each other better, our names, nationalities and begin to create a good atmosphere in the group.",
-          "_template": "paragraph"
+          "text": "Saturday the 6th was the first day, our first activity together this day was designed to get to know each other better, our names, nationalities and begin to create a good atmosphere in the group."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "On Sunday we went to see the archaeological museum and we were also able to see the city of Limassol, walk and eat in the sun in the port. A pleasure.",
-          "_template": "paragraph"
+          "text": "On Sunday we went to see the archaeological museum and we were also able to see the city of Limassol, walk and eat in the sun in the port. A pleasure."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "On Monday we worked on different activities with the group from Romania and we also received a visit from an Artificial Intelligence professional. Very interesting.",
-          "_template": "paragraph"
+          "text": "On Monday we worked on different activities with the group from Romania and we also received a visit from an Artificial Intelligence professional. Very interesting."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "On Tuesday we started the day leading the Lithuania team and its activities and in the afternoon we had a talk and activity with a WordPress professional.",
-          "_template": "paragraph"
+          "text": "On Tuesday we started the day leading the Lithuania team and its activities and in the afternoon we had a talk and activity with a WordPress professional."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "Wednesday, we learned about the Canva application with the Macedonian group and did different activities with them.",
-          "_template": "paragraph"
+          "text": "Wednesday, we learned about the Canva application with the Macedonian group and did different activities with them."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "Thursday, we prepare the different activities for the last day (Friday) and think of fun dynamics to present to the children of the center.",
-          "_template": "paragraph"
+          "text": "Thursday, we prepare the different activities for the last day (Friday) and think of fun dynamics to present to the children of the center."
         },
         {
-          "type": "paragraph",
+          "_template": "paragraph",
+          "italic": true,
           "size": "lg",
-          "text": "Friday, we visited the school where we did activities with primary school children and made a general summary of the week. It has been my favorite day of the week.",
-          "_template": "paragraph"
+          "text": "Friday, we visited the school where we did activities with primary school children and made a general summary of the week. It has been my favorite day of the week."
         }
       ]
     },
@@ -153,7 +118,7 @@
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "lg",
-      "count": 3,
+      "count": "3",
       "title": "Our Participants: Juanje, Natalia & Manuel",
       "items": [
         {
@@ -194,7 +159,7 @@
       "blocks": [
         {
           "type": "heading",
-          "level": 2,
+          "level": "2",
           "text": "Local Event for Dissemination",
           "_template": "heading"
         },
@@ -248,7 +213,7 @@
           "alt": "Cyprus TC — moment 8"
         }
       ],
-      "columns": 3
+      "columns": "3"
     }
   ]
 }

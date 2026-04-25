@@ -1,0 +1,35 @@
+{
+  "heroImage": "/images/hero-bg.jpg",
+  "subtitle": "Creando un proyecto desde 0",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "awefawefawefawef",
+          "size": "lg",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "items": [
+        {
+          "day": "1",
+          "title": "Dia 1 ",
+          "text": "me saque un moco",
+          "images": [
+            {
+              "src": "/images/hero-bg.jpg"
+            }
+          ],
+          "_template": "dayReport"
+        },
+        {
+          "_template": "dayReport"
+        }
+      ],
+      "_template": "autoGrid"
+    }
+  ]
+}

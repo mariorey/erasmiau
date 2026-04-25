@@ -20,12 +20,41 @@ import type {
 // TinaCMS uses _template as the discriminator; we also keep type/layout as fallback.
 type Raw = Record<string, any>
 
+// TinaCMS GraphQL returns __typename (e.g. "ProjectSectionsSingle") instead of _template.
+// Map the known __typename values to our internal layout/type keys.
+const SECTION_TYPENAME: Record<string, string> = {
+  ProjectSectionsSingle: "single",
+  ProjectSectionsColumns: "columns",
+  ProjectSectionsGrid: "grid",
+  ProjectSectionsTestimonials: "testimonials",
+  ProjectSectionsGallery: "gallery",
+  ProjectSectionsRepeater: "repeater",
+  ProjectSectionsAutoGrid: "autoGrid",
+}
+
+// Block __typename ends with the block name (e.g. "...BlocksImageGroup", "...ItemsDayReport").
+// Most specific suffixes first to avoid false matches.
+const BLOCK_SUFFIXES = [
+  "ImageGroup", "DayReport", "Testimonial", "Paragraph",
+  "Heading", "Gallery", "Partner", "Outcome", "Spacer", "Image", "Video", "List",
+]
+
 function resolveBlockType(raw: Raw): string {
-  return raw._template ?? raw.type ?? ""
+  if (raw._template) return raw._template
+  if (raw.type) return raw.type
+  if (raw.__typename) {
+    for (const s of BLOCK_SUFFIXES) {
+      if (raw.__typename.endsWith(s)) return s.charAt(0).toLowerCase() + s.slice(1)
+    }
+  }
+  return ""
 }
 
 function resolveSectionLayout(raw: Raw): string {
-  return raw._template ?? raw.layout ?? ""
+  if (raw._template) return raw._template
+  if (raw.layout) return raw.layout
+  if (raw.__typename) return SECTION_TYPENAME[raw.__typename] ?? ""
+  return ""
 }
 
 // TinaCMS select fields store numbers as strings; parse back to number or undefined.

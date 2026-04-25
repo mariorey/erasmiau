@@ -1,6 +1,5 @@
 {
   "title": "The Rhythm of the Life (YE)",
-  "subtitle": "03-12 October 2023 · Puente Genil, Spain",
   "category": "hosting",
   "slug": "rhythm-of-the-life",
   "dates": "03-12 October 2023",
@@ -8,46 +7,40 @@
   "description": "\"The Rhythm of the life\" is an European project that seeks to develop environmental awareness in a diverse group of young people of different nationalities through music as the main tool.",
   "coverImage": "/images/projects/hosting/hosting-1-cover.jpg",
   "heroImage": "/images/projects/hosting/hosting-1-cover.jpg",
+  "subtitle": "03-12 October 2023 · Puente Genil, Spain",
   "sections": [
     {
-      "_template": "single",
-      "layout": "single",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "md",
       "blocks": [
         {
-          "type": "heading",
-          "level": 2,
-          "text": "Description of the Project",
+          "level": "2",
+          "text": "Description of the Projectjiowefjioewf",
           "_template": "heading"
         },
         {
-          "type": "paragraph",
           "text": "\"The Rhythm of the life\" is an European project that seeks to develop environmental awareness in a diverse group of young people of different nationalities through music as the main tool. This youth exchange is an unique opportunity for young people to explore music as a means to convey important messages about caring for the environment and sustainability. The general objective of \"The Rhythm of the Life\" is to promote environmental awareness and sensitivity towards caring for the environment among a diverse group of young people of different nationalities through music.",
           "_template": "paragraph"
         }
-      ]
+      ],
+      "_template": "single"
     },
     {
-      "_template": "autoGrid",
-      "layout": "autoGrid",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
-      "count": 6,
+      "count": "6",
       "items": [
         {
-          "type": "partner",
           "country": "Georgia",
-          "flag": "/images/projects/hosting/rythm/1.jpg",
+          "flag": "/images/logo.png",
           "organizations": [
             "Umbrella"
           ],
           "_template": "partner"
         },
         {
-          "type": "partner",
           "country": "Greece",
           "flag": "/images/projects/hosting/rythm/2.jpg",
           "organizations": [
@@ -56,7 +49,6 @@
           "_template": "partner"
         },
         {
-          "type": "partner",
           "country": "Lithuania",
           "flag": "/images/projects/hosting/rythm/3.png",
           "organizations": [
@@ -66,7 +58,6 @@
           "_template": "partner"
         },
         {
-          "type": "partner",
           "country": "Macedonia",
           "flag": "/images/projects/hosting/rythm/4.png",
           "organizations": [
@@ -75,7 +66,6 @@
           "_template": "partner"
         },
         {
-          "type": "partner",
           "country": "Spain",
           "flag": "/images/projects/hosting/rythm/5.png",
           "organizations": [
@@ -84,7 +74,6 @@
           "_template": "partner"
         },
         {
-          "type": "partner",
           "country": "Ukraine",
           "flag": "/images/projects/hosting/rythm/6.png",
           "organizations": [
@@ -92,150 +81,139 @@
           ],
           "_template": "partner"
         }
-      ]
+      ],
+      "_template": "autoGrid"
     },
     {
-      "_template": "autoGrid",
-      "layout": "autoGrid",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "xl",
-      "count": 2,
+      "count": "2",
       "title": "Daily Report",
       "subtitle": "Here you can find a little brief description of the activities of everyday made by the participants.",
       "titleColor": "brand",
       "items": [
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 1,
+          "day": "1",
           "title": "Welcome & Ice Breakers",
+          "text": "In the morning we start meeting the group with some funny Ice Breakers and games to get to know each other!!! We also got to know the town and the rules. We conclude the morning presenting the official schedule and the main information about the programme ERASMUS+, the different opoortunities for youth inside the key actions, the ESC (European Solidarity Corps) and the Discover EU programme!!\n\nIn the afternoon we presented the secret friend game and explain some logistical aspects about the accomodation!! We finished the day doing a super awesome activity based on a Imposible Challenge that we finally achieved!\n\nBefore dinner, we had a leaders meeting in order to know the first impression of national groups and make sure they are feeling comfortable.\n\nDuring the night we had the opportunity to know the city doing a night walk all together. Such a nice first day!!",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/7.jpg",
               "alt": "Day 1 – Welcome & Ice Breakers"
             }
           ],
-          "text": "In the morning we start meeting the group with some funny Ice Breakers and games to get to know each other!!! We also got to know the town and the rules. We conclude the morning presenting the official schedule and the main information about the programme ERASMUS+, the different opoortunities for youth inside the key actions, the ESC (European Solidarity Corps) and the Discover EU programme!!\n\nIn the afternoon we presented the secret friend game and explain some logistical aspects about the accomodation!! We finished the day doing a super awesome activity based on a Imposible Challenge that we finally achieved!\n\nBefore dinner, we had a leaders meeting in order to know the first impression of national groups and make sure they are feeling comfortable.\n\nDuring the night we had the opportunity to know the city doing a night walk all together. Such a nice first day!!",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 2,
+          "day": "2",
           "title": "Intercultural Day",
+          "text": "In the morning we had team building. We played with the concept of language barrier! We were constructing legos in group but we could only use our native language.\n\nLater we had Trust Activities combined with a walk through the city. We achieve to see Genil river finally!\n\nAfter lunch we had amazing theatrical performances about stereotypes. We try to analyze the stereotypes and get over them from the inside.\n\nIn the evening we had intercultural night, where we all shared our traditional gastronomy and had a great time!\n\nOverall we had an amazing day and look forward for what tomorrow brings.",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/8.jpg",
               "alt": "Day 2 – Intercultural Day"
             }
           ],
-          "text": "In the morning we had team building. We played with the concept of language barrier! We were constructing legos in group but we could only use our native language.\n\nLater we had Trust Activities combined with a walk through the city. We achieve to see Genil river finally!\n\nAfter lunch we had amazing theatrical performances about stereotypes. We try to analyze the stereotypes and get over them from the inside.\n\nIn the evening we had intercultural night, where we all shared our traditional gastronomy and had a great time!\n\nOverall we had an amazing day and look forward for what tomorrow brings.",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 3,
+          "day": "3",
           "title": "Discover Córdoba",
+          "text": "Today we started with earlier breakfast due to our trip to Córdoba! We had breakfast at the hostel and we ate churros with chocolate! Delicious!\n\nWe travelled 40 minutes by bus to historically significant city in the Andalusia. Firstly we visited Instituto Andaluz de la Juventud, place for the youth of Córdoba. We had very nice tour in the offices and saw beautiful view from the terrase. After that, we had free time.\n\nCórdoba offered us many beautiful churches, cute narrow streets and of course many shops and coffee shops. The most significance of the city is its diversity. We could see buildings from ancient Rome, catholic churches and also mosques in one city. The weather was warm and the whole day was filled with sun.",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/9.jpg",
               "alt": "Day 3 – Discover Córdoba"
             }
           ],
-          "text": "Today we started with earlier breakfast due to our trip to Córdoba! We had breakfast at the hostel and we ate churros with chocolate! Delicious!\n\nWe travelled 40 minutes by bus to historically significant city in the Andalusia. Firstly we visited Instituto Andaluz de la Juventud, place for the youth of Córdoba. We had very nice tour in the offices and saw beautiful view from the terrase. After that, we had free time.\n\nCórdoba offered us many beautiful churches, cute narrow streets and of course many shops and coffee shops. The most significance of the city is its diversity. We could see buildings from ancient Rome, catholic churches and also mosques in one city. The weather was warm and the whole day was filled with sun.",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 4,
+          "day": "4",
           "title": "ECOIntro",
+          "text": "In the first part of the day we started the session with a short walk in the park as we were divided in pairs and we were disscusing on the ecological statemnets that were shown to us by the facilitators. Also we made a video where we resumed what we think about the specific ecological issue.\n\nLater on we were separated in groups and disucessed on various topics related to ecological issues. The group had moderaotrs and every participant had chance to contribute with their opinion.\n\nWe have concluded the day with general presentation and open discussion regarding the same topic.",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/10.jpg",
               "alt": "Day 4 – ECOIntro"
             }
           ],
-          "text": "In the first part of the day we started the session with a short walk in the park as we were divided in pairs and we were disscusing on the ecological statemnets that were shown to us by the facilitators. Also we made a video where we resumed what we think about the specific ecological issue.\n\nLater on we were separated in groups and disucessed on various topics related to ecological issues. The group had moderaotrs and every participant had chance to contribute with their opinion.\n\nWe have concluded the day with general presentation and open discussion regarding the same topic.",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 5,
+          "day": "5",
           "title": "Roleplay to be GREEN",
+          "text": "Today we decided to change the world! And We got Youth in Action Plan.\n\nTo achive the set goal, our group was devided into small teams to complete the following tasks: making 15 posters, 40 memes, 3 videos, interviews by journalists about actual ecological situation. For better understanding we've seen 2 videos made by previous project participants.\n\nStarted brainstorm for the best ideas!\n\nAfter catching some good thoughts we went to the following activity \"The Trial\", where group of judges tried to investigate the case - Humanity vs. The Earth. After a heated arguments, it turned out to be difficult to make a verdict, but in the end, justice prevailed!",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/11.jpg",
               "alt": "Day 5 – Roleplay to be GREEN"
             }
           ],
-          "text": "Today we decided to change the world! And We got Youth in Action Plan.\n\nTo achive the set goal, our group was devided into small teams to complete the following tasks: making 15 posters, 40 memes, 3 videos, interviews by journalists about actual ecological situation. For better understanding we've seen 2 videos made by previous project participants.\n\nStarted brainstorm for the best ideas!\n\nAfter catching some good thoughts we went to the following activity \"The Trial\", where group of judges tried to investigate the case - Humanity vs. The Earth. After a heated arguments, it turned out to be difficult to make a verdict, but in the end, justice prevailed!",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 6,
+          "day": "6",
           "title": "Youth in Action",
+          "text": "Today we decided to meet at the conference room, where each team collaborated with great willingness and positive energy, in order to gather some data and documents related to Youth in action plan...\n\nAccording to yesterday's instructions our group started to search, collect, edit and connect these data in a more practical way. Every team made their part. The journalists and the interviewers found the questionable content. The \"video team\" made their costumes with creativity and found the plot of their videos. The \"poster people\" made more posters in a fun atmosphere and the \"meme team\" created memes with great ingenuity and humor.\n\nAt the end of the day, as a secret event, we were entertained by a game, like the well known Squid Game.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod condimentum felis vitae efficitur. Sed vel dictum quam, at blandit leo.",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/12.jpg",
               "alt": "Day 6 – Youth in Action"
             }
           ],
-          "text": "Today we decided to meet at the conference room, where each team collaborated with great willingness and positive energy, in order to gather some data and documents related to Youth in action plan...\n\nAccording to yesterday's instructions our group started to search, collect, edit and connect these data in a more practical way. Every team made their part. The journalists and the interviewers found the questionable content. The \"video team\" made their costumes with creativity and found the plot of their videos. The \"poster people\" made more posters in a fun atmosphere and the \"meme team\" created memes with great ingenuity and humor.\n\nAt the end of the day, as a secret event, we were entertained by a game, like the well known Squid Game.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod condimentum felis vitae efficitur. Sed vel dictum quam, at blandit leo.",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 7,
+          "day": "7",
           "title": "Cooperation",
+          "text": "Today we were supposed to finish the preparation and record our movies. Couldn't say that was an easy part :)\n\nBelieve me or not, it was such a spectacle: people running, hurrying, preparing costumes, establishing equipment. I would love to relive it.\n\nThe evening event was an icing on the cake everyone was that passionately waiting for. We started with memes and had fun looking at cringe photos and captions. We continued with posters to raise ecological awareness and then long-awards movies appeared. Let's be honest, holding tears of joy was the most difficult part. I've never been that proud of myself and other participants. Movies didn't only help us gain knowledge about ecology and necessity to save the planet but also helped us overcome fear of camera and cooperation with other members of this Erasmus exchange.\n\nI'm overexcited about today and I hope you were enjoying this post as well as I enjoyed this wonderful day and ceremony",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/13.jpg",
               "alt": "Day 7 – Cooperation"
             }
           ],
-          "text": "Today we were supposed to finish the preparation and record our movies. Couldn't say that was an easy part :)\n\nBelieve me or not, it was such a spectacle: people running, hurrying, preparing costumes, establishing equipment. I would love to relive it.\n\nThe evening event was an icing on the cake everyone was that passionately waiting for. We started with memes and had fun looking at cringe photos and captions. We continued with posters to raise ecological awareness and then long-awards movies appeared. Let's be honest, holding tears of joy was the most difficult part. I've never been that proud of myself and other participants. Movies didn't only help us gain knowledge about ecology and necessity to save the planet but also helped us overcome fear of camera and cooperation with other members of this Erasmus exchange.\n\nI'm overexcited about today and I hope you were enjoying this post as well as I enjoyed this wonderful day and ceremony",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 8,
+          "day": "8",
           "title": "Discover Málaga",
+          "text": "Today we start the morning earlier. We had breakfast in the hostel and then we took the bus to go to Malaga. It was a surprise that we didn't expect!\n\nWe spent the day knowing Malaga: we met the people, the museums and also the beach. The weather was awesome and it felt like summer doesn't finished yet. We receive so much energy from the Andalusian sun and we spend such a nice afternoon with all the participants!",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/14.jpg",
               "alt": "Day 8 – Discover Málaga"
             }
           ],
-          "text": "Today we start the morning earlier. We had breakfast in the hostel and then we took the bus to go to Malaga. It was a surprise that we didn't expect!\n\nWe spent the day knowing Malaga: we met the people, the museums and also the beach. The weather was awesome and it felt like summer doesn't finished yet. We receive so much energy from the Andalusian sun and we spend such a nice afternoon with all the participants!",
+          "titleStyle": "header",
           "_template": "dayReport"
         },
         {
-          "type": "dayReport",
-          "titleStyle": "header",
-          "day": 9,
+          "day": "9",
           "title": "Closing + See you later aligater",
+          "text": "Last day of the project :( In this morning we had the opportunity to say the last words, we talked about the things we learned in the project and we said beautiful words to eachother. We also evaluated the accomodation, food, team, project and content.\n\nIn the afternoon we went to have dinner in other place. We had the pleasure to try delicious pizzas while talking with all the participants. After the dinner, we did the YouthPass Ceremony, it was such a magical moment. We all felt that we became a big family ❤️",
           "images": [
             {
               "src": "/images/projects/hosting/rythm/15.jpg",
               "alt": "Day 9 – Closing ceremony"
             }
           ],
-          "text": "Last day of the project :( In this morning we had the opportunity to say the last words, we talked about the things we learned in the project and we said beautiful words to eachother. We also evaluated the accomodation, food, team, project and content.\n\nIn the afternoon we went to have dinner in other place. We had the pleasure to try delicious pizzas while talking with all the participants. After the dinner, we did the YouthPass Ceremony, it was such a magical moment. We all felt that we became a big family ❤️",
+          "titleStyle": "header",
           "_template": "dayReport"
         }
-      ]
+      ],
+      "_template": "autoGrid"
     },
     {
-      "_template": "gallery",
-      "layout": "gallery",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
@@ -291,7 +269,8 @@
           "alt": "Photo 12"
         }
       ],
-      "columns": 4
+      "columns": "4",
+      "_template": "gallery"
     }
   ]
 }
