@@ -14,11 +14,11 @@ export function ParticipantBlock({ experienceTitle, name, image, text, tf }: T &
       )}
       <div className="flex items-center gap-4">
         {image ? (
-          <div className="w-20 h-20 rounded-full overflow-hidden shrink-0 relative" data-tina-field={tf?.("image")}>
-            <Image src={image} alt={name} fill sizes="80px" className="object-cover" />
+          <div className="w-32 h-32 rounded-full overflow-hidden shrink-0 relative" data-tina-field={tf?.("image")}>
+            <Image src={image} alt={name} fill sizes="128px" className="object-cover" />
           </div>
         ) : (
-          <div className="w-20 h-20 rounded-full bg-[#E8003A] shrink-0 flex items-center justify-center text-white font-bold text-2xl">
+          <div className="w-32 h-32 rounded-full bg-[#E8003A] shrink-0 flex items-center justify-center text-white font-bold text-2xl">
             {name[0]}
           </div>
         )}

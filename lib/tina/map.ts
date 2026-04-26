@@ -17,6 +17,7 @@ import type {
   ParticipantBlock,
   PhotoFeatureBlock,
   LinkGridBlock,
+  ButtonBlock,
 } from "@/types/content"
 
 // Raw JSON shape coming from TinaCMS (or migration-generated files).
@@ -39,7 +40,7 @@ const SECTION_TYPENAME: Record<string, string> = {
 // Most specific suffixes first to avoid false matches.
 const BLOCK_SUFFIXES = [
   "ImageGroup", "DayReport", "Testimonial", "Participant", "PhotoFeature", "LinkGrid", "Paragraph",
-  "Heading", "Gallery", "Partner", "Outcome", "Spacer", "Image", "Video", "List",
+  "Heading", "Gallery", "Partner", "Outcome", "Spacer", "Button", "Image", "Video", "List",
 ]
 
 function resolveBlockType(raw: Raw): string {
@@ -209,6 +210,15 @@ export function mapBlock(raw: Raw): Block {
         })),
         columns: int(raw.columns) as 2 | 3 | 4 | undefined,
       } satisfies LinkGridBlock
+
+    case "button":
+      return {
+        type: "button",
+        text: raw.text ?? "",
+        href: raw.href ?? "#",
+        variant: raw.variant ?? undefined,
+        align: raw.align ?? undefined,
+      } satisfies ButtonBlock
 
     default:
       // Unknown block — return a spacer as safe fallback

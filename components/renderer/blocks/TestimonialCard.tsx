@@ -10,11 +10,11 @@ export function TestimonialCard({ name, role, country, text, avatar, tf }: Testi
     <div className="flex flex-col gap-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100" data-tina-field={tf?.("name")}>
       <div className="flex items-center gap-3">
         {avatar ? (
-          <div className="w-14 h-14 rounded-full overflow-hidden shrink-0 relative" data-tina-field={tf?.("avatar")}>
-            <Image src={avatar} alt={name} fill sizes="56px" className="object-cover" />
+          <div className="w-24 h-24 rounded-full overflow-hidden shrink-0 relative" data-tina-field={tf?.("avatar")}>
+            <Image src={avatar} alt={name} fill sizes="96px" className="object-cover" />
           </div>
         ) : (
-          <div className="w-14 h-14 rounded-full bg-[#E8003A] shrink-0 flex items-center justify-center text-white font-bold text-xl">
+          <div className="w-24 h-24 rounded-full bg-[#E8003A] shrink-0 flex items-center justify-center text-white font-bold text-xl">
             {name[0]}
           </div>
         )}

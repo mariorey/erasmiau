@@ -17,6 +17,7 @@ import { PartnerCard } from "./blocks/PartnerCard"
 import { ParticipantBlock } from "./blocks/ParticipantBlock"
 import { PhotoFeatureBlock } from "./blocks/PhotoFeatureBlock"
 import { LinkGridBlock } from "./blocks/LinkGridBlock"
+import { ButtonBlock } from "./blocks/ButtonBlock"
 
 export type TinaFieldFor = (field: string) => string | undefined
 
@@ -41,5 +42,6 @@ export function BlockRenderer({ block, tinaRaw }: { block: Block; tinaRaw?: any 
     case "participant":   return <ParticipantBlock {...block} tf={tf} />
     case "photoFeature": return <PhotoFeatureBlock {...block} tf={tf} />
     case "linkGrid":     return <LinkGridBlock {...block} tf={tf} />
+    case "button":       return <ButtonBlock {...block} tf={tf} />
   }
 }

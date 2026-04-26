@@ -425,6 +425,50 @@ const blockTemplates = [
     ],
   },
   {
+    name: "button",
+    label: "Button / Link",
+    ui: {
+      itemProps: (item: Record<string, unknown>) => ({
+        label: item.text ? String(item.text) : "Button",
+      }),
+    },
+    fields: [
+      {
+        type: "string" as const,
+        name: "text",
+        label: "Button text",
+        isTitle: true,
+        required: true,
+      },
+      {
+        type: "string" as const,
+        name: "href",
+        label: "URL (e.g. /projects/sending/ecoshift or https://...)",
+        required: true,
+      },
+      {
+        type: "string" as const,
+        name: "variant",
+        label: "Style",
+        options: [
+          { value: "primary", label: "Primary (red filled)" },
+          { value: "secondary", label: "Secondary (dark)" },
+          { value: "outline", label: "Outline (red border)" },
+        ],
+      },
+      {
+        type: "string" as const,
+        name: "align",
+        label: "Alignment",
+        options: [
+          { value: "left", label: "Left" },
+          { value: "center", label: "Center" },
+          { value: "right", label: "Right" },
+        ],
+      },
+    ],
+  },
+  {
     name: "spacer",
     label: "Spacer",
     ui: {

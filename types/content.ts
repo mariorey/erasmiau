@@ -110,6 +110,14 @@ export interface LinkGridBlock {
   columns?: 2 | 3 | 4
 }
 
+export interface ButtonBlock {
+  type: "button"
+  text: string
+  href: string
+  variant?: "primary" | "secondary" | "outline"
+  align?: "left" | "center" | "right"
+}
+
 export type Block =
   | HeadingBlock
   | ParagraphBlock
@@ -126,6 +134,7 @@ export type Block =
   | ParticipantBlock
   | PhotoFeatureBlock
   | LinkGridBlock
+  | ButtonBlock
 
 // =========== SECTIONS ===========
 
