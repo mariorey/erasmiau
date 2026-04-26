@@ -2,6 +2,7 @@
 
 This guide is for the person who manages project content on the website. No coding required.
 
+
 ---
 
 ## How to open the editor
