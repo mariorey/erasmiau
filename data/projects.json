@@ -21,7 +21,7 @@
     "description": "Within the \"Inclusion for DiscoverEU\" action, participants aged 18 and over can enjoy the Interrail experience in collaboration with the Erasmiau association. A new program that since its recent implementation we have executed as beneficiaries from our association.",
     "image": "/images/projects/project-3.jpg",
     "imageAlt": "Interrail",
-    "linkHref": "projects/interrail/"
+    "linkHref": "/projects/interrail/"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "description": "Solidarity Local Projects that developed our youngsters inside the concept of volunteering in a local way and with the magical touch of solidarity.",
     "image": "/images/projects/project-4.jpg",
     "imageAlt": "Solidarity Projects (ESC)",
-    "linkHref": "projects/solidarity-projects/"
+    "linkHref": "/projects/solidarity-projects/"
   },
   {
     "id": 5,
@@ -45,6 +45,6 @@
     "description": "What we do in our community :D",
     "image": "/images/projects/project-6.jpg",
     "imageAlt": "Local projects",
-    "linkHref": "/local-projects/"
+    "linkHref": "/projects/local-projects/"
   }
 ]

@@ -394,6 +394,31 @@ const blockTemplates = [
     ],
   },
   {
+    name: "quote",
+    label: "Quote",
+    ui: {
+      itemProps: (item: Record<string, unknown>) => ({
+        label: item.quote
+            ? String(item.quote).slice(0, 40) + "..."
+            : "Quote",
+      }),
+    },
+    fields: [
+      {
+        type: "string" as const,
+        name: "quote",
+        label: "Quote",
+        required: true,
+        ui: { component: "textarea" },
+      },
+      {
+        type: "string" as const,
+        name: "author",
+        label: "Author",
+      },
+    ],
+  },
+  {
     name: "outcome",
     label: "Outcome",
     ui: {

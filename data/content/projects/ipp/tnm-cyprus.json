@@ -1,0 +1,41 @@
+{
+  "title": "TNM Cyprus March 2025",
+  "heroImage": "/images/ipp/ipp-1-cover.png",
+  "subtitle": "18-21 March 2025",
+  "sections": [
+    {
+      "left": [
+        {
+          "src": "/images/ipp/ipp-2-cover.jpg",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "text": "The mobilities already started!",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "The last 19 of March we were able to meet the partners of the project. It was nice to be able to see us out of the compute screen and start knowing each other in real life. We close several topics like the visual identity, the deor strategy and future steps in the IPP project. It was so helpful to talk about the different events and activities we will be involved in the future. Thank you to Cyprus Partner for such and amazing hosting.\n\n",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "images": [
+        {
+          "src": "/images/ipp/ipp-2-cover.jpg"
+        },
+        {
+          "src": "/images/ipp/gallery/14.jpg"
+        },
+        {
+          "src": "/images/ipp/gallery/15.jpg"
+        }
+      ],
+      "_template": "gallery"
+    }
+  ]
+}

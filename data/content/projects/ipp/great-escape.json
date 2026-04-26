@@ -1,0 +1,21 @@
+{
+  "title": "The Great Escape Adventure",
+  "heroImage": "/images/ipp/ipp-8-cover.jpg",
+  "subtitle": "December 2025",
+  "sections": [
+    {
+      "maxWidth": "sm",
+      "blocks": [
+        {
+          "text": "Last week, we organised a series of workshops focused on the creation of escape rooms for the project Inclusive Pathways to Peace.\n\nThis phase, titled “The Great Escape Adventure,” was both an exciting journey and a real challenge. Throughout the workshops, participants worked intensively to develop ideas, storylines, learning objectives, and inclusive dynamics that will shape the eight escape rooms of the project.\n\nThis moment was especially important because it was here that the core concepts and creative foundations for all the escape rooms were generated. Brainstorming sessions, collaborative design processes, and critical discussions allowed the team to transform values such as inclusion, peacebuilding, and active participation into concrete, interactive experiences.\n\n“The Great Escape Adventure” is not just a creative activity — it represents a key pillar of the project. The escape rooms are a central tool for engaging young people in a dynamic and experiential way, encouraging teamwork, empathy, dialogue, and problem-solving.\n\nDesigning this experience was truly an adventure and a challenge, but also a powerful demonstration of what can be achieved when creativity and collaboration come together with a shared vision.",
+          "_template": "paragraph"
+        },
+        {
+          "src": "/images/ipp/great-adventure/great.jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
+}

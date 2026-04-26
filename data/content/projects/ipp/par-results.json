@@ -1,0 +1,84 @@
+{
+  "title": "PAR Results",
+  "heroImage": "/images/ipp/ipp-4-cover.jpg",
+  "subtitle": "",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "We continue moving forward in the research phase of our project. During the month of May, we shared a questionnaire in which you actively participated by providing your responses.\n\nBelow, we present some of the key results and insights we have gathered. Your opinions are essential for helping us improve and for guiding the next steps of the project in a way that is closer to your needs and interests.",
+          "_template": "paragraph"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/ipp/par-results/1.jpg"
+            },
+            {
+              "src": "/images/ipp/par-results/2.jpg"
+            },
+            {
+              "src": "/images/ipp/par-results/3.jpg"
+            }
+          ],
+          "columns": "3",
+          "_template": "gallery"
+        },
+        {
+          "text": "More than half of young people in Spain reported having experienced some form of violence, particularly verbal and online violence.\n\nThe message from their responses is clear: we need stronger support systems, better education, and more safe spaces where young people’s voices are genuinely heard and taken into account.\n\nThese findings reinforce the importance of continuing to work together to create inclusive environments, promote awareness, and empower youth to actively participate in shaping positive change within their communities.",
+          "_template": "paragraph"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/ipp/par-results/4.jpg"
+            },
+            {
+              "src": "/images/ipp/par-results/5.jpg"
+            },
+            {
+              "src": "/images/ipp/par-results/6.jpg"
+            }
+          ],
+          "columns": "3",
+          "_template": "gallery"
+        },
+        {
+          "text": "Young people from across Spain identify poverty, migration, and disability as the most visible forms of exclusion in today’s society.\n\nTheir message is clear: they are calling for real action, not just words, to build a more inclusive and equitable community.\n\nThese insights highlight the urgent need to promote concrete measures, strengthen social support systems, and ensure equal opportunities for all. Listening to young people and turning their perspectives into meaningful initiatives is a key step toward creating lasting social change.",
+          "_template": "paragraph"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/ipp/par-results/7.jpg"
+            },
+            {
+              "src": "/images/ipp/par-results/8.jpg"
+            },
+            {
+              "src": "/images/ipp/par-results/9.jpg"
+            }
+          ],
+          "columns": "3",
+          "_template": "gallery"
+        },
+        {
+          "text": "Young people are not only identifying problems — they are also proposing solutions. \n\nAn impressive 68% have expressed their willingness to take part in actions against violence and discrimination, demonstrating a strong potential for youth-led change and active civic engagement.\n\nTheir suggestions for improving peer relationships focus on practical and meaningful initiatives, such as workshops on respect and empathy, volunteering activities, creative projects, safe spaces for open dialogue, and awareness-raising campaigns. These ideas reflect a clear desire to build stronger connections and foster mutual understanding within their communities.\n\nTogether, these proposals highlight the power of collaboration, shared experiences, and equal opportunities in creating more inclusive environments. By supporting youth participation and turning their ideas into concrete actions, we can strengthen community bonds and promote long-term positive social impact.Young people are not only identifying problems — they are also proposing solutions. \n\nAn impressive 68% have expressed their willingness to take part in actions against violence and discrimination, demonstrating a strong potential for youth-led change and active civic engagement.\n\nTheir suggestions for improving peer relationships focus on practical and meaningful initiatives, such as workshops on respect and empathy, volunteering activities, creative projects, safe spaces for open dialogue, and awareness-raising campaigns. These ideas reflect a clear desire to build stronger connections and foster mutual understanding within their communities.\n\nTogether, these proposals highlight the power of collaboration, shared experiences, and equal opportunities in creating more inclusive environments. By supporting youth participation and turning their ideas into concrete actions, we can strengthen community bonds and promote long-term positive social impact.",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "maxWidth": "sm",
+      "blocks": [
+        {
+          "src": "/images/ipp/par-results/10.jpg",
+          "aspectRatio": "auto",
+          "_template": "image"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
+}

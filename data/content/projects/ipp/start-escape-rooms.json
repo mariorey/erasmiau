@@ -1,0 +1,27 @@
+{
+  "title": "Start of Escape Rooms creation",
+  "heroImage": "/images/ipp/ipp-7-cover.jpg",
+  "subtitle": "",
+  "sections": [
+    {
+      "maxWidth": "sm",
+      "blocks": [
+        {
+          "level": "2",
+          "text": "We have Started!",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "We continue moving forward with WP3 of the project Inclusive Pathways to Peace.\n\n \n\nWe held a key coordination meeting to align tasks, review materials, and carefully plan the next steps toward the creation of eight inclusive escape rooms. This phase represents an exciting and innovative part of the project, where creativity, teamwork, and inclusion come together in a practical and engaging format.\n\nThe development process is highly collaborative, ensuring that the escape rooms are not only interactive and educational, but also accessible and meaningful for diverse groups of young people. Each concept is being designed with a strong focus on participation, critical thinking, and shared problem-solving.\n\nWe are looking forward to sharing more updates soon as this creative journey continues. Stay tuned for more insights into how these inclusive escape rooms are taking shape.",
+          "_template": "paragraph"
+        },
+        {
+          "src": "/images/ipp/start-escape-rooms/1.jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ export function OutcomeBlock({ number, title, description, tf }: T & { tf?: Tina
   return (
     <div className="flex gap-4 items-start">
       <div
-        className="shrink-0 w-12 h-12 rounded-full bg-[#02426b] text-white flex items-center justify-center font-bold text-lg"
+        className="shrink-0 w-12 h-12 rounded-full bg-[#E8003A] text-white flex items-center justify-center font-bold text-lg"
         data-tina-field={tf?.("number")}
       >
         {number}

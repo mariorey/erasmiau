@@ -85,6 +85,12 @@ export interface OutcomeBlock {
   description: string
 }
 
+export interface QuoteBlock {
+  type: "quote"
+  quote: string
+  author?: string
+}
+
 export interface SpacerBlock {
   type: "spacer"
   size?: "sm" | "md" | "lg"
@@ -129,7 +135,8 @@ export type Block =
   | GalleryBlock
   | DayReportBlock
   | OutcomeBlock
-  | SpacerBlock
+    | QuoteBlock
+    | SpacerBlock
   | PartnerBlock
   | ParticipantBlock
   | PhotoFeatureBlock

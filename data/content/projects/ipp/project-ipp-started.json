@@ -1,0 +1,127 @@
+{
+  "title": "Project IPP Started!",
+  "heroImage": "/images/ipp/ipp-1-cover.png",
+  "subtitle": "February 2025",
+  "sections": [
+    {
+      "count": "4",
+      "gap": "sm",
+      "gridColumns": [
+        {
+          "blocks": [
+            {
+              "src": "/images/ipp/project-ipp-started/image.png",
+              "_template": "image"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "text": "We have Started!",
+              "color": "brand",
+              "_template": "heading"
+            },
+            {
+              "text": "Since the beginning of February, we have been implementing a project called \"Inclusive Pathways to Peace\", in partnership with (add partners and countries). The project has been approved by the Croatian Agency for Mobility and EU Programs under Key Action 2: Cooperation Partnerships, within the Erasmus+ program. It will last until September 30, 2026.\nThis project arose from an extensive needs analysis initiated by associations Studio B and Svetlost, considering the still visible consequences of the conflict between Croatia and Serbia, based on relevant research conducted with young people in both countries. By including Spain, a country with pronounced separatist tendencies, and Cyprus, the only EU country whose capital remains divided 50 years after the conflict, this analysis was expanded. We found that young people are not sufficiently equipped with media literacy skills, nor do they have adequate civic education in 3 out of the 4 countries involved, making them less resilient to extremist ideologies.\n",
+              "size": "sm",
+              "_template": "paragraph"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "text": "Our primary objective is to raise awareness of the value and importance of innovative peace education as a form of civic engagement and as a tool that promotes common values, prevents radicalization and combats social polarization. Furthermore, we aim to strengthen the capacities of our organizations in the field of international youth work while improving the quality of our work by sharing and mutually adopting innovative practices.\nThe \"Inclusive Pathways to Peace\" project will strengthen the capacities of the involved organizations by creating innovative open educational resources. Through implementing the project with game-based educational resources, we will engage and empower 181 young people with conflict resolution skills. Additionally, by providing new skills, approaches, and tools, we will enhance the quality of youth work for 130 practitioners. The project promotes common values such as tolerance, inclusion, and understanding, ultimately contributing to the building of cohesive and peaceful societies.",
+              "size": "sm",
+              "_template": "paragraph"
+            },
+            {
+              "text": "Through the project, we will implement Participatory Action Research to gather insights into young people's perspectives on the prevalence of violence, attitudes towards marginalized groups, and suggestions for solutions for positive change. This will be followed by the development of 8 interactive educational escape rooms with digital elements such as 360° photos and videos, and augmented reality. All educational resources will be created in 6 languages (English, Croatian, Serbian, Greek, Turkish, and Spanish) to facilitate broad access. Peer learning mobility, training for trainers, e-learning course, and dissemination activities will further increase the impact.",
+              "size": "sm",
+              "_template": "paragraph"
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "src": "/images/ipp/project-ipp-started/image (1).png",
+              "_template": "image"
+            }
+          ]
+        }
+      ],
+      "_template": "grid"
+    },
+    {
+      "left": [
+        {
+          "number": "01",
+          "title": "IO1 (Empowering Praxis)",
+          "description": "A comprehensive booklet with the methodology,\ngood practices, and insights from all countries on the topic of participatory\naction research;",
+          "_template": "outcome"
+        }
+      ],
+      "right": [
+        {
+          "number": "02",
+          "title": " IO2 \"Block H8 – Peace Puzzles Toolkit\"",
+          "description": " 8 physical escape rooms with 360-\ndegree photo/video and AR features, with an accompanying methodological\nguide for implementation;",
+          "_template": "outcome"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "left": [
+        {
+          "number": "03",
+          "title": "IO3 Pedagogical Guide",
+          "description": "“DIY Unlock Peace” - modules for DIY production for each ER, presented in a separate PDF;",
+          "_template": "outcome"
+        }
+      ],
+      "right": [
+        {
+          "number": "04",
+          "title": " Handbook \"The Great Escape\"",
+          "description": "on designing effective educational escape\nrooms.",
+          "_template": "outcome"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "blocks": [
+        {
+          "text": "The expected outcomes go beyond traditional learning to address key socio-political issues, equipping participants with skills for conflict prevention, critical thinking, and communication, improved youth engagement, development of inclusive and sustainable educational resources, and wider adoption of innovative peace education methodologies. We expect to contribute to promoting democratic values, social cohesion, and preventing radicalization in Europe and beyond.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The Kick-off meeting with partner organizations was held in the first week of implementation, where tasks for each partner, implementation monitoring plans, and other issues were agreed upon. The first in-person activity (a transnational meeting) will take place in March in Cyprus, where partners will agree on a detailed Dissemination and Exploitation Strategy, along with the project's visual identity and Communication Strategy.\n\n",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The short-term impact of the project includes immediate skill development and awareness, while the expected long-term impact is aimed at sustainable social change and continuous empowerment, which will be achieved through the implementation of project activities and broad dissemination of the achieved results.\n \n\n",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "images": [
+        {
+          "src": "/images/ipp/project-ipp-started/1.png"
+        },
+        {
+          "src": "/images/ipp/project-ipp-started/2.png"
+        },
+        {
+          "src": "/images/ipp/project-ipp-started/3.png"
+        }
+      ],
+      "_template": "gallery"
+    }
+  ]
+}

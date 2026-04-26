@@ -1,0 +1,78 @@
+{
+  "title": "Escape Rooms Progress",
+  "heroImage": "/images/ipp/ipp-9-cover.jpg",
+  "subtitle": "January 2026",
+  "sections": [
+    {
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "sm",
+      "blocks": [
+        {
+          "text": "As part of the project Inclusive Pathways to Peace (IPP), we have developed two **original escape rooms**, which will soon be tested during the upcoming **pilot testing phase** in Serbia.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "These pilot sessions will allow us to evaluate the educational impact, inclusivity, and overall experience of the activities, while gathering valuable feedback from participants to further refine and improve the final versions.",
+          "_template": "paragraph"
+        },
+        {
+          "src": "/images/ipp/escape-rooms-progress/escape.jpg",
+          "aspectRatio": "auto",
+          "_template": "image"
+        },
+        {
+          "text": "What if war wasn't only something from the past… but something we experience every day without realizing it?",
+          "_template": "paragraph"
+        },
+        {
+          "level": "3",
+          "text": "The War That Never Ends",
+          "_template": "heading"
+        },
+        {
+          "text": "\"The War That Never Ends\" takes participants into a unique museum where the exhibitions do not focus on history books, but on the ongoing forms of violence present in today's society — from discrimination and exclusion to digital and structural violence.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Through immersive storytelling and collaborative challenges, participants are invited to confront uncomfortable realities and reflect on their role in building more peaceful and inclusive communities.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Do you dare to face what we often prefer not to see?",
+          "_template": "paragraph"
+        },
+        {
+          "src": "/images/ipp/escape-rooms-progress/escape-2.jpg",
+          "aspectRatio": "auto",
+          "_template": "image"
+        },
+        {
+          "text": "What if everything you see online… wasn't real?",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Step into a world where algorithms shape what you think, and where the \"perfect feed\" hides cracks beneath the surface.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "This escape room challenges participants to question digital manipulation, misinformation, and the invisible systems that influence our perceptions. Through teamwork and critical thinking, players must uncover hidden messages, decode distorted narratives, and reflect on how online environments can subtly shape beliefs and behaviors.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Are you ready to break free from the illusion?",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Both escape rooms represent a key milestone within the IPP project. They transform complex social issues into interactive, thought-provoking experiences that empower young people to reflect, engage, and act.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "We are excited to see them come to life during the pilot testing in Serbia and look forward to sharing the results of this important next step.",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Introducing PAR",
+  "heroImage": "/images/ipp/ipp-1-cover.png",
+  "subtitle": "",
+  "sections": [
+    {
+      "maxWidth": "sm",
+      "blocks": [
+        {
+          "src": "/images/ipp/introducing-par/image-911x948.jpg",
+          "_template": "image"
+        },
+        {
+          "text": "Our IPP project is starting the \"PAR\" research phase. During the month of May, we presented the questionnaire that we will use to collect data and analyze your opinions.\n\nThis research phase is an important step in understanding the needs, perspectives, and experiences of the participants. The information collected will help us design more effective activities and ensure that the project outcomes reflect the real voices of the community involved.\n\nWe will soon begin the mobilities and trips linked to this project, which will provide opportunities for learning, exchange of good practices, and international cooperation. Stay tuned for more updates as the project continues to develop.",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "title": "Photo Album",
+      "images": [
+        {
+          "src": "/images/ipp/introducing-par/image-607x455(1).jpg"
+        },
+        {
+          "src": "/images/ipp/introducing-par/image-607x455(2).jpg"
+        },
+        {
+          "src": "/images/ipp/introducing-par/image-607x455(3).jpg"
+        },
+        {
+          "src": "/images/ipp/introducing-par/image-607x455(4).jpg"
+        },
+        {
+          "src": "/images/ipp/introducing-par/image-607x455(5).jpg"
+        },
+        {
+          "src": "/images/ipp/introducing-par/image-607x455.jpg"
+        }
+      ],
+      "_template": "gallery"
+    }
+  ]
+}

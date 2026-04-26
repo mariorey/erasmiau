@@ -1,14 +1,16 @@
-import { notFound } from "next/navigation"
+import { notFound, redirect } from "next/navigation"
 import { getAllProjects, getProjectBySlug } from "@/lib/getProjects"
 import { getPageContent } from "@/data/content"
 import { client } from "@/tina/__generated__/client"
 import { ProjectPageClient } from "./client"
 
 export function generateStaticParams() {
-  return getAllProjects().map((p) => ({
-    category: p.category,
-    slug: p.slug,
-  }))
+  return getAllProjects()
+    .filter((p) => p.category !== "ipp")
+    .map((p) => ({
+      category: p.category,
+      slug: p.slug,
+    }))
 }
 
 export default async function ProjectPage({
@@ -17,6 +19,8 @@ export default async function ProjectPage({
   params: Promise<{ category: string; slug: string }>
 }) {
   const { category, slug } = await params
+
+  if (category === "ipp") redirect(`/ka2-cooperation-partnerships/${slug}`)
 
   // TinaCMS-managed projects may not be in data/projects.ts yet — that's fine.
   const project = getProjectBySlug(category, slug)

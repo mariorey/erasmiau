@@ -12,6 +12,7 @@ import { TestimonialCard } from "./blocks/TestimonialCard"
 import { GalleryBlock } from "./blocks/GalleryBlock"
 import { DayReportBlock } from "./blocks/DayReportBlock"
 import { OutcomeBlock } from "./blocks/OutcomeBlock"
+import { QuoteBlock } from "./blocks/QuoteBlock"
 import { SpacerBlock } from "./blocks/SpacerBlock"
 import { PartnerCard } from "./blocks/PartnerCard"
 import { ParticipantBlock } from "./blocks/ParticipantBlock"
@@ -37,6 +38,7 @@ export function BlockRenderer({ block, tinaRaw }: { block: Block; tinaRaw?: any 
     case "gallery":    return <GalleryBlock {...block} tf={tf} />
     case "dayReport":  return <DayReportBlock {...block} tf={tf} />
     case "outcome":    return <OutcomeBlock {...block} tf={tf} />
+    case "quote":    return <QuoteBlock {...block} tf={tf} />
     case "spacer":     return <SpacerBlock {...block} tf={tf} />
     case "partner":     return <PartnerCard {...block} tf={tf} />
     case "participant":   return <ParticipantBlock {...block} tf={tf} />

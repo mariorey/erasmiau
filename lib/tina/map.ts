@@ -13,6 +13,7 @@ import type {
   DayReportBlock,
   PartnerBlock,
   OutcomeBlock,
+  QuoteBlock,
   SpacerBlock,
   ParticipantBlock,
   PhotoFeatureBlock,
@@ -40,7 +41,7 @@ const SECTION_TYPENAME: Record<string, string> = {
 // Most specific suffixes first to avoid false matches.
 const BLOCK_SUFFIXES = [
   "ImageGroup", "DayReport", "Testimonial", "Participant", "PhotoFeature", "LinkGrid", "Paragraph",
-  "Heading", "Gallery", "Partner", "Outcome", "Spacer", "Button", "Image", "Video", "List",
+  "Heading", "Gallery", "Partner", "Outcome", "Spacer", "Button", "Quote", "Image", "Video", "List",
 ]
 
 function resolveBlockType(raw: Raw): string {
@@ -219,6 +220,13 @@ export function mapBlock(raw: Raw): Block {
         variant: raw.variant ?? undefined,
         align: raw.align ?? undefined,
       } satisfies ButtonBlock
+
+    case "quote":
+      return {
+        type: "quote",
+        quote: raw.quote ?? "",
+        author: raw.author ?? undefined,
+      } satisfies QuoteBlock
 
     default:
       // Unknown block — return a spacer as safe fallback

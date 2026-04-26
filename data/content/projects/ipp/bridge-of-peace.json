@@ -1,0 +1,57 @@
+{
+  "title": "Bridge of Peace Mobility",
+  "heroImage": "/images/ipp/ipp-1-cover.png",
+  "subtitle": "October 2025",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "level": "2",
+          "text": " The mobility was a success! A little recap of our experience in Nova Gradiska",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "The Training Course “Bridge of Peace” has officially started in Nova Gradiška, Croatia 🇭🇷, bringing together youth workers, educators, and active members of youth organisations from different countries to explore innovative approaches to peace education and non-formal learning.\n\nOver the course of these three intensive days, participants will dive deeper into the concept of peace education, reflecting on how to address conflict, foster empathy, and strengthen critical thinking among young people. Through interactive methods, group discussions, and collaborative workshops, we are exploring practical tools that can later be adapted and implemented in our local communities.\n\nOne of the key components of the training is the creation of educational escape room scripts. This methodology combines gamification, storytelling, and experiential learning to engage young people in meaningful reflection. The scripts developed during this course will be further refined and implemented in the next phases of the project, becoming practical educational resources that promote dialogue, intercultural understanding, and peaceful conflict resolution.\n\nThis is just the beginning of a few days full of ideas, cooperation, and European partnership building. We are excited to see how the outcomes of this training will create a real and lasting impact in our organisations and in the communities we work with.\n",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "left": [
+        {
+          "src": "/images/ipp/bridge-of-peace/1.png",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/ipp/bridge-of-peace/2.png",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "blocks": [
+        {
+          "quote": "Working on the escape room scripts is challenging but exciting. It pushes us to think about how young people learn through experience and emotions, not only through theory.",
+          "author": "Elisa, Participant",
+          "_template": "quote"
+        },
+        {
+          "quote": "Being surrounded by people from different countries helps you understand peace from multiple perspectives. It makes you realise how important dialogue and cooperation are.",
+          "author": "Celia, Participant",
+          "_template": "quote"
+        },
+        {
+          "quote": "I really liked how we approached peace not just as the absence of conflict, but as something we actively build every day. The group energy makes it easy to share ideas openly.",
+          "author": "Rosi, Participant",
+          "_template": "quote"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "PAR Final Event",
+  "heroImage": "/images/projects/project-5.png",
+  "subtitle": "",
+  "sections": [
+    {
+      "blocks": [
+        {
+          "text": "\nThis week, we had the opportunity to celebrate our final event and present our book “Empowering Praxis.”\n\nThe publication brings together the results of the research carried out in Spain, Cyprus, Croatia, and Serbia, marking the completion of the first official output of the project. It reflects the collective effort, collaboration, and shared learning experiences developed throughout the research phase.\n\nThe event was a great success, and we are extremely proud of the work accomplished so far. It was not only a moment to showcase the results, but also an opportunity to reflect on the journey, acknowledge everyone involved, and look ahead to the next steps of the project.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "What We Did?\n\nThe main objective of the workshop was to present the research findings and transform them into practical, participatory experiences. Since the research showed that young people strongly connect with artistic and creative approaches, the entire event was designed around art-based methods. ",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The workshop was structured into three dynamic parts:\n\nPresentation of Research Findings – Participants explored the key results of the research phase, creating a shared understanding and common starting point. ",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Creative Group Work – Through movement, theatre, and collaborative artistic exercises, participants reflected on stereotypes, prejudice, and social challenges while promoting dialogue and mutual respect. ",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Final Performances – Young people created and presented their own choreographies and short theatrical pieces, expressing their perspectives on society, the challenges they face, and their vision for positive change. \n",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Impact and Results\n\nThe workshop created a safe and inclusive space where young people felt confident to express themselves openly. It strengthened their understanding of the research results and their connection to real-life experiences.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Importantly, the artistic activities helped reduce stereotypes and build connections across different social groups. The original dance and theatre performances demonstrated not only critical reflection but also concrete ideas for positive social change. ",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Why It Matters?\n\nBy combining research dissemination with creative and participatory methods, the Mollina workshop demonstrated how art can be a powerful tool for youth engagement, empowerment, and social cohesion. The event directly supported our project’s mission of inclusion and active youth participation in shaping stronger, more connected communities. ",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "paddingY": "sm",
+      "gap": "sm",
+      "left": [
+        {
+          "src": "/images/ipp/par-final-event/1.jpg",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/ipp/par-final-event/2.jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "paddingY": "none",
+      "gap": "sm",
+      "left": [
+        {
+          "src": "/images/ipp/par-final-event/3.jpg",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/ipp/par-final-event/4.jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "paddingY": "sm",
+      "gap": "sm",
+      "left": [
+        {
+          "src": "/images/ipp/par-final-event/5.jpg",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/ipp/par-final-event/6.jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    }
+  ]
+}

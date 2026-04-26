@@ -46,6 +46,13 @@ export const categories: Category[] = [
         image: "/images/projects/image-bg.jpg",
         linkHref: "/projects/solidarity-projects",
     },
+    {
+        slug: "local-projects",
+        label: "Local Projects",
+        description: "",
+        image: "/images/projects/image-bg.jpg",
+        linkHref: "/projects/local-projects",
+    }
 ];
 
 export const projects: Project[] = [
@@ -302,6 +309,18 @@ export const projects: Project[] = [
         location: "Puente Genil, Spain",
         image: "/images/projects/solidarity/solidarity-1-cover.png",
         description: "An innovative way to promote the European Democratic Values? Why not to open a Minecraft Server and recreate EUROPE! Welcome to Eurocraft :D",
+        gallery: [],
+    },
+
+    {
+        category: "local-projects",
+        slug: "escuela-de-verano",
+        title: "Escuela de Verano Jóvenes Rurales",
+        dates: "",
+        location: "Puente Genil, Spain",
+        image: "/images/projects/local-projects/local-1-cover.jpg",
+        description: "Convocatoria de subvenciones a asociaciones y entidades que desarollen programas de ocio y tiempo libre, dirigidos a jóvenes de la provincia de Córdoba, 2025\n" +
+            "Sigue la aventura de nuestros monitores!",
         gallery: [],
     },
 ];
