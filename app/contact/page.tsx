@@ -10,7 +10,9 @@ interface FormErrors {
 export default function ContactPage() {
     const [form, setForm] = useState({ name: "", email: "", message: "" });
     const [errors, setErrors] = useState<FormErrors>({});
+    const [loading, setLoading] = useState(false);
     const [submitted, setSubmitted] = useState(false);
+    const [serverError, setServerError] = useState<string | null>(null);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
@@ -19,6 +21,7 @@ export default function ContactPage() {
         if (errors[name as keyof FormErrors]) {
             setErrors({ ...errors, [name]: undefined });
         }
+        if (serverError) setServerError(null);
     };
 
     const validate = (): FormErrors => {
@@ -44,9 +47,35 @@ export default function ContactPage() {
             setErrors(newErrors);
             return;
         }
-        // TODO: conectar con tu servicio de email (Resend, EmailJS, etc.)
-        console.log(form);
-        setSubmitted(true);
+
+        setLoading(true);
+        setServerError(null);
+
+        try {
+            const res = await fetch("/api/contact", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: form.name,
+                    email: form.email,
+                    message: form.message,
+                }),
+            });
+
+            if (res.ok) {
+                setSubmitted(true);
+            } else {
+                const data = await res.json().catch(() => ({}));
+                setServerError(
+                    (data as { error?: string }).error ||
+                    "Algo salió mal. Inténtalo de nuevo."
+                );
+            }
+        } catch {
+            setServerError("No se pudo conectar con el servidor. Inténtalo de nuevo.");
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (
@@ -73,8 +102,8 @@ export default function ContactPage() {
 
                         {/* Columna derecha: formulario */}
                         {submitted ? (
-                            <p className="text-gray-700 text-base font-semibold pt-2">
-                                ¡Mensaje enviado! Te responderemos pronto 🎉
+                            <p className="text-green-700 text-base font-semibold pt-2">
+                                ¡Mensaje enviado! Te responderemos pronto.
                             </p>
                         ) : (
                             <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-6">
@@ -142,11 +171,18 @@ export default function ContactPage() {
                                     * Indica los campos obligatorios
                                 </p>
 
+                                {serverError && (
+                                    <p className="text-red-600 text-sm font-medium">
+                                        {serverError}
+                                    </p>
+                                )}
+
                                 <button
                                     type="submit"
-                                    className="w-full border border-[#2d3f5e] text-[#2d3f5e] rounded-full py-3 text-sm font-semibold hover:bg-[#2d3f5e] hover:text-white transition-colors duration-200"
+                                    disabled={loading}
+                                    className="w-full border border-[#2d3f5e] text-[#2d3f5e] rounded-full py-3 text-sm font-semibold hover:bg-[#2d3f5e] hover:text-white transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                                 >
-                                    Enviar
+                                    {loading ? "Enviando..." : "Enviar"}
                                 </button>
 
                             </form>

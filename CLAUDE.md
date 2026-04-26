@@ -69,4 +69,3 @@ The CMS admin UI lives at `/admin` (redirect from `public/admin/index.html`). Ro
 ## Legacy / non-unified pieces
 
 - `app/projects/page.tsx` (top-level projects index) reads `data/projects.json` — a **separate** file from `data/projects.ts` — and uses `fs.readdirSync` on `public/images/projects/gallery` at build time. Not unified with the CMS content system.
-- `components/Page.tsx`, `Teaser.tsx`, `Feature.tsx`, `StoryblokProvider.jsx`, `lib/storyblok.js` are Storyblok remnants — wired up but not used. Requires `STORYBLOK_DELIVERY_API_TOKEN`. The `app/storyblok-test/` route has been removed.

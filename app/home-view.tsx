@@ -25,13 +25,13 @@ export default function HomeView(props: { data: any; query: string; variables: a
             <div className="bg-[#e1003a] h-48 flex flex-col gap-4 items-center justify-center">
         <span
             className="text-white text-3xl font-bold"
-            data-tina-field={tinaField(page, "instagram.title")}
+            data-tina-field={tinaField(page?.instagram, "title")}
         >
           {page?.instagram?.title || "Do you want to participate?"}
         </span>
                 <span
                     className="text-white text-md"
-                    data-tina-field={tinaField(page, "instagram.subtitle")}
+                    data-tina-field={tinaField(page?.instagram, "subtitle")}
                 >
           {page?.instagram?.subtitle || "Follow us on instagram"}
         </span>
@@ -41,7 +41,7 @@ export default function HomeView(props: { data: any; query: string; variables: a
                 <a href={page?.instagram?.link || "https://www.instagram.com/erasmiau"}>
           <span
               className="text-[#ca0033] text-5xl font-black"
-              data-tina-field={tinaField(page, "instagram.handle")}
+              data-tina-field={tinaField(page?.instagram, "handle")}
           >
             {page?.instagram?.handle || "@erasmiau"}
           </span>

@@ -6,10 +6,15 @@ export const alt = "Erasmiau – Proyecto"
 export const size = OG_SIZE
 export const contentType = "image/png"
 
-export default function Image({ params }: { params: { category: string; slug: string } }) {
-  const project = getProjectBySlug(params.category, params.slug)
-  const category = getCategoryBySlug(params.category)
-  const title = project?.title ?? params.slug
+export default async function Image({
+  params,
+}: {
+  params: Promise<{ category: string; slug: string }>
+}) {
+  const { category: categorySlug, slug } = await params
+  const project = getProjectBySlug(categorySlug, slug)
+  const category = getCategoryBySlug(categorySlug)
+  const title = project?.title ?? slug
   const subtitle = category?.label ?? undefined
-  return buildOgImage(title, subtitle)
+  return buildOgImage(title, subtitle, project?.image || undefined)
 }

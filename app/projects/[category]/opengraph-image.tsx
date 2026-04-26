@@ -5,8 +5,13 @@ export const alt = "Erasmiau – Proyectos"
 export const size = OG_SIZE
 export const contentType = "image/png"
 
-export default function Image({ params }: { params: { category: string } }) {
-  const category = getCategoryBySlug(params.category)
-  const title = category?.label ?? params.category
+export default async function Image({
+  params,
+}: {
+  params: Promise<{ category: string }>
+}) {
+  const { category: categorySlug } = await params
+  const category = getCategoryBySlug(categorySlug)
+  const title = category?.label ?? categorySlug
   return buildOgImage(title, "Proyectos Erasmiau")
 }
