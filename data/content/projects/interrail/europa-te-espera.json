@@ -8,14 +8,216 @@
   "coverImage": "/images/projects/interrail/interrail-2-cover.jpg",
   "sections": [
     {
-      "blocks": [
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "50/50",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "text": "Siete jóvenes de Puente Genil (Córdoba) emprenden un viaje hacia el norte de España, atravesando paisajes diversos hasta alcanzar la costa sur de Francia. Allí descubren ciudades modernas y rincones medievales, para después adentrarse en el corazón del país galo. Su recorrido culmina en París, donde, con solo una mochila al hombro y la curiosidad por nuevos aprendizajes, viven la experiencia de explorar Europa con ojos jóvenes y abiertos al mundo.\n",
+          "italic": false,
+          "size": "lg",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Inclusion for DiscoverEU es una acción que se enmarca dentro del programa Erasmus+, constituyéndose como un ejemplo más de las oportunidades ofertadas por la Unión Europea en concepto de movilidad internacional para jóvenes. \n\n",
+          "size": "sm",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Esta acción del programa Erasmus+, en sus dos rondas de solicitud, ha sido concedida a una quincena de asociaciones juveniles de todo el panorama nacional. En concreto, brinda la oportunidad de aprender sobre el lugar donde viven, el patrimonio histórico y las similitudes entre personas que conforman una comunidad con una identidad común, Europa. \n\nEsta acción del programa Erasmus+, en sus dos rondas de solicitud, ha sido concedida a una quincena de asociaciones juveniles de todo el panorama nacional. En concreto, brinda la oportunidad de aprender sobre el lugar donde viven, el patrimonio histórico y las similitudes entre personas que conforman una comunidad con una identidad común, Europa. ",
+          "size": "sm",
+          "_template": "paragraph"
+        }
+      ],
+      "right": [
+        {
+          "mainImage": {
+            "src": "/images/projects/interrail/europa-te-espera/image-768x576.jpg"
+          },
+          "thumbs": [
+            {
+              "src": "/images/projects/interrail/europa-te-espera/image-768x576(3).jpg"
+            },
+            {
+              "src": "/images/projects/interrail/europa-te-espera/image-768x576(1).jpg"
+            },
+            {
+              "src": "/images/projects/interrail/europa-te-espera/image-768x576(2).jpg"
+            }
+          ],
+          "_template": "photoFeature"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "distribution": "50/50",
+      "left": [
         {
           "level": "2",
-          "text": "test",
+          "text": "Una experiencia nueva",
+          "color": "brand",
           "_template": "heading"
+        },
+        {
+          "text": "Desde la Asociación Juvenil Erasmiau, un grupo de siete jóvenes de Puente Genil emprendió una aventura que pronto se convirtió en una experiencia inolvidable. Bajo la coordinación de Magdalena Dević y Juanje Rey, la preparación previa no se limitó a cuestiones logísticas: fue también un ejercicio de confianza, planificación y trabajo en equipo. Cada encuentro antes de partir sirvió para recordar que viajar con lo esencial en una mochila es, en realidad, aprender a vivir con lo justo y a valorar cada paso del camino.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "El 1 de septiembre marcó el inicio del recorrido. Con el sonido del tren como banda sonora, comenzaron un itinerario que los llevó desde la vitalidad mediterránea de Barcelona hasta el corazón cultural de Francia. En el trayecto descubrieron ciudades llenas de contrastes como Montpellier, Carcasona, Toulouse, Burdeos, Lyon y, finalmente, París, el destino que simbolizó la culminación de un viaje de descubrimiento y crecimiento personal.\n\n",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Pero más allá de los paisajes y monumentos, lo que marcó la diferencia fueron las pequeñas historias cotidianas: organizar juntos la ruta del día, perderse en calles desconocidas y encontrarse de nuevo, compartir comidas improvisadas en plazas europeas, preguntar a desconocidos por indicaciones y terminar entablando conversaciones inesperadas. Cada instante fue una oportunidad para aprender a confiar en sí mismos y en los demás.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Más allá de los kilómetros recorridos, esta experiencia les permitió enfrentarse a lo desconocido con valentía, aprender a desenvolverse en realidades distintas y reforzar su autonomía. Viajar significó mucho más que conocer lugares: fue un ejercicio de curiosidad, resiliencia y amistad que dejará huella en sus vidas. Al regresar, los jóvenes no solo traían consigo recuerdos, sino también nuevas perspectivas, aprendizajes vitales y la certeza de que Europa es un espacio común en el que tienen mucho que aportar.",
+          "_template": "paragraph"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/projects/interrail/europa-te-espera/image-768x576(4).jpg",
+          "_template": "image"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/image-768x576(5).jpg",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "blocks": [
+        {
+          "text": "Desde la Asociación Juvenil Erasmiau se quiere resaltar cómo un viaje puede convertirse en mucho más que un simple desplazamiento: puede ser el inicio de una transformación personal. Lo vivido por este grupo de jóvenes demuestra que, con la orientación adecuada, la exploración de nuevas ciudades y culturas se convierte en una auténtica escuela de vida. A lo largo de la ruta, cada paso representó un aprendizaje, cada conversación un descubrimiento, y cada reto una oportunidad para crecer en autonomía, empatía y confianza.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "El regreso, el 15 de septiembre, estuvo marcado por una intensa carga emocional. Tras tantos días compartidos, la pequeña familia que habían formado en el camino debía separarse, llevándose consigo nuevas lecciones, experiencias inolvidables y amistades que trascienden fronteras. Entre abrazos prolongados y promesas de reencuentro, quedó claro que este viaje no solo les enseñó a descubrir Europa, sino también a descubrirse a sí mismos en comunidad.",
+          "_template": "paragraph"
         }
       ],
       "_template": "single"
+    },
+    {
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "level": "2",
+          "text": "Experiencia de los Participantes",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "África Morales",
+          "image": "/images/projects/interrail/europa-te-espera/image-768x768.jpg",
+          "text": "Simplemente sin palabras, sigo sin creerme todas las emociones que he vivido en este Interrail. El día que me enteré de que había sido seleccionada para este proyecto de Erasmiau financiado por la unión europea me creía que era una broma. Hice mis maletas y con un poco de miedo me metí en esta aventura sin pensar que iba a ser una de las mejores experiencias de mi vida. Quiero darle mi más sincenra enhorabuena a Juanje y Magdalena por entendernos en todo momento y hacer como si fueran nuestros papis dedicándonos cada uno de sus momentos y pensando al milímetro para que no nos faltara de nada. \n\nUn mes después sigo sin creerme todo lo que viví, de verdad. No puedo parar de pensar en el penúltimo día todas las emociones que nos hicisteis sentir, siempre diré que fue el mejor día de mi vida, cómo hicisteis que conectáramos con nosotros mismos y a la vez con todo el grupo, que por muy diferentes que fuéramos a la vez éramos totalmente iguales e hicisteis que de ahí saliera una pedazo de familia. Ni mis padres podrían creerse que los llamara llorando de la emoción, qué suerte la mía…, nunca había llorado tanto, me hizo aprender que cada detalle cuenta y que no estamos solos sino que estamos rodeados de gente con un corazón enormemente grande y no somos conscientes de ello. \n\nMaggie (mamá) mil gracias por tu transparencia y tu cercanía hacia nosotros, nada hubiera sido igual sin tus “uy que aaasco” o “Juanje eso NO” JAJAJAJA por recordarnos que teníamos algún que otro límite, siempre quedará ese patinete en nuestros recuerdos. Juanje… (papá) que decir de tí? Se me saltan hasta las lágrimas de pensar en cada uno de tus detalles, por hacer realidad el sueño que cualquier niño querría y sentirlo como si hubiera sido el tuyo. Os quiero infinito familia, que lo que haya unido Francia no lo separe nadie nadie ❤️‍🩹🥹🫶🏽",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Alba Lopez",
+          "image": "/images/projects/interrail/europa-te-espera/image-768x768(1).jpg",
+          "text": "En este Interrail 2025 por Francia hemos tenido la suerte de hacer una simple mochila nuestra “casa”, donde ahí llevábamos recuerdos, experiencias inolvidables pudiendo conocer a fondo Francia desde pueblos pequeños y mágicos como Carcasona hasta Ciudades llenas de aventuras y retos como Toulouse, Bourdeous o Paris entre otras. \n\nLa asociación Erasmiau nos ha brindado esta oportunidad la cual hemos exprimido al máximo conociéndonos día a día al grupo. En cuanto organización ha estado increíble, de principio a fin, siendo primer destino Montpellier y el destino final Paris recorriéndonos Francia de punta a punta, aunque no todo fue tan fácil y cómodo, porque realmente no buscábamos comodidad sino poder compartir momentos de cansancio, dolor de espalda, risas y algún que otro llanto nocturno. Realmente de eso trata este tipo de experiencias, no ir como “turista” sino como europe@ que va a conocer un País a fondo y con las personas que te vas encontrando por el camino, eso es lo realmente maravilloso del Interrail, la conexión tan fuerte que llegas a sentir pese a todos los contras que te pueden acarrear durante el camino. Estaré eternamente agradecida a Juanje, Magdalena y a la UE por dejarme disfrutar esta experiencia con personas tan maravillosas y haber podido disfrutar de esta experiencia tan grande, recomendaría a cualquiera que si le ofrecen esta oportunidad que sea cual sea el destino no se lo piensen y se unan a una nueva experiencia y que desde luego arrepentirse es imposible porque cuando termines el Interrail vas a ser otra persona completamente diferente. \n\nOs estaré eternamente agradecida.\nA diferencia de un viaje en solitario, en este Interrail hemos aprendido a convivir y a adaptarnos en grupo. Siendo así una experiencia fomentadora de la tolerancia y asertividad, además de socializar y practicar la escucha activa.",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Elisa Casasola",
+          "image": "/images/projects/interrail/europa-te-espera/image-768x768(2).jpg",
+          "text": "Participar en este proyecto ha sido una de las experiencias más importantes y transformadoras de mi vida.\n\nDesde el momento en que supe que había sido seleccionada, sentí una mezcla de emoción, gratitud y un poco de nervios. Sabía que no era solo un viaje más, sino una oportunidad única para descubrir Europa de una manera diferente y, sobre todo, para descubrirme a mí misma.\nEste Interrail no fue simplemente turismo. Fue una verdadera lección de vida. Aprendí a salir de mi zona de confort, a organizarme con lo mínimo en la mochila, a adaptarme a los cambios y a resolver imprevistos. Cada tren, cada ciudad y cada conversación se convirtió en una oportunidad para crecer.\n\nUno de los aspectos más especiales del viaje fue el grupo. En pocos días dejamos de ser compañeros para convertirnos en una pequeña familia. Compartimos risas, cansancio, momentos de estrés y también instantes mágicos que guardaré siempre en mi memoria. La última noche, especialmente, fue muy emotiva: comprendí cuánto nos habíamos marcado los unos a los otros.\n\nTambién quiero destacar la organización del proyecto. Todo estuvo cuidadosamente preparado, lo que nos permitió sentirnos acompañados y seguros en todo momento. Gracias a eso, pudimos centrarnos en vivir la experiencia al máximo, aprovechar cada ciudad y disfrutar de cada aprendizaje.\n\nHoy puedo decir que este viaje no solo fue un recorrido por distintos países europeos, sino un viaje interior. Me llevo amistades, recuerdos inolvidables y una versión más valiente y segura de mí misma. Sin duda, repetiría esta experiencia mil veces.",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Jorge Chaparro",
+          "image": "/images/projects/interrail/europa-te-espera/image-768x768(3).jpg",
+          "text": "Este interrail ha sido una mezcla de aprendizaje, risas y, sobre todo, convivencia, que al final es lo que más se queda. Francia ha acompañado muy bien, ¿quién no querría visitar un país así o ciudades tan mágicas e icónicas como París?, pero lo curioso de esta experiencia es cómo el sitio en sí pasa a un segundo plano, siendo casi un decorado o el envoltorio de lo realmente importante: convivir varios días con personas que apenas conocías y ver cómo el grupo iba evolucionando hasta convertirse en una pequeña familia.\n\nCreo que he aprendido la diferencia entre viajar como turista y viajar de una manera más auténtica. Da que pensar que un simple trayecto en taxi pueda convertirse en un recuerdo más especial que ver la famosa Notre Dame. Lo valioso ha sido relacionarnos, aprender unos de otros y vivir situaciones que pesan mucho más que una foto a un edificio que probablemente acabe perdida en la galería del móvil. Creo que todos, en cierto modo, hemos aprendido a conocernos más a nosotros mismos y a los demás.\n\nY será por momentos, diría que cada día ha tenido su toque, su propia personalidad y momentos inolvidables, pero por no enrollarme, creo que jamás olvidaré la cena en Burdeos en “Maison Julien”, celebrando el cumpleaños de nuestra querida Mamalena y con Javi, el cordobés que convirtió la noche en inolvidable; las tardes y picnics en los jardines de la Torre Eiffel, con los pesaos de los paquistaníes intentando vendernos vino y fotos; o la penúltima noche, escuchando los mensajes de nuestras familias abrazados… y con la reacción de África (sí, se llama como el continente) al enterarse de que al día siguiente íbamos a Disneyland París, la guinda inesperada del viaje.\n\nAl final, como digo, más que los lugares, lo que hace especial este tipo de viajes es el grupo y la gente que conoces. Y creo que un detalle lo resume bastante bien: el último día, cuando estábamos parados en el cercanías a punto de perder el tren que nos tenía que llevar de vuelta al pueblo y que nos separaría, todos, en el fondo, estábamos contentos con la posibilidad de perderlo, solo por tener así la excusa perfecta de pasar otra noche juntos. Quizás por eso mismo el destino se encaprichó… y acabamos perdiéndolo <3\n\nMuchas gracias a todos, en especial a Juanje y a Magdalena por la organización y el esfuerzo, y por supuesto a África, Alba, Elisa y Luna. Siempre os recordaré con cariño.",
+          "_template": "participant"
+        },
+        {
+          "experienceTitle": "My experience",
+          "name": "Luna Roa",
+          "image": "/images/projects/interrail/europa-te-espera/image-768x768(4).jpg",
+          "text": "Mi experiencia Interrail se ha visto marcada por distintos extremos que incluso podían convivir juntos; la ilusión y el cansancio. Ilusión aquella que sentía cada vez que salíamos del alojamiento en busca de nuevas aventuras y experiencias, cada vez que pisábamos una nueva ciudad, un nuevo lugar. Era cansancio el que teníamos tras un día entero en la calle, sin apenas descanso, cargando con las prominentes mochilas que nunca podré olvidar, aquella fatídica mañana en Lyon en el zoo, la noche del bus… Con todo y con eso, la mayoría del tiempo los dos vivían juntitos en un nivel moderado. Esto en los momentos en los que la sugar mami tenía que llevarnos a comer, las tardes en las que íbamos a pasearnos. Ahora hablemos de lugares, nunca podré olvidar aquellas tardes en Paris, a los pies De la Torre Eiffel, con todo ese esplendor ante nosotros, ese para mí fue uno de los momentos en la vida en los que no piensas en nada, no hay preocupaciones ni miedos; solo admiración, y más si estás bien acompañado como fue el caso. A lo que quiero llegar es que este Interrail ha sido significativo para mí de manera que pude experimentar emociones y sensaciones que quizás antes no había tenido, conocer sitios y personas realmente extraordinarias y como desarrollo personal, por esos ratitos en los que pude pensar en mi vida y hacia donde la estaba dirigiendo. Agradecida con esta experiencia.\n",
+          "_template": "participant"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "16 días · España, Francia & Italia",
+      "images": [
+        {
+          "src": "/images/projects/interrail/europa-te-espera/1.jpg",
+          "alt": "Europe 4 ALL — momento 1"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/2.jpg",
+          "alt": "Europe 4 ALL — momento 2"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/3.jpg",
+          "alt": "Europe 4 ALL — momento 3"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/4.jpg",
+          "alt": "Europe 4 ALL — momento 4"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/5.jpg",
+          "alt": "Europe 4 ALL — momento 5"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/15.jpg",
+          "alt": "Europe 4 ALL — momento 6"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/7.jpg",
+          "alt": "Europe 4 ALL — momento 7"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/8.jpg",
+          "alt": "Europe 4 ALL — momento 8"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/9.jpg",
+          "alt": "Europe 4 ALL — momento 9"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/10.jpg",
+          "alt": "Europe 4 ALL — momento 10"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/11.jpg",
+          "alt": "Europe 4 ALL — momento 11"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/12.jpg",
+          "alt": "Europe 4 ALL — momento 12"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/13.jpg",
+          "alt": "Europe 4 ALL — momento 13"
+        },
+        {
+          "src": "/images/projects/interrail/europa-te-espera/14.jpg",
+          "alt": "Europe 4 ALL — momento 14"
+        }
+      ],
+      "columns": "3",
+      "_template": "gallery"
     }
   ]
 }

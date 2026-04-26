@@ -37,7 +37,7 @@ export default async function CategoryPage({
                             className="flex flex-col md:flex-row gap-12 items-center"
                         >
                             {/* Imagen ovalada */}
-                            <div className="w-72 md:w-[420px] shrink-0 overflow-hidden rounded-[40%] aspect-[4/3]">
+                            <div className="w-72 md:w-[420px] shrink-0 overflow-hidden rounded-full aspect-square">
                                 <Image
                                     src={project.image}
                                     alt={project.title}

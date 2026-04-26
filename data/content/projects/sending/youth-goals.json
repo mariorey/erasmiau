@@ -1,51 +1,76 @@
 {
-  "title": "Youth Goals (TC)",
-  "subtitle": "TC in Protaras, Cyprus (20-30 January 2026)",
   "category": "sending",
   "slug": "youth-goals",
+  "title": "Youth Goals (TC)",
   "dates": "20-30 January 2026",
   "location": "Protaras - Cyprus",
   "description": "Follow the adventure of Paula & Lydia",
   "coverImage": "/images/projects/sending/sending-21-cover.jpg",
   "heroImage": "/images/projects/sending/sending-21-cover.jpg",
+  "subtitle": "TC in Protaras, Cyprus (20-30 January 2026)",
   "sections": [
     {
-      "_template": "single",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
       "blocks": [
-        { "_template": "heading", "level": "2", "text": "Our experience in Cyprus with NECI", "color": "brand" },
         {
-          "_template": "participant",
-          "experienceTitle": "The experience of Lydia",
-          "name": "Lydia",
-          "image": "/images/projects/sending/youth-goals/lydia.jpg",
-          "text": "Participating in the NECI organization has been a very enriching experience for me, both on a personal and social level. Throughout the different activities and dynamics carried out, we have worked on a wide variety of topics such as mental health, emotional well-being, equality, discrimination, the values of the European Union, and the way people socialize, among many others.\n\nReflecting on mental health has helped me better understand my emotions, recognize how they affect my daily life, and value the importance of taking care of myself and others. In addition, working on topics related to socialization has allowed me to improve my social skills, learn how to communicate better, work as part of a team, and relate to people from different backgrounds, promoting respect and empathy.\n\nOverall, this experience has been very formative and has provided me with values, knowledge, and tools that I can apply in my daily life. Without a doubt, participating in NECI has contributed to my personal and social growth in a very positive way."
+          "level": "2",
+          "text": "Our experience in Cyprus with NECI",
+          "color": "brand",
+          "_template": "heading"
         },
         {
-          "_template": "participant",
+          "experienceTitle": "The experience of Lydia",
+          "name": "Lydia",
+          "image": "/images/projects/sending/youth-goals/image-768x768.jpg",
+          "text": "Participating in the NECI organization has been a very enriching experience for me, both on a personal and social level. Throughout the different activities and dynamics carried out, we have worked on a wide variety of topics such as mental health, emotional well-being, equality, discrimination, the values of the European Union, and the way people socialize, among many others.\n\nReflecting on mental health has helped me better understand my emotions, recognize how they affect my daily life, and value the importance of taking care of myself and others. In addition, working on topics related to socialization has allowed me to improve my social skills, learn how to communicate better, work as part of a team, and relate to people from different backgrounds, promoting respect and empathy.\n\nOverall, this experience has been very formative and has provided me with values, knowledge, and tools that I can apply in my daily life. Without a doubt, participating in NECI has contributed to my personal and social growth in a very positive way.",
+          "_template": "participant"
+        },
+        {
+          "src": "/images/projects/sending/youth-goals/4.jpg",
+          "_template": "image"
+        },
+        {
           "experienceTitle": "The experience of Paula",
           "name": "Paula",
-          "image": "/images/projects/sending/youth-goals/paula.jpg",
-          "text": "Hi! My name is Paula and I come from Spain. I have personally really enjoyed this experience.\n\nWe have learned a lot about the Youth Goals through many different activities. They promote different aspects in wonderful and creative ways, which helps us gain new knowledge very easily.\n\nFor example, I really liked the way mental health was represented and how they showed us, through theatre and activities, how to help different people in different situations. I also appreciated how they taught us about gender equality and human rights.\n\nThey addressed many topics with great care and sensitivity, making everyone feel comfortable and included. I have also learned many games and methods to include people in large groups and help them feel heard.\n\nI truly believe this is a great way not only to learn more about Youth Goals, but also to meet people from different cultures, practice another language, and learn not only from the organizers but also from the participants, who bring their own stories and perspectives.\n\nWithout any doubt, I really enjoyed this experience and I would definitely recommend it to everyone I know. Thank you for giving us this opportunity. I would repeat it again if I had the chance."
+          "image": "/images/projects/sending/youth-goals/image-768x768(1).jpg",
+          "text": "Hi! My name is Paula and I come from Spain. I have personally really enjoyed this experience.\n\nWe have learned a lot about the Youth Goals through many different activities. They promote different aspects in wonderful and creative ways, which helps us gain new knowledge very easily.\n\nFor example, I really liked the way mental health was represented and how they showed us, through theatre and activities, how to help different people in different situations. I also appreciated how they taught us about gender equality and human rights.\n\nThey addressed many topics with great care and sensitivity, making everyone feel comfortable and included. I have also learned many games and methods to include people in large groups and help them feel heard.\n\nI truly believe this is a great way not only to learn more about Youth Goals, but also to meet people from different cultures, practice another language, and learn not only from the organizers but also from the participants, who bring their own stories and perspectives.\n\nWithout any doubt, I really enjoyed this experience and I would definitely recommend it to everyone I know. Thank you for giving us this opportunity. I would repeat it again if I had the chance.",
+          "_template": "participant"
+        },
+        {
+          "src": "/images/projects/sending/youth-goals/image-1366x1025.jpg",
+          "_template": "image"
         }
-      ]
+      ],
+      "_template": "single"
     },
     {
-      "_template": "gallery",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
       "title": "Photo Album",
       "subtitle": "Some photos of the project in Cyprus!",
       "images": [
-        { "src": "/images/projects/sending/youth-goals/1.jpg", "alt": "Cyprus — moment 1" },
-        { "src": "/images/projects/sending/youth-goals/2.jpg", "alt": "Cyprus — moment 2" },
-        { "src": "/images/projects/sending/youth-goals/3.jpg", "alt": "Cyprus — moment 3" },
-        { "src": "/images/projects/sending/youth-goals/4.jpg", "alt": "Cyprus — moment 4" }
+        {
+          "src": "/images/projects/sending/youth-goals/1.jpg",
+          "alt": "Cyprus — moment 1"
+        },
+        {
+          "src": "/images/projects/sending/youth-goals/2.jpg",
+          "alt": "Cyprus — moment 2"
+        },
+        {
+          "src": "/images/projects/sending/youth-goals/3.jpg",
+          "alt": "Cyprus — moment 3"
+        },
+        {
+          "src": "/images/projects/sending/youth-goals/4.jpg",
+          "alt": "Cyprus — moment 4"
+        }
       ],
-      "columns": "3"
+      "columns": "3",
+      "_template": "gallery"
     }
   ]
 }

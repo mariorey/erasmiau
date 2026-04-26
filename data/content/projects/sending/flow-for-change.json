@@ -1,88 +1,180 @@
 {
-  "title": "FLOW FOR CHANGE (YE)",
-  "subtitle": "Youth Exchange in Braga, Portugal (28 November - 5 December 2025)",
   "category": "sending",
   "slug": "flow-for-change",
+  "title": "FLOW FOR CHANGE (YE)",
   "dates": "28 November - 5 December 2025",
   "location": "Braga - Portugal",
   "description": "Follow the adventure of Alberto, Damián, Franoto, Irene, Lola, Maria & Miguel!",
   "coverImage": "/images/projects/sending/sending-20-cover.png",
-  "heroImage": "/images/projects/sending/sending-20-cover.png",
+  "heroImage": "/images/projects/sending/flow-for-change/chero.png",
+  "subtitle": "Youth Exchange in Braga, Portugal (28 November - 5 December 2025)",
   "sections": [
     {
-      "_template": "single",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
       "blocks": [
-        { "_template": "heading", "level": "1", "text": "Flow For Change: One Week, Six Countries, One Shared Responsibility", "color": "brand" },
-        { "_template": "paragraph", "text": "Our experience in Braga (ft Embarca no Mundo)", "size": "lg", "align": "left" },
-        { "_template": "paragraph", "text": "From 28 November to 5 December, our team took part in Flow For Change, an international youth exchange held in Braga, Portugal, focused on one of the most urgent challenges we face today: water conservation.", "align": "left" },
-        { "_template": "paragraph", "text": "During one intense and inspiring week, participants from Portugal, Spain, North Macedonia, Bulgaria, Türkiye and Estonia came together to reflect on how we use water, how easily we waste it, and how individual habits are deeply connected to global consequences. What started as a learning experience quickly became a space for genuine dialogue, creativity and collaboration.", "align": "left" },
-        { "_template": "paragraph", "text": "Through workshops, group discussions and mixed international teams, participants explored water scarcity from different national perspectives and worked together to design a full awareness campaign as the final outcome of the exchange. The process encouraged critical thinking, teamwork and active participation, proving that non-formal education can be both impactful and deeply engaging.", "align": "left" },
-        { "_template": "paragraph", "text": "Beyond the structured activities, Flow For Change was also about human connection. Cultural nights, shared meals, long conversations and moments of laughter created a strong sense of community. Participants such as Alberto, Damian, Franoto, Irene, Lola, Maria, Miguel and the rest of the group brought their own experiences, ideas and energy, enriching the exchange and turning diversity into a real strength.", "align": "left" },
-        { "_template": "paragraph", "text": "We leave this project with new knowledge, stronger motivation and a clearer understanding that change starts with small, conscious choices. Water may seem unlimited in our daily lives, but projects like this remind us how fragile and valuable it truly is.", "align": "left" },
-        { "_template": "paragraph", "text": "Flow For Change showed us what international cooperation can achieve when young people are given the space to learn, create and act together. We return home inspired, grateful, and more committed than ever to contributing to a more sustainable future.", "align": "left" }
-      ]
+        {
+          "level": "1",
+          "text": "Flow For Change: One Week, Six Countries, One Shared Responsibility",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "Our experience in Braga (ft Embarca no Mundo)",
+          "size": "lg",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "From 28 November to 5 December, our team took part in Flow For Change, an international youth exchange held in Braga, Portugal, focused on one of the most urgent challenges we face today: water conservation.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "During one intense and inspiring week, participants from Portugal, Spain, North Macedonia, Bulgaria, Türkiye and Estonia came together to reflect on how we use water, how easily we waste it, and how individual habits are deeply connected to global consequences. What started as a learning experience quickly became a space for genuine dialogue, creativity and collaboration.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Through workshops, group discussions and mixed international teams, participants explored water scarcity from different national perspectives and worked together to design a full awareness campaign as the final outcome of the exchange. The process encouraged critical thinking, teamwork and active participation, proving that non-formal education can be both impactful and deeply engaging.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Beyond the structured activities, Flow For Change was also about human connection. Cultural nights, shared meals, long conversations and moments of laughter created a strong sense of community. Participants such as Alberto, Damian, Franoto, Irene, Lola, Maria, Miguel and the rest of the group brought their own experiences, ideas and energy, enriching the exchange and turning diversity into a real strength.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "We leave this project with new knowledge, stronger motivation and a clearer understanding that change starts with small, conscious choices. Water may seem unlimited in our daily lives, but projects like this remind us how fragile and valuable it truly is.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Flow For Change showed us what international cooperation can achieve when young people are given the space to learn, create and act together. We return home inspired, grateful, and more committed than ever to contributing to a more sustainable future.",
+          "align": "left",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
     },
     {
-      "_template": "single",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "xl",
       "blocks": [
-        { "_template": "image", "src": "/images/projects/sending/flow-for-change/feature.jpg", "alt": "Flow For Change Braga — group photo", "aspectRatio": "16/9" }
-      ]
+        {
+          "src": "/images/projects/sending/flow-for-change/image-1366x1366.png",
+          "alt": "Flow For Change Braga — group photo",
+          "aspectRatio": "auto",
+          "_template": "image"
+        }
+      ],
+      "_template": "single"
     },
     {
-      "_template": "columns",
-      "background": "brand",
+      "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
       "distribution": "60/40",
       "verticalAlign": "center",
       "gap": "md",
       "left": [
-        { "_template": "heading", "level": "2", "text": "Dissemination Event:", "color": "default" },
-        { "_template": "heading", "level": "3", "text": "Event in the Local Youth Assembly of Puente Genil", "color": "default" }
+        {
+          "level": "2",
+          "text": "Dissemination Event:",
+          "color": "default",
+          "_template": "heading"
+        },
+        {
+          "level": "3",
+          "text": "Event in the Local Youth Assembly of Puente Genil",
+          "color": "brand",
+          "_template": "heading"
+        }
       ],
       "right": [
-        { "_template": "image", "src": "/images/projects/sending/flow-for-change/dissemination.jpg", "alt": "Dissemination event Puente Genil", "aspectRatio": "4/3" }
-      ]
+        {
+          "src": "/images/projects/sending/flow-for-change/image-768x576.jpg",
+          "alt": "Dissemination event Puente Genil",
+          "aspectRatio": "4/3",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
     },
     {
-      "_template": "single",
-      "background": "white",
+      "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
       "blocks": [
-        { "_template": "paragraph", "text": "On Saturday, 31 January 2026, we carried out a dissemination activity during a meeting of the Mesa Local de la Juventud de Puente Genil, bringing together young people, youth workers and representatives of local organisations. The session provided a valuable opportunity to share the experience and main outcomes of the Flow For Change youth exchange, held in Braga, Portugal.", "align": "left" },
-        { "_template": "paragraph", "text": "During the meeting, the participants presented the objectives and key activities of the project, focusing on water conservation as a shared European challenge. They explained the learning process developed through workshops, group discussions and teamwork, as well as the final awareness campaign created during the exchange. Special attention was given to how young people from different countries approached the issue from diverse perspectives while working towards a common goal.", "align": "left" },
-        { "_template": "image", "src": "/images/projects/sending/flow-for-change/dissemination-event.jpg", "alt": "Flow For Change dissemination event Puente Genil", "aspectRatio": "16/9" }
-      ]
+        {
+          "text": "On Saturday, 31 January 2026, we carried out a dissemination activity during a meeting of the Mesa Local de la Juventud de Puente Genil, bringing together young people, youth workers and representatives of local organisations. The session provided a valuable opportunity to share the experience and main outcomes of the Flow For Change youth exchange, held in Braga, Portugal.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "During the meeting, the participants presented the objectives and key activities of the project, focusing on water conservation as a shared European challenge. They explained the learning process developed through workshops, group discussions and teamwork, as well as the final awareness campaign created during the exchange. Special attention was given to how young people from different countries approached the issue from diverse perspectives while working towards a common goal.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-768x576(1).jpg",
+          "alt": "Flow For Change dissemination event Puente Genil",
+          "aspectRatio": "auto",
+          "_template": "image"
+        }
+      ],
+      "_template": "single"
     },
     {
-      "_template": "gallery",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
       "title": "Photo Album",
       "subtitle": "Some photos of the project in Braga!",
       "images": [
-        { "src": "/images/projects/sending/flow-for-change/1.jpg", "alt": "Braga — moment 1" },
-        { "src": "/images/projects/sending/flow-for-change/2.jpg", "alt": "Braga — moment 2" },
-        { "src": "/images/projects/sending/flow-for-change/3.jpg", "alt": "Braga — moment 3" },
-        { "src": "/images/projects/sending/flow-for-change/4.jpg", "alt": "Braga — moment 4" },
-        { "src": "/images/projects/sending/flow-for-change/5.jpg", "alt": "Braga — moment 5" },
-        { "src": "/images/projects/sending/flow-for-change/6.jpg", "alt": "Braga — moment 6" },
-        { "src": "/images/projects/sending/flow-for-change/7.jpg", "alt": "Braga — moment 7" },
-        { "src": "/images/projects/sending/flow-for-change/8.jpg", "alt": "Braga — moment 8" },
-        { "src": "/images/projects/sending/flow-for-change/9.jpg", "alt": "Braga — moment 9" },
-        { "src": "/images/projects/sending/flow-for-change/10.jpg", "alt": "Braga — moment 10" },
-        { "src": "/images/projects/sending/flow-for-change/11.jpg", "alt": "Braga — moment 11" },
-        { "src": "/images/projects/sending/flow-for-change/12.jpg", "alt": "Braga — moment 12" }
+        {
+          "src": "/images/projects/sending/flow-for-change/image-1366x1366.png",
+          "alt": "Braga — moment 1"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480(13).png",
+          "alt": "Braga — moment 2"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480(14).png",
+          "alt": "Braga — moment 3"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480(4).png",
+          "alt": "Braga — moment 4"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480(3).png",
+          "alt": "Braga — moment 5"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480(6).png",
+          "alt": "Braga — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480(8).png",
+          "alt": "Braga — moment 7"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480.png",
+          "alt": "Braga — moment 8"
+        },
+        {
+          "src": "/images/projects/sending/flow-for-change/image-384x480(2).png",
+          "alt": "Braga — moment 9"
+        }
       ],
-      "columns": "3"
+      "columns": "3",
+      "_template": "gallery"
     }
   ]
 }
