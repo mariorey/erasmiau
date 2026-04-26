@@ -1,0 +1,217 @@
+{
+  "title": "Escuela de Verano Jóvenes Rurales",
+  "location": "Puente Genil, Spain",
+  "description": "What we do in our community :D",
+  "heroImage": "/images/projects/local-projects/local-1-cover.jpg",
+  "subtitle": "",
+  "sections": [
+    {
+      "maxWidth": "sm",
+      "blocks": [
+        {
+          "src": "/images/projects/local-projects/local-1-cover.jpg",
+          "_template": "image"
+        },
+        {
+          "text": "La Asociación Juvenil Erasmiau ha sido beneficiaria de una subvención concedida por la Diputación Provincial de Córdoba dentro de la Convocatoria de subvenciones a asociaciones y entidades que desarrollen programas de ocio y tiempo libre, dirigidos a jóvenes de la provincia de Córdoba, para el año 2025, para la ejecución del proyecto “Escuela de Verano para Jóvenes Rurales”.",
+          "_template": "paragraph"
+        },
+        {
+          "level": "2",
+          "text": "Formación y Crecimiento Personal",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "La Escuela de Verano para Jóvenes Rurales es una iniciativa educativa y comunitaria que se desarrollará durante el mes de julio en Puente Genil, ofreciendo un espacio único de aprendizaje, convivencia y diversión.\n\nEste proyecto nace con un doble objetivo: por un lado, proporcionar a niños y niñas un verano lleno de actividades educativas y creativas; y por otro, ofrecer a jóvenes la oportunidad de formarse y participar activamente como monitores/as, desarrollando habilidades clave para su futuro.\n\n\nEn los contextos rurales, donde los recursos son limitados y las oportunidades educativas a menudo escasas, la educación no formal se erige como un baluarte de esperanza y desarrollo. Este tipo de educación, que se lleva a cabo fuera del sistema educativo tradicional, proporciona a los jóvenes las herramientas necesarias para convertirse en agentes de cambio en sus comunidades. En la Asociación Juvenil Erasmiau, entendemos que cada joven tiene el potencial para liderar y transformar la realidad que les rodea.",
+          "_template": "paragraph"
+        },
+        {
+          "level": "2",
+          "text": "Objetivos",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "Fomentar el empoderamiento de la juventud y el acceso a un ocio educativo inclusivo en el entorno rural mediante el desarrollo de una escuela de verano intergeneracional en Puente Genil, que combine la formación práctica de jóvenes como monitores/as con actividades lúdico-educativas dirigidas a la infancia durante el mes de julio.\n\n \n\nLa Escuela de Verano tiene como propósito desarrollar una experiencia educativa completa que impacte tanto en la juventud como en la infancia y en la comunidad en general.\n\nEn primer lugar, se busca **formar a jóvenes de entre 16 y 22 años como monitores y monitoras**, ofreciéndoles un espacio práctico donde puedan adquirir habilidades en dinamización de grupos, liderazgo, resolución de conflictos y trabajo en equipo. A través del aprendizaje experiencial, los y las participantes no solo recibirán formación, sino que aprenderán haciendo, asumiendo un rol activo dentro del proyecto.\n\nAl mismo tiempo, el proyecto pretende **ofrecer a niños y niñas un programa educativo de calidad**, adaptado a sus edades y necesidades, donde el juego, la creatividad y la participación sean herramientas clave de aprendizaje. Las actividades estarán diseñadas para estimular su desarrollo personal, social y emocional en un entorno seguro y motivador.\n\nOtro de los objetivos fundamentales es **promover valores como la igualdad, el respeto, la cooperación y la sostenibilidad**, integrándolos de forma transversal en todas las dinámicas y talleres. De esta manera, la escuela se convierte en un espacio donde no solo se aprende, sino donde también se construyen actitudes y formas de convivencia positivas.\n\nAsimismo, se trabaja para **garantizar la inclusión real de jóvenes y niños/as con menos oportunidades**, facilitando su acceso y participación activa mediante apoyos específicos, adaptaciones y un enfoque educativo sensible a la diversidad.\n\nEl proyecto también responde a una necesidad social importante, al **favorecer la conciliación familiar durante el periodo de vacaciones escolares**, ofreciendo una alternativa educativa, segura y cercana para las familias del entorno rural.\n\nFinalmente, la Escuela de Verano busca **fortalecer el vínculo entre la juventud y su comunidad**, promoviendo su implicación activa y su sentido de pertenencia. A través de su participación, los jóvenes no solo desarrollan competencias, sino que también se convierten en agentes de cambio dentro de su propio territorio.",
+          "_template": "paragraph"
+        },
+        {
+          "level": "2",
+          "text": "¿Qué ofrecemos?",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "Durante todo el mes de julio, de lunes a viernes, desarrollamos un programa dinámico y cuidadosamente diseñado para ofrecer una experiencia educativa completa, divertida y significativa.\n\nCada jornada combina diferentes tipos de actividades que permiten a los niños y niñas aprender mientras disfrutan, adaptándose a sus edades, intereses y ritmos. Entre ellas se incluyen:\n\n- **Juegos cooperativos**, que fomentan la colaboración, la comunicación y el trabajo en equipo.\n- **Talleres creativos**, donde podrán explorar su imaginación a través del arte, las manualidades y la expresión personal.\n- **Actividades al aire libre**, que promueven el contacto con el entorno, el movimiento y el disfrute del espacio natural.\n- **Dinámicas sobre emociones y convivencia**, pensadas para desarrollar la inteligencia emocional, la empatía y la resolución positiva de conflictos.\n- **Actividades deportivas y de expresión corporal**, que ayudan a mejorar la coordinación, la autoestima y el bienestar físico.\n\nTodo el programa está basado en una metodología de educación no formal y aprendizaje experiencial, donde el protagonismo lo tienen los propios participantes. Aprenden haciendo, experimentando y compartiendo, en un entorno seguro, inclusivo y motivador.\n\nAdemás, cada actividad está diseñada para transmitir de forma transversal valores fundamentales como la igualdad, el respeto, el trabajo en equipo, la sostenibilidad y la empatía, contribuyendo al desarrollo personal y social de cada participante.",
+          "_template": "paragraph"
+        },
+        {
+          "level": "2",
+          "text": "Una experiencia que va más allá del verano",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "La Escuela de Verano no es solo un espacio de ocio, sino una experiencia educativa transformadora que deja huella en todas las personas que participan.\n\nPor un lado, **los jóvenes monitores y monitoras viven un proceso de aprendizaje real,** donde no solo reciben formación, sino que ponen en práctica sus conocimientos en un entorno acompañado. A lo largo del programa desarrollan habilidades clave como el liderazgo, la responsabilidad, la comunicación y el trabajo en equipo, al mismo tiempo que ganan confianza en sí mismos y descubren su capacidad para generar impacto en su comunidad.\n\nPor otro lado, los **niños y niñas** disfrutan de un entorno seguro, dinámico y estimulante, donde pueden aprender a través del juego, expresarse libremente y construir relaciones positivas con otras personas. Es un espacio donde se sienten escuchados, valorados y protagonistas de su propio aprendizaje.\n\nPara las **familias**, la escuela representa una alternativa de calidad durante el verano, que combina cuidado, educación y valores, facilitando la conciliación en un entorno cercano y de confianza.\n\nAdemás, el proyecto pone un énfasis especial en la **inclusión**, asegurando que jóvenes y niños/as con menos oportunidades puedan participar plenamente. A través de un enfoque accesible, flexible y sensible a la diversidad, se busca que todas las personas tengan la oportunidad de vivir esta experiencia en igualdad de condiciones.\n\nEn conjunto, la Escuela de Verano se convierte en un espacio donde se crean vínculos, se desarrollan capacidades y se fortalece el sentido de comunidad, generando un impacto que va mucho más allá del propio verano.",
+          "_template": "paragraph"
+        },
+        {
+          "level": "2",
+          "text": "Compromiso con la comunidad",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "La Escuela de Verano nace con una clara vocación comunitaria, apostando por fortalecer el vínculo entre la juventud, la infancia y su entorno. No se trata solo de ofrecer actividades, sino de generar un espacio donde las personas se sientan parte activa de su comunidad.\n\nA través de la implicación directa de los jóvenes como monitores/as, el proyecto promueve una **participación activa y significativa**, en la que la juventud asume un papel protagonista en la dinamización de su propio territorio. Este proceso favorece el arraigo, el sentido de pertenencia y el compromiso con el entorno rural.\n\nAl mismo tiempo, la escuela contribuye a **dinamizar la vida social del municipio**, creando espacios de encuentro, convivencia y colaboración entre diferentes generaciones. Familias, niños, jóvenes y agentes locales forman parte de una experiencia compartida que fortalece el tejido comunitario.\n\nSe trata, en definitiva, de una iniciativa que impulsa el **desarrollo personal, social y educativo**, generando oportunidades reales en el entorno rural y contribuyendo a construir una comunidad más activa, inclusiva y cohesionada.\n\nEl impacto del proyecto no se limita al mes de julio, sino que busca dejar una huella duradera, sembrando aprendizajes, relaciones y motivaciones que continúan creciendo más allá del verano.",
+          "_template": "paragraph"
+        },
+        {
+          "level": "2",
+          "text": "SEMANA 1",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/1.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/2.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/3.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/4.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/5.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/6.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/7.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/8.jpg"
+            }
+          ],
+          "columns": "4",
+          "_template": "gallery"
+        },
+        {
+          "level": "2",
+          "text": "SEMANA 2",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/9.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/10.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/11.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/12.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/13.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/14.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/15.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/16.jpg"
+            }
+          ],
+          "columns": "4",
+          "_template": "gallery"
+        },
+        {
+          "level": "2",
+          "text": "SEMANA 3",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/17.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/18.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/19.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/20.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/21.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/22.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/23.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/24.jpg"
+            }
+          ],
+          "columns": "4",
+          "_template": "gallery"
+        },
+        {
+          "level": "2",
+          "text": "SEMANA 4",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/25.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/26.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/27.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/28.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/29.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/30p.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/31.jpg"
+            },
+            {
+              "src": "/images/projects/local-projects/escuela-de-verano/32.jpg"
+            }
+          ],
+          "columns": "4",
+          "_template": "gallery"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
+}

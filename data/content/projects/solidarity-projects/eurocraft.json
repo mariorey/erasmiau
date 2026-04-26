@@ -1,10 +1,122 @@
 {
-  "category": "local-projects",
-  "slug": "escuela-de-verano",
-  "title": "Escuela de Verano para Jóvenes Rurales",
-  "dates": "",
+  "title": "EUROCRAFT (ESC)",
+  "dates": "June 2023- May 2024",
   "location": "Puente Genil, Spain",
-  "description": "Sigue la aventura de nuestros monitores!",
-  "coverImage": "/images/projects/local-projects/local-1-cover.jpg",
-  "sections": []
+  "description": "An innovative way to promote the European Democratic Values? Why not to open a Minecraft Server and recreate EUROPE! Welcome to Eurocraft :D",
+  "heroImage": "/images/projects/solidarity/solidarity-1-cover.png",
+  "subtitle": "June 2023 – May 2024",
+  "sections": [
+    {
+      "left": [
+        {
+          "mainImage": {
+            "src": "/images/projects/solidarity/europecraft/image.jpg"
+          },
+          "thumbs": [
+            {
+              "src": "/images/projects/solidarity/europecraft/image-375x281 (3).jpg"
+            },
+            {
+              "src": "/images/projects/solidarity/europecraft/image(1).jpg"
+            },
+            {
+              "src": "/images/projects/solidarity/europecraft/image(2).jpg"
+            }
+          ],
+          "_template": "photoFeature"
+        }
+      ],
+      "right": [
+        {
+          "level": "3",
+          "text": "We wanted to play minecraft and we had an idea... Why not to recreate Europe´s democratic values inside a Minecraft Server? It will be fun ",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "- said Mario\n",
+          "_template": "paragraph"
+        },
+        {
+          "text": "\nMeetings in High School with 16-18 y.o. students",
+          "size": "sm",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The idea behind creating this virtual society is to improve understanding and commitment to the democratic values ​​of the European Union among young people. By allowing them to experience and learn about these values ​​in a safe and controlled environment, it is hoped that participants will develop a greater awareness and appreciation for democracy and its founding principles.\nIn the photos we can see images of the different talks given in various institutes to promote European democratic values, the solidarity projects within the ESC and the Eurocraft project as such.",
+          "size": "sm",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "left": [
+        {
+          "level": "2",
+          "text": "The virtual society",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "**What makes Eurocraft special?**\n\n\n\n- Collaboration and Teamwork: Players will work together to build cities, create laws and solve community problems, learning the importance of cooperation and teamwork.\n- Education and Fun: We use gamification techniques to make the experience both fun and educational. The game's challenges and missions are designed to teach about democratic values, human rights and the history of the European Union.\n- Inclusion and Tolerance: Our virtual world is designed to be an inclusive space where all differences are respected and valued. We foster an environment where every voice is heard and every player feels welcome.\n- Solidarity and Community: Through community projects and solidarity activities, players will learn about the importance of supporting others and building a more united and supportive society.\n\n \n\nIn Eurocraft, each player has the opportunity to develop a role within the democratic structure of our virtual society. This means that everyone can choose to be part of the government, collaborate on community projects, or simply help make important decisions for our community.\n\nWe have even held elections on the server, where players participated in an exciting campaign. During the campaign, meetings were organized so that candidates could share their ideas and plans. Players worked hard to capture votes by promoting different democratic values such as honesty, fairness, and cooperation.\n\nThe candidates explained why they wanted to be elected and what they would do to improve our virtual world. Other players listened, asked questions, and finally voted for who they believed would be the best leader.\n\nThese activities not only made the game more exciting but also taught players about how elections work and the importance of participating in decision-making in a fair and respectful manner. In this way, in Eurocraft, we all learn and grow together while having fun building a better world.",
+          "size": "sm",
+          "_template": "paragraph"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/projects/solidarity/europecraft/image-768x432.webp",
+          "_template": "image"
+        },
+        {
+          "src": "/images/projects/solidarity/europecraft/image.webp",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "left": [
+        {
+          "level": "2",
+          "text": "Workshops",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/projects/solidarity/europecraft/image-768x576(1).jpg"
+            },
+            {
+              "src": "/images/projects/solidarity/europecraft/image-768x576(2).jpg"
+            },
+            {
+              "src": "/images/projects/solidarity/europecraft/image-375x281 (4).jpg"
+            },
+            {
+              "src": "/images/projects/solidarity/europecraft/image-768x576.jpg"
+            },
+            {
+              "src": "/images/projects/solidarity/europecraft/image-768x576(3).jpg"
+            },
+            {
+              "src": "/images/projects/solidarity/europecraft/image-768x576(5).jpg"
+            }
+          ],
+          "columns": "3",
+          "_template": "imageGroup"
+        }
+      ],
+      "right": [
+        {
+          "text": "In Eurocraft, we have developed a variety of workshops that combine the excitement of gamification with the principles of non-formal education and European values. These workshops are designed to be engaging, educational, and fun, helping players to learn and grow while enjoying their time in the game.\nGamification Workshops\nOur gamification workshops use game mechanics to make learning more interactive and enjoyable. Players participate in quests, challenges, and missions that teach important concepts and skills. For example, we have treasure hunts that require teamwork, problem-solving, and critical thinking, helping players to develop these abilities in a playful context. Through these activities, players learn about leadership, cooperation, and strategic planning.\nNon-Formal Education Workshops\nWe believe that learning doesn't only happen in a classroom. Our non-formal education workshops provide hands-on, experiential learning opportunities. These workshops cover a wide range of topics, from environmental sustainability to digital literacy. Players might work on building a sustainable city, learning about renewable energy sources and how to manage resources effectively. These workshops encourage creativity, curiosity, and a love for lifelong learning.\nEuropean Values Workshops\nPromoting European values is at the heart of our project. In these workshops, players learn about the key values of the European Union, such as democracy, human rights, and cultural diversity. We organize role-playing activities where players simulate the functioning of the European Parliament, allowing them to understand how laws are made and the importance of active citizenship. We also host cultural exchange events, where players from different backgrounds share their traditions and learn to appreciate diversity.\nThrough these workshops, Eurocraft creates a vibrant learning environment where players not only have fun but also gain valuable knowledge and skills. They learn to work together, respect each other's differences, and become more informed and active members of their communities.",
+          "size": "sm",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "columns"
+    }
+  ]
 }

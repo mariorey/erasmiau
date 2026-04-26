@@ -1,0 +1,50 @@
+{
+  "title": "TU OTRO TÚ",
+  "dates": "2025",
+  "location": "Puente Genil, Spain",
+  "description": "El poder de la interculturalidad experimental en entornos rurales",
+  "coverImage": "/images/projects/local-projects/tuotrotu-cover.png",
+  "heroImage": "/images/projects/local-projects/tuotrotu-cover.png",
+  "subtitle": "Convocatoria \"Somos Pueblo, Somos Cultura 2025\" de la Diputación de Córdoba",
+  "sections": [
+    {
+      "maxWidth": "sm",
+      "blocks": [
+        {
+          "level": "2",
+          "text": "TU OTRO TÚ",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "level": "3",
+          "text": "\"el poder de la interculturalidad experimental en entornos rurales\"",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "src": "/images/projects/local-projects/tuotrotu-cover.png",
+          "_template": "image"
+        },
+        {
+          "text": "La Asociación Juvenil Erasmiau ha sido beneficiaria de la Convocatoria de subvenciones “Somos Pueblo, Somos Cultura 2025” de la Diputación de Córdoba, gracias a la cual se ha podido desarrollar el proyecto “TU OTRO TÚ: el poder de la interculturalidad experimental en entornos rurales”.\n\n \n\nEste proyecto ha permitido trabajar con jóvenes del municipio en la creación de un documental participativo sobre interculturalidad, fomentando valores como la empatía, la convivencia y el respeto a la diversidad.",
+          "italic": true,
+          "_template": "paragraph"
+        },
+        {
+          "level": "2",
+          "text": "El documental",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "platform": "youtube",
+          "id": "o2SF7-ZEVnw",
+          "title": "El documental",
+          "_template": "video"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
+}

@@ -314,13 +314,12 @@ export const projects: Project[] = [
 
     {
         category: "local-projects",
-        slug: "escuela-de-verano",
-        title: "Escuela de Verano Jóvenes Rurales",
-        dates: "",
+        slug: "tu-otro-tu",
+        title: "TU OTRO TÚ",
+        dates: "2025",
         location: "Puente Genil, Spain",
-        image: "/images/projects/local-projects/local-1-cover.jpg",
-        description: "Convocatoria de subvenciones a asociaciones y entidades que desarollen programas de ocio y tiempo libre, dirigidos a jóvenes de la provincia de Córdoba, 2025\n" +
-            "Sigue la aventura de nuestros monitores!",
+        image: "/images/projects/local-projects/local-2-cover.jpg",
+        description: "El poder de la interculturalidad experimental en entornos rurales",
         gallery: [],
     },
 ];

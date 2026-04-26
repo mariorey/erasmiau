@@ -9,6 +9,7 @@ import { PageRenderer } from "@/components/renderer/PageRenderer"
 import { mapTinaToPageContent } from "@/lib/tina/map"
 import type { PageContent } from "@/types/content"
 import type { Project } from "@/data/projects"
+import { getCategoryBySlug } from "@/data/projects"
 
 type TinaResult = {
   query: string
@@ -40,6 +41,9 @@ function TinaShell({ tinaResult, project, content, category }: Props) {
   // raw TinaCMS project object — has internal metadata for tinaField()
   const tinaProject = tinaResult ? (data as any).project : null
 
+  const categoryLabel = getCategoryBySlug(category)?.label
+    ?? category.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+
   // Re-map live TinaCMS data to PageContent so the preview updates as you edit in the sidebar.
   const liveContent = useMemo(() => {
     if (!tinaProject?.sections?.length) return content
@@ -67,7 +71,7 @@ function TinaShell({ tinaResult, project, content, category }: Props) {
                 href={`/projects/${category}`}
                 className="text-[#E8003A] text-sm font-semibold hover:underline"
               >
-                ← Back to {category}
+                ← Back to {categoryLabel}
               </Link>
             </div>
           </div>
@@ -80,7 +84,7 @@ function TinaShell({ tinaResult, project, content, category }: Props) {
               href={`/projects/${category}`}
               className="text-[#E8003A] text-sm font-semibold hover:underline self-start"
             >
-              ← Back to {category}
+              ← Back to {categoryLabel}
             </Link>
 
             {(tinaProject?.heroImage ?? project?.image) && (
