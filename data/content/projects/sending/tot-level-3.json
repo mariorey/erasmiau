@@ -1,10 +1,149 @@
 {
-  "title": "TOT LEVEL 3 (Training of Trainers)",
   "category": "sending",
   "slug": "tot-level-3",
+  "title": "TOT LEVEL 3 (Training of Trainers)",
   "dates": "8-16 November 2024",
   "location": "Larnaca - Cyprus",
   "description": "Follow the adventure of Raúl",
   "coverImage": "/images/projects/sending/sending-11-cover.jpg",
-  "sections": []
+  "sections": [
+    {
+      "background": "light",
+      "maxWidth": "sm",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "text": "T.O.T. Level 3 in Larnaca organized by NECI EU",
+          "color": "brand",
+          "_template": "heading"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/projects/sending/tot3/image-768x768.jpg",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "background": "light",
+      "blocks": [
+        {
+          "text": "From November 8th to 16th, Raúl Toledano Sánchez participated in the \"Training of Trainers Level 3\" course organized by NECI Cyprus. This advanced training aimed to equip participants with the knowledge, skills, and techniques necessary to excel as facilitators in the field of non-formal education.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The intensive course brought together aspiring trainers from diverse backgrounds, fostering a dynamic environment of collaboration and shared learning. Over the course of the program, Raúl engaged in hands-on workshops, peer-to-peer exercises, and group discussions, all tailored to enhance facilitation skills. Key topics covered included advanced communication techniques, session planning, group dynamics, and methods for engaging diverse youth audiences.\n\nOne of the highlights of the training was the focus on practical facilitation exercises, where participants were encouraged to apply newly acquired methods in simulated scenarios. Raúl actively contributed by sharing personal insights and experiences, further enriching the learning process for the group. Feedback from trainers and peers provided valuable guidance, helping participants refine their approaches to facilitation.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The program emphasized the importance of adaptability, empathy, and creativity in non-formal education, particularly in addressing the evolving needs of youth. Raúl and his fellow participants explored innovative strategies for creating inclusive and impactful learning environments, leveraging tools and techniques designed to empower young people.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "As the training concluded, Raúl expressed gratitude to NECI Cyprus for their exceptional organization and dedication to fostering professional growth among trainers. The knowledge and experience gained during this training will undoubtedly enhance Raúl’s capacity to facilitate engaging and meaningful learning experiences in future youth projects.",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "background": "white",
+      "maxWidth": "sm",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "level": "2",
+          "text": "DISSEMINATION EVENT",
+          "color": "brand",
+          "_template": "heading"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/projects/sending/tot3/image-768x768(1).jpg",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "blocks": [
+        {
+          "text": "On Friday, November 29th, the results of the \"Training of Trainers Level 3\" project were disseminated during an engaging event held at a high school in Montalbán de Córdoba. The session aimed to share the knowledge and outcomes of the project, raising awareness about the importance of non-formal education and the role of facilitators in youth development. The event was attended by five dedicated teachers and 36 enthusiastic students, creating a dynamic and interactive environment.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The dissemination session included a presentation detailing the objectives and structure of the training program organized by NECI Cyprus. Raúl Toledano Sánchez shared his personal experiences, highlighting key learnings and practical skills acquired during the training. To make the session engaging for the audience, he incorporated visual aids, including photos and videos from the training, which provided a vivid glimpse into the activities and collaborative spirit of the course.",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "maxWidth": "sm",
+      "left": [
+        {
+          "src": "/images/projects/sending/tot3/image-512x384(2).jpg",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/projects/sending/tot3/image-512x384(3).jpg",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "background": "light",
+      "blocks": [
+        {
+          "level": "2",
+          "text": "Photo Album",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/projects/sending/tot3/image-655x384.jpg"
+            },
+            {
+              "src": "/images/projects/sending/tot3/image-512x384.jpg"
+            },
+            {
+              "src": "/images/projects/sending/tot3/image-512x384(1).jpg"
+            },
+            {
+              "src": "/images/projects/sending/tot3/image-512x384(2).jpg"
+            },
+            {
+              "src": "/images/projects/sending/tot3/image-512x384(3).jpg"
+            },
+            {
+              "src": "/images/projects/sending/tot3/image-512x384(4).jpg"
+            },
+            {
+              "src": "/images/projects/sending/tot3/image-384x512.jpg"
+            },
+            {
+              "src": "/images/projects/sending/tot3/image-384x512(1).jpg"
+            }
+          ],
+          "columns": "4",
+          "_template": "gallery"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
 }

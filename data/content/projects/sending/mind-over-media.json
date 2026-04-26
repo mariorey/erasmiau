@@ -1,107 +1,206 @@
 {
-  "title": "Mind over Media (TC)",
-  "subtitle": "Training Course in Nova Gradiska, Croatia (6-14 September 2025)",
   "category": "sending",
   "slug": "mind-over-media",
+  "title": "Mind over Media (TC)",
   "dates": "6-14 September 2025",
   "location": "Nova Gradiska - Croatia",
   "description": "Follow the adventure of Antonio, Damián & Emilio!",
   "coverImage": "/images/projects/sending/sending-15-cover.jpg",
-  "heroImage": "/images/projects/sending/sending-15-cover.jpg",
+  "heroImage": "/images/projects/sending/mind-over-media/4.jpg",
+  "subtitle": "Training Course in Nova Gradiska, Croatia (6-14 September 2025)",
   "sections": [
     {
-      "_template": "single",
-      "background": "light",
-      "paddingY": "lg",
-      "maxWidth": "lg",
-      "blocks": [
-        { "_template": "heading", "level": "1", "text": "\"Mind over Media\" – finalización del Training Course", "color": "brand" },
-        { "_template": "paragraph", "text": "Una experiencia que volvería a repetir...", "size": "lg", "align": "left" },
-        { "_template": "paragraph", "text": "La Asociación Studio B ha concluido la implementación de actividades de otro proyecto dentro del programa Erasmus+: un curso de formación titulado \"Mind over Media\". El proyecto en sí continúa hasta marzo de 2026. Fue desarrollado en colaboración con varios socios internacionales: Cooperativa sociale ATYPICA arl (Italia), Asociación \"Keliauk pirmyn\" (Lituania), AO \"DeFacto\" (Moldavia), Asociatia pentru dezvoltare activa (Rumanía), Association Light (Serbia), Jönköpings kommun (Suecia) y la Asociación Juvenil Erasmiau (España). El proyecto fue financiado por la Unión Europea a través del programa Erasmus+ y aprobado en la convocatoria de propuestas por la Agencia Croata de Movilidad y Programas de la UE.", "align": "left" },
-        { "_template": "paragraph", "text": "La actividad de formación se celebró del 6 al 14 de septiembre en Nova Gradiška. Reunió a personas activas en el trabajo con jóvenes (formadores, trabajadores juveniles, expertos socio-pedagógicos, etc.) de ocho países —España, Lituania, Rumanía, Moldavia, Suecia, Serbia, Italia y Croacia— con el objetivo de dotar a los participantes de herramientas para el pensamiento crítico, analizar el impacto de las redes sociales en la salud mental, y desarrollar métodos prácticos que los jóvenes puedan aplicar incluso después de finalizar la formación.", "align": "left" },
-        { "_template": "paragraph", "text": "El primer día se dedicó a presentaciones, dinámicas de cohesión, establecimiento de objetivos comunes e introducción al pensamiento crítico. El segundo día, los participantes trabajaron sobre la salud mental y los sesgos cognitivos, desarrollaron habilidades de comunicación y escucha activa, y por la noche se celebró la velada intercultural de España, Lituania, Italia y Serbia. El tercer día estuvo centrado en redes sociales y alfabetización mediática, diseño y grabación de vídeos educativos, seguido de la noche intercultural de Suecia, Rumanía, Moldavia y Croacia.", "align": "left" },
-        { "_template": "paragraph", "text": "El cuarto día incluyó ejercicios de debate, práctica de argumentación, visita al Centro Comunitario Bodovaljci para conocer sus actividades y realizar la evaluación intermedia, además de una excursión a Davor, un paseo por el río Sava y una cena en el restaurante Oj, Davore. El quinto día se centró en afrontar situaciones de estrés mediante escenarios que exigían pensamiento crítico, cooperación y estabilidad emocional, seguido de un gran debate sobre religión, cambio climático, responsabilidad individual y fronteras abiertas y migración, finalizando con una sesión de reflexión.", "align": "left" },
-        { "_template": "paragraph", "text": "El sexto día comenzó con un taller sobre teorías de la conspiración mediante pequeñas representaciones teatrales y un debate sobre narrativas manipuladoras. La tarde estuvo dedicada al futuro y al impacto de la inteligencia artificial y a las competencias clave, con una reflexión sobre cómo aplicar el pensamiento crítico en las comunidades. En el último día, los participantes demostraron creatividad y compromiso con la temática diseñando nuevos métodos y actividades que conectan la salud mental juvenil con el desarrollo del pensamiento crítico. Al final de la jornada se entregaron los certificados Youthpass como reconocimiento de la participación y del esfuerzo realizado. La noche estuvo marcada por la convivencia y las despedidas, antes del regreso a casa con nuevos aprendizajes, amistades e inspiración.", "align": "left" },
-        { "_template": "paragraph", "text": "En la fase de difusión del proyecto, todas las organizaciones socias llevarán a cabo actividades en sus comunidades locales para garantizar que las ideas generadas durante los talleres se apliquen en el trabajo con jóvenes. Los participantes también elaboraron planes de difusión para transferir los conocimientos y experiencias adquiridos a sus colegas y a otras organizaciones.", "align": "left" },
-        { "_template": "paragraph", "text": "Dos evaluaciones realizadas durante la formación confirmaron que la actividad estuvo excelentemente diseñada y que proporcionó a los participantes un espacio seguro para el intercambio de opiniones, actitudes e ideas, además de una oportunidad para el crecimiento personal y profesional.", "align": "left" },
-        { "_template": "paragraph", "text": "Aprovechamos esta oportunidad para agradecer al personal del Hotel Kralj Tomislav por su hospitalidad, a las formadoras Ivana y Tea, a todos los voluntarios y a los medios que siguen nuestro trabajo.", "align": "left" },
-        { "_template": "paragraph", "text": "La formación Mind over Media demostró la importancia de invertir en el pensamiento crítico, la salud mental y la cooperación intercultural. A través de un programa intensivo, los participantes no solo aprendieron, sino que también construyeron una comunidad que piensa, siente y actúa —de manera responsable y con gran entusiasmo—.", "align": "left" }
-      ]
-    },
-    {
-      "_template": "single",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
       "blocks": [
         {
-          "_template": "participant",
+          "level": "1",
+          "text": "\"Mind over Media\" – finalización del Training Course",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "Una experiencia que volvería a repetir...",
+          "size": "lg",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "La Asociación Studio B ha concluido la implementación de actividades de otro proyecto dentro del programa Erasmus+: un curso de formación titulado \"Mind over Media\". El proyecto en sí continúa hasta marzo de 2026. Fue desarrollado en colaboración con varios socios internacionales: Cooperativa sociale ATYPICA arl (Italia), Asociación \"Keliauk pirmyn\" (Lituania), AO \"DeFacto\" (Moldavia), Asociatia pentru dezvoltare activa (Rumanía), Association Light (Serbia), Jönköpings kommun (Suecia) y la Asociación Juvenil Erasmiau (España). El proyecto fue financiado por la Unión Europea a través del programa Erasmus+ y aprobado en la convocatoria de propuestas por la Agencia Croata de Movilidad y Programas de la UE.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "La actividad de formación se celebró del 6 al 14 de septiembre en Nova Gradiška. Reunió a personas activas en el trabajo con jóvenes (formadores, trabajadores juveniles, expertos socio-pedagógicos, etc.) de ocho países —España, Lituania, Rumanía, Moldavia, Suecia, Serbia, Italia y Croacia— con el objetivo de dotar a los participantes de herramientas para el pensamiento crítico, analizar el impacto de las redes sociales en la salud mental, y desarrollar métodos prácticos que los jóvenes puedan aplicar incluso después de finalizar la formación.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "El primer día se dedicó a presentaciones, dinámicas de cohesión, establecimiento de objetivos comunes e introducción al pensamiento crítico. El segundo día, los participantes trabajaron sobre la salud mental y los sesgos cognitivos, desarrollaron habilidades de comunicación y escucha activa, y por la noche se celebró la velada intercultural de España, Lituania, Italia y Serbia. El tercer día estuvo centrado en redes sociales y alfabetización mediática, diseño y grabación de vídeos educativos, seguido de la noche intercultural de Suecia, Rumanía, Moldavia y Croacia.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "El cuarto día incluyó ejercicios de debate, práctica de argumentación, visita al Centro Comunitario Bodovaljci para conocer sus actividades y realizar la evaluación intermedia, además de una excursión a Davor, un paseo por el río Sava y una cena en el restaurante Oj, Davore. El quinto día se centró en afrontar situaciones de estrés mediante escenarios que exigían pensamiento crítico, cooperación y estabilidad emocional, seguido de un gran debate sobre religión, cambio climático, responsabilidad individual y fronteras abiertas y migración, finalizando con una sesión de reflexión.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "El sexto día comenzó con un taller sobre teorías de la conspiración mediante pequeñas representaciones teatrales y un debate sobre narrativas manipuladoras. La tarde estuvo dedicada al futuro y al impacto de la inteligencia artificial y a las competencias clave, con una reflexión sobre cómo aplicar el pensamiento crítico en las comunidades. En el último día, los participantes demostraron creatividad y compromiso con la temática diseñando nuevos métodos y actividades que conectan la salud mental juvenil con el desarrollo del pensamiento crítico. Al final de la jornada se entregaron los certificados Youthpass como reconocimiento de la participación y del esfuerzo realizado. La noche estuvo marcada por la convivencia y las despedidas, antes del regreso a casa con nuevos aprendizajes, amistades e inspiración.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "En la fase de difusión del proyecto, todas las organizaciones socias llevarán a cabo actividades en sus comunidades locales para garantizar que las ideas generadas durante los talleres se apliquen en el trabajo con jóvenes. Los participantes también elaboraron planes de difusión para transferir los conocimientos y experiencias adquiridos a sus colegas y a otras organizaciones.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Dos evaluaciones realizadas durante la formación confirmaron que la actividad estuvo excelentemente diseñada y que proporcionó a los participantes un espacio seguro para el intercambio de opiniones, actitudes e ideas, además de una oportunidad para el crecimiento personal y profesional.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Aprovechamos esta oportunidad para agradecer al personal del Hotel Kralj Tomislav por su hospitalidad, a las formadoras Ivana y Tea, a todos los voluntarios y a los medios que siguen nuestro trabajo.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "La formación Mind over Media demostró la importancia de invertir en el pensamiento crítico, la salud mental y la cooperación intercultural. A través de un programa intensivo, los participantes no solo aprendieron, sino que también construyeron una comunidad que piensa, siente y actúa —de manera responsable y con gran entusiasmo—.",
+          "align": "left",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        {
           "experienceTitle": "My experience",
           "name": "Antonio Tenllado",
-          "image": "/images/projects/sending/mind-over-media/antonio.jpg",
-          "text": "It was an amazing opportunity to participate in this Project. Reluctantly at first but then pushed by friends to just try and live the moment. It was a wonderful time participating with friends with whom we have amazing memories and made us even closer than before. In the Project I learned a lot about critical thinking but not only as a topic but also as learning how to know myself and how to manage to put everything where it belongs. Cried, laughed, and learned about different countries, cultures, friends… there's not enough words to explain how was the experience. Thanks to Ivana and Tea as they were amazing facilitators but also helping us to become our best version, and also to Udruga Studio B for organising this amazing experience. Also special thanks to Juanje and Magdalena who pushed me to the activity and leave what scared me behind."
+          "image": "/images/projects/sending/mind-over-media/image.jpg",
+          "text": "It was an amazing opportunity to participate in this Project. Reluctantly at first but then pushed by friends to just try and live the moment. It was a wonderful time participating with friends with whom we have amazing memories and made us even closer than before. In the Project I learned a lot about critical thinking but not only as a topic but also as learning how to know myself and how to manage to put everything where it belongs. Cried, laughed, and learned about different countries, cultures, friends… there's not enough words to explain how was the experience. Thanks to Ivana and Tea as they were amazing facilitators but also helping us to become our best version, and also to Udruga Studio B for organising this amazing experience. Also special thanks to Juanje and Magdalena who pushed me to the activity and leave what scared me behind.",
+          "_template": "participant"
         },
         {
-          "_template": "participant",
           "experienceTitle": "My experience",
           "name": "Damián Luque",
-          "image": "/images/projects/sending/mind-over-media/damian.jpg",
-          "text": "Para mí, participar en Mind over Media ha sido una experiencia muy enriquecedora. Estoy especialmente interesado en todo lo relacionado con la participación juvenil y este curso me ha demostrado que los jóvenes podemos tener un papel clave en crear comunidades más críticas y conscientes. Aprendí cómo la información que recibimos cada día puede moldear nuestras opiniones y cómo es importante cuestionarla y debatirla. Me llevo la motivación de implicarme más en actividades que promuevan la participación activa de la juventud en Puente Genil, porque estoy convencido de que juntos podemos generar cambios positivos en nuestra sociedad."
+          "image": "/images/projects/sending/mind-over-media/image(1).jpg",
+          "text": "Para mí, participar en Mind over Media ha sido una experiencia muy enriquecedora. Estoy especialmente interesado en todo lo relacionado con la participación juvenil y este curso me ha demostrado que los jóvenes podemos tener un papel clave en crear comunidades más críticas y conscientes. Aprendí cómo la información que recibimos cada día puede moldear nuestras opiniones y cómo es importante cuestionarla y debatirla. Me llevo la motivación de implicarme más en actividades que promuevan la participación activa de la juventud en Puente Genil, porque estoy convencido de que juntos podemos generar cambios positivos en nuestra sociedad.",
+          "_template": "participant"
         },
         {
-          "_template": "participant",
           "experienceTitle": "My experience",
           "name": "Emilio Onorato",
-          "image": "/images/projects/sending/mind-over-media/emilio.jpg",
-          "text": "During my time in Novi Gradiska, Croatia, I had the opportunity to participate in an enriching training course that focused on critical thinking and emotional management. The experience was eye-opening, as it helped me develop a deeper understanding of how to approach problems with clarity and reason, even under pressure. The exercises and discussions allowed me to challenge my thinking patterns, encouraging me to consider multiple perspectives before making decisions.\n\nAdditionally, the course provided valuable tools for managing emotions, both in personal and professional settings. Through various workshops, I learned how to recognize emotional triggers and respond more effectively to stressful situations. This not only improved my communication skills but also helped me build better relationships with colleagues and peers. Overall, the training was an invaluable experience that enhanced both my intellectual and emotional intelligence."
+          "image": "/images/projects/sending/mind-over-media/image-768x768.jpg",
+          "text": "During my time in Novi Gradiska, Croatia, I had the opportunity to participate in an enriching training course that focused on critical thinking and emotional management. The experience was eye-opening, as it helped me develop a deeper understanding of how to approach problems with clarity and reason, even under pressure. The exercises and discussions allowed me to challenge my thinking patterns, encouraging me to consider multiple perspectives before making decisions.\n\nAdditionally, the course provided valuable tools for managing emotions, both in personal and professional settings. Through various workshops, I learned how to recognize emotional triggers and respond more effectively to stressful situations. This not only improved my communication skills but also helped me build better relationships with colleagues and peers. Overall, the training was an invaluable experience that enhanced both my intellectual and emotional intelligence.",
+          "_template": "participant"
         }
-      ]
+      ],
+      "_template": "single"
     },
     {
-      "_template": "columns",
-      "background": "brand",
+      "background": "white",
       "paddingY": "lg",
-      "maxWidth": "lg",
+      "maxWidth": "sm",
       "distribution": "60/40",
       "verticalAlign": "center",
       "gap": "md",
       "left": [
-        { "_template": "heading", "level": "2", "text": "Evento Presencial:", "color": "default" },
-        { "_template": "heading", "level": "3", "text": "Diseminación MOM en Puente Genil", "color": "default" }
+        {
+          "level": "2",
+          "text": "Evento Presencial:",
+          "color": "default",
+          "_template": "heading"
+        },
+        {
+          "level": "3",
+          "text": "Diseminación MOM en Puente Genil",
+          "color": "brand",
+          "_template": "heading"
+        }
       ],
       "right": [
-        { "_template": "image", "src": "/images/projects/sending/mind-over-media/dissemination.jpg", "alt": "Dissemination event in Puente Genil", "aspectRatio": "4/3" }
-      ]
+        {
+          "src": "/images/projects/sending/mind-over-media/image(2).jpg",
+          "alt": "Dissemination event in Puente Genil",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
     },
     {
-      "_template": "single",
       "background": "white",
       "paddingY": "lg",
       "maxWidth": "lg",
       "blocks": [
-        { "_template": "paragraph", "text": "El pasado 25 de septiembre celebramos en Puente Genil un evento presencial de diseminación de resultados del proyecto europeo Mind over Media (MOM). En este encuentro, Antonio Tenllado, Damián y Emilio Onorato compartieron con el público sus experiencias vividas durante la formación en Croacia, centrada en la alfabetización mediática y el pensamiento crítico.", "align": "left" },
-        { "_template": "paragraph", "text": "La actividad reunió a jóvenes locales, asociaciones y técnicos de juventud, generando un espacio de diálogo y motivación para futuras oportunidades de participación europea. El intercambio de experiencias de primera mano fue muy inspirador y reforzó el compromiso de Erasmiau con la promoción de la movilidad juvenil y el aprendizaje no formal.", "align": "left" },
-        { "_template": "image", "src": "/images/projects/sending/mind-over-media/dissemination-event.jpg", "alt": "Diseminación MOM Puente Genil", "aspectRatio": "16/9" }
-      ]
+        {
+          "text": "El pasado 25 de septiembre celebramos en Puente Genil un evento presencial de diseminación de resultados del proyecto europeo Mind over Media (MOM). En este encuentro, Antonio Tenllado, Damián y Emilio Onorato compartieron con el público sus experiencias vividas durante la formación en Croacia, centrada en la alfabetización mediática y el pensamiento crítico.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "La actividad reunió a jóvenes locales, asociaciones y técnicos de juventud, generando un espacio de diálogo y motivación para futuras oportunidades de participación europea. El intercambio de experiencias de primera mano fue muy inspirador y reforzó el compromiso de Erasmiau con la promoción de la movilidad juvenil y el aprendizaje no formal.",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/diss.jpg",
+          "alt": "Diseminación MOM Puente Genil",
+          "aspectRatio": "16/9",
+          "_template": "image"
+        }
+      ],
+      "_template": "single"
     },
     {
-      "_template": "gallery",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
       "title": "Photo Album",
       "subtitle": "Some photos of the project in Croatia!",
       "images": [
-        { "src": "/images/projects/sending/mind-over-media/1.jpg", "alt": "Croatia — moment 1" },
-        { "src": "/images/projects/sending/mind-over-media/2.jpg", "alt": "Croatia — moment 2" },
-        { "src": "/images/projects/sending/mind-over-media/3.jpg", "alt": "Croatia — moment 3" },
-        { "src": "/images/projects/sending/mind-over-media/4.jpg", "alt": "Croatia — moment 4" },
-        { "src": "/images/projects/sending/mind-over-media/5.jpg", "alt": "Croatia — moment 5" },
-        { "src": "/images/projects/sending/mind-over-media/6.jpg", "alt": "Croatia — moment 6" },
-        { "src": "/images/projects/sending/mind-over-media/7.jpg", "alt": "Croatia — moment 7" },
-        { "src": "/images/projects/sending/mind-over-media/8.jpg", "alt": "Croatia — moment 8" }
+        {
+          "src": "/images/projects/sending/mind-over-media/1.jpg",
+          "alt": "Croatia — moment 1"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/2.jpg",
+          "alt": "Croatia — moment 2"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/3.jpg",
+          "alt": "Croatia — moment 3"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/4.jpg",
+          "alt": "Croatia — moment 4"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/5.jpg",
+          "alt": "Croatia — moment 5"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/6.jpg",
+          "alt": "Croatia — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/7.jpg",
+          "alt": "Croatia — moment 7"
+        },
+        {
+          "src": "/images/projects/sending/mind-over-media/8.jpg",
+          "alt": "Croatia — moment 8"
+        }
       ],
-      "columns": "3"
+      "columns": "3",
+      "_template": "gallery"
     }
   ]
 }

@@ -1,10 +1,92 @@
 {
-  "title": "WE ARE WHAT WE ARE (TC)",
   "category": "sending",
   "slug": "we-are-what-we-are",
+  "title": "WE ARE WHAT WE ARE (TC)",
   "dates": "3-12 December 2024",
   "location": "Sarata Monteoru - Romania",
   "description": "Follow the adventure of Raúl",
   "coverImage": "/images/projects/sending/sending-12-cover.jpg",
-  "sections": []
+  "sections": [
+    {
+      "background": "light",
+      "maxWidth": "sm",
+      "verticalAlign": "center",
+      "left": [
+        {
+          "level": "2",
+          "text": "Training Course in Romania:  We are what we are",
+          "color": "brand",
+          "_template": "heading"
+        }
+      ],
+      "right": [
+        {
+          "src": "/images/projects/sending/we-are-what-we-are/image-512x384(1).jpg",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
+    },
+    {
+      "background": "light",
+      "blocks": [
+        {
+          "text": "I had the incredible opportunity to participate in the training course \"We Are What We Are,\" a project that brought together participants from different parts of Europe in the charming setting of Sărata-Monteoru, Romania.\nThe course was much more than a typical training; it provided valuable tools for non-formal education and youth work while encouraging deep reflection on topics such as identity, diversity, and cultural expression. The atmosphere was one of openness and mutual learning, where differences were celebrated and became a source of enrichment for everyone.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "One of the most engaging parts of the course was our discussion on political correctness. We explored how different cultural perspectives shape our understanding of what is considered politically correct and how to navigate sensitive topics in educational and social settings. This dialogue was both challenging and enlightening, helping us develop greater empathy and awareness.\nWe also had the joy of celebrating St. Nicholas Day, a tradition that many of us experienced for the first time. It was a heartwarming moment of cultural exchange, filled with laughter, stories, and delicious local treats. Moments like these made the experience even more special, creating a sense of community among all participants.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Another memorable activity was drawing a comic related to the theme of inclusion. This creative exercise allowed us to express complex ideas about inclusion and diversity in a visual and engaging way, sparking interesting conversations and new perspectives among the group.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Beyond the structured sessions, the informal interactions were equally impactful. Whether it was through group activities, shared meals, or late-night conversations, I felt a genuine connection with people from different backgrounds. The stunning natural surroundings of Sărata-Monteoru added to the magic, offering the perfect environment for reflection and growth.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "This training course has left me with not only new knowledge and skills but also unforgettable memories and friendships. I’m incredibly grateful for this experience, and I look forward to applying what I’ve learned in my work in non-formal education.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "#TrainingCourse #WeAreWhatWeAre #YouthWork #NonFormalEducation #Romania #InterculturalLearning",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "background": "white",
+      "blocks": [
+        {
+          "text": "Photo album",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "images": [
+            {
+              "src": "/images/projects/sending/we-are-what-we-are/image-384x604.jpg"
+            },
+            {
+              "src": "/images/projects/sending/we-are-what-we-are/image-512x384.jpg"
+            },
+            {
+              "src": "/images/projects/sending/we-are-what-we-are/image-768x768.jpg"
+            },
+            {
+              "src": "/images/projects/sending/we-are-what-we-are/image-384x512.jpg"
+            }
+          ],
+          "columns": "4",
+          "_template": "gallery"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
 }

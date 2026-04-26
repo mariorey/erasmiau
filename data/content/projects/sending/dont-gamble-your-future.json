@@ -1,79 +1,115 @@
 {
-  "title": "Don´t Gamble your Future (YE)",
-  "subtitle": "Youth Exchange in Romania (20-30 March 2025)",
   "category": "sending",
   "slug": "dont-gamble-your-future",
+  "title": "Don´t Gamble your Future (YE)",
   "dates": "20-30 March 2025",
   "location": "Sarata Monteoru - Romania",
   "description": "Follow the adventure of Antonio, Fran, José, Álvaro & Sofía!",
   "coverImage": "/images/projects/sending/sending-14-cover.jpg",
   "heroImage": "/images/projects/sending/sending-14-cover.jpg",
+  "subtitle": "Youth Exchange in Romania (20-30 March 2025)",
   "sections": [
     {
-      "_template": "single",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
       "blocks": [
         {
-          "_template": "participant",
           "experienceTitle": "My experience",
           "name": "Antonio López",
-          "image": "/images/projects/sending/dont-gamble-your-future/antonio.jpg",
-          "text": "Participating in the Don't Gamble Your Future Erasmus project has been an incredible and enriching experience. I had the opportunity to learn about the risks of gambling and its impact on society while engaging in meaningful discussions with people from different countries. The activities were well-organized and interactive, making the learning process enjoyable and impactful. Additionally, meeting new people and sharing cultural experiences made the program even more special. This project has given me valuable knowledge and new perspectives that I will carry with me in the future. I am truly grateful for this opportunity and would highly recommend it to anyone looking for both personal and educational growth.\n\nI want to sincerely thank Erasmiau and Erasmus+ for giving me the opportunity to be part of this amazing project. It has been a truly enriching experience that has allowed me to learn, grow, and connect with wonderful people from different backgrounds. This program has not only expanded my knowledge but also given me unforgettable memories. Thank you for making this possible!"
+          "image": "/images/projects/sending/dont-gamble-your-future/image-384x455.jpg",
+          "text": "Participating in the Don't Gamble Your Future Erasmus project has been an incredible and enriching experience. I had the opportunity to learn about the risks of gambling and its impact on society while engaging in meaningful discussions with people from different countries. The activities were well-organized and interactive, making the learning process enjoyable and impactful. Additionally, meeting new people and sharing cultural experiences made the program even more special. This project has given me valuable knowledge and new perspectives that I will carry with me in the future. I am truly grateful for this opportunity and would highly recommend it to anyone looking for both personal and educational growth.\n\nI want to sincerely thank Erasmiau and Erasmus+ for giving me the opportunity to be part of this amazing project. It has been a truly enriching experience that has allowed me to learn, grow, and connect with wonderful people from different backgrounds. This program has not only expanded my knowledge but also given me unforgettable memories. Thank you for making this possible!",
+          "_template": "participant"
         },
         {
-          "_template": "participant",
           "experienceTitle": "My experience",
           "name": "Fran Cantos",
-          "image": "/images/projects/sending/dont-gamble-your-future/fran.jpg",
-          "text": "Being part of this incredible project has been beyond words. During the month of March, I had the privilege of joining the amazing family formed in the \"Don't Gamble Your Future\" project in Sarata-Monteoru and Buzău, Romania.\n\nI had the opportunity to share this experience with participants from Spain, Lithuania, Greece, the Czech Republic, Latvia, Romania, Italy, and North Macedonia, creating a fantastic and wonderful group where good vibes and happiness prevailed.\n\nThanks to the different activities, we became truly aware of the real risks in an alternative and engaging way. At the same time, we had the chance to discover the traditions, customs, and cultures of the participating countries while building great relationships with one another.\n\nA special mention goes to the organizers, Asociación Hair Redivivus Buzău, for their outstanding management of the project. This has been my first experience in an Erasmus+ project of this kind, and I would like to express my heartfelt gratitude to Erasmiau for making this possible and allowing me to be part of this family — one that I certainly do not want to leave!"
+          "image": "/images/projects/sending/dont-gamble-your-future/image-768x768(1).jpg",
+          "text": "Being part of this incredible project has been beyond words. During the month of March, I had the privilege of joining the amazing family formed in the \"Don't Gamble Your Future\" project in Sarata-Monteoru and Buzău, Romania.\n\nI had the opportunity to share this experience with participants from Spain, Lithuania, Greece, the Czech Republic, Latvia, Romania, Italy, and North Macedonia, creating a fantastic and wonderful group where good vibes and happiness prevailed.\n\nThanks to the different activities, we became truly aware of the real risks in an alternative and engaging way. At the same time, we had the chance to discover the traditions, customs, and cultures of the participating countries while building great relationships with one another.\n\nA special mention goes to the organizers, Asociación Hair Redivivus Buzău, for their outstanding management of the project. This has been my first experience in an Erasmus+ project of this kind, and I would like to express my heartfelt gratitude to Erasmiau for making this possible and allowing me to be part of this family — one that I certainly do not want to leave!",
+          "_template": "participant"
         },
         {
-          "_template": "participant",
           "experienceTitle": "My experience",
           "name": "Joselín Sánchez",
-          "image": "/images/projects/sending/dont-gamble-your-future/joselin.jpg",
-          "text": "Once again, an Erasmus+ experience has left me speechless. This time, the Spanish group joined the \"Don't Gamble Your Future\" project in Romania, traveling with the Erasmiau association. The project was organized by Asociatia Hair Redivivus Buzău and brought together participants from Spain, the Czech Republic, Lithuania, Greece, Latvia, Romania, Italy, and North Macedonia, creating a great international team.\n\nThe main topic of the project was addiction prevention, and we learned about it through fun activities and non-formal education. Besides that, we also discovered a lot about the traditions and cultures of each country, always with respect and an open mind.\n\nThis experience has been an amazing journey of learning, personal growth, and meeting people from all over Europe. Thank you, Erasmiau and Asociatia Hair Redivivus Buzău, for making this adventure possible! See you next time!"
+          "image": "/images/projects/sending/dont-gamble-your-future/image-768x768(2).jpg",
+          "text": "Once again, an Erasmus+ experience has left me speechless. This time, the Spanish group joined the \"Don't Gamble Your Future\" project in Romania, traveling with the Erasmiau association. The project was organized by Asociatia Hair Redivivus Buzău and brought together participants from Spain, the Czech Republic, Lithuania, Greece, Latvia, Romania, Italy, and North Macedonia, creating a great international team.\n\nThe main topic of the project was addiction prevention, and we learned about it through fun activities and non-formal education. Besides that, we also discovered a lot about the traditions and cultures of each country, always with respect and an open mind.\n\nThis experience has been an amazing journey of learning, personal growth, and meeting people from all over Europe. Thank you, Erasmiau and Asociatia Hair Redivivus Buzău, for making this adventure possible! See you next time!",
+          "_template": "participant"
         },
         {
-          "_template": "participant",
           "experienceTitle": "My experience",
           "name": "Álvaro Delgado",
-          "image": "/images/projects/sending/dont-gamble-your-future/alvaro.jpg",
-          "text": "Participating in the \"Don't Gamble Your Future\" project in Sarata Monteoru and Buzau (Romania) was an incredibly enriching experience. Young people from a multitude of countries came together to discuss the dangers of addiction and the importance of making informed decisions for our future.\n\nThrough workshops and activities, we learned about the risks of various addictions and how to make healthier choices. The open exchange of ideas and personal stories made the experience truly meaningful.\n\nI'm grateful to Erasmus+, Erasmiau and the organizers for this opportunity and will carry these lessons with me into the future."
+          "image": "/images/projects/sending/dont-gamble-your-future/image.jpg",
+          "text": "Participating in the \"Don't Gamble Your Future\" project in Sarata Monteoru and Buzau (Romania) was an incredibly enriching experience. Young people from a multitude of countries came together to discuss the dangers of addiction and the importance of making informed decisions for our future.\n\nThrough workshops and activities, we learned about the risks of various addictions and how to make healthier choices. The open exchange of ideas and personal stories made the experience truly meaningful.\n\nI'm grateful to Erasmus+, Erasmiau and the organizers for this opportunity and will carry these lessons with me into the future.",
+          "_template": "participant"
         },
         {
-          "_template": "participant",
           "experienceTitle": "My experience",
           "name": "Sofía Carmona",
-          "image": "/images/projects/sending/dont-gamble-your-future/sofia.jpg",
-          "text": "Participating in Don't Gamble Your Future was not only an unforgettable Erasmus+ experience, but also a personal milestone — it was my first time acting as a group leader in an international youth project.\n\nFrom the very beginning in Sarata Monteoru and Buzău (Romania), I felt surrounded by energy, curiosity, and the desire to learn. It was truly special to guide my group through all the stages of the project, while also learning and growing alongside them. The workshops about addiction prevention were eye-opening and cleverly designed, using non-formal education to make every topic resonate deeply with us.\n\nOne of the highlights for me was the strong bond that formed with the Greek team. From cultural evenings to meaningful conversations and laughter-filled activities, we created a beautiful connection that I will always carry with me.\n\nI'm incredibly grateful to Erasmus+, to Erasmiau, and to the organizers at Asociación Hair Redivivus Buzău for trusting me and giving me this opportunity. This project has not only enriched me as a participant, but has also empowered me as a youth leader. I can't wait for the next adventure!"
+          "image": "/images/projects/sending/dont-gamble-your-future/image(1).jpg",
+          "text": "Participating in Don't Gamble Your Future was not only an unforgettable Erasmus+ experience, but also a personal milestone — it was my first time acting as a group leader in an international youth project.\n\nFrom the very beginning in Sarata Monteoru and Buzău (Romania), I felt surrounded by energy, curiosity, and the desire to learn. It was truly special to guide my group through all the stages of the project, while also learning and growing alongside them. The workshops about addiction prevention were eye-opening and cleverly designed, using non-formal education to make every topic resonate deeply with us.\n\nOne of the highlights for me was the strong bond that formed with the Greek team. From cultural evenings to meaningful conversations and laughter-filled activities, we created a beautiful connection that I will always carry with me.\n\nI'm incredibly grateful to Erasmus+, to Erasmiau, and to the organizers at Asociación Hair Redivivus Buzău for trusting me and giving me this opportunity. This project has not only enriched me as a participant, but has also empowered me as a youth leader. I can't wait for the next adventure!",
+          "_template": "participant"
         }
-      ]
+      ],
+      "_template": "single"
     },
     {
-      "_template": "gallery",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
       "title": "Photo Album",
       "subtitle": "Some photos of the project in Romania!",
       "images": [
-        { "src": "/images/projects/sending/dont-gamble-your-future/1.jpg", "alt": "Romania — moment 1" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/2.jpg", "alt": "Romania — moment 2" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/3.jpg", "alt": "Romania — moment 3" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/4.jpg", "alt": "Romania — moment 4" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/5.jpg", "alt": "Romania — moment 5" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/6.jpg", "alt": "Romania — moment 6" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/7.jpg", "alt": "Romania — moment 7" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/8.jpg", "alt": "Romania — moment 8" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/9.jpg", "alt": "Romania — moment 9" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/10.jpg", "alt": "Romania — moment 10" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/11.jpg", "alt": "Romania — moment 11" },
-        { "src": "/images/projects/sending/dont-gamble-your-future/12.jpg", "alt": "Romania — moment 12" }
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/1.jpg",
+          "alt": "Romania — moment 1"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/2.jpg",
+          "alt": "Romania — moment 2"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/3.jpg",
+          "alt": "Romania — moment 3"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/4.jpg",
+          "alt": "Romania — moment 4"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/5.jpg",
+          "alt": "Romania — moment 5"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/6.jpg",
+          "alt": "Romania — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/7.jpg",
+          "alt": "Romania — moment 7"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/8.jpg",
+          "alt": "Romania — moment 8"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/9.jpg",
+          "alt": "Romania — moment 9"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/image-576x384.jpg",
+          "alt": "Romania — moment 10"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/11.jpg",
+          "alt": "Romania — moment 11"
+        },
+        {
+          "src": "/images/projects/sending/dont-gamble-your-future/12.jpg",
+          "alt": "Romania — moment 12"
+        }
       ],
-      "columns": "3"
+      "columns": "3",
+      "_template": "gallery"
     }
   ]
 }

@@ -1,66 +1,142 @@
 {
-  "title": "Circlusivo (Seminar)",
-  "subtitle": "Seminar in Spain (11-18 February 2025)",
   "category": "sending",
   "slug": "circlusivo",
+  "title": "Circlusivo (Seminar)",
   "dates": "11-18 February 2025",
   "location": "Llinars del Vallès - Spain",
   "description": "Follow the adventure of Yolanda, Nerea & Carjul",
   "coverImage": "/images/projects/sending/sending-13-cover.jpg",
   "heroImage": "/images/projects/sending/sending-13-cover.jpg",
+  "subtitle": "Seminar in Spain (11-18 February 2025)",
   "sections": [
     {
-      "_template": "columns",
       "background": "light",
       "paddingY": "lg",
-      "maxWidth": "lg",
+      "maxWidth": "sm",
       "distribution": "60/40",
       "verticalAlign": "center",
       "gap": "md",
       "left": [
-        { "_template": "heading", "level": "1", "text": "Circlusivo 2025", "color": "brand" },
-        { "_template": "paragraph", "text": "Seminar in Spain (11-18 February 2025)", "size": "lg", "align": "left" },
-        { "_template": "paragraph", "text": "The Experience of our participants: Yolanda, Nerea & Carjul", "align": "left" }
+        {
+          "level": "1",
+          "text": "The Experience of our participants: Yolanda, Nerea & Carjul",
+          "color": "brand",
+          "_template": "heading"
+        }
       ],
       "right": [
-        { "_template": "image", "src": "/images/projects/sending/circlusivo/feature.jpg", "alt": "Circlusivo 2025 — group photo", "aspectRatio": "4/3" }
-      ]
+        {
+          "src": "/images/projects/sending/circlusivo/image-768x768.jpg",
+          "alt": "Circlusivo 2025 — group photo",
+          "aspectRatio": "1/1",
+          "rounded": "full",
+          "_template": "image"
+        }
+      ],
+      "_template": "columns"
     },
     {
-      "_template": "single",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "lg",
       "blocks": [
-        { "_template": "heading", "level": "2", "text": "An unforgettable experience in Llinars del Vallès!", "color": "brand" },
-        { "_template": "paragraph", "text": "From February 11th to 18th, 2025, we had the incredible opportunity to participate in the CIRCLUSIVO seminar 🎪, with the motto \"Circus as a Tool for Inclusive Non-Formal Education\". And what a transformative adventure it was!", "align": "left" },
-        { "_template": "paragraph", "text": "This seminar was the perfect blend of theory and practice. We dove deep into the value of circus as an inclusive tool, learning through talks, presentations, and interactive activities that not only enriched our skills but also broadened our perspective on inclusion. 🙌", "align": "left" },
-        { "_template": "paragraph", "text": "One of the most special talks was given by a Chilean association, teaching us about functional circus. It was such an enriching experience! 🌍🎭 We also had the privilege of meeting people with disabilities who shared their personal stories and experiences. The most remarkable thing was seeing them not as \"disabled,\" but as true superheroes. Every day, we learned more about how disability is not a limitation, but rather a matter of adapting the environment! 💡", "align": "left" },
-        { "_template": "paragraph", "text": "One of the most exciting activities was our visit to Barcelona 🌆, where, with all the concepts we had learned, we reflected on urban infrastructure and accessibility. We realized that the concept of \"disability\" largely depends on the physical barriers we have created in society. With the right adaptations, everyone can be capable of anything! 🔓♿", "align": "left" },
-        { "_template": "paragraph", "text": "And what can we say about the moments spent in the circus tent? They were truly magical! 🎪✨ Beneath a sky full of stars, each of us connected with the magic of the circus in a unique way. The energy, the atmosphere, and the connections made there made us feel like part of something much bigger. 🌟💖", "align": "left" },
-        { "_template": "paragraph", "text": "During the intercultural night, we shared fun and meaningful moments. Amid laughter, we exchanged stories, languages, and cultures, both with words and sign language. 🌍💬", "align": "left" },
-        { "_template": "paragraph", "text": "In summary, this seminar was more than just a training. It was a human connection experience that left us with beautiful memories, from the most profound talks to the casual conversations. Without a doubt, it's an experience all of us will cherish forever! 💖✨", "align": "left" },
-        { "_template": "paragraph", "text": "Thank you to everyone who made it possible, and especially for being part of this unique experience. The circus taught us that inclusion is not just a concept, but a way of seeing the world! 🎪💫", "align": "left" }
-      ]
+        {
+          "level": "2",
+          "text": "An unforgettable experience in Llinars del Vallès!",
+          "color": "brand",
+          "_template": "heading"
+        },
+        {
+          "text": "From February 11th to 18th, 2025, we had the incredible opportunity to participate in the CIRCLUSIVO seminar 🎪, with the motto \"Circus as a Tool for Inclusive Non-Formal Education\". And what a transformative adventure it was!",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "This seminar was the perfect blend of theory and practice. We dove deep into the value of circus as an inclusive tool, learning through talks, presentations, and interactive activities that not only enriched our skills but also broadened our perspective on inclusion. 🙌",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "One of the most special talks was given by a Chilean association, teaching us about functional circus. It was such an enriching experience! 🌍🎭 We also had the privilege of meeting people with disabilities who shared their personal stories and experiences. The most remarkable thing was seeing them not as \"disabled,\" but as true superheroes. Every day, we learned more about how disability is not a limitation, but rather a matter of adapting the environment! 💡",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "One of the most exciting activities was our visit to Barcelona 🌆, where, with all the concepts we had learned, we reflected on urban infrastructure and accessibility. We realized that the concept of \"disability\" largely depends on the physical barriers we have created in society. With the right adaptations, everyone can be capable of anything! 🔓♿",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "And what can we say about the moments spent in the circus tent? They were truly magical! 🎪✨ Beneath a sky full of stars, each of us connected with the magic of the circus in a unique way. The energy, the atmosphere, and the connections made there made us feel like part of something much bigger. 🌟💖",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "During the intercultural night, we shared fun and meaningful moments. Amid laughter, we exchanged stories, languages, and cultures, both with words and sign language. 🌍💬",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "In summary, this seminar was more than just a training. It was a human connection experience that left us with beautiful memories, from the most profound talks to the casual conversations. Without a doubt, it's an experience all of us will cherish forever! 💖✨",
+          "align": "left",
+          "_template": "paragraph"
+        },
+        {
+          "text": "Thank you to everyone who made it possible, and especially for being part of this unique experience. The circus taught us that inclusion is not just a concept, but a way of seeing the world! 🎪💫",
+          "align": "left",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
     },
     {
-      "_template": "gallery",
       "background": "light",
       "paddingY": "lg",
       "maxWidth": "xl",
       "title": "Photo Album",
       "subtitle": "Some photos of the project in Spain!",
       "images": [
-        { "src": "/images/projects/sending/circlusivo/1.jpg", "alt": "Spain — moment 1" },
-        { "src": "/images/projects/sending/circlusivo/2.jpg", "alt": "Spain — moment 2" },
-        { "src": "/images/projects/sending/circlusivo/3.jpg", "alt": "Spain — moment 3" },
-        { "src": "/images/projects/sending/circlusivo/4.jpg", "alt": "Spain — moment 4" },
-        { "src": "/images/projects/sending/circlusivo/5.jpg", "alt": "Spain — moment 5" },
-        { "src": "/images/projects/sending/circlusivo/6.jpg", "alt": "Spain — moment 6" },
-        { "src": "/images/projects/sending/circlusivo/7.jpg", "alt": "Spain — moment 7" },
-        { "src": "/images/projects/sending/circlusivo/8.jpg", "alt": "Spain — moment 8" }
+        {
+          "src": "/images/projects/sending/circlusivo/image-683x384.jpg",
+          "alt": "Spain — moment 1"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-683x384(1).jpg",
+          "alt": "Spain — moment 2"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-512x384.jpg",
+          "alt": "Spain — moment 3"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-384x512.jpg",
+          "alt": "Spain — moment 4"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-384x683.jpg",
+          "alt": "Spain — moment 5"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-384x512(1).jpg",
+          "alt": "Spain — moment 6"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-384x512(2).jpg",
+          "alt": "Spain — moment 7"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-384x512(3).jpg",
+          "alt": "Spain — moment 8"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-384x512(4).jpg"
+        },
+        {
+          "src": "/images/projects/sending/circlusivo/image-384x512(5).jpg"
+        }
       ],
-      "columns": "3"
+      "columns": "3",
+      "_template": "gallery"
     }
   ]
 }
