@@ -3,6 +3,24 @@ import { join } from "path"
 import { projects as staticProjects } from "@/data/projects"
 import type { Project } from "@/data/projects"
 
+const MONTHS: Record<string, number> = {
+  january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
+  july: 7, august: 8, september: 9, october: 10, november: 11, december: 12,
+}
+
+function dateSort(dates: string): number {
+  const lower = dates.toLowerCase()
+  const yearMatch = dates.match(/\d{4}/)
+  const year = yearMatch ? parseInt(yearMatch[0]) : 0
+  let firstMonth = 0
+  let firstPos = Infinity
+  for (const [name, num] of Object.entries(MONTHS)) {
+    const pos = lower.indexOf(name)
+    if (pos !== -1 && pos < firstPos) { firstPos = pos; firstMonth = num }
+  }
+  return year * 100 + firstMonth
+}
+
 const CONTENT_DIR = join(process.cwd(), "data/content/projects")
 
 // Read projects that TinaCMS manages (i.e. have a .json file).
@@ -51,7 +69,9 @@ export function getAllProjects(): Project[] {
 }
 
 export function getProjectsByCategory(category: string): Project[] {
-  return getAllProjects().filter((p) => p.category === category)
+  return getAllProjects()
+    .filter((p) => p.category === category)
+    .sort((a, b) => dateSort(a.dates) - dateSort(b.dates))
 }
 
 export function getProjectBySlug(
