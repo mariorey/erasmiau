@@ -57,11 +57,16 @@ function TinaShell({ tinaResult, project, content, category }: Props) {
 
   return (
     <div>
-      <div
-        data-tina-field={tinaProject ? tinaField(tinaProject, "heroImage") : undefined}
-      >
-        <HeroSmallTitle image={heroImage} title={heroTitle} subtitle={heroSubtitle} />
-      </div>
+      <HeroSmallTitle
+        image={heroImage}
+        title={heroTitle}
+        subtitle={heroSubtitle}
+        tina={{
+          image: tinaProject ? tinaField(tinaProject, "heroImage") : undefined,
+          title: tinaProject ? tinaField(tinaProject, "title") : undefined,
+          subtitle: tinaProject ? tinaField(tinaProject, "subtitle") : undefined,
+        }}
+      />
 
       {liveContent ? (
         <>

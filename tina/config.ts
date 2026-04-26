@@ -1030,7 +1030,68 @@ export default defineConfig({
           },
         ],
       },
-      // ... dentro de schema: { collections: [ ... ] }
+      {
+        name: "projectsIndex",
+        label: "Projects Index Page",
+        path: "data/content/projects-index",
+        format: "json",
+        ui: {
+          allowedActions: { create: false, delete: false },
+          router: () => "/projects",
+        },
+        fields: [
+          {
+            type: "string",
+            name: "heroTitle",
+            label: "Hero Title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "image",
+            name: "heroImage",
+            label: "Hero Image",
+          },
+          {
+            type: "object",
+            name: "cards",
+            label: "Category Cards",
+            list: true,
+            ui: {
+              itemProps: (item: { title?: string }) => ({ label: item.title ?? "Card" }),
+            },
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+                required: true,
+              },
+              {
+                type: "string",
+                name: "description",
+                label: "Description",
+                ui: { component: "textarea" },
+              },
+              {
+                type: "image",
+                name: "image",
+                label: "Image",
+              },
+              {
+                type: "string",
+                name: "imageAlt",
+                label: "Image Alt",
+              },
+              {
+                type: "string",
+                name: "linkHref",
+                label: "Link URL",
+              },
+            ],
+          },
+        ],
+      },
 
       {
         name: "page",
