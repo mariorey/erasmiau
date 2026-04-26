@@ -1,10 +1,73 @@
 {
   "title": "I WANT MY TEARS BACK (YE)",
+  "subtitle": "Youth Exchange in Romania (22 October - 1 November 2025)",
   "category": "sending",
   "slug": "i-want-my-tears-back",
   "dates": "22 October - 1st November 2025",
   "location": "Sarata Monteoru - Romania",
   "description": "Follow the adventure of Nerea, Inma, Karla, Yemali & Antonio",
   "coverImage": "/images/projects/sending/sending-19-cover.jpg",
-  "sections": []
+  "heroImage": "/images/projects/sending/sending-19-cover.jpg",
+  "sections": [
+    {
+      "_template": "single",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Nerea Sánchez",
+          "image": "/images/projects/sending/i-want-my-tears-back/nerea.jpg",
+          "text": "I had such an incredible time on this Erasmus project. I met so many amazing people and every single day felt exciting and meaningful. I honestly couldn't have asked for a better experience. I would absolutely do it all over again without thinking twice. I loved the place, the people, the food, the atmosphere… everything made me feel welcome and happy. This project will stay with me for a long time."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Inma Miranda",
+          "image": "/images/projects/sending/i-want-my-tears-back/inma.jpg",
+          "text": "Being part of this Erasmus project has been such a wonderful experience. I discovered a lot about equality, cultures, and working together. Every activity was full of creativity and fun, and I met incredible people who made this journey unforgettable. I'll always treasure the memories and friendships I've made here."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Karla Lutze",
+          "image": "/images/projects/sending/i-want-my-tears-back/karla.jpg",
+          "text": "Participating in the intercultural project on discrimination in Sărata Monteoru, Romania, was a profoundly enriching and transformative experience. During the meeting, I learned about the different forms of discrimination that exist in our societies and reflected on how they affect people in their daily lives. The activities were very well organized, combining interactive exercises, discussions, and workshops that made the learning meaningful and engaging.\n\nSharing this experience with participants from different countries created a unique multicultural environment. Each person contributed their stories, ideas, and perspectives, making every conversation a learning experience in itself. In addition to gaining knowledge, I was able to connect with new cultures, break down stereotypes, and strengthen values such as respect, empathy, and inclusion.\n\nI sincerely thank Erasmiau and Erasmus+ for making this experience possible. I would definitely recommend this project to anyone looking to broaden their horizons and experience a genuine cultural exchange."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Yemali",
+          "image": "/images/projects/sending/i-want-my-tears-back/yemali.jpg",
+          "text": "Hi! I'm Yemali from Spain. Taking part in this Erasmus project has been an incredible experience. I've learned a lot about discrimination and inclusion, and I've had the chance to meet amazing people from many different countries. The workshops were creative, inspiring, and full of great ideas. I'm really grateful for everything I've learned and for all the wonderful friendships I've made along the way."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Antonio Fernández",
+          "image": "/images/projects/sending/i-want-my-tears-back/antonio.jpg",
+          "text": "Participating in the intercultural project on discrimination in Sărata Monteoru, Romania, was a truly impactful and eye-opening experience for me. Throughout the activities, I gained a deeper understanding of the different forms of discrimination present in our societies and how they influence people's everyday realities. The program was excellently structured, combining dynamic workshops, group discussions, and interactive methods that encouraged reflection and active participation.\n\nBeing part of such a diverse international group enriched the experience even more. Exchanging ideas and personal experiences with participants from different countries allowed me to see issues from new perspectives, challenge preconceived ideas, and develop a stronger sense of empathy and mutual understanding. Beyond learning, the project fostered meaningful connections and reinforced core values such as inclusion, respect, and solidarity.\n\nI am very grateful to Erasmiau and Erasmus+ for the opportunity to take part in this project. I would highly recommend this experience to anyone interested in personal growth, intercultural learning, and meaningful cultural exchange."
+        }
+      ]
+    },
+    {
+      "_template": "gallery",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "Some photos of the project in Romania!",
+      "images": [
+        { "src": "/images/projects/sending/i-want-my-tears-back/1.jpg", "alt": "Romania — moment 1" },
+        { "src": "/images/projects/sending/i-want-my-tears-back/2.jpg", "alt": "Romania — moment 2" },
+        { "src": "/images/projects/sending/i-want-my-tears-back/3.jpg", "alt": "Romania — moment 3" },
+        { "src": "/images/projects/sending/i-want-my-tears-back/4.jpg", "alt": "Romania — moment 4" },
+        { "src": "/images/projects/sending/i-want-my-tears-back/5.jpg", "alt": "Romania — moment 5" },
+        { "src": "/images/projects/sending/i-want-my-tears-back/6.jpg", "alt": "Romania — moment 6" }
+      ],
+      "columns": "3"
+    }
+  ]
 }

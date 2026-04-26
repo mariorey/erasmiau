@@ -1,10 +1,109 @@
 {
   "title": "HateSpeechFree (YE)",
+  "subtitle": "Youth Exchange in Bosnia (15-23 October 2025)",
   "category": "sending",
   "slug": "hatespeechfree",
   "dates": "15-23 October 2025",
   "location": "Jajce & Sarajevo - Bosnia",
   "description": "Follow the adventure of Saúl, Antonio, Silvia, Fran, Chechu & Silvia",
   "coverImage": "/images/projects/sending/sending-16-cover.jpg",
-  "sections": []
+  "heroImage": "/images/projects/sending/sending-16-cover.jpg",
+  "sections": [
+    {
+      "_template": "single",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Antonio López",
+          "image": "/images/projects/sending/hatespeechfree/antonio.jpg",
+          "text": "Participating in the Erasmus+ and Erasmiau youth exchange in Bosnia and Herzegovina has been a truly transformative experience. During this week, young people from Spain, Italy, Ukraine, Serbia, Germany and Bosnia shared learning, cultures and points of view under a single goal: to reflect on hate speech and promote respect, empathy and peaceful coexistence.\n\nOur stay in Jajce was a perfect combination of learning and connecting with nature. Through dynamic activities and enriching debates, we were able to better understand how hate speech can affect individuals and communities, and how each of us can be part of the change, using positive communication as a tool for unity. The natural environment of Jajce, with its beauty and tranquillity, was the ideal setting to strengthen cooperation and friendship among all participants.\n\nIn Sarajevo, we had the opportunity to discover a city that represents coexistence between cultures, religions and identities, and at the same time, the power of reconciliation. Learning about its history helped us understand the real consequences of hatred and division, and to appreciate the importance of dialogue and empathy.\n\nThe visit to Srebrenica was undoubtedly one of the most impactful moments of the project. There, we understood the pain that hatred leaves when it turns into violence, and the need to keep the memory alive to prevent something like this from happening again.\n\nIn addition, this exchange allowed me to get closer to the realities of countries such as Bosnia and Ukraine, both marked by difficult contexts, but full of courageous and supportive people who are fighting for peace and understanding.\n\nI would like to express my sincere gratitude to Erasmus+ and Erasmiau for giving me the opportunity to enjoy this unique experience. Thanks to them, I have not only discovered new places and cultures, but I have also grown personally, gaining a better understanding of the value of diversity and the power of words to build bridges rather than walls.\n\nI return home with a new perspective on the power of words and the responsibility we have as young Europeans to build a future without hatred. This project has allowed me to grow, learn and believe even more in the power of cooperation and diversity."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Fran Cantos",
+          "image": "/images/projects/sending/hatespeechfree/fran.jpg",
+          "text": "Participating in the HateSpeechFree youth exchange in Bosnia and Herzegovina has been one of the most eye-opening experiences I've ever had. Throughout the project, I learned how harmful hate speech can be—both online and in real life—and how important it is for young people to speak up, create dialogue, and promote respect in our communities.\n\nThe activities were super dynamic and pushed me to reflect on things I had never really thought about before. Visiting places like Jajce and Srebrenica made a huge impact on me, helping me understand the consequences that discrimination and hatred can have on a whole society. At the same time, the workshops helped me develop new skills such as critical thinking, teamwork, and communication.\n\nWhat made this experience even more special were the people. Meeting young participants from different countries, sharing our cultures, and becoming a team in just a few days was something I'll never forget. I feel that I've grown both personally and socially, and I'm returning home with a new mindset and a stronger sense of responsibility when it comes to promoting peace and inclusion.\n\nI want to sincerely thank Erasmiau and Erasmus+ for giving me the chance to be part of this amazing project. It has given me unforgettable memories, meaningful lessons, and the motivation to keep contributing to a more respectful and open-minded world. I'm really grateful for everything—thank you for making this possible."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Silvia Galisteo",
+          "image": "/images/projects/sending/hatespeechfree/silvia-g.jpg",
+          "text": "Participating in the HateSpeechFree youth exchange in Bosnia and Herzegovina has been an experience that truly opened my mind. Throughout the project, I learned how hate speech affects individuals and communities, and how easily it can spread if we don't take action. The workshops helped me understand the importance of empathy, critical thinking, and respectful communication, while the visit to Srebrenica made me reflect deeply on the real impact that hatred and discrimination can have on society.\n\nWhat I will remember the most is the atmosphere we created together as a group. Sharing the week with young people from different countries, cultures, and backgrounds was inspiring, and it allowed me to grow both personally and socially. I am very grateful to Erasmiau and Erasmus+ for this opportunity, for everything I have learned, and for the unforgettable moments that I will carry with me in the future."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Silvia Serrano",
+          "image": "/images/projects/sending/hatespeechfree/silvia-s.jpg",
+          "text": "Participating in the HateSpeechFree youth exchange in Bosnia and Herzegovina has been one of the most meaningful experiences I've had so far. The project helped me understand how hate speech can shape our society, influence our behavior, and harm people in ways we often don't see. Through the workshops and group discussions, I learned how important active citizenship, empathy, and respectful communication are when it comes to building safer and more inclusive communities.\n\nOne of the most impactful moments for me was the visit to Srebrenica. Being there, learning about the history, and hearing stories from the local community made me reflect deeply on the consequences of intolerance and discrimination. It reminded me that every action, even small ones, matters. The activities also helped me develop new skills, from teamwork to critical thinking, and pushed me to step out of my comfort zone in a positive way.\n\nBeyond everything we learned, what truly made this exchange special were the people. I met amazing young participants from different countries, and we quickly created strong bonds through cooperation, cultural sharing, and unforgettable moments together. I am extremely grateful to Erasmiau and Erasmus+ for giving me this opportunity. This experience has inspired me to stay active, stay aware, and keep promoting respect and inclusion in my daily life."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Chechu",
+          "image": "/images/projects/sending/hatespeechfree/chechu.jpg",
+          "text": "Participating in the HateSpeechFree youth exchange in Bosnia and Herzegovina has been an experience that truly changed the way I see the world. Throughout the project, I learned how hate speech can start subtly and end up causing real damage in communities, and I understood how important it is for young people like us to take an active role in promoting respect and dialogue. The workshops were dynamic and engaging, mixing serious reflections with creative activities that made the learning process both intense and enjoyable. The visit to Srebrenica was especially powerful, offering a real-life perspective on the consequences of discrimination and reminding me that history is something we must understand to avoid repeating it. Above all, what I valued the most were the connections I formed with young people from different countries—sharing stories, cultures, and experiences that helped me grow personally and opened my mind to new ways of thinking. I'm really grateful to Erasmiau and Erasmus+ for giving me the chance to live something so meaningful and for inspiring me to keep defending inclusion, empathy, and peaceful coexistence in my everyday life."
+        },
+        {
+          "_template": "participant",
+          "experienceTitle": "My experience",
+          "name": "Saúl Silos",
+          "image": "/images/projects/sending/hatespeechfree/saul.jpg",
+          "text": "Having the chance to be part of this project has truly made me feel so lucky. I didn't have many expectations at first, but from the moment we set foot in this country, everything just started getting better and better.\n\nThe fact that opportunities like this exist for young people is such an important way to build a future. In this project, we were all so motivated to work, share ideas, and learn from each other's knowledge and experiences.\n\nThanks to this, I've come back to Spain with a completely different mindset, excited to share everything I've learned with other young people and the people around me.\n\nHuge thanks to Erasmiau Association for giving us the opportunity to represent our country in this project, to Friedenskreis Halle e.V. for organizing it with so much passion, and most of all, to all the other organizations for helping me meet people I'll carry with me forever: from Germany, Italy, Ukraine, Serbia, and Bosnia and Herzegovina. 💛🌍"
+        }
+      ]
+    },
+    {
+      "_template": "columns",
+      "background": "brand",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "60/40",
+      "verticalAlign": "center",
+      "gap": "md",
+      "left": [
+        { "_template": "heading", "level": "2", "text": "Dissemination Event", "color": "default" },
+        { "_template": "heading", "level": "3", "text": "01 November 2025 — Local Youth Council of Puente Genil", "color": "default" }
+      ],
+      "right": [
+        { "_template": "image", "src": "/images/projects/sending/hatespeechfree/dissemination.jpg", "alt": "Dissemination event Puente Genil", "aspectRatio": "4/3" }
+      ]
+    },
+    {
+      "_template": "single",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        { "_template": "paragraph", "text": "The dissemination event held with the Local Youth Council of Puente Genil was a meaningful opportunity for the participants to share everything they experienced during the HateSpeechFree youth exchange in Jajce and Sarajevo. During the session, the group presented the main goals of the project, explained the workshops they took part in, and reflected on the impact that learning about hate speech, human rights, and active citizenship had on them. They also spoke about the emotional visit to Srebrenica and how it helped them understand the real consequences of discrimination and intolerance.", "align": "left" },
+        { "_template": "paragraph", "text": "The participants highlighted the cultural exchange, the teamwork, and the connections they built with young people from different countries, emphasizing how this experience strengthened their motivation to promote respect and inclusion in Puente Genil. The event ended with a discussion involving members of the Local Youth Council, who asked questions and explored ways to apply the project's outcomes at the local level. Overall, it was a very positive and inspiring moment that helped bring the project's impact back to the community.", "align": "left" },
+        { "_template": "image", "src": "/images/projects/sending/hatespeechfree/dissemination-event.jpg", "alt": "Dissemination event Hate Speech Free Puente Genil", "aspectRatio": "16/9" }
+      ]
+    },
+    {
+      "_template": "gallery",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "Some photos of the project in Bosnia!",
+      "images": [
+        { "src": "/images/projects/sending/hatespeechfree/1.jpg", "alt": "Bosnia — moment 1" },
+        { "src": "/images/projects/sending/hatespeechfree/2.jpg", "alt": "Bosnia — moment 2" },
+        { "src": "/images/projects/sending/hatespeechfree/3.jpg", "alt": "Bosnia — moment 3" },
+        { "src": "/images/projects/sending/hatespeechfree/4.jpg", "alt": "Bosnia — moment 4" },
+        { "src": "/images/projects/sending/hatespeechfree/5.jpg", "alt": "Bosnia — moment 5" },
+        { "src": "/images/projects/sending/hatespeechfree/6.jpg", "alt": "Bosnia — moment 6" },
+        { "src": "/images/projects/sending/hatespeechfree/7.jpg", "alt": "Bosnia — moment 7" },
+        { "src": "/images/projects/sending/hatespeechfree/8.jpg", "alt": "Bosnia — moment 8" }
+      ],
+      "columns": "3"
+    }
+  ]
 }

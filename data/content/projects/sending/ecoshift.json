@@ -1,10 +1,87 @@
 {
   "title": "EcoShift (TC)",
+  "subtitle": "TC in Madeira, Portugal (6-13 October 2025)",
   "category": "sending",
   "slug": "ecoshift",
   "dates": "6-13 October 2025",
   "location": "Madeira - Portugal",
   "description": "Follow the adventure of Maja, Susana & Juanje",
   "coverImage": "/images/projects/sending/sending-17-cover.jpg",
-  "sections": []
+  "heroImage": "/images/projects/sending/sending-17-cover.jpg",
+  "sections": [
+    {
+      "_template": "single",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        { "_template": "heading", "level": "1", "text": "The things just flow naturally…", "color": "brand" },
+        { "_template": "paragraph", "text": "Participant Report – Asociación Juvenil Erasmiau", "size": "lg", "align": "left" },
+        { "_template": "paragraph", "text": "As a participating organisation in EcoShift, we are pleased to share our reflections on the experience of our team —Maja, Susana and Juanje— during the training course held in Funchal, Madeira. From the very beginning, everything seemed to flow naturally: the welcoming atmosphere, the methodology, the group dynamics and the overall learning process. The environment created by the organising team allowed every participant to contribute, collaborate and grow with ease, striking a perfect balance between professionalism and human connection.", "align": "left" },
+        { "_template": "paragraph", "text": "The training sessions provided clear and practical tools to approach sustainability through digital innovation, a topic highly relevant to the young people we work with in Puente Genil and across Andalusia. The use of non-formal methods, youth-activation strategies and real-context challenges made the learning meaningful for our three participants. They return home with new inspiration, updated skills and concrete ideas that we will integrate into our local youth projects. The intercultural exchange between countries enriched the entire experience and strengthened our commitment to offering high-quality mobility opportunities.", "align": "left" },
+        { "_template": "paragraph", "text": "On a personal and human level, the stay in Madeira added an immeasurable value. Sharing the hostel, exploring Funchal and spending time together after the sessions helped build trust, friendships and a supportive network among youth workers from all over Europe. This combination of solid training and genuine human connection is precisely what makes \"things flow\" and ensures that the real impact of EcoShift goes far beyond the activity week.", "align": "left" },
+        { "_template": "paragraph", "text": "We would like to express our sincere gratitude to the organising team for their kindness, professionalism and constant support. The clear structure, thoughtful methodology and warm communication made this experience especially positive for our organisation and for Maja, Susana and Juanje, who proudly represented Erasmiau in this project. We truly appreciate the effort behind every detail and look forward to collaborating again in the future.", "align": "left" }
+      ]
+    },
+    {
+      "_template": "single",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "blocks": [
+        { "_template": "image", "src": "/images/projects/sending/ecoshift/feature.jpg", "alt": "EcoShift Madeira — group photo", "aspectRatio": "16/9" }
+      ]
+    },
+    {
+      "_template": "columns",
+      "background": "brand",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "distribution": "60/40",
+      "verticalAlign": "center",
+      "gap": "md",
+      "left": [
+        { "_template": "heading", "level": "2", "text": "Dissemination Event:", "color": "default" },
+        { "_template": "heading", "level": "3", "text": "Event in the Local Youth Assembly of Puente Genil", "color": "default" }
+      ],
+      "right": [
+        { "_template": "image", "src": "/images/projects/sending/ecoshift/dissemination.jpg", "alt": "Dissemination event Puente Genil", "aspectRatio": "4/3" }
+      ]
+    },
+    {
+      "_template": "single",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        { "_template": "paragraph", "text": "On the 1st of November, we took the opportunity to carry out a dissemination activity during a meeting of the Mesa Local de la Juventud de Puente Genil, our local youth council. This gathering brought together young people, youth workers and members of local organisations, creating the perfect space to share the experience and results of the EcoShift training course in Madeira.", "align": "left" },
+        { "_template": "paragraph", "text": "During the session, our participants presented the key activities of the project, the tools they learned and the insights gained on sustainability, digital innovation and youth activism. They also shared personal reflections about the experience in Madeira, helping the local group understand the value of international mobility and how these opportunities strengthen our youth community.", "align": "left" },
+        { "_template": "paragraph", "text": "The dissemination event allowed us not only to inform others about the project, but also to inspire local young people to get involved in future Erasmus+ activities. It was a meaningful moment to connect our international work with our daily efforts at local level, reinforcing the mission of Erasmiau to bring European opportunities closer to Puente Genil's youth.", "align": "left" },
+        { "_template": "image", "src": "/images/projects/sending/ecoshift/dissemination-event.jpg", "alt": "EcoShift dissemination event in Puente Genil", "aspectRatio": "16/9" }
+      ]
+    },
+    {
+      "_template": "gallery",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "Some photos of the project in Madeira!",
+      "images": [
+        { "src": "/images/projects/sending/ecoshift/1.jpg", "alt": "Madeira — moment 1" },
+        { "src": "/images/projects/sending/ecoshift/2.jpg", "alt": "Madeira — moment 2" },
+        { "src": "/images/projects/sending/ecoshift/3.jpg", "alt": "Madeira — moment 3" },
+        { "src": "/images/projects/sending/ecoshift/4.jpg", "alt": "Madeira — moment 4" },
+        { "src": "/images/projects/sending/ecoshift/5.jpg", "alt": "Madeira — moment 5" },
+        { "src": "/images/projects/sending/ecoshift/6.jpg", "alt": "Madeira — moment 6" },
+        { "src": "/images/projects/sending/ecoshift/7.jpg", "alt": "Madeira — moment 7" },
+        { "src": "/images/projects/sending/ecoshift/8.jpg", "alt": "Madeira — moment 8" },
+        { "src": "/images/projects/sending/ecoshift/9.jpg", "alt": "Madeira — moment 9" },
+        { "src": "/images/projects/sending/ecoshift/10.jpg", "alt": "Madeira — moment 10" },
+        { "src": "/images/projects/sending/ecoshift/11.jpg", "alt": "Madeira — moment 11" },
+        { "src": "/images/projects/sending/ecoshift/12.jpg", "alt": "Madeira — moment 12" }
+      ],
+      "columns": "3"
+    }
+  ]
 }

@@ -1,0 +1,55 @@
+{
+  "title": "OUR PLANET, OUR HOME",
+  "subtitle": "Youth for Sustainable Development — YE in Paralimni, Cyprus (20-27 March 2026)",
+  "category": "sending",
+  "slug": "our-planet-our-home",
+  "dates": "20-27 March 2026",
+  "location": "Paralimni - Cyprus",
+  "description": "Follow the adventure of our group in Cyprus — sustainability, non-formal education and intercultural cooperation",
+  "coverImage": "/images/projects/sending/sending-22-cover.jpg",
+  "heroImage": "/images/projects/sending/sending-22-cover.jpg",
+  "sections": [
+    {
+      "_template": "single",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "lg",
+      "blocks": [
+        { "_template": "heading", "level": "1", "text": "Follow our adventure in Cyprus", "color": "brand" },
+        { "_template": "paragraph", "text": "Participant Report – Asociación Juvenil Erasmiau", "size": "lg", "align": "left" },
+        { "_template": "paragraph", "text": "Un grupo de jóvenes ha regresado recientemente tras participar en un proyecto internacional enmarcado en el programa Erasmus+, bajo el lema \"Nuestro planeta, nuestro hogar\". La experiencia, desarrollada en Paralimni, ha girado en torno a la sostenibilidad, la educación medioambiental y la cooperación entre jóvenes de distintos países europeos.", "align": "left" },
+        { "_template": "paragraph", "text": "La iniciativa ha sido impulsada por la asociación Erasmiau, que ha facilitado la participación de jóvenes de la recién creada asociación Nexo21, de Guadalcázar. Para muchos de ellos, ha supuesto su primer contacto con un proyecto europeo, abriendo nuevas oportunidades de aprendizaje y participación internacional.", "align": "left" },
+        { "_template": "paragraph", "text": "El proyecto, coordinado por Network for European Citizenship and Identity Cyprus, ha reunido a participantes de España, Chipre, Macedonia del Norte, Hungría y Rumanía. A través de metodologías de educación no formal, los jóvenes han trabajado en torno a retos medioambientales, reflexionando sobre el impacto de sus acciones y el papel de la juventud en la construcción de un futuro más sostenible.", "align": "left" },
+        { "_template": "paragraph", "text": "Además de los contenidos ambientales, la experiencia ha favorecido el desarrollo de competencias clave como el trabajo en equipo, la comunicación en inglés y la convivencia intercultural. Como resultado, los participantes han elaborado materiales y campañas de sensibilización que permitirán trasladar lo aprendido a sus comunidades, reforzando el impacto del proyecto más allá de la movilidad.", "align": "left" },
+        { "_template": "paragraph", "text": "A group of young people recently returned from participating in an international project within the Erasmus+ program, under the motto \"Our Planet, Our Home.\" The experience, which took place in Paralimni, focused on sustainability, environmental education, and cooperation among young people from different European countries.", "align": "left" },
+        { "_template": "paragraph", "text": "The initiative was promoted by the Erasmiau association, which facilitated the participation of young people from the newly created Nexo21 association in Guadalcázar. For many of them, it was their first experience with a European project, opening up new opportunities for learning and international engagement.", "align": "left" },
+        { "_template": "paragraph", "text": "The project, coordinated by the Network for European Citizenship and Identity Cyprus, brought together participants from Spain, Cyprus, North Macedonia, Hungary, and Romania. Through non-formal education methodologies, the young people explored environmental challenges, reflecting on the impact of their actions and the role of youth in building a more sustainable future.", "align": "left" },
+        { "_template": "paragraph", "text": "In addition to the environmental content, the experience has fostered the development of key skills such as teamwork, communication in English, and intercultural coexistence. As a result, participants have created materials and awareness campaigns that will allow them to share what they have learned in their communities, reinforcing the project's impact beyond the mobility itself.", "align": "left" }
+      ]
+    },
+    {
+      "_template": "single",
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "blocks": [
+        { "_template": "image", "src": "/images/projects/sending/our-planet-our-home/feature.jpg", "alt": "Our Planet Our Home — group photo in Cyprus", "aspectRatio": "16/9" }
+      ]
+    },
+    {
+      "_template": "gallery",
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "Some photos of the project in Cyprus!",
+      "images": [
+        { "src": "/images/projects/sending/our-planet-our-home/1.jpg", "alt": "Cyprus — moment 1" },
+        { "src": "/images/projects/sending/our-planet-our-home/2.jpg", "alt": "Cyprus — moment 2" },
+        { "src": "/images/projects/sending/our-planet-our-home/3.jpg", "alt": "Cyprus — moment 3" },
+        { "src": "/images/projects/sending/our-planet-our-home/4.jpg", "alt": "Cyprus — moment 4" }
+      ],
+      "columns": "3"
+    }
+  ]
+}
