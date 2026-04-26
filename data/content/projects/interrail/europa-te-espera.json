@@ -1,10 +1,21 @@
 {
-  "title": "Europa te Espera! (Inclusion for DiscoverEU)",
   "category": "interrail",
   "slug": "europa-te-espera",
+  "title": "Europa te Espera! (Inclusion for DiscoverEU)",
   "dates": "",
   "location": "",
   "description": "Follow the adventure of Alba, África, Elisa, Jorge & Luna",
   "coverImage": "/images/projects/interrail/interrail-2-cover.jpg",
-  "sections": []
+  "sections": [
+    {
+      "blocks": [
+        {
+          "level": "2",
+          "text": "test",
+          "_template": "heading"
+        }
+      ],
+      "_template": "single"
+    }
+  ]
 }
