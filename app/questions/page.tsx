@@ -1,6 +1,12 @@
+import type { Metadata } from "next"
 import FaqSection from "@/components/sections/faq-section";
 import HeroSmallTitle from "@/components/sections/hero-small-title";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Preguntas Frecuentes",
+  description: "Resolvemos tus dudas sobre los proyectos Erasmus+ y la Asociación Juvenil Erasmiau.",
+}
 
 const FAQ_ES = [
     {

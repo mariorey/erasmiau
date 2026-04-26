@@ -1,6 +1,13 @@
+import type { Metadata } from "next"
 import fs from "fs"
 import path from "path"
 import staticCards from "@/data/projects.json"
+
+export const metadata: Metadata = {
+  title: "Proyectos",
+  description:
+    "Descubre todos los proyectos europeos de Erasmiau: Hosting, Sending, Interrail, ESC, KA2 y proyectos locales.",
+}
 import { ProjectsIndexClient } from "./client"
 
 const galleryFolder = path.join(process.cwd(), "public/images/projects/gallery")

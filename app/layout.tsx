@@ -20,8 +20,20 @@ const cabin = Cabin({
 });
 
 export const metadata: Metadata = {
-  title: "Erasmiau",
-  description: "Descripcion por hacer",
+  title: {
+    template: "%s | Erasmiau",
+    default: "Erasmiau – Asociación Juvenil de Puente Genil",
+  },
+  description:
+    "Asociación Juvenil Erasmiau de Puente Genil, Córdoba. Proyectos Erasmus+, movilidad internacional y voluntariado europeo.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    siteName: "Erasmiau",
+    locale: "es_ES",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

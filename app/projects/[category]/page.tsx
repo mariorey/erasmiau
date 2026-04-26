@@ -1,8 +1,19 @@
+import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { getCategoryBySlug, categories } from "@/data/projects"
 import { getProjectsByCategory } from "@/lib/getProjects"
 import { client } from "@/tina/__generated__/client"
 import { CategoryListingClient } from "./client"
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ category: string }>
+}): Promise<Metadata> {
+    const { category } = await params
+    const categoryData = getCategoryBySlug(category)
+    return { title: categoryData?.label ?? category }
+}
 
 export function generateStaticParams() {
     return categories.map((c) => ({ category: c.slug }))

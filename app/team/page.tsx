@@ -1,4 +1,10 @@
+import type { Metadata } from "next"
 import TeamCard from "@/components/sections/TeamCard";
+
+export const metadata: Metadata = {
+  title: "El Equipo",
+  description: "Conoce al equipo de la Asociación Juvenil Erasmiau de Puente Genil.",
+}
 
 const TEAM = [
     {

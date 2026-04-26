@@ -1,8 +1,19 @@
+import type { Metadata } from "next"
 import { notFound, redirect } from "next/navigation"
 import { getAllProjects, getProjectBySlug } from "@/lib/getProjects"
 import { getPageContent } from "@/data/content"
 import { client } from "@/tina/__generated__/client"
 import { ProjectPageClient } from "./client"
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ category: string; slug: string }>
+}): Promise<Metadata> {
+  const { category, slug } = await params
+  const project = getProjectBySlug(category, slug)
+  return { title: project?.title ?? slug }
+}
 
 export function generateStaticParams() {
   return getAllProjects()

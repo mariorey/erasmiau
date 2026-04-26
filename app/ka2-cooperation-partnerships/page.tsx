@@ -1,8 +1,15 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import HeroSmallTitle from "@/components/sections/hero-small-title"
 import PhotoGallery from "@/components/sections/photo-gallery"
 import { ippPublications } from "@/data/ipp-publications"
+
+export const metadata: Metadata = {
+  title: "KA2: Inclusive Pathways to Peace",
+  description:
+    "Proyecto KA2 de cooperación internacional liderado por Erasmiau. Escape rooms, movilidades y formación para la paz.",
+}
 import fs from "fs"
 import path from "path"
 

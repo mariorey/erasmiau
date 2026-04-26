@@ -1,7 +1,14 @@
+import type { Metadata } from "next"
 import fs from "fs"
 import path from "path"
 import client from "@/tina/__generated__/client"
 import HomeView from "./home-view"
+
+export const metadata: Metadata = {
+  title: "Erasmiau | Inicio",
+  description:
+    "Asociación Juvenil Erasmiau de Puente Genil, Córdoba. Proyectos Erasmus+, movilidad internacional y voluntariado europeo.",
+}
 
 export default async function Page() {
   try {
