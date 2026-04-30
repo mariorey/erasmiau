@@ -1,0 +1,300 @@
+{
+  "title": "Nuevo9 proyecto hosting",
+  "dates": "07-14 November 2023",
+  "location": "Puente Genil, Spain",
+  "description": "The DYST (Developing Youth Skills Through Theatre) project seeks to address the need to develop skills and social competences in youth workers and technicians. Youth workers are professionals who works with all types of youth and develops programs and services for them. The job of a youth worker is to help young people to develop their skills and competencies so that they can be successful in their personal and professional lives. Through this project it will be intended to provide tools and resources to reach that table through theater.",
+  "coverImage": "/images/projects/hosting/hosting-2-cover.jpg",
+  "heroImage": "/images/projects/hosting/hosting-2-cover.jpg",
+  "subtitle": "Training Course in Puente Genil, Spain (7-14 November 2023)",
+  "sections": [
+    {
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "md",
+      "blocks": [
+        {
+          "level": "2",
+          "text": "Description of the Project",
+          "_template": "heading"
+        },
+        {
+          "text": "The DYST (Developing Youth Skills Through Theatre) project seeks to address the need to develop skills and social competences in youth workers and technicians. Youth workers are professionals who works with all types of youth and develops programs and services for them. The job of a youth worker is to help young people to develop their skills and competencies so that they can be successful in their personal and professional lives. Through this project it will be intended to provide tools and resources to reach that table through theater.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "We focus this project on those youth workers who work with young people with few opportunities and at risk of social exclusion. The project will provide a unique opportunity to develop valuable skills through hands-on activities and learning experiences in Puente Genil, a small town south of Córdoba, Spain.",
+          "_template": "paragraph"
+        },
+        {
+          "text": "The main methodology will be non-formal education linked to theatre. The project aims to improve communication skills, work in team and self-confidence of the participants, which will help them to be successful in their work with young people.",
+          "_template": "paragraph"
+        }
+      ],
+      "_template": "single"
+    },
+    {
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "count": "5",
+      "items": [
+        {
+          "country": "Cyprus",
+          "flag": "/images/projects/hosting/dyst/1.png",
+          "organizations": [
+            "NECI"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Albania",
+          "flag": "/images/projects/hosting/dyst/2.png",
+          "organizations": [
+            "Perspektiva"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Armenia",
+          "flag": "/images/projects/hosting/dyst/3.png",
+          "organizations": [
+            "ABCD"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Bulgaria",
+          "flag": "/images/projects/hosting/dyst/4.png",
+          "organizations": [
+            "Re-Act"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Croatia",
+          "flag": "/images/projects/hosting/dyst/5.png",
+          "organizations": [
+            "EUTOPIA"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Greece",
+          "flag": "/images/projects/hosting/dyst/6.jpg",
+          "organizations": [
+            "EKO"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Italy",
+          "flag": "/images/projects/hosting/dyst/7.jpg",
+          "organizations": [
+            "M.Y. CULTURE"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Portugal",
+          "flag": "/images/projects/hosting/dyst/8.png",
+          "organizations": [
+            "Experimentaculo"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Romania",
+          "flag": "/images/projects/hosting/dyst/9.png",
+          "organizations": [
+            "ATIC"
+          ],
+          "_template": "partner"
+        },
+        {
+          "country": "Spain",
+          "flag": "/images/projects/hosting/dyst/10.png",
+          "organizations": [
+            "Erasmiau"
+          ],
+          "_template": "partner"
+        }
+      ],
+      "_template": "autoGrid"
+    },
+    {
+      "background": "white",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "count": "2",
+      "title": "Daily Report",
+      "subtitle": "Here you can find a little brief description of the activities of everyday made by the participants.",
+      "titleColor": "brand",
+      "items": [
+        {
+          "day": "1",
+          "title": "Welcome & Ice Breakers",
+          "text": "First day of the project! So much good vibes in our beautiful place: la Resi ☀️\n\nIn the morning we started to know eachother better with some games: we talked about ourselves, and we answer funny questions. We also got to know the hostal rules and we propose some dynamics for the whole experience like \"Bora Bora\", \"Bee on time\" or \"Churritos\".\n\nAfter the coffee break, we did the \"Impossible Mission\" which was a group building activity that finally became POSSIBLE!! ⚡\n\nIn the afternoon we started with other group building activity in which we needed to build a Lego toy but only speaking in our mother language. We discovered that language is not a barrier! 🌎\n\nWe conclude the afternoon session with an activity in couples in which we could work the trust of the partner. It was amazing and we created incredible interviews! After that, we presented the secret friend game and explain some logistical aspects about the accomodation!!\n\nAfter dinner, we discovered Puente Genil accompanied by some mysterious characters... 🎭",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/11.jpg",
+              "alt": "Day 1 – Welcome & Ice Breakers"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        },
+        {
+          "day": "2",
+          "title": "Intercultural Day",
+          "text": "Today was a day filled with exciting activities at our Training Course, and we're thrilled to share our experiences! Here's a glimpse of what we've been up to:\n\n☀️ Morning Energizers: We kicked off the day with high-energy morning energizers that got everyone pumped up and ready for the day ahead. Laughter and team spirit were the perfect ingredients to start the day on a positive note.\n\n🌍 NGO Fair: In the morning, we participated in a unique activity called the \"NGO Fair.\" We embraced our creativity by crafting eye-catching costumes from paper and took this opportunity to showcase the values of our sending organization. It was an artistic way to express our commitment to making a positive impact on the world.\n\n🎭 Theatre Workshop: During the afternoon, we delved into the world of theatre. We worked in small groups, each representing different profiles of participants we may encounter in our projects. This activity not only helped us improve our communication skills but also gave us valuable insights into effective teamwork and problem-solving.",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/12.jpg",
+              "alt": "Day 2 – Intercultural Day"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        },
+        {
+          "day": "3",
+          "title": "Body Expression Sessions",
+          "text": "☀️ Morning at Centro Sens: Our morning started with a visit to the enchanting dance academy like no other. Here, the talented teacher and artist, Rocio, led us through a workshop on body expression through the five senses and our deep connection with music. It was a transformative experience that opened our minds and hearts to the beauty of dance and self-expression.\n\n🎭 Afternoon Theatre Dynamics: In the afternoon, we delved into the world of theatre, where we explored the art of connection on stage. Through warm-up exercises, we honed our skills in synchronizing our movements and emotions in a theatrical scene. These activities not only fostered creativity but also strengthened the bonds within our group, reinforcing the idea that in theatre, just like in life, connections are essential ❤️",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/13.jpg",
+              "alt": "Day 3 – Body Expression Sessions"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        },
+        {
+          "day": "4",
+          "title": "Discover Córdoba",
+          "text": "☀️ Morning Adventure: Our day kicked off with an early breakfast featuring delicious churros, fueling us for the exciting day ahead. We hopped on a bus bound for Cordoba, where our first stop was the Instituto Andaluz de la Juventud. Here, we gained insights into the youth activities in Córdoba. Then, we had a guided tour by the organisation team that transported us through the rich historical places of Cordoba.\n\n🏰 Afternoon Exploration: The afternoon unfolded with free time to explore the beautiful streets of Córdoba. We immersed ourselves in the city's unique atmosphere, creating memories that will last a lifetime.",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/14.jpg",
+              "alt": "Day 4 – Discover Córdoba"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        },
+        {
+          "day": "5",
+          "title": "Interactions between actors",
+          "text": "☀️ Morning vibe: Our morning kicked off with energizers, setting a vibrant tone for the day. In the spirit of teamwork, we all cleaned our space, creating an environment that reflects our collective commitment to cleanliness and positivity. The morning session centered around theatrical exploration, delving into the intricacies of expressing emotions on stage. The morning became a journey of self-discovery, highlighting how emotions play a crucial role in our interactions and performances. Laughter echoed through the room as we embraced the joy of theatrical expression.\n\n🌆 Afternoon Reflections: The afternoon brought a thought-provoking activity called \"Abigail,\" where we delved into reflection and the perception of storytelling. Engaging in meaningful conversations, we shared insights and deepened our understanding of different perspectives. The day concluded with an informative discussion on the reimbursement process, followed by the kickoff of the playful \"Kiss Killer\" game, a thrilling adventure that will keep us entertained till the training course finishes!",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/15.jpg",
+              "alt": "Day 5 – Interactions between actors"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        },
+        {
+          "day": "6",
+          "title": "Change the Story",
+          "text": "☀️🌙 Theatrical Creation: From morning until evening, our focus was on the enchanting world of theater. We immersed ourselves in the task of recreating classic tales, envisioning how they would unfold in today's society. The result? A vibrant showcase of modern adaptations that reflected our collective creativity and insight into the dynamics of contemporary life. The process was not only fun but also a valuable exploration of storytelling and the power of reinterpretation.\n\n🌌 Evening Board Game: As the sun set, we transitioned into a cozy and enjoyable evening filled with board games. Gathering together, we shared laughter, friendly competition, and the joy of camaraderie. Board games provided the perfect opportunity to unwind, relax, and strengthen the bonds forged throughout the day ⚡",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/16.jpg",
+              "alt": "Day 6 – Change the Story"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        },
+        {
+          "day": "7",
+          "title": "Youth in Action",
+          "text": "🎬 \"Youth in Action\" Exploration: Throughout the day, we immersed ourselves in the \"Youth in Action\" initiative, a hands-on experience that brought out the best in our collaborative spirit. Working in groups, we dove into the realms of video creation, memes, interviews, reports, and poster design. These diverse mediums became our tools for effectively disseminating the valuable work undertaken during the training ⚡\n\n☀️ Youth in Action morning: The morning was dedicated to putting the finishing touches on the creative outputs of our \"Youth in Action\" initiative. From videos to memes, interviews, reports, and posters, our collaborative efforts came to fruition, showcasing the diverse talents within our group.\n\n🇪🇺 YouthPass Ceremony: In the afternoon, we gathered for the presentation of our Youthpass certificates, tangible proof of our commitment and participation in the Training Course that we can also write in our CV. When the sunset comes, we had the best opportunity to say beautiful words to eachother and give warm hugs to everyone!\n\n🍔 Farewell Dinner: As night fell, we ventured to the charming Nolitos Burger for our Farewell Dinner. In a cozy atmosphere, we watched the results of \"Youth in Action\" activity. The evening was a perfect blend of joy, happiness and delicious food, creating lasting memories that will be cherished by all of us! ❤️",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/17.jpg",
+              "alt": "Day 7 – Youth in Action"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        },
+        {
+          "day": "8",
+          "title": "Closing Day",
+          "text": "The final morning of our Training Course. After breakfast, participants gathered one last time, exchanged contacts, and began their journeys back home. 8 days, 10 countries, and countless memories — see you in the next Erasmus+ adventure! 👋",
+          "images": [
+            {
+              "src": "/images/projects/hosting/dyst/18.jpg",
+              "alt": "Day 8 – Closing Day"
+            }
+          ],
+          "titleStyle": "header",
+          "_template": "dayReport"
+        }
+      ],
+      "_template": "autoGrid"
+    },
+    {
+      "background": "light",
+      "paddingY": "lg",
+      "maxWidth": "xl",
+      "title": "Photo Album",
+      "subtitle": "Some photos of the project!",
+      "images": [
+        {
+          "src": "/images/projects/hosting/dyst/19.jpg",
+          "alt": "Photo 1"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/20.jpg",
+          "alt": "Photo 2"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/21.jpg",
+          "alt": "Photo 3"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/22.jpg",
+          "alt": "Photo 4"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/23.jpg",
+          "alt": "Photo 5"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/24.jpg",
+          "alt": "Photo 6"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/25.jpg",
+          "alt": "Photo 7"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/26.jpg",
+          "alt": "Photo 8"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/27.jpg",
+          "alt": "Photo 9"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/28.jpg",
+          "alt": "Photo 10"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/29.jpg",
+          "alt": "Photo 11"
+        },
+        {
+          "src": "/images/projects/hosting/dyst/30.jpg",
+          "alt": "Photo 12"
+        }
+      ],
+      "columns": "4",
+      "_template": "gallery"
+    }
+  ]
+}
