@@ -80,7 +80,7 @@ export const projects: Project[] = [
     // --- SENDING ---
     {
         category: "sending",
-        slug: "greem-comp",
+        slug: "green-comp",
         title: 'Green Comp for Youth Workers (TC)',
         dates: "14-21 September 2023",
         location: "Kozani, Greece",
